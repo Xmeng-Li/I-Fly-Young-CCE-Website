@@ -7,8 +7,6 @@ import HttpApi from 'i18next-http-backend';
 import 'bootstrap/dist/js/bootstrap.js'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'flag-icon-css/css/flag-icon.min.css'
-
 import App from './App';
 
 i18n
@@ -26,7 +24,7 @@ i18n
       caches: ['cookie']
     },
     backend: {
-      loadPath: 'assets/locales/{{lng}}/translation.json'
+      loadPath: 'locales/{{lng}}/header.json'
     }
   });
 
