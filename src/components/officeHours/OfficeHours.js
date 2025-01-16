@@ -18,6 +18,10 @@ class OfficeHours extends Component {
         <div>
           <Header />
         </div>
+        <div>
+          cloud
+        </div>
+
         <div className="main-container">
           {/* Left: Most Recent */}
           <div className="most-recent">
@@ -32,7 +36,7 @@ class OfficeHours extends Component {
             }
           </div>
 
-          {/* Middle: Work & Colleagues */}
+          {/* Middle: Work & Colleague */}
           <div className="colleagues">
             <h4>Work & Colleagues</h4>
             {workAndColleagues.map((recording, index) => (
