@@ -14,9 +14,6 @@ i18n
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    // the translations
-    // (tip move them in a JSON file and import them,
-    // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
     supportedLngs: ['en', 'zh'],
     fallbackLng: "en",
     detection: {
@@ -24,8 +21,10 @@ i18n
       caches: ['cookie']
     },
     backend: {
-      loadPath: 'locales/{{lng}}/header.json'
-    }
+      loadPath: 'locales/{{lng}}/{{ns}}.json'
+    }, 
+    ns: ['header', 'officehour'],
+    defaultNS: 'header'
   });
 
 const loadingMarkup = (

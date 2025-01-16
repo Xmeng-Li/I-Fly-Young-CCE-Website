@@ -1,0 +1,40 @@
+{
+  "recordings": [
+    {
+      "date": "12/02/2024",
+      "title": "Retirement Financial Planning",
+      "question": "Q1: How should I plan and prepare for my financial needs after retirement from work?Q2: My career plan is to continue my current stable job and retire within 5-10 years. But my family feels that our pension planning and savings are not enough, and they want me to accept newer challenges. Do I need to change to a job with better pay?",
+      "category": "Development"
+    }, 
+    {
+    "date": "11/25/2024",
+    "title": "How to respond to the boss's emotions",
+    "question": "The leader at work is emotionally unstable and often handles problems by swearing and getting angry (without directly telling her what she thinks). Although sometimes I know what she thinks, in this state, I don't want to I can satisfy her requests in this way at any time, because it consumes a lot of my strength to deal with her emotions every time. What should I do? Can I pursue other job opportunities?",
+    "category": "Boss"
+    },
+    {
+      "date": "11/18/2024",
+      "title": "How to lead a team",
+      "question": "Q1: I have no management responsibilities, should I be concerned about this issue? Q2: As a (junior, middle, senior) manager of a company/unit, how should I lead my team? Q3: As the person in charge of the company, how should I lead the team?",
+      "category": "Colleague"
+    },
+    {
+      "date": "11/11/2024",
+      "title": "Achieving set goals",
+      "question": "Q1: I often fail to achieve the goals set by my boss or myself. Why? What should I do?",
+      "category": "Development"
+    },
+    {
+      "date": "11/04/2024",
+      "title": "Which path should I continue to develop? A new major? Or the original major?",
+      "question": "Q1: My undergraduate and first master's degrees were in design, and I worked for a while after graduation. Later, my family felt that the IT major was developing well and had many job opportunities, so they suggested that I study for a second master's degree in computer science. Although I graduated successfully, I don't like programming very much. When I was applying for a job, I found that employment was not as good as I imagined. Now I am very confused and hesitate to go all out to find a design-related position?",
+      "category": "Development"
+    },
+    {
+      "date": "9/16/2024",
+      "title": "Seeking Guidance II",
+      "question": "Q1: If I have received God's promise, but they have not been fulfilled, how should we continue to pray or respond? Q2: How Christians can preach the gospel in the workplace?",
+      "category": "Faith"
+    }
+  ]
+}
