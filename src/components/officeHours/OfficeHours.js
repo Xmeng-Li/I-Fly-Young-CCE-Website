@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withTranslation } from "react-i18next";
 import Header from "../Header";
 import "../../styles/officehour.css";
+import cloud from '../../images/Cloud_oh.png';
 
 class OfficeHours extends Component {
   render() {
@@ -18,8 +19,8 @@ class OfficeHours extends Component {
         <div>
           <Header />
         </div>
-        <div>
-          cloud
+        <div className="top-container">
+          <img src={cloud} alt="could"/>
         </div>
 
         <div className="main-container">

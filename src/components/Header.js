@@ -16,15 +16,25 @@ const Header = () => {
 
   return (
     <header>
-      <nav className='nav-bar'>
-        <img src={logo} alt="Logo" className="logo" />
-        <p>I Fly Young CCE</p>
+      <nav className='header'>
+        <div className='logo-box'>
+          <img src={logo} alt="Logo" className="logo" />
+          <span className="logo-title">I Fly Young CCE</span>
+        </div>
         
-        {t("home")} {t("webinar")} {t("office_hours")} {t("our_team")} {t("chronicles")} {t("programs")}
-
-        <button className="language-btn" onClick={toggleLanguage}>
-          {isChinese ? 'EN' : '中文'}
-        </button>
+        <div className='navbar'>
+          <div className="nav-text">
+            <span>{t("home")}</span>
+            <span>{t("webinar")}</span>
+            <span>{t("office_hours")}</span>
+            <span>{t("our_team")}</span>
+            <span>{t("chronicles")}</span>
+            <span>{t("programs")}</span>
+          </div>
+          <button className="language-btn" onClick={toggleLanguage}>
+            {isChinese ? 'EN' : '中文'}
+          </button>
+        </div>
       </nav>
     </header>
   );
