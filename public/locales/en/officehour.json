@@ -1,10 +1,20 @@
 {
+  "viewMore": "View More",
   "recordings": [
+    {
+      "date": "12/09/2024",
+      "title": "Seeking first to understand then be understood",
+      "question": "How to deal with the discrepancies between boss's evaluation and self evaluation? How to respond manager's feedback?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20241209_尋求被理解MP3.mp3"
+
+    },
     {
       "date": "12/02/2024",
       "title": "Retirement Financial Planning",
       "question": "Q1: How should I plan and prepare for my financial needs after retirement from work?Q2: My career plan is to continue my current stable job and retire within 5-10 years. But my family feels that our pension planning and savings are not enough, and they want me to accept newer challenges. Do I need to change to a job with better pay?",
-      "category": "Development"
+      "category": "Development",
+      "audioUrl": "/audio/CCE20241202_退休財務規劃MP3.mp3"
     }, 
     {
     "date": "11/25/2024",
