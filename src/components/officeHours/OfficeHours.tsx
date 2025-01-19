@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-import { withTranslation } from "react-i18next";
+import { withTranslation, WithTranslation } from 'react-i18next';
 import Header from "../Header";
 import "../../styles/officehour.css";
 import cloud from '../../images/Cloud_oh.png';
 
+type Recording = {
+  date:string;
+  title: string;
+  question:string;
+  category: string;
+  "audioUrl": string;
 
-class OfficeHours extends Component {
+};
+
+class OfficeHours extends Component<WithTranslation> {
   render() {
     const { t } = this.props;
     const recordings = t("recordings", 'viewMore', { ns: "officehour", returnObjects: true });
