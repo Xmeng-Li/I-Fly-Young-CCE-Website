@@ -1,4 +1,37 @@
 {
+  "panelistsTitle": "Office Hours Panelists",
+  "speaker": [
+    {
+      "name": "Mr. Shengming Shan",
+      "role": "CEO / SWR Technology\nFounder / I FLY YOUNG CCE",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Ms. Irene Yuan",
+      "role": "CEO / RELinkage\nFounder / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
+      "image": "/images/mentors/IreneYuan.png"
+    },
+    {
+      "name": "Ms. Nina Tsai",
+      "role": "Data Science Department Leader / Google",
+      "image": "/images/mentors/NinaTsai.png"
+    },
+    {
+      "name": "Mr. Rong Yue",
+      "role": "Principal R&D Engineer / Siemens",
+      "image": "/images/mentors/RongYue.png"
+    },
+    {
+      "name": "Ms. Weixu Meng",
+      "role": "Senior Chief Scientist / Pfizer Inc",
+      "image": "/images/mentors/WeixuMeng.png"
+    },
+    {
+      "name": "Mr. Ta-Chang Fu",
+      "role": "The Dedicated Hard Drive R&D Department Mechanical Manager / Western Digital",
+      "image": "/images/mentors/TaChangFu.png"
+    }
+  ],
   "viewMore": "View More",
   "recordings": [
     {

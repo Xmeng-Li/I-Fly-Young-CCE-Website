@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import logo from '../images/CCELogo.png';
+import logo from '../components/officeHours/CCELogo.png';
 
 import "../styles/header.css";
 

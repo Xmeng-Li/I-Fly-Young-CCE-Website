@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
 import Header from "../Header";
 import "../../styles/officehour.css";
-import cloud from "../../images/Cloud_oh.png";
+import cloud from "../officeHours/Cloud_oh.png";
 
 type Recording = {
   date: string;
@@ -11,7 +11,11 @@ type Recording = {
   category: string;
   audioUrl: string;
 };
-
+type Panelist = {
+  name: string;
+  role: string;
+  image: string;
+};
 type OfficeHoursProps = WithTranslation;
 
 class OfficeHours extends Component<OfficeHoursProps> {
@@ -99,10 +103,13 @@ class OfficeHours extends Component<OfficeHoursProps> {
       </svg>
     );
     
+    const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
+
 
     return (
       <div>
         <Header />
+        {/* Top Section */}
         <div className="top-container">
           <img src={cloud} alt="cloud" />
           <div className="new-recording">
@@ -120,6 +127,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
           </div>
         </div>
 
+        {/* Main Section */}
         <div className="main-container">
           {/* <a className="view-more">View All Recordings</a> */}
           <div className="recording-card">
@@ -170,6 +178,23 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        {/* Panelists */}
+        <div className="panelists-section">
+          <h5 className="panelists-title">{t("panelistsTitle", { ns: "officehour" })}</h5>
+          <div className="speaker-container">
+            {panelists.map((panelist, index) => (
+              <div key={index} className="speaker-card">
+                <img src={panelist.image} alt={panelist.name} className="speaker-image" />
+                
+                <div className="speaker">
+                  <h4 className="speaker-name">{panelist.name}</h4>
+                  <p className="speaker-role">{panelist.role}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
