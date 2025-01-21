@@ -32,6 +32,27 @@
       "image": "/images/mentors/TaChangFu.png"
     }
   ],
+  "OfficeTitle": "CCE Office Hour",
+  "leftTitle": "Office Hour",
+  "text": "Tune in to wisdom from CCE Mentors",
+  "detail": [
+    {
+      "title": "(30 min) Wait Upon the Lord"
+    },
+    {
+      "title": "(30 min) Workplace Q&A"
+    }
+  ],
+  "midTitle": "Zoom Meeting",
+  "zoomMeeting": [
+    {
+      "id": "841 0068 2160"
+    },
+    {
+      "Passcode": "042263"
+    }
+  ],
+
   "viewMore": "View More",
   "recordings": [
     {

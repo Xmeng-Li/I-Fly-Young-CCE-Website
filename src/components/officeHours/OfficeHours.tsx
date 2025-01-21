@@ -16,6 +16,25 @@ type Panelist = {
   role: string;
   image: string;
 };
+type OfficeDetail = {
+  icon: string;
+  duration: string;
+  title: string;
+ };
+ 
+// type Meeting = {
+//   id: string;
+//   passcode: string;
+//   buttonText: string;
+// };
+// type TimeDetail = {
+//   type: string;
+//   dates: string;
+//   times: Array<{ region: string; time: string }>;
+// };
+
+
+
 type OfficeHoursProps = WithTranslation;
 
 class OfficeHours extends Component<OfficeHoursProps> {
@@ -33,11 +52,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
       ns: "officehour",
       returnObjects: true,
     }) as Recording[];
-
-    const viewMoreText: string = t("viewMore", { ns: "officehour" });
-
     const newRecording = recordings.slice(0, 1);
 
+    const viewMoreText: string = t("viewMore", { ns: "officehour" });
     // Filter recordings into three sections
     const mostRecent = recordings.slice(1, 5);
     const workAndColleagues = recordings.filter(
@@ -104,6 +121,19 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
     
     const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
+
+    const office: OfficeDetail[] = t("detail", { ns: "officehour", returnObjects: true }); 
+    const Pencil = () => (
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <mask id="mask0_85_1481" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+        <rect width="24" height="24" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_85_1481)">
+        <path d="M4.20012 20.975C3.85012 21.0583 3.54595 20.9708 3.28762 20.7125C3.02928 20.4542 2.94178 20.15 3.02512 19.8L3.90012 15.55L8.45012 20.1L4.20012 20.975ZM10.0751 18.875L5.12512 13.925L15.4501 3.59999C15.8335 3.21666 16.3084 3.02499 16.8751 3.02499C17.4418 3.02499 17.9168 3.21666 18.3001 3.59999L20.4001 5.69999C20.7834 6.08333 20.9751 6.55833 20.9751 7.12499C20.9751 7.69166 20.7834 8.16666 20.4001 8.54999L10.0751 18.875Z" fill="#333333"/>
+      </g>
+    </svg>
+    );
+ 
 
 
     return (
@@ -197,6 +227,41 @@ class OfficeHours extends Component<OfficeHoursProps> {
             ))}
           </div>
         </div>
+
+        {/* Office Hours */}
+        <div className="officehour-container">
+          {/* Office Hour Section */}
+          <div className="office-section">
+            <h5 className="office-title">{t("OfficeTitle", { ns: "officehour" })}</h5>
+            <div className="three-parts">
+
+              {/* Left part */}
+                <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
+                <div className="left-detail">
+                  <p className="section-text">{t("text", { ns: "officehour" })}</p>
+                    {office.map((item: any, index: number) => (
+                      <div key={index} className="office-text">
+                        <span className="pencil"><Pencil /></span>
+                        <span className="office-content">{item.title}</span>
+                      </div>
+                    ))}
+                </div>
+
+
+            </div>
+
+            
+          </div>
+
+          {/* Zoom Meeting */}
+          
+
+          {/* Zoom Meeting 2 */}
+          
+        </div>
+        
+
+
       </div>
     );
   }
