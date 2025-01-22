@@ -17,21 +17,17 @@ type Panelist = {
   image: string;
 };
 type OfficeDetail = {
-  icon: string;
-  duration: string;
   title: string;
  };
- 
-// type Meeting = {
-//   id: string;
-//   passcode: string;
-//   buttonText: string;
-// };
-// type TimeDetail = {
-//   type: string;
-//   dates: string;
-//   times: Array<{ region: string; time: string }>;
-// };
+type Meeting = {
+  id: string;
+  passcode: string;
+};
+type TimeDetail = {
+  type: string;
+  dates: string;
+  times: Array<{ region: string; time: string }>;
+};
 
 
 
@@ -46,15 +42,11 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
   render() {
     const { t } = this.props;
-
-    // Fetch recordings from translations (assuming translations return an array)
-    const recordings: Recording[] = t("recordings", {
-      ns: "officehour",
-      returnObjects: true,
-    }) as Recording[];
+    const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
     const newRecording = recordings.slice(0, 1);
 
     const viewMoreText: string = t("viewMore", { ns: "officehour" });
+    
     // Filter recordings into three sections
     const mostRecent = recordings.slice(1, 5);
     const workAndColleagues = recordings.filter(
@@ -133,7 +125,20 @@ class OfficeHours extends Component<OfficeHoursProps> {
       </g>
     </svg>
     );
- 
+
+    const meeting: Meeting[] = t("zoomMeeting", {ns: "officehour",returnObjects: true,})
+
+    const timeDetail: TimeDetail[] = t("meetingTime", {ns: "officehour",returnObjects: true,})
+    const DateIcon = () => (
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <mask id="mask0_85_1490" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+        <rect width="24" height="24" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_85_1490)">
+        <path d="M5 22C4.45 22 3.97917 21.8042 3.5875 21.4125C3.19583 21.0208 3 20.55 3 20V6C3 5.45 3.19583 4.97917 3.5875 4.5875C3.97917 4.19583 4.45 4 5 4H6V2H8V4H16V2H18V4H19C19.55 4 20.0208 4.19583 20.4125 4.5875C20.8042 4.97917 21 5.45 21 6V20C21 20.55 20.8042 21.0208 20.4125 21.4125C20.0208 21.8042 19.55 22 19 22H5ZM5 20H19V10H5V20Z" fill="#333333"/>
+      </g>
+    </svg>
+    );
 
 
     return (
@@ -236,6 +241,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
             <div className="three-parts">
 
               {/* Left part */}
+              <div>
                 <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
                 <div className="left-detail">
                   <p className="section-text">{t("text", { ns: "officehour" })}</p>
@@ -246,6 +252,51 @@ class OfficeHours extends Component<OfficeHoursProps> {
                       </div>
                     ))}
                 </div>
+              </div>
+              {/* Middle part */}
+              <div>
+                <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
+                <div className="mid-detail">
+                  {meeting.map((zoomMeeting, index) => (
+                    <div className="mid-part" key={index}>
+                      <div className="mid-text">
+                        {Object.entries(zoomMeeting).map(([key, value]) => (
+                          <p key={key}>{key}: {value}</p>
+                        ))}
+                      </div>
+                      <button className="join-btn">Join Us</button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              {/* Right part */}
+              <div>
+                <p className="right-title">{t("rightTitle", { ns: "officehour" })}</p>
+                <div className="right-detail">
+                  <div className="time-box">
+                    {timeDetail.map((meetingTime: TimeDetail, index: number) => (
+                      <div key={index} className="time-text">
+                        <p className="time-type">{meetingTime.type}</p>
+                        <div className="icon-and-date">
+                          <span className="date-icon"><DateIcon /></span>
+                          <p className="time-dates">{meetingTime.dates}</p>
+                        </div>
+
+                        <div className="time-list">
+                          {meetingTime.times.map((time: any, timeIndex: number) => (
+                            <div key={timeIndex} className="time-item">
+                              <span className="region">{time.region}</span>{" "}
+                              <span className="time">{time.time}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              
+
 
 
             </div>
