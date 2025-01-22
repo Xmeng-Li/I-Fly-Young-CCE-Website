@@ -60,7 +60,7 @@
   margin: 0px 0px 60px 0px;
   gap: 20px;
   align-self: stretch;
-  margin-bottom: 120px;
+  margin-bottom: 15px;
 }
 
 .view-more {
@@ -175,7 +175,20 @@
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  margin-bottom: 120px;
+  margin-bottom: 75px;
+}
+
+.title-and-airplane {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: baseline; 
+  width: 100%;
+}
+.blue-airplane{
+  width: 218px;
+  height: 118px;
+  transform: rotate(-2.72deg);
+  margin-right: 10px;
 }
 
 .panelists-title {
@@ -183,7 +196,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .speaker-container {
@@ -251,6 +264,13 @@
   align-items: flex-start;
   gap: 24px;
   margin-bottom: 60px;
+}
+
+.office-airplane {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: baseline; 
+  width: 100%;
 }
 
 .office-title {
@@ -401,7 +421,6 @@
   align-items: center;
   width: 534px;
   height: 64px;
-  padding: 10px;
   gap: 10px;
   flex-shrink: 0;
   background: var(--bg-dark-blue, #065D9E);

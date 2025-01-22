@@ -3,6 +3,8 @@ import { withTranslation, WithTranslation } from "react-i18next";
 import Header from "../Header";
 import "../../styles/officehour.css";
 import cloud from "../officeHours/Cloud_oh.png";
+import blueAirplane from "../officeHours/blueAirplane.png";
+import orangeAirplane from "../officeHours/orangeAirplane.png";
 
 type Recording = {
   date: string;
@@ -216,9 +218,14 @@ class OfficeHours extends Component<OfficeHoursProps> {
           </div>
         </div>
 
+        
         {/* Panelists */}
         <div className="panelists-section">
-          <h5 className="panelists-title">{t("panelistsTitle", { ns: "officehour" })}</h5>
+          <div className="title-and-airplane">
+            <h5 className="panelists-title">{t("panelistsTitle", { ns: "officehour" })}</h5>
+            <img className="blue-airplane" src={blueAirplane} alt="airplane" />
+          </div>
+          
           <div className="speaker-container">
             {panelists.map((panelist, index) => (
               <div key={index} className="speaker-card">
@@ -237,7 +244,11 @@ class OfficeHours extends Component<OfficeHoursProps> {
         <div className="officehour-container">
           {/* Office Hour Section */}
           <div className="office-section">
-            <h5 className="office-title">{t("OfficeTitle", { ns: "officehour" })}</h5>
+            <div className="office-airplane">
+              <h5 className="office-title">{t("OfficeTitle", { ns: "officehour" })}</h5>
+              <img className="orange-airplane" src={orangeAirplane} alt="airplane" />
+            </div>
+            
             <div className="three-parts">
 
               {/* Left part */}
