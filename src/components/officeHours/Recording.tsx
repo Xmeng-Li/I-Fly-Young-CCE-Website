@@ -64,10 +64,6 @@ class recording extends Component<RecordingProp> {
       </svg>
     );
 
-
-
-  
-
     return (
       <div>
         <Header />
@@ -79,17 +75,19 @@ class recording extends Component<RecordingProp> {
           {recordingLst.map((recording, index) => (
           <div key={index}>
             <div className="date">
-              <p className="recording-date">{recording.date}</p>
+              <p className="each-date">{recording.date}</p>
 
             </div>
-            {/* recording content */}
-            <div className="recording-content">
-              <h5 className="title">{recording.title}</h5>
-              <p className="question">{recording.question}</p>
+            <div className="each-recording">
+              <div className="content">
+                <h5 className="title">{recording.title}</h5>
+                <p className="question">{recording.question}</p>
+              </div>
               <button className="play-now-btn" onClick={() => this.playRecording(recordingLst[0]?.audioUrl)}>
               Play Now
               <PlayIcon />
             </button>
+
             </div>
           </div>
         ))}

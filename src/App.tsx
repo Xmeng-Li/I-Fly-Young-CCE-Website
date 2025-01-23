@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-import OfficeHours from "./components/officeHours/OfficeHours";
+// import OfficeHours from "./components/officeHours/OfficeHours";  +++temporary comment out
 import Recording from "./components/officeHours/Recording";
 
 function App() {
