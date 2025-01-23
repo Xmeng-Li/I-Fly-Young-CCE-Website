@@ -306,24 +306,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
                   </div>
                 </div>
               </div>
-              
-
-
-
             </div>
-
-            
           </div>
-
-          {/* Zoom Meeting */}
-          
-
-          {/* Zoom Meeting 2 */}
-          
         </div>
-        
-
-
       </div>
     );
   }
