@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
+import "react-h5-audio-player/lib/styles.css";
+import AudioPlayer from "react-h5-audio-player";
 import Header from "../Header";
 import "../../styles/recording.css";
 
+
+
+type RecordingProp = WithTranslation;
 type Recording = {
   date: string;
   title: string;
@@ -10,16 +15,28 @@ type Recording = {
   category: string;
   audioUrl: string;
 };
+type RecordingState = {
+  visiblePlayerIndex: number | null;
+};
 
-
-
-type RecordingProp = WithTranslation;
 
 class recording extends Component<RecordingProp> {
-  playRecording = (audioUrl: string): void => {
-    const audio = new Audio(audioUrl);
-    audio.play();
-    console.log("Playing audio:", audioUrl);
+  // Handle Player
+  state: RecordingState = {
+    visiblePlayerIndex: null,
+  };
+  showPlayer = (index: number): void => {
+    this.setState({visiblePlayerIndex: index});
+  };
+  closePlayer = (): void => {
+    this.setState({ visiblePlayerIndex: null });
+  };
+
+  // Handle Date
+  formatDate = (date: string) => {
+    const [month, day, year] = date.split("/");
+    const monthDay = `${month}/${day}`;
+    return {monthDay, year};
   };
 
   render() {
@@ -34,7 +51,8 @@ class recording extends Component<RecordingProp> {
     //   (r) => r.category === "Colleague"
     // );
     // const faithAndWork = recordings.filter((r) => r.category === "Faith");
-    
+
+
     const PlayIcon = () => (
       <svg
         className="play-icon"
@@ -64,6 +82,7 @@ class recording extends Component<RecordingProp> {
       </svg>
     );
 
+
     return (
       <div>
         <Header />
@@ -71,35 +90,63 @@ class recording extends Component<RecordingProp> {
         <p>All Recordings</p>
         <div>filter buttons</div>
 
+        {/* Recording List */}
         <div className="recording-container">
-          {recordingLst.map((recording, index) => (
-          <div key={index}>
-            <div className="date">
-              <p className="each-date">{recording.date}</p>
+          {recordingLst.map((recording, index) => {
+            const { monthDay, year } = this.formatDate(recording.date);
+            const isVisible = this.state.visiblePlayerIndex === index;
 
-            </div>
-            <div className="each-recording">
-              <div className="content">
-                <h5 className="title">{recording.title}</h5>
-                <p className="question">{recording.question}</p>
+            return (
+              <div className={`each-recording ${isVisible ? "audio-playing" : ""}`}>
+                <div className="date-box">
+                  <div className="month-day">{monthDay}</div>
+                  <div className="year">{year}</div>
+                </div>
+                <div className="content">
+                  <div className="title">{recording.title}</div>
+                  <div className={`question ${isVisible ? "full" : ""}`}>       
+                    {recording.question}
+                  </div>
+                  {/* Audio Player */}
+                  {isVisible && (
+                    <div className="player-container">
+                      <AudioPlayer
+                        src={recording.audioUrl} 
+                        autoPlay
+                        onPlay={() => console.log(`Playing audio: ${recording.audioUrl}`)}
+                        onEnded={this.closePlayer}
+                        customAdditionalControls={[
+                          <button
+                            key="close"
+                            className="close-player-btn"
+                            onClick={this.closePlayer}
+                          >
+                            X
+                          </button>,
+                        ]}
+                      />
+                    </div>
+                  )}
+                </div>
+                
+                {/* If the player isn't visible, show play now button */}
+                {!isVisible && (
+                  <div className="action">
+                    <button
+                      className="play-now-btn"
+                      onClick={() => this.showPlayer(index)}
+                    >
+                      Play Now
+                      <PlayIcon />
+                    </button>
+                  </div>
+                )}
               </div>
-              <button className="play-now-btn" onClick={() => this.playRecording(recordingLst[0]?.audioUrl)}>
-              Play Now
-              <PlayIcon />
-            </button>
-
-            </div>
-          </div>
-        ))}
+            );
+          })}
 
         </div>
-      
-
       </div>
-
-
-
-
 
     );
   }

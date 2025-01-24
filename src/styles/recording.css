@@ -6,23 +6,45 @@ body {
   display: flex;
   flex-direction: column;
   padding: 12px 20px 40px 20px;
-  gap: 40px;
   border-radius: 16px;
   background: var(--Neutral-White, #FFF);
-}
-.date {
-  flex: 0 0 auto;
-  margin-right: 16px;
+  width: 100%;
 }
 .each-recording {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   padding: 24px 16px;
-  justify-content: center;
-  align-items: center;
   gap: 16px;
-  align-self: stretch;
   border-bottom: 1px solid #DADADA;
+}
+.each-recording.audio-playing {
+  align-items: flex-start;
+}
+.date-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  padding: 24px 16px;
+  border-radius: 12px;
+  background: var(--Blue-300, #E1F0FD);
+  flex-shrink: 0;
+}
+.month-day {
+  color: var(--Blue-700, #0E426C);
+  font-family: "Baloo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+.year {
+  color: var(--Blue-700, #0E426C);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
 .content {
   display: flex;
@@ -30,7 +52,6 @@ body {
   justify-content: center;
   text-align: left;
   flex: 1;
-  overflow: hidden;
 }
 .title {
   white-space: nowrap; 
@@ -40,17 +61,28 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .question {
-  font-size: 14px;
   color: var(--Text-Grey, #525252);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   overflow: hidden; 
   text-overflow: ellipsis;
-  white-space: nowrap; 
 }
+.question.full {
+  display: block; 
+  -webkit-line-clamp: unset; 
+  text-overflow: unset;
+  overflow: visible;
+}
+
 .play-now-btn {
   width: 140px;
   height: 52px;
@@ -68,7 +100,7 @@ body {
 .play-icon path{
   fill: var(--Blue-600, #065D9E);
 }
-.each-date {
-  margin: 0;
-  font-size: 14px;
+.player-container {
+  display: flex;
+  margin-top: 32px;
 }
