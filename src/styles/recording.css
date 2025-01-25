@@ -100,7 +100,73 @@ body {
 .play-icon path{
   fill: var(--Blue-600, #065D9E);
 }
+/* Player */
 .player-container {
   display: flex;
   margin-top: 32px;
+  align-items: center;
 }
+.player {
+  height: 56px;
+  display: flex;
+  padding: 12px 24px;
+  flex: 1 0 0;
+  border-radius: 50px;
+  background: var(--bg-orange, #FFEFD9);
+  box-shadow: none;
+}
+.close-player-btn {
+  background-color: transparent;
+  border: none;
+}
+.rhap_time {
+  color: var(--Text-primary, #333);
+  font-size: 18px;
+  font-weight: 400;
+}
+.rhap_progress-bar {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 4px;
+  background: #E4CDB6; 
+  border-radius: 2px;
+}
+.rhap_progress-filled {
+  background-color: #FF9700; 
+  height: 100%; 
+  border-radius: 4px; 
+  transition: width 0.2s ease; 
+}
+.rhap_progress-indicator {
+  box-sizing: border-box;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-left: -10px;
+  top: -4px;
+  background: var(--Orange-500, #FF9700);;
+  border-radius: 50px;
+  box-shadow: none;
+}
+.rhap_volume-bar {
+  background-color: #E4CDB6; 
+  height: 4px;
+  border-radius: 4px; 
+  position: relative;
+}
+.rhap_volume-indicator {
+  background-color: #FF9700; 
+  border-radius: 50%; 
+  height: 12px; 
+  width: 12px; 
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 2;
+  transition: left 0.2s ease, background-color 0.2s ease;
+}
+
+
+
+
