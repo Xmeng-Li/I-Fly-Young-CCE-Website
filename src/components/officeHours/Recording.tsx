@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
 import "react-h5-audio-player/lib/styles.css";
 import AudioPlayer from "react-h5-audio-player";
+import ReactPaginate from "react-paginate";
 import Header from "../Header";
 import "../../styles/recording.css";
 
@@ -17,13 +18,24 @@ type Recording = {
 };
 type RecordingState = {
   visiblePlayerIndex: number | null;
+  currentPage: number;
+  itemsPerPage: number;
 };
 
 
 class recording extends Component<RecordingProp> {
+  // Handle Date
+  formatDate = (date: string) => {
+    const [month, day, year] = date.split("/");
+    const monthDay = `${month}/${day}`;
+    return {monthDay, year};
+  };
+
   // Handle Player
   state: RecordingState = {
     visiblePlayerIndex: null,
+    currentPage: 0,
+    itemsPerPage: 10
   };
   showPlayer = (index: number): void => {
     this.setState({visiblePlayerIndex: index});
@@ -32,20 +44,24 @@ class recording extends Component<RecordingProp> {
     this.setState({ visiblePlayerIndex: null });
   };
 
-  // Handle Date
-  formatDate = (date: string) => {
-    const [month, day, year] = date.split("/");
-    const monthDay = `${month}/${day}`;
-    return {monthDay, year};
+  // Handle page change
+  pageChange = (selectedPage: { selected: number }) => {
+    this.setState({ currentPage: selectedPage.selected });
   };
+ 
 
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
 
-    
+    // Pagination
+    const { currentPage, itemsPerPage } = this.state;
+    const offset = currentPage * itemsPerPage;
+    const paginatedAudio = recordings.slice(offset, offset + itemsPerPage);
+    const pageCnt = Math.ceil(recordings.length / itemsPerPage);
+
     // Filter recordings into three sections
-    const recordingLst = recordings.slice(0, 10);
+    // const recordingLst = recordings.slice(0, 10);
 
     // const workAndColleagues = recordings.filter(
     //   (r) => r.category === "Colleague"
@@ -82,7 +98,7 @@ class recording extends Component<RecordingProp> {
       </svg>
     );
 
-    // Update player icons
+    // Replace player icons
     const CustomIcons = {
       play: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -155,31 +171,26 @@ class recording extends Component<RecordingProp> {
       </svg>
       )
     };
-    // const handleForward = () => {
-    //   const audio = document.querySelector("audio");
-    //   if (audio) {
-    //     audio.currentTime = Math.min(audio.duration, audio.currentTime + 10); 
-    //   }
-    // };
-    // const handleRewind = () => {
-    //   const audio = document.querySelector("audio");
-    //   if (audio) {
-    //     audio.currentTime = Math.max(0, audio.currentTime - 10); 
-    //   }
-    // };
 
+    // Replace pagination icons
+    const PreviousIcon = (
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="18" viewBox="0 0 10 18" fill="none">
+      <path d="M2.46423 8.57997L9.11088 15.2266C9.33696 15.4527 9.44623 15.7165 9.4387 16.0179C9.43116 16.3193 9.31435 16.5831 9.08828 16.8092C8.8622 17.0352 8.59844 17.1483 8.29701 17.1483C7.99557 17.1483 7.73182 17.0352 7.50574 16.8092L0.542584 9.86861C0.361722 9.68775 0.226077 9.48428 0.135646 9.2582C0.0452153 9.03212 0 8.80605 0 8.57997C0 8.35389 0.0452153 8.12782 0.135646 7.90174C0.226077 7.67566 0.361722 7.4722 0.542584 7.29133L7.50574 0.328176C7.73182 0.102099 7.99934 -0.00717125 8.30831 0.00036464C8.61728 0.00790053 8.88481 0.124707 9.11088 0.350783C9.33696 0.57686 9.45 0.840616 9.45 1.14205C9.45 1.44349 9.33696 1.70724 9.11088 1.93332L2.46423 8.57997Z" fill="#333333"/>
+    </svg>
+    );
 
-    // const audioPlayerRef = useRef(null);
-    // const handleClickForward = () => {
-    //   // Example: skip forward 10 seconds
-    //   if (audioPlayerRef.current) {
-    //     const audioElement = audioPlayerRef.current.audio.current;
-    //     audioElement.currentTime += 10; // Skip forward by 10 seconds
-    //   }
-    // };
+    const NextIcon = (
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <mask id="mask0_85_2312" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+        <rect width="24" height="24" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_85_2312)">
+        <path d="M13.9755 11.5918L7.32821 4.94445C7.10211 4.71835 6.99283 4.4508 7.00036 4.1418C7.0079 3.8328 7.12472 3.56525 7.35082 3.33915C7.57692 3.11305 7.84447 3 8.15347 3C8.46247 3 8.73002 3.11305 8.95612 3.33915L15.8974 10.303C16.0782 10.4839 16.2139 10.6874 16.3043 10.9135C16.3948 11.1396 16.44 11.3657 16.44 11.5918C16.44 11.8179 16.3948 12.044 16.3043 12.2701C16.2139 12.4962 16.0782 12.6996 15.8974 12.8805L8.93351 19.8444C8.70741 20.0705 8.44363 20.1798 8.14216 20.1722C7.8407 20.1647 7.57692 20.0479 7.35082 19.8218C7.12472 19.5957 7.01167 19.3281 7.01167 19.0191C7.01167 18.7101 7.12472 18.4426 7.35082 18.2165L13.9755 11.5918Z" fill="#333333"/>
+      </g>
+    </svg>
+    );
     
-
-
+    
     return (
       <div>
         <Header />
@@ -189,7 +200,7 @@ class recording extends Component<RecordingProp> {
 
         {/* Recording List */}
         <div className="recording-container">
-          {recordingLst.map((recording, index) => {
+          {paginatedAudio.map((recording, index) => {
             const { monthDay, year } = this.formatDate(recording.date);
             const isVisible = this.state.visiblePlayerIndex === index;
 
@@ -245,6 +256,22 @@ class recording extends Component<RecordingProp> {
             );
           })}
 
+          {/* Pagination Component */}
+        <ReactPaginate
+          previousLabel={PreviousIcon}
+          nextLabel={NextIcon}
+          breakLabel={"..."}
+          pageCount={pageCnt}
+          marginPagesDisplayed={1}
+          pageRangeDisplayed={2}
+          onPageChange={this.pageChange}
+          containerClassName={"pagination"}
+          activeClassName={"active"}
+          pageClassName={"page"}
+          breakClassName={"break"}
+          previousClassName={"prev"}
+          nextClassName={"next"}
+        />
         </div>
       </div>
 

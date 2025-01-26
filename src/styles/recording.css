@@ -177,6 +177,44 @@ body {
   font-size: 24px; 
 }
 
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+.page {
+  color: var(--Text-primary, #333);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: 1.6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.page, .prev, .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: background-color 0.2s;
+}
+.active {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: var(--bg-orange, #FFEFD9);
+  color: var(--Text-orange, #7C300B);;
+}
+
 
 
 
