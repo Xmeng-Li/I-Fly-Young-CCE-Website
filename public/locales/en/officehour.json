@@ -91,6 +91,7 @@
     "oldest" : "Most Oldest"
   },
   "year": "Year",
+  "years": "All Year",
   
   "topic": "Topic",
   "categories": {
@@ -167,31 +168,31 @@
       "category": "Boss"
     },
     {
-      "date": "9/30/2024",
+      "date": "09/30/2024",
       "title": "What should I do if I am wronged at work?",
       "question": "Q1: My colleague's one-sided statement made my boss think it was my fault, what should I do?",
       "category": "Boss"
     },
     {
-      "date": "9/23/2024",
+      "date": "09/23/2024",
       "title": "Interaction with colleagues at work",
       "question": "Q1: How to help my colleague who holds a negative view on others' intent?",
       "category": "Colleague"
     },
     {
-      "date": "9/16/2024",
+      "date": "09/16/2024",
       "title": "Seeking Guidance II",
       "question": "Q1: If I have received God's promise, but they have not been fulfilled, how should we continue to pray or respond? Q2: How Christians can preach the gospel in the workplace?",
       "category": "Faith"
     },
     {
-      "date": "9/09/2024",
+      "date": "09/09/2024",
       "title": "Seeking Guidance I",
       "question": "Q1: How to seek God’s will in the workplace ? Q2: How can I confirm that what I am doing is from God’s will?",
       "category": "Faith"
     },
     {
-      "date": "9/02/2024",
+      "date": "09/02/2024",
       "title": "Submit to a boss who is not easy to obey",
       "question": "The Bible teaches that you must obey your boss, both gentle and perverse.\nQ1: What are the reasons that prevent you from obeying your boss? Q2: How to overcome these obstacles? Q3: If my boss often asks me to do things that are within the scope of his responsibilities, I feel a little unfair and I also feel that my boss has not shouldered the responsibilities he should bear. How to respond? Do you want to obey blindly?",
       "category": "Boss"
@@ -209,10 +210,28 @@
       "category": "null"
     },
     {
-      "date": "5/6/2024",
+      "date": "05/06/2024",
       "title": "I Fly Young CCE Focus Group Interview I",
       "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
       "category": "Focus"
+    },
+    {
+      "date": "null",
+      "title": "null",
+      "question": "null",
+      "category": "null"
+    },
+    {
+      "date": "07/11/2022",
+      "title": "Asking right questions",
+      "question": "Seeking guidance at work (changing jobs? careers? or attitudes?)",
+      "category": "Faith"
+    },
+    {
+      "date": "01/09/2023",
+      "title": "How to have positive impact in the workplace",
+      "question": "Amid economic turmoil and the pandemic, how can we have a positive impact in the workplace?",
+      "category": "Development"
     }
 
 
