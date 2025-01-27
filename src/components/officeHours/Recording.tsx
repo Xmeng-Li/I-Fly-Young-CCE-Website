@@ -37,7 +37,7 @@ class recording extends Component<RecordingProp> {
     visiblePlayerIndex: null,
     currentPage: 0,
     itemsPerPage: 10,
-    selectedTopic: "All Topics"
+    selectedTopic: "allTopic"
   };
   showPlayer = (index: number): void => {
     this.setState({visiblePlayerIndex: index});
@@ -59,22 +59,24 @@ class recording extends Component<RecordingProp> {
     const { currentPage, itemsPerPage,  selectedTopic} = this.state;
 
     // Filter SyStem
-    const filterRecording = selectedTopic === "All Topics" ? recordings : recordings.filter((recording) => {
+    const filterRecording = selectedTopic === "allTopic" ? recordings : recordings.filter((recording) => {
       switch (selectedTopic) {
-        case "Work & Supervisor":
+        case "boss":
           return recording.category === "Boss";
-        case "Work & Colleagues":
+        case "colleagues":
           return recording.category === "Colleague";
-        case "Faith & Work":
+        case "faith":
           return recording.category === "Faith";
-        case "Personal Development":
+        case "development":
           return recording.category === "Development";
-        case "Focus Group":
+        case "focusGroup":
           return recording.category === "Focus";
         default:
           return true;
       }
     });
+    const categories = t("categories", { ns: "officehour", returnObjects: true }) as Record<string, string>;
+
 
     // Pagination
     const offset = currentPage * itemsPerPage;
@@ -199,30 +201,32 @@ class recording extends Component<RecordingProp> {
     return (
       <div>
         <Header />
-        <p>Office Hours</p>
-        <p>All Recordings</p>
+        <p>{t("officeHours", { ns: "officehour" })}</p>
+        <p>{t("allRecordings", { ns: "officehour" })}</p>
 
 
         {/* Filter Dropdown */}
         <div className="filter-container">
-          <div>Sort
+          <div>{t("sort")}
           
           </div>
-          <div>Year</div>
+          <div>{t("year")}</div>
+
+          {/* Filter Topic */}
           <div>
-            Topic
-            <select
-              value = {selectedTopic}
-              onChange = {(e) => this.setState({ selectedTopic: e.target.value, currentPage: 0 })}
-              className="topic-dropdown"
-            >
-              <option value="All Topics">All Topics</option>
-              <option value="Work & Supervisor">Work & Supervisor</option>
-              <option value="Work & Colleagues">Work & Colleagues</option>
-              <option value="Faith & Work">Faith & Work</option>
-              <option value="Personal Development">Personal Development</option>
-              <option value="Focus Group">Focus Group</option>
-            </select>
+          {t("topic")}
+          <select
+            value={selectedTopic}
+            onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
+            }
+            className="topic-dropdown"
+          >
+            {Object.keys(categories).map((key) => (
+              <option key={key} value={key}>
+                {categories[key]}
+              </option>
+            ))}
+          </select>
           
           </div>
 
