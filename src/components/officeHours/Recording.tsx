@@ -191,7 +191,7 @@ class recording extends Component<RecordingProp> {
       switch (selectedTopic) {
         case "boss":
           return recording.category === "Boss";
-        case "colleagues":
+        case "colleague":
           return recording.category === "Colleague";
         case "faith":
           return recording.category === "Faith";
@@ -261,12 +261,9 @@ class recording extends Component<RecordingProp> {
               }
               className="year-dropdown"
             >
-              {/* Default option for all years */}
               <option value="all">
                 {t("years", { ns: "officehour" })}
               </option>
-
-              {/* Dynamically generate year options */}
               {this.getUniqueYears(recordings).map((year) => (
                 <option key={year} value={year}>
                   {year}
