@@ -83,7 +83,18 @@
       ]
     }
   ],
-
+  
+  "categories": {
+    "allTopic": "All Topics",
+    "boss": "Work & Supervisor",
+    "colleague": "Work & Colleagues",
+    "faith": "Faith & Work",
+    "development": "Personal Development",
+    "focusGroup": "Focus Group",
+    "recent" : "Most Recent",
+    "oldest" : "Most Oldest",
+    "year" : "Year"
+  },
   "viewMore": "View More",
   "recordings": [
     {

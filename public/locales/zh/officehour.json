@@ -82,8 +82,17 @@
     }
   ],
 
-
-
+  "categories": {
+    "allTopic": "所有主題",
+    "boss": "工作與上司",
+    "colleague": "工作與同事",
+    "faith": "信仰與工作",
+    "development": "個人髮展",
+    "focusGroup": "焦點小組",
+    "recent" : "最近",
+    "oldest" : "最早",
+    "year" : "年"
+  },
   "viewMore": "查看更多",
   "recordings": [
     {

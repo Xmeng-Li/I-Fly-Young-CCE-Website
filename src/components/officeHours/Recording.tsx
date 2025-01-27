@@ -20,6 +20,7 @@ type RecordingState = {
   visiblePlayerIndex: number | null;
   currentPage: number;
   itemsPerPage: number;
+  selectedTopic: string;
 };
 
 
@@ -31,11 +32,12 @@ class recording extends Component<RecordingProp> {
     return {monthDay, year};
   };
 
-  // Handle Player
+  // Handle Player and Pagination
   state: RecordingState = {
     visiblePlayerIndex: null,
     currentPage: 0,
-    itemsPerPage: 10
+    itemsPerPage: 10,
+    selectedTopic: "All Topics"
   };
   showPlayer = (index: number): void => {
     this.setState({visiblePlayerIndex: index});
@@ -54,20 +56,32 @@ class recording extends Component<RecordingProp> {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
 
+    const { currentPage, itemsPerPage,  selectedTopic} = this.state;
+
+    // Filter SyStem
+    const filterRecording = selectedTopic === "All Topics" ? recordings : recordings.filter((recording) => {
+      switch (selectedTopic) {
+        case "Work & Supervisor":
+          return recording.category === "Boss";
+        case "Work & Colleagues":
+          return recording.category === "Colleague";
+        case "Faith & Work":
+          return recording.category === "Faith";
+        case "Personal Development":
+          return recording.category === "Development";
+        case "Focus Group":
+          return recording.category === "Focus";
+        default:
+          return true;
+      }
+    });
+
     // Pagination
-    const { currentPage, itemsPerPage } = this.state;
     const offset = currentPage * itemsPerPage;
-    const paginatedAudio = recordings.slice(offset, offset + itemsPerPage);
-    const pageCnt = Math.ceil(recordings.length / itemsPerPage);
+    const paginatedAudio = filterRecording.slice(offset, offset + itemsPerPage);
+    const pageCnt = Math.ceil(filterRecording.length / itemsPerPage);
 
-    // Filter recordings into three sections
-    // const recordingLst = recordings.slice(0, 10);
-
-    // const workAndColleagues = recordings.filter(
-    //   (r) => r.category === "Colleague"
-    // );
-    // const faithAndWork = recordings.filter((r) => r.category === "Faith");
-
+    
 
     const PlayIcon = () => (
       <svg
@@ -117,16 +131,6 @@ class recording extends Component<RecordingProp> {
         </mask>
         <g mask="url(#mask0_85_1486)">
           <path d="M16 19C15.45 19 14.9792 18.8042 14.5875 18.4125C14.1958 18.0208 14 17.55 14 17V7C14 6.45 14.1958 5.97917 14.5875 5.5875C14.9792 5.19583 15.45 5 16 5C16.55 5 17.0208 5.19583 17.4125 5.5875C17.8042 5.97917 18 6.45 18 7V17C18 17.55 17.8042 18.0208 17.4125 18.4125C17.0208 18.8042 16.55 19 16 19ZM8 19C7.45 19 6.97917 18.8042 6.5875 18.4125C6.19583 18.0208 6 17.55 6 17V7C6 6.45 6.19583 5.97917 6.5875 5.5875C6.97917 5.19583 7.45 5 8 5C8.55 5 9.02083 5.19583 9.4125 5.5875C9.80417 5.97917 10 6.45 10 7V17C10 17.55 9.80417 18.0208 9.4125 18.4125C9.02083 18.8042 8.55 19 8 19Z" fill="#333333"/>
-        </g>
-      </svg>
-      ),
-      loop: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <mask id="mask0_85_1487" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-          <rect width="24" height="24" fill="#D9D9D9"/>
-        </mask>
-        <g mask="url(#mask0_85_1487)">
-          <path d="M12 22C10.75 22 9.57917 21.7625 8.4875 21.2875C7.39583 20.8125 6.44583 20.1708 5.6375 19.3625C4.82917 18.5542 4.1875 17.6042 3.7125 16.5125C3.2375 15.4208 3 14.25 3 13C3 12.7167 3.09583 12.4792 3.2875 12.2875C3.47917 12.0958 3.71667 12 4 12C4.28333 12 4.52083 12.0958 4.7125 12.2875C4.90417 12.4792 5 12.7167 5 13C5 14.95 5.67917 16.6042 7.0375 17.9625C8.39583 19.3208 10.05 20 12 20C13.95 20 15.6042 19.3208 16.9625 17.9625C18.3208 16.6042 19 14.95 19 13C19 11.05 18.3208 9.39583 16.9625 8.0375C15.6042 6.67916 13.95 6 12 6H11.85L12.7 6.85C12.9 7.05 12.9958 7.28333 12.9875 7.55C12.9792 7.81666 12.8833 8.05 12.7 8.25C12.5 8.45 12.2625 8.55416 11.9875 8.5625C11.7125 8.57083 11.475 8.475 11.275 8.275L8.7 5.7C8.5 5.5 8.4 5.26666 8.4 5C8.4 4.73333 8.5 4.5 8.7 4.3L11.275 1.725C11.475 1.525 11.7125 1.42916 11.9875 1.4375C12.2625 1.44583 12.5 1.55 12.7 1.75C12.8833 1.95 12.9792 2.18333 12.9875 2.45C12.9958 2.71666 12.9 2.95 12.7 3.15L11.85 4H12C13.25 4 14.4208 4.2375 15.5125 4.7125C16.6042 5.1875 17.5542 5.82916 18.3625 6.6375C19.1708 7.44583 19.8125 8.39583 20.2875 9.4875C20.7625 10.5792 21 11.75 21 13C21 14.25 20.7625 15.4208 20.2875 16.5125C19.8125 17.6042 19.1708 18.5542 18.3625 19.3625C17.5542 20.1708 16.6042 20.8125 15.5125 21.2875C14.4208 21.7625 13.25 22 12 22Z" fill="#333333"/>
         </g>
       </svg>
       ),
@@ -189,14 +193,40 @@ class recording extends Component<RecordingProp> {
       </g>
     </svg>
     );
-    
+
+
     
     return (
       <div>
         <Header />
         <p>Office Hours</p>
         <p>All Recordings</p>
-        <div>filter buttons</div>
+
+
+        {/* Filter Dropdown */}
+        <div className="filter-container">
+          <div>Sort
+          
+          </div>
+          <div>Year</div>
+          <div>
+            Topic
+            <select
+              value = {selectedTopic}
+              onChange = {(e) => this.setState({ selectedTopic: e.target.value, currentPage: 0 })}
+              className="topic-dropdown"
+            >
+              <option value="All Topics">All Topics</option>
+              <option value="Work & Supervisor">Work & Supervisor</option>
+              <option value="Work & Colleagues">Work & Colleagues</option>
+              <option value="Faith & Work">Faith & Work</option>
+              <option value="Personal Development">Personal Development</option>
+              <option value="Focus Group">Focus Group</option>
+            </select>
+          
+          </div>
+
+        </div>
 
         {/* Recording List */}
         <div className="recording-container">
