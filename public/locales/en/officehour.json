@@ -83,6 +83,7 @@
       ]
     }
   ],
+
   "officeHours": "Office Hours",
   "allRecordings": "All Recordings",
   "sort": "Sort",
@@ -129,110 +130,118 @@
       "date": "11/18/2024",
       "title": "How to lead a team",
       "question": "Q1: I have no management responsibilities, should I be concerned about this issue? Q2: As a (junior, middle, senior) manager of a company/unit, how should I lead my team? Q3: As the person in charge of the company, how should I lead the team?",
-      "category": "Colleague"
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20241118_如何帶領團隊MP3.mp3"
     },
     {
       "date": "11/11/2024",
       "title": "Achieving set goals",
       "question": "Q1: I often fail to achieve the goals set by my boss or myself. Why? What should I do?",
-      "category": "Development"
+      "category": "Development",
+      "audioUrl": "/audio/CCE20241111_達成設定目標MP3.mp3"
     },
     {
       "date": "11/04/2024",
       "title": "Which path should I continue to develop? A new major? Or the original major?",
       "question": "Q1: My undergraduate and first master's degrees were in design, and I worked for a while after graduation. Later, my family felt that the IT major was developing well and had many job opportunities, so they suggested that I study for a second master's degree in computer science. Although I graduated successfully, I don't like programming very much. When I was applying for a job, I found that employment was not as good as I imagined. Now I am very confused and hesitate to go all out to find a design-related position?",
-      "category": "Development"
+      "category": "Development",
+      "audioUrl": "/audio/CCE20241104_朝哪條路發展MP3.mp3"
     },
     {
       "date": "10/28/2024",
       "title": "How to handle conflicts with colleagues",
       "question": "Q1: My colleague is very articulate, likes to steal the limelight, and even likes to take credit for everything I do. My boss can’t do anything to him and asks me to be patient. What should I do? Q2: I will compromise in the moment because I am afraid that my colleagues will be angry, but I will feel useless afterwards. What should I do? Q3: I will make a habit of choosing a plan that is more acceptable to my colleagues to avoid conflicts. Is this right? What should I do?",
-      "category": "Colleague"
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20241028_如何處理和同事間的衝突.mp3"
     },
     {
       "date": "10/21/2024",
       "title": "How to prepare for and make career adjustments",
       "question": "Q1: I currently work as an accountant, but I am more talented and interested in beauty and cosmetics. How should I prepare myself and make career adjustments? Q2: I am currently working as a frontline staff member and am only responsible for my own professional projects, but I am interested in taking up a management position. How should I prepare myself and make career adjustments?",
-      "category": "Development"
+      "category": "Development",
+      "audioUrl": "/audio/CCE20241021_如何預備並進行職涯調整.mp3"
     },
     {
       "date": "10/14/2024",
       "title": "As the head of a department, what should I do?",
       "question": "Q1: I am the head of the company's human resources department. One of the company's indicators was not achieved and was attributed to the human resources department. I analyzed the reasons and proposed a solution. To solve the problem, we must reform. The company asked me to produce a data analysis report. I made a complete analysis report, but it was never approved and the problem was never solved. Since I can't solve these problems, the company's senior management has been putting pressure on me. What should I do?",
-      "category": "Colleague"
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20241014_部門的負責人該怎麽辦.mp3"
     },
     {
       "date": "10/07/2024",
       "title": "How to build a relationship with my boss?",
       "question": "Q1: I have recently been transferred from an engineer to a project leader, and I am still learning the new role. The new boss has a marketing background, and I cannot feel comfortable communicating with her. How can I build a relationship with my boss?",
-      "category": "Boss"
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20241007_建立與老闆的關係.mp3"
     },
     {
       "date": "09/30/2024",
       "title": "What should I do if I am wronged at work?",
       "question": "Q1: My colleague's one-sided statement made my boss think it was my fault, what should I do?",
-      "category": "Boss"
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240930_職場上被冤枉MP3.mp3"
     },
     {
       "date": "09/23/2024",
       "title": "Interaction with colleagues at work",
       "question": "Q1: How to help my colleague who holds a negative view on others' intent?",
-      "category": "Colleague"
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240923_職場中與人的互動MP3.mp3"
     },
     {
       "date": "09/16/2024",
       "title": "Seeking Guidance II",
       "question": "Q1: If I have received God's promise, but they have not been fulfilled, how should we continue to pray or respond? Q2: How Christians can preach the gospel in the workplace?",
-      "category": "Faith"
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240916_尋求引導2MP3.mp3"
     },
     {
       "date": "09/09/2024",
       "title": "Seeking Guidance I",
       "question": "Q1: How to seek God’s will in the workplace ? Q2: How can I confirm that what I am doing is from God’s will?",
-      "category": "Faith"
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240909_尋求引導MP3.mp3"
     },
     {
       "date": "09/02/2024",
       "title": "Submit to a boss who is not easy to obey",
       "question": "The Bible teaches that you must obey your boss, both gentle and perverse.\nQ1: What are the reasons that prevent you from obeying your boss? Q2: How to overcome these obstacles? Q3: If my boss often asks me to do things that are within the scope of his responsibilities, I feel a little unfair and I also feel that my boss has not shouldered the responsibilities he should bear. How to respond? Do you want to obey blindly?",
-      "category": "Boss"
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240902_順服老闆MP3.mp3"
     },
-    {
-      "date": "null",
-      "title": "null",
-      "question": "null",
-      "category": "null"
-    },
-    {
-      "date": "null",
-      "title": "null",
-      "question": "null",
-      "category": "null"
-    },
+  
+
+
+
+
     {
       "date": "05/06/2024",
       "title": "I Fly Young CCE Focus Group Interview I",
       "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
-      "category": "Focus"
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20240506_焦點小組訪談1MP3.mp3"
     },
+   
+    
+
+
+
     {
-      "date": "null",
-      "title": "null",
-      "question": "null",
-      "category": "null"
+      "date": "01/09/2023",
+      "title": "How to have positive impact in the workplace",
+      "question": "Amid economic turmoil and the pandemic, how can we have a positive impact in the workplace?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230109_正面影響力.mp3"
     },
     {
       "date": "07/11/2022",
       "title": "Asking right questions",
       "question": "Seeking guidance at work (changing jobs? careers? or attitudes?)",
-      "category": "Faith"
-    },
-    {
-      "date": "01/09/2023",
-      "title": "How to have positive impact in the workplace",
-      "question": "Amid economic turmoil and the pandemic, how can we have a positive impact in the workplace?",
-      "category": "Development"
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220711_尋求工作上的的帶領.mp3"
     }
+    
 
 
   ]
