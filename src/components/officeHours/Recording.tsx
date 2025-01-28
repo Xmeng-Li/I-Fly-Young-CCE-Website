@@ -30,6 +30,13 @@ type RecordingState = {
 
 
 class recording extends Component<RecordingProp> {
+  componentDidMount() {
+    document.body.style.backgroundColor = "#F0F8FF";
+  }
+  componentWillUnmount() {
+    document.body.style.backgroundColor = "";
+  }
+
   // Handle Date
   formatDate = (date: string) => {
     const [month, day, year] = date.split("/");

@@ -1,4 +1,6 @@
 .header {
+  width: 1320px;
+  height: 80px;
   display: flex;
   padding: 10px 10px;
   border-bottom: 4px solid var(--Blue-400, #7FC9FA);
