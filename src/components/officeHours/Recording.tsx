@@ -3,6 +3,9 @@ import { withTranslation, WithTranslation } from "react-i18next";
 import "react-h5-audio-player/lib/styles.css";
 import AudioPlayer from "react-h5-audio-player";
 import ReactPaginate from "react-paginate";
+import { Link } from "react-router-dom";
+
+
 import Header from "../Header";
 import "../../styles/recording.css";
 
@@ -65,8 +68,8 @@ class recording extends Component<RecordingProp> {
   pageChange = (selectedPage: { selected: number }) => {
     this.setState({ currentPage: selectedPage.selected });
   };
+  
  
-
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
@@ -239,12 +242,13 @@ class recording extends Component<RecordingProp> {
     const pageCnt = Math.ceil(sortedRecording.length / itemsPerPage);
 
 
-    
     return (
-      <div>
+      <div className="recording-page">
         <Header />
         <div className="backTo">
-          <LeftArrow />
+          <Link to="/office-hours">
+            <LeftArrow />
+          </Link>
           <label className="backTo-text">{t("officeHours", { ns: "officehour" })}
           </label>
         </div>
@@ -381,7 +385,6 @@ class recording extends Component<RecordingProp> {
         />
         </div>
       </div>
-
     );
   }
 }

@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 import Header from "../Header";
 import "../../styles/officehour.css";
 import cloud from "../officeHours/Cloud_oh.png";
 import blueAirplane from "../officeHours/blueAirplane.png";
 import orangeAirplane from "../officeHours/orangeAirplane.png";
+
 
 type Recording = {
   date: string;
@@ -166,7 +169,12 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Main Section */}
         <div className="main-container">
-          {/* <a className="view-more">View All Recordings</a> */}
+          <Link to="/recording">
+            <label className="view-more">
+              View All Recordings
+            </label>
+          </Link>
+
           <div className="recording-card">
             {/* Left: Most Recent */}
             <div className="most-recent">

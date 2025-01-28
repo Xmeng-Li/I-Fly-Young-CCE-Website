@@ -1,20 +1,25 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { useTranslation } from "react-i18next";
-// import i18next from "i18next";
 
-
-
-// import OfficeHours from "./components/officeHours/OfficeHours";  +++temporary comment out
+import OfficeHours from "./components/officeHours/OfficeHours";  
 import Recording from "./components/officeHours/Recording";
+
 
 function App() {
   return (
-    <div className="container">
-      {/* <OfficeHours /> */}
-      <Recording />
-      
-    </div>
+    <Router>
+      <div className="container">
+        {/* <OfficeHours /> */}
+        {/* <Recording /> */}
+        
+        <Routes>
+          <Route path="/office-hours" element={<OfficeHours />} />
+          <Route path="/recording" element={<Recording />} />
+        </Routes>
+
+      </div>
+    </Router>
   );
 }
 

@@ -1,7 +1,17 @@
-body {
+/* body { */
+  /* background-color: var(--bg-light-blue, #F0F8FF);  */
+  /* font-family: "Noto Sans"; */
+/* } */
+
+/* .recording-page {
   background-color: var(--bg-light-blue, #F0F8FF); 
   font-family: "Noto Sans";
-}
+  min-height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+} */
+
 .pageTitle {
   align-self: stretch;
   color: var(--Blue-700, #0E426C);
@@ -14,6 +24,7 @@ body {
   align-items: center;
   margin-top: 24px;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .backTo-text {
   color: var(--Text-Grey, #525252);
