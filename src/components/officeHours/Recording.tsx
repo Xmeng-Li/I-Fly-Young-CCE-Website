@@ -30,6 +30,7 @@ type RecordingState = {
 
 
 class recording extends Component<RecordingProp> {
+  // Handle body color
   componentDidMount() {
     document.body.style.backgroundColor = "#F0F8FF";
   }
@@ -374,7 +375,7 @@ class recording extends Component<RecordingProp> {
             );
           })}
 
-          {/* Pagination Component */}
+        {/* Pagination Component */}
         <ReactPaginate
           previousLabel={PreviousIcon}
           nextLabel={NextIcon}

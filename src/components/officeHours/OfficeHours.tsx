@@ -160,7 +160,8 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 <p className="new-audio-question">{recording.question}</p>
               </div>
             ))}
-            <button className="play-now-btn" onClick={() => this.playRecording(newRecording[0]?.audioUrl)}>
+            <button className="play-now-btn" 
+            onClick={() => this.playRecording(newRecording[0]?.audioUrl)}>
               Play Now
               <PlayIcon />
             </button>
