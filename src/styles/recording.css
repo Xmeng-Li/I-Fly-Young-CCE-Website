@@ -2,6 +2,67 @@ body {
   background-color: var(--bg-light-blue, #F0F8FF); 
   font-family: "Noto Sans";
 }
+.pageTitle {
+  align-self: stretch;
+  color: var(--Blue-700, #0E426C);
+  font-size: 20px;
+  font-weight: 400;
+}
+.backTo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.backTo-text {
+  color: var(--Text-Grey, #525252);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+
+/* Filter */
+.filter-container {
+  display: flex;
+  padding: 28px;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--Neutral-White, #FFF);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+select { 
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: none;
+  background: var(--bg-grey, #F0F0F0);
+  cursor: pointer;
+  appearance: none;
+}
+select:focus {
+  outline: 2px solid var(--stroke-orange, #FF9700);
+  background: var(--bg-orange, #FFEFD9);
+  color: var(--Text-orange, #7C300B);
+}
+.label {
+  color: var(--Text-primary, #333);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+
+/* Recordings */
 .recording-container {
   display: flex;
   flex-direction: column;
@@ -82,7 +143,6 @@ body {
   text-overflow: unset;
   overflow: visible;
 }
-
 .play-now-btn {
   width: 140px;
   height: 52px;
@@ -100,6 +160,7 @@ body {
 .play-icon path{
   fill: var(--Blue-600, #065D9E);
 }
+
 /* Player */
 .player-container {
   display: flex;
@@ -213,7 +274,3 @@ body {
   background: var(--bg-orange, #FFEFD9);
   color: var(--Text-orange, #7C300B);;
 }
-
-
-
-
