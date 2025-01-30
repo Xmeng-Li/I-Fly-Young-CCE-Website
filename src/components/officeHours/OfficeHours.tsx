@@ -78,7 +78,7 @@ formatDate = (date: string) => {
 
     // const faithAndWork = recordings.filter((r) => r.category === "Faith");
 
-    const PlayIcon = () => (
+    const OhPlayIcon = () => (
       <svg
         className="play-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +181,7 @@ formatDate = (date: string) => {
             <button className="oh-play-now-btn" 
             onClick={() => this.playRecording(newRecording[0]?.audioUrl)}>
               Play Now
-              <div className="oh-play-icon"><PlayIcon /></div>
+              <div className="oh-play-icon"><OhPlayIcon /></div>
             </button>
           </div>
         </div>

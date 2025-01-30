@@ -48,7 +48,7 @@
   border: none;
   border-radius: 40px; 
 }
-.oh-play-icon path{
+.oh-play-icon svg path{
   fill: #FFF;
 }
 
