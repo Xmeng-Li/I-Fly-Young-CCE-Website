@@ -36,7 +36,7 @@
   line-height: 28px;
 }
 
-.play-now-btn {
+.oh-play-now-btn {
   background: #FF9700;
   color: var(--Text-white, #FFF);
   font-family: "Noto Sans";
@@ -48,7 +48,7 @@
   border: none;
   border-radius: 40px; 
 }
-.play-icon path{
+.oh-play-icon path{
   fill: #FFF;
 }
 
@@ -113,7 +113,7 @@
   border-radius: 16px;
   background: var(--bg-light-blue, #F0F8FF);
 }
-.each-recording {
+.oh-each-recording {
   display: flex;
   height: 120px;
   padding: 16px 12px;
@@ -123,7 +123,7 @@
   gap: 12px;
   border-bottom: 1px solid #DADADA;
 }
-.date-box {
+.oh-date-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,14 +147,14 @@
   font-weight: 400;
   line-height: normal;
 }
-.content {
+.oh-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
   flex: 1;
 }
-.title {
+.oh-title {
   width: 255px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -167,7 +167,7 @@
   -webkit-line-clamp: 2;
   align-self: stretch;
 }
-.question {
+.oh-question {
   width: 255px;
   color: var(--Text-Grey, #525252);
   font-size: 14px;

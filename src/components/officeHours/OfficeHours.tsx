@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Header from "../Header";
 import "../../styles/officehour.css";
@@ -178,10 +178,10 @@ formatDate = (date: string) => {
                 <p className="new-audio-question">{recording.question}</p>
               </div>
             ))}
-            <button className="play-now-btn" 
+            <button className="oh-play-now-btn" 
             onClick={() => this.playRecording(newRecording[0]?.audioUrl)}>
               Play Now
-              <PlayIcon />
+              <div className="oh-play-icon"><PlayIcon /></div>
             </button>
           </div>
         </div>
@@ -206,14 +206,14 @@ formatDate = (date: string) => {
                 {mostRecent.map((recording, index) => {
                   const { monthDay, year } = this.formatDate(recording.date);
                   return (
-                    <div className="each-recording" key={index}>
-                      <div className="date-box">
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
                         <div className="left-month-day">{monthDay}</div>
                         <div className="left-year">{year}</div>
                       </div>
-                      <div className="content">
-                        <div className="title">{recording.title}</div>
-                        <div className="question">{recording.question}</div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
                       </div>
                       <PlayIconRound />
                     </div>
@@ -228,6 +228,8 @@ formatDate = (date: string) => {
                 <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
                 <div>
                 {t("viewMoreText", { ns: "officehour" })}
+
+                {/* <Link to={`/recordings?filter=colleague`}>{viewMoreText}</Link> */}
                 </div>
               </div>
 
@@ -235,14 +237,14 @@ formatDate = (date: string) => {
                 {workAndColleagues.map((recording, index) => {
                   const { monthDay, year } = this.formatDate(recording.date);
                   return (
-                    <div className="each-recording" key={index}>
-                      <div className="date-box">
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
                         <div className="mid-month-day">{monthDay}</div>
                         <div className="mid-year">{year}</div>
                       </div>
-                      <div className="content">
-                        <div className="title">{recording.title}</div>
-                        <div className="question">{recording.question}</div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
                       </div>
                       <PlayIconRound />
                     </div>

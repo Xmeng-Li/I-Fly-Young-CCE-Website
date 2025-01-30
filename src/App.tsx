@@ -10,13 +10,13 @@ function App() {
   return (
     <Router>
       <div className="container">
-        <OfficeHours />
+        {/* <OfficeHours /> */}
         {/* <Recording /> */}
         
-        {/* <Routes>
+        <Routes>
           <Route path="/office-hours" element={<OfficeHours />} />
           <Route path="/recording" element={<Recording />} />
-        </Routes> */}
+        </Routes>
 
       </div>
     </Router>
