@@ -1,4 +1,8 @@
 {
+  "ohRecent": "Most Recent",
+  "ohColleague": "Work & Colleagues",
+  "ohFaith": "Faith & Work",
+
   "panelistsTitle": "Office Hours Panelists",
   "speaker": [
     {
@@ -210,6 +214,25 @@
       "category": "Boss",
       "audioUrl": "/audio/CCE20240902_順服老闆MP3.mp3"
     },
+    {
+      "date": "08/26/2024",
+      "title": "Managing disobedient subordinates",
+      "question": "Q1: How to manage subordinates who are disobedient and do not follow instructions? Q2: I have reported to my supervisor that I would like to remove the disobedient subordinate from his current position. Is this correct? ",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240826_不順服的下屬MP3"
+    },
+
+
+
+
+
+    {
+      "date": "06/03/2024",
+      "title": "Colleagues who sow discord",
+      "question": "Q1: What should you do if you encounter a colleague who likes to gossip ? It has caused discord between the team?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240603_搬弄是非的同事MP3"
+    },
   
 
 
@@ -234,6 +257,10 @@
       "category": "Development",
       "audioUrl": "/audio/CCE20230109_正面影響力.mp3"
     },
+
+
+
+
     {
       "date": "07/11/2022",
       "title": "Asking right questions",

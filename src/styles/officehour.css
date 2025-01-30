@@ -84,28 +84,16 @@
   padding: 16px 12px 12px 12px;
   flex-direction: column;
 }
-
-.most-recent {
-  border-radius: 16px;
-  background: var(--bg-light-blue, #F0F8FF);
+.main-left,
+.main-mid {
+  margin-bottom: 12px;
 }
-
-.colleagues {
-  border-radius: 16px;
-  background: var(--PInk-300, #FFF3F8);
-}
-
-.faith {
-  border-radius: 16px;
-  background: var(--Purple-300, #F7F3FF);
-}
-
 .cate-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 12px;
 }
-
 .category-title {
   display: flex;
   color: var(--Text-blue, #0E426C);
@@ -114,7 +102,6 @@
   line-height: 40px;
   padding-left: 12px;
 }
-
 .recording-view-more{
   color: var(--Text-Grey, #525252);
   font-size: 16px;
@@ -122,51 +109,110 @@
   cursor: pointer;
   padding-right: 12px;
 }
-
-
-.recording {
+.most-recent {
+  border-radius: 16px;
+  background: var(--bg-light-blue, #F0F8FF);
+}
+.each-recording {
   display: flex;
-  height: auto;
-  flex-direction: column;
+  height: 120px;
   padding: 16px 12px;
-  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
-  gap: 12px;
-  /* border-bottom: 1px solid var(--stroke-card-underline, #DADADA); */
-}
-
-.date-and-icon {
-  display: flex;
   justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid #DADADA;
 }
-
-.recording-content {
-  border-bottom: 1px solid var(--stroke-card-underline, #DADADA);
+.date-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  height: 76px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: var(--Neutral-White, #FFF);
+  flex-shrink: 0;
 }
-
+.left-month-day {
+  color: var(--Blue-700, #0E426C);
+  font-family: "Baloo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+.left-year {
+  color: var(--Blue-700, #0E426C);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex: 1;
+}
 .title {
-  align-self: stretch;
+  width: 255px;
   overflow: hidden;
-  color: var(--Text-primary, #333);
   text-overflow: ellipsis;
+  color: var(--Text-primary, #333);
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
 }
-
 .question {
+  width: 255px;
   color: var(--Text-Grey, #525252);
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  line-height: normal; 
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
-
 .play-icon-round {
   display: flex;
   cursor: pointer;
 }
+
+
+.colleagues {
+  border-radius: 16px;
+  background: var(--PInk-300, #FFF3F8);
+}
+.mid-month-day {
+  color: var(--PInk-500, #9F0C51);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+.mid-year {
+  color: var(--PInk-500, #9F0C51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+
+.faith {
+  border-radius: 16px;
+  background: var(--Purple-300, #F7F3FF);
+}
+
+
 
 /* Panelists */
 .panelists-section {

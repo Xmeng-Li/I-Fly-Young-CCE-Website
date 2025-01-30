@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import Header from "../Header";
 import "../../styles/officehour.css";
@@ -21,6 +21,8 @@ type Panelist = {
   role: string;
   image: string;
 };
+
+// Bottom Part
 type OfficeDetail = {
   title: string;
  };
@@ -34,8 +36,6 @@ type TimeDetail = {
   times: Array<{ region: string; time: string }>;
 };
 
-
-
 type OfficeHoursProps = WithTranslation;
 
 class OfficeHours extends Component<OfficeHoursProps> {
@@ -45,6 +45,15 @@ class OfficeHours extends Component<OfficeHoursProps> {
     console.log("Playing audio:", audioUrl);
   };
 
+
+// Handle Date
+formatDate = (date: string) => {
+  const [month, day, year] = date.split("/");
+  const monthDay = `${month}/${day}`;
+  return {monthDay, year};
+};
+
+
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
@@ -53,11 +62,21 @@ class OfficeHours extends Component<OfficeHoursProps> {
     const viewMoreText: string = t("viewMore", { ns: "officehour" });
     
     // Filter recordings into three sections
-    const mostRecent = recordings.slice(1, 5);
+    const mostRecent = recordings.slice(1, 6);
     const workAndColleagues = recordings.filter(
       (r) => r.category === "Colleague"
     );
-    const faithAndWork = recordings.filter((r) => r.category === "Faith");
+
+    // Handle View More click
+    // const handlePlayIcon = (index: number) => {
+    //   navigate("/office-hours/recordings", {
+    //     state: { visiblePlayerIndex: index, category: "Colleague" },
+    //   });
+    // };
+
+
+
+    // const faithAndWork = recordings.filter((r) => r.category === "Faith");
 
     const PlayIcon = () => (
       <svg
@@ -88,14 +107,13 @@ class OfficeHours extends Component<OfficeHoursProps> {
       </svg>
     );
 
-    const PlayIconRound = ({ onClick }: { onClick: () => void }) => (
+    const PlayIconRound = (props: React.SVGProps<SVGSVGElement>) => (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        onClick={onClick}
         style={{ cursor: "pointer" }}
       >
         <mask
@@ -180,50 +198,62 @@ class OfficeHours extends Component<OfficeHoursProps> {
             {/* Left: Most Recent */}
             <div className="most-recent">
               <div className="cate-container">
-                <h4 className="category-title">{t("Most Recent", { ns: "officehour" })}</h4>
+                <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
                 <div className="recording-view-more">{viewMoreText}</div>
               </div>
 
-              <div className="recording">
-                {mostRecent.map((recording, index) => (
-                  <div key={index}>
-                    <div className="date-and-icon">
-                      <p className="recording-date">{recording.date}</p>
-                      <PlayIconRound onClick={() => this.playRecording(recording.audioUrl)} />
+              <div className="main-left">
+                {mostRecent.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="each-recording" key={index}>
+                      <div className="date-box">
+                        <div className="left-month-day">{monthDay}</div>
+                        <div className="left-year">{year}</div>
+                      </div>
+                      <div className="content">
+                        <div className="title">{recording.title}</div>
+                        <div className="question">{recording.question}</div>
+                      </div>
+                      <PlayIconRound />
                     </div>
-                    {/* recording content */}
-                    <div className="recording-content">
-                      <h5 className="title">{recording.title}</h5>
-                      <p className="question">{recording.question}</p>
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
             {/* Work & Colleague */}
             <div className="colleagues">
-              <h4 className="category-title">{t("Work & Colleague", { ns: "officehour" })}</h4>
-              {workAndColleagues.map((recording, index) => (
-                <div key={index}>
-                  <p>{recording.date}</p>
-                  <h5>{recording.title}</h5>
-                  <p>{recording.question}</p>
+              <div className="cate-container">
+                <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
+                <div>
+                {t("viewMoreText", { ns: "officehour" })}
                 </div>
-              ))}
+              </div>
+
+              <div className="main-mid">
+                {workAndColleagues.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="each-recording" key={index}>
+                      <div className="date-box">
+                        <div className="mid-month-day">{monthDay}</div>
+                        <div className="mid-year">{year}</div>
+                      </div>
+                      <div className="content">
+                        <div className="title">{recording.title}</div>
+                        <div className="question">{recording.question}</div>
+                      </div>
+                      <PlayIconRound />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
 
             {/* Faith & Work */}
-            <div className="faith">
-              <h4 className="category-title">{t("Faith & Work", { ns: "officehour" })}</h4>
-              {faithAndWork.map((recording, index) => (
-                <div key={index}>
-                  <p>{recording.date}</p>
-                  <h5>{recording.title}</h5>
-                  <p>{recording.question}</p>
-                </div>
-              ))}
-            </div>
+            {/* <div className="faith">
+            </div> */}
           </div>
         </div>
 
