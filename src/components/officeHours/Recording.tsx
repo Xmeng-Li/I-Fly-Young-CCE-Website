@@ -4,15 +4,13 @@ import "react-h5-audio-player/lib/styles.css";
 import AudioPlayer from "react-h5-audio-player";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
-
-
 import Header from "../Header";
 import "../../styles/recording.css";
 
 
-
 type RecordingProp = WithTranslation;
 type Recording = {
+  id: string;
   date: string;
   title: string;
   question: string;
@@ -40,10 +38,55 @@ class recording extends Component<RecordingProp> {
     if (filter) {
       this.setState({ selectedTopic: filter });
     }
+
+    // Link player to office hour round play icon
+    const play = params.get("play");
+    if (play) {
+      this.showPlayerById(play);
+    }
   }
   componentWillUnmount() {
     document.body.style.backgroundColor = "";
   }
+
+  getFilteredRecordings = (): Recording[] => {
+    const { selectedTopic, selectedYear, sortOrder } = this.state;
+    const { t } = this.props;
+    const recordings: Recording[] = t("recordings", { ns: "officehour", returnObjects: true }) as Recording[];
+  
+    // Apply topic filter
+    const topicFiltered = selectedTopic === "allTopic"
+      ? recordings
+      : recordings.filter((recording) => recording.category === selectedTopic);
+  
+    // Apply year filter
+    const yearFiltered = selectedYear === "all"
+      ? topicFiltered
+      : topicFiltered.filter((recording) => new Date(recording.date).getFullYear().toString() === selectedYear);
+  
+    // Apply sorting
+    const sorted = [...yearFiltered].sort((a, b) => {
+      if (sortOrder === "recent") {
+        return new Date(b.date).getTime() - new Date(a.date).getTime();
+      } else {
+        return new Date(a.date).getTime() - new Date(b.date).getTime();
+      }
+    });
+  
+    return sorted;
+  };
+  
+
+  showPlayerById = (recordingId: string) => {
+    const recordings = this.getFilteredRecordings();
+    const recordingIndex = recordings.findIndex((recording) => recording.id === recordingId);
+  
+    if (recordingIndex !== -1) {
+      this.showPlayer(recordingIndex);  
+    } else {
+      console.error(`Recording with ID ${recordingId} not found.`);
+    }
+  };
 
   // Handle Date
   formatDate = (date: string) => {
@@ -72,9 +115,28 @@ class recording extends Component<RecordingProp> {
     selectedYear: "all"
   };
 
-  showPlayer = (index: number): void => {
-    this.setState({visiblePlayerIndex: index});
+  // Update page for specific player
+  scrollToPlayer = () => {
+    const playerElement = document.querySelector(".audio-playing");
+    if (playerElement) {
+      playerElement.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
   };
+  
+  // Handle player for both office hour and recording page
+  showPlayer = (globalIndex: number): void => {
+    const { itemsPerPage, currentPage } = this.state;
+    const targetPage = Math.floor(globalIndex / itemsPerPage);
+  
+    if (targetPage !== currentPage) {
+      this.setState({ currentPage: targetPage, visiblePlayerIndex: globalIndex }, this.scrollToPlayer);
+    } else {
+      this.setState({ visiblePlayerIndex: globalIndex }, this.scrollToPlayer);
+    }
+  };
+  
+
+  // Close Player
   closePlayer = (): void => {
     this.setState({ visiblePlayerIndex: null });
   };
@@ -327,8 +389,9 @@ class recording extends Component<RecordingProp> {
         {/* Recording List */}
         <div className="recording-container">
           {paginatedAudio.map((recording, index) => {
+            const globalIndex = currentPage * itemsPerPage + index;
             const { monthDay, year } = this.formatDate(recording.date);
-            const isVisible = this.state.visiblePlayerIndex === index;
+            const isVisible = this.state.visiblePlayerIndex === globalIndex;
 
             return (
               <div className={`each-recording ${isVisible ? "audio-playing" : ""}`}>
@@ -397,6 +460,7 @@ class recording extends Component<RecordingProp> {
           breakClassName={"break"}
           previousClassName={"prev"}
           nextClassName={"next"}
+          forcePage={this.state.currentPage}
         />
         </div>
       </div>
