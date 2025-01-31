@@ -61,22 +61,10 @@ formatDate = (date: string) => {
 
     const viewMoreText: string = t("viewMore", { ns: "officehour" });
     
-    // Filter recordings into three sections
+    // Main Three Sections
     const mostRecent = recordings.slice(1, 6);
-    const workAndColleagues = recordings.filter(
-      (r) => r.category === "Colleague"
-    );
-
-    // Handle View More click
-    // const handlePlayIcon = (index: number) => {
-    //   navigate("/office-hours/recordings", {
-    //     state: { visiblePlayerIndex: index, category: "Colleague" },
-    //   });
-    // };
-
-
-
-    // const faithAndWork = recordings.filter((r) => r.category === "Faith");
+    const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 5);
+    const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 5);
 
     const OhPlayIcon = () => (
       <svg
@@ -199,7 +187,9 @@ formatDate = (date: string) => {
             <div className="most-recent">
               <div className="cate-container">
                 <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
-                <div className="recording-view-more">{viewMoreText}</div>
+                <div className="section-view-more">
+                  <Link to="/recording">{viewMoreText}</Link>
+                </div>
               </div>
 
               <div className="main-left">
@@ -226,10 +216,8 @@ formatDate = (date: string) => {
             <div className="colleagues">
               <div className="cate-container">
                 <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
-                <div>
-                {t("viewMoreText", { ns: "officehour" })}
-
-                {/* <Link to={`/recordings?filter=colleague`}>{viewMoreText}</Link> */}
+                <div className="section-view-more">
+                  <Link to="/recording?filter=colleague">{viewMoreText}</Link>
                 </div>
               </div>
 
@@ -254,8 +242,33 @@ formatDate = (date: string) => {
             </div>
 
             {/* Faith & Work */}
-            {/* <div className="faith">
-            </div> */}
+            <div className="faith">
+            <div className="cate-container">
+                <label className="category-title">{t("ohFaith", { ns: "officehour" })}</label>
+                <div className="section-view-more">
+                  <Link to="/recording?filter=faith">{viewMoreText}</Link>
+                </div>
+              </div>
+
+              <div className="main-right">
+                {faithAndWork.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
+                        <div className="right-month-day">{monthDay}</div>
+                        <div className="right-year">{year}</div>
+                      </div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
+                      </div>
+                      <PlayIconRound />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
 

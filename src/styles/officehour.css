@@ -70,7 +70,6 @@
   text-align: right;
   cursor: pointer;
 }
-
 .recording-card {
   display: flex; 
   gap: 20px;
@@ -102,12 +101,16 @@
   line-height: 40px;
   padding-left: 12px;
 }
-.recording-view-more{
+.section-view-more {
+  text-align: right;
+}
+.section-view-more a{
   color: var(--Text-Grey, #525252);
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
   padding-right: 12px;
+  text-decoration: none;
 }
 .most-recent {
   border-radius: 16px;
@@ -205,11 +208,22 @@
 }
 
 
-
-
 .faith {
   border-radius: 16px;
   background: var(--Purple-300, #F7F3FF);
+}
+.right-month-day {
+  color: var(--Purple-500, #6406B7);;
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 20px;
+  font-weight: 600;
+}
+.right-year {
+  color: var(--Purple-500, #6406B7);;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 

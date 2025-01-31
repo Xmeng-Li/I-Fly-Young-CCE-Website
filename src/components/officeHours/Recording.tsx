@@ -30,9 +30,16 @@ type RecordingState = {
 
 
 class recording extends Component<RecordingProp> {
-  // Handle body color
   componentDidMount() {
+    // Handle body color
     document.body.style.backgroundColor = "#F0F8FF";
+
+    // Handle recording filter for officehour page
+    const params = new URLSearchParams(window.location.search);
+    const filter = params.get('filter');
+    if (filter) {
+      this.setState({ selectedTopic: filter });
+    }
   }
   componentWillUnmount() {
     document.body.style.backgroundColor = "";
@@ -76,8 +83,8 @@ class recording extends Component<RecordingProp> {
   pageChange = (selectedPage: { selected: number }) => {
     this.setState({ currentPage: selectedPage.selected });
   };
+
   
- 
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
