@@ -436,7 +436,7 @@ class recording extends Component<RecordingProp> {
                       className="play-now-btn"
                       onClick={() => this.showPlayer(index)}
                     >
-                      Play Now
+                      {t("playNow", { ns: "officehour" })}
                       <PlayIcon />
                     </button>
                   </div>

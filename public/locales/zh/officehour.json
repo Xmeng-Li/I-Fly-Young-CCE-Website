@@ -1,9 +1,13 @@
 {
+  "banner" :"溝通與職涯探索\n職場問答時間",
+  "playNow": "現在播放",
+  "viewAll": "查看所有錄音",
+
   "ohRecent": "最近",
   "ohColleague": "工作與同事",
   "ohFaith": "信仰與工作",
 
-  "panelistsTitle": "辦公時間講員",
+  "panelistsTitle": "問答時間講員",
   "speaker": [
     {
       "name": "Mr. Shengming Shan",
@@ -37,7 +41,7 @@
     }
   ],
   "OfficeTitle": "溝通與職涯探索時間",
-  "leftTitle": "辦公時間",
+  "leftTitle": "問答時間",
   "text": "得益於職場導師的智慧",
   "detail": [
     {
@@ -54,6 +58,8 @@
       "密碼": "042263"
     }
   ],
+  "joinUs": "加入我們",
+
   "rightTitle": "Zoom會議",
   "meetingTime" : [
     {
@@ -85,7 +91,7 @@
       ]
     }
   ],
-  "officeHours": "辦公時間",
+  "officeHours": "問答時間",
   "allRecordings": "所有錄音",
   "sort": "排序",
   "timeSort" : {

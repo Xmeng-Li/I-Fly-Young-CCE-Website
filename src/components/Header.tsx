@@ -19,9 +19,8 @@ const Header = () => {
       <nav className='header'>
         <div className='logo-box'>
           <img src={logo} alt="Logo" className="logo" />
-          <span className="logo-title">I Fly Young CCE</span>
+          <div className="logo-title">I Fly Young CCE</div>
         </div>
-        
         <div className='navbar'>
           <div className="nav-text">
             <span>{t("home")}</span>
@@ -30,10 +29,11 @@ const Header = () => {
             <span>{t("our_team")}</span>
             <span>{t("chronicles")}</span>
             <span>{t("programs")}</span>
-          </div>
-          <button className="language-btn" onClick={toggleLanguage}>
+            <button className="language-btn" onClick={toggleLanguage}>
             {isChinese ? 'EN' : '中文'}
-          </button>
+            </button>
+          </div>
+          
         </div>
       </nav>
     </header>

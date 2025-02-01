@@ -5,7 +5,26 @@
   align-items: center;
   align-self: stretch;
 }
-
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cloud-title {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  white-space: pre-line;
+  color: var(--Blue-500, #37ACF4);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
 .new-recording{
   font-family: "Noto Sans";
   display: flex;
@@ -15,7 +34,6 @@
   align-items: flex-start;
   gap: 24px;
 }
-
 .new-audio-title{
   color: #0E426C;
   font-size: 32px;
@@ -23,7 +41,6 @@
   font-weight: 700;
   line-height: 40px;
 }
-
 .new-audio-question {
   display: -webkit-box;
   align-self: stretch;
@@ -35,7 +52,6 @@
   font-weight: 400;
   line-height: 28px;
 }
-
 .oh-play-now-btn {
   background: #FF9700;
   color: var(--Text-white, #FFF);
@@ -62,14 +78,19 @@
   align-self: stretch;
   margin-bottom: 15px;
 }
-.view-more {
+.view-all {
   display: block;
+  text-align: right;
+  margin-right: -20px;
+}
+.view-all a {
   color: var(--Text-Grey, #525252);
   font-size: 16px;
   font-weight: 400;
-  text-align: right;
+  text-decoration: none;
   cursor: pointer;
 }
+
 .recording-card {
   display: flex; 
   gap: 20px;

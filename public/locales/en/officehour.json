@@ -1,8 +1,12 @@
 {
+  "banner" : "Communications & Career Exploration (CCE) Office Hours",
+  "playNow": "Play Now",
+  "viewAll": "View All Recordings",
+
   "ohRecent": "Most Recent",
   "ohColleague": "Work & Colleagues",
   "ohFaith": "Faith & Work",
-
+  
   "panelistsTitle": "Office Hours Panelists",
   "speaker": [
     {
@@ -56,6 +60,9 @@
       "Passcode": "042263"
     }
   ],
+  "joinUs": "Join Us",
+
+
   "rightTitle": "Zoom Meeting",
   "meetingTime" : [
     {

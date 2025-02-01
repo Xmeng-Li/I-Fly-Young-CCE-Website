@@ -4,7 +4,7 @@ import { Link, useNavigate, NavigateFunction } from "react-router-dom";
 
 import Header from "../Header";
 import "../../styles/officehour.css";
-import cloud from "../officeHours/Cloud_oh.png";
+import cloud from "../officeHours/Cloud.png";
 import blueAirplane from "../officeHours/blueAirplane.png";
 import orangeAirplane from "../officeHours/orangeAirplane.png";
 
@@ -97,20 +97,15 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
   };
 
-
-  render() {
-    const { t } = this.props;
-    const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
-    
-    const newRecording = recordings.slice(0, 1);
-    const viewMoreText: string = t("viewMore", { ns: "officehour" });
-    
-    // Main Three Sections
-    const mostRecent = recordings.slice(1, 6);
-    const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 5);
-    const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 5);
-
-    const OhPlayIcon = () => (
+  // Link play now icon to the audio
+  OhPlayIcon = ({ recordingId }: { recordingId: string }) => {
+    const { navigate } = this.props;
+  
+    const handleClick = () => {
+      navigate(`/recording?play=${recordingId}`);
+    };
+  
+    return (
       <svg
         className="play-icon"
         xmlns="http://www.w3.org/2000/svg"
@@ -118,6 +113,8 @@ class OfficeHours extends Component<OfficeHoursProps> {
         height="24"
         viewBox="0 0 24 24"
         fill="none"
+        style={{ cursor: "pointer" }}
+        onClick={handleClick}
       >
         <mask
           id="mask0_85_1485"
@@ -138,8 +135,22 @@ class OfficeHours extends Component<OfficeHoursProps> {
         </g>
       </svg>
     );
+  };
 
-    // Bottom Section
+
+  render() {
+    const { t } = this.props;
+    const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
+    const newRecording = recordings.slice(0, 1);
+    
+    // Main Three Sections
+    const viewAll: string = t("viewAll", { ns: "officehour" });
+    const viewMoreText: string = t("viewMore", { ns: "officehour" });
+    const mostRecent = recordings.slice(1, 6);
+    const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 5);
+    const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 5);
+
+    // Bottom Section 
     const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
 
     const office: OfficeDetail[] = t("detail", { ns: "officehour", returnObjects: true }); 
@@ -174,31 +185,35 @@ class OfficeHours extends Component<OfficeHoursProps> {
         <Header />
         {/* Top Section */}
         <div className="top-container">
-          <img src={cloud} alt="cloud" />
+          <div className="banner">
+            <img src={cloud} alt="cloud" />
+            <label className="cloud-title">{t("banner", { ns: "officehour" })}</label>
+          </div>
+          
           <div className="new-recording">
             {newRecording.map((recording, index) => (
               <div key={index}>
                 <h3 className="new-audio-title">{recording.title}</h3>
                 <p>{recording.date}</p>
                 <p className="new-audio-question">{recording.question}</p>
+                
+                <button className="oh-play-now-btn">
+                  {t("playNow", { ns: "officehour" })}
+                  <div className="oh-play-icon">
+                    <this.OhPlayIcon recordingId={recording.id} />
+                  </div>
+                </button>
               </div>
             ))}
-            <button className="oh-play-now-btn" 
-            onClick={() => this.playRecording(newRecording[0]?.audioUrl)}>
-              Play Now
-              <div className="oh-play-icon"><OhPlayIcon /></div>
-            </button>
           </div>
         </div>
 
         {/* Main Section */}
         <div className="main-container">
-          <Link to="/recording">
-            <label className="view-more">
-              View All Recordings
-            </label>
-          </Link>
-
+          <label className="view-all">
+            <Link to="/recording">{viewAll} </Link>
+          </label>
+         
           <div className="recording-card">
             {/* Left: Most Recent */}
             <div className="most-recent">
@@ -346,7 +361,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
                           <p key={key}>{key}: {value}</p>
                         ))}
                       </div>
-                      <button className="join-btn">Join Us</button>
+                      <button className="join-btn">
+                        {t("joinUs", { ns: "officehour" })}
+                      </button>
                     </div>
                   ))}
                 </div>

@@ -7,13 +7,11 @@
   align-items: center;
   align-self: stretch;
 }
-
 .logo-box {
   display: flex;
   align-items: center;
   margin-right: 80px;
 }
-
 .logo {
   height: 50px;
   width: auto;
@@ -22,22 +20,22 @@
   margin-right: 10px;
 
 }
-
 .logo-title {
   color: var(--Blue-500, #37ACF4);
   font-family: "Baloo 2";
   font-size: 24px;
   font-weight: 700;
   font-style: normal;
+  white-space: nowrap; 
 }
-
 .navbar {
   display: flex;
   align-items: center; 
   justify-content: space-between;
   gap: 80px;
+  width: 100%;
+  box-sizing: border-box;
 }
-
 .nav-text {
   display: flex;
   justify-content: space-evenly;
@@ -48,10 +46,9 @@
   font-size: 18px;
   font-weight: 400;
   font-style: normal;
-  gap: 60px;
   cursor: pointer;
+  gap: 40px;
 }
-
 .language-btn {
   background-color: transparent;
   color: var(--Text-primary, #333);
@@ -60,6 +57,10 @@
   font-size: 18px;
   font-weight: 400;
   border: none;
+}
+.language-btn.lang-active {
+  color: var(--Blue-500, #37ACF4);
+  font-weight: 800;
 }
 
 
