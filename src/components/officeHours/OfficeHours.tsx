@@ -38,8 +38,6 @@ type TimeDetail = {
   times: Array<{ region: string; time: string }>;
 };
 
-// type OfficeHoursProps = WithTranslation;
-
 type OfficeHoursProps = WithTranslation & {
   navigate: NavigateFunction;
 };

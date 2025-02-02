@@ -394,7 +394,7 @@ class recording extends Component<RecordingProp> {
             const isVisible = this.state.visiblePlayerIndex === globalIndex;
 
             return (
-              <div className={`each-recording ${isVisible ? "audio-playing" : ""}`}>
+              <div key={recording.id || globalIndex} className={`each-recording ${isVisible ? "audio-playing" : ""}`}>
                 <div className="date-box">
                   <div className="month-day">{monthDay}</div>
                   <div className="year">{year}</div>
