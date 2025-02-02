@@ -117,6 +117,30 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "108",
+      "date": "01/13/2025",
+      "title": "Two bosses have different opinions, what should I do?",
+      "question": "Q1.I have two bosses (authorities) and their opinions conflict. Who should I listen to? Q2. Whose needs should I meet? What can I do?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20250113_兩個老闆MP3.mp3"
+    },
+    {
+      "id" : "107",
+      "date": "01/06/2025",
+      "title": "Key elements for effective job hunting",
+      "question": "Q1. How to identify a job opportunity which is truly good fit for me? Q2. How to equip myself for new job opportunities? Q3.What specific qualities are evaluated by hiring managers? Q4.How do I handle disappointment?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250106_寻找新工作MP3.mp3"
+    },
+    {
+      "id" : "106",
+      "date": "12/16/2024",
+      "title": "How to face the boss...",
+      "question": "Q1. Should I talk to my boss about a salary increase? how to talk about it? Q2. How to face the impossible task assigned by the boss?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20241216_面對老闆MP3.mp3"
+    },
+    {
       "id" : "105",
       "date": "12/09/2024",
       "title": "Seeking first to understand then be understood",

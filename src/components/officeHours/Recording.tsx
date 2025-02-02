@@ -135,7 +135,6 @@ class recording extends Component<RecordingProp> {
     }
   };
   
-
   // Close Player
   closePlayer = (): void => {
     this.setState({ visiblePlayerIndex: null });

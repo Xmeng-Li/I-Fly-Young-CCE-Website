@@ -60,11 +60,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
   // Link round playIcon to its player
   PlayIconRound = ({ recordingId }: { recordingId: string }) => {
     const { navigate } = this.props;
-
     const handleClick = () => {
       navigate(`/recording?play=${recordingId}`);
     };
-
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -95,14 +93,12 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
   };
 
-  // Link play now icon to the audio
+  // Link play now icon to its player
   OhPlayIcon = ({ recordingId }: { recordingId: string }) => {
     const { navigate } = this.props;
-  
     const handleClick = () => {
       navigate(`/recording?play=${recordingId}`);
     };
-  
     return (
       <svg
         className="play-icon"
@@ -334,7 +330,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
             </div>
             
             <div className="three-parts">
-
               {/* Left part */}
               <div>
                 <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
@@ -406,5 +401,6 @@ function withRouter(Component: any) {
     return <Component {...props} navigate={navigate} />;
   };
 }
+
 
 export default withTranslation()(withRouter(OfficeHours));
