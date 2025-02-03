@@ -268,29 +268,173 @@
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240826_不順服的下屬MP3.mp3"
     },
-
-
-
-
-
     {
+      "id" : "89",
+      "date": "08/19/2024",
+      "title": "Dealing with negative emotions in the workplace",
+      "question": "Q1: Where do negative emotions (anxiety, fear, worry, fear, tension, stress...) come from in the workplace? Q2: How to deal with negative emotions in the workplace?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240819_職場負面情緒MP3.mp3"
+    },
+    {
+      "id" : "88",
+      "date": "08/12/2024",
+      "title": "Career Advancement",
+      "question": "Q1: What is the purpose and meaning of career advancement? Q2: Many people hope to be promoted, which can bring about salary increases, realization of self-worth, and breakthroughs in abilities. But is it too egotistical and selfish to want to be promoted for your own benefit?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240812_職場晉升MP3.mp3"
+    },
+    {
+      "id" : "87",
+      "date": "08/05/2024",
+      "title": "I Fly Young CCE Focus Group Interview V",
+      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20240805_FocusGroupInterview_Weixu.mp3"
+    },
+    {
+      "id" : "86",
+      "date": "07/29/2024",
+      "title": "Prepare yourself for future opportunities in the workplace",
+      "question": "Q1. How to expand the breadth of your exposure within the current scope of responsibilities? Q2. How to prepare yourself so that you can accept the promotion of your responsibilities and roles and take on more and greater responsibilities in the future?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240729_職場擴張與提升.mp3"
+    },
+    {
+      "id" : "85",
+      "date": "07/22/2024",
+      "title": "Questions to ask about work",
+      "question": "Q1: Why work? What is the purpose of work? What is the meaning of work? What is the value of work?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240722_關於工作的問題MP3.mp3"
+    },
+    {
+      "id" : "84",
+      "date": "07/15/2024",
+      "title": "Die to oneself in the workplace",
+      "question": "How to die to oneself in the workplace?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240715_職場中向己死MP3.mp3"
+    },
+    {
+      "id" : "83",
+      "date": "07/08/2024",
+      "title": "20240705 Innerlife Conference Marketplace Workshop Q&A",
+      "question": "How to find rest in the busy work?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240708_忙碌中享安息MP3.mp3"
+    },
+    {
+      "id" : "82",
+      "date": "07/01/2024",
+      "title": "I Fly Young CCE Focus Group Interview IV",
+      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20240701_焦點小組訪談4MP3.mp3"
+    },
+    {
+      "id" : "81",
+      "date": "06/24/2024",
+      "title": "How to deal with a critical boss? How to become a manager who develops subordinates?",
+      "question": "1.(As an employee) How do you deal with a boss who tends to criticize and judge others? My boss is quite sensitive. Sometimes he will jump to conclusions based on a certain fragment of an event and he is very confident in his judgment. Sometimes I feel wronged or feel judged. How should I deal with it when faced with judgment? 2. (As an employee) In the sharing session on 5/27, I mentioned the trust relationship with the boss. Whether the boss can make others trust him and be willing to communicate requires certain qualities, but my boss is completely opposite to these qualities. The boss feels insecure and distrustful. Sometimes I really don’t want to talk to him much, and he won’t change in a short period of time. How do I respond when I feel disrespected, not listened to, criticized, and the boss is the only one speaking? 3. (As a supervisor) At the 5/27 gathering, it was mentioned that as a supervisor, one often faces a problem, which is dissatisfaction with the work of subordinates. When you are dissatisfied with the work of your subordinates, what are some ways to deal with it that are more likely to help them?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240624_面對批評論斷的老板MP3.mp3"
+    },
+    {
+      "id" : "80",
+      "date": "06/17/2024",
+      "title": "I Fly Young CCE Focus Group Interview III",
+      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20240617_焦點小組訪談3MP3.mp3"
+    },
+    {
+      "id" : "79",
+      "date": "06/10/2024",
+      "title": "My mission and my goals",
+      "question": "Q1: I prayed and asked God, what is my mission, but I have never quite understood it, so that I do not have a clear goal. What should I do? Q2: What is my mission? How did I know/discover my mission? Q3: What are my goals? How do I set my goals?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240610_使命和目標MP3.mp3"
+    },
+    {
+      "id" : "78",
       "date": "06/03/2024",
       "title": "Colleagues who sow discord",
       "question": "Q1: What should you do if you encounter a colleague who likes to gossip ? It has caused discord between the team?",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240603_搬弄是非的同事MP3.mp3"
     },
-  
-
-
-
-
     {
+      "id" : "77",
+      "date": "05/27/2024",
+      "title": "My employees don't initiate conversations with me, why?",
+      "question": "Q1: What kind of people do I like to talk to? Q2: What kind of boss do I like to talk to? Q3: My employees don't initiate conversations with me, why?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240527_員工不主動和我説話MP3.mp3"
+    },
+    {
+      "id" : "76",
+      "date": "05/20/2024",
+      "title": "What if my boss at work is also my authority at church...",
+      "question": "Q1: What are the (expected) benefits? Q2: What are the (expected) challenges? Q3: How should I respond if my boss at work invites me to attend his church?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240520_老闆和教會權柄MP3.mp3"
+    },
+    {
+      "id" : "75",
+      "date": "05/13/2024",
+      "title": "I Fly Young CCE Focus Group Interview II",
+      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20240513_焦點小組訪談2 MP3.mp3"
+    },
+    {
+      "id" : "74",
       "date": "05/06/2024",
       "title": "I Fly Young CCE Focus Group Interview I",
       "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240506_焦點小組訪談1MP3.mp3"
+    },
+    {
+      "id" : "73",
+      "date": "04/29/2024",
+      "title": "Looking for jobs II",
+      "question": "Q1: The mentality you should have when looking for a job. Q2: What you should work on to land a job",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240429_找工作2MP3.mp3"
+    },
+    {
+      "id" : "72",
+      "date": "04/22/2024",
+      "title": "Challenging Work Environment",
+      "question": "1. The company requires intensive overtime work from time to time, how should I deal with it? 2. Due to workplace bullying, I was forced to resign. How can I prepare myself for my next job and avoid encountering the same work environment?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240422_挑戰的工作環境.mp3"
+    },
+    {
+      "id" : "71",
+      "date": "04/15/2024",
+      "title": "Looking for jobs I",
+      "question": "Q1: I have been out of work for more than 1 year. How can I find the next job? Q2: I was recently laid off. How should I prepare myself to land the next job?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240415_找工作MP3.mp3"
+    },
+    {
+      "id" : "70",
+      "date": "04/08/2024",
+      "title": "Performance at Work",
+      "question": "Q1: What to do if my performance at work is not as expected? Q2: Should Christians have better performance at work?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240408_工作績效MP3.mp3"
+    },
+    {
+      "id" : "68",
+      "date": "04/01/2024",
+      "title": "Am I suitable to be a supervisor? What kind of supervisor?",
+      "question": "Q1. What's the difference between a Technical Leader and a Team/People manager? Q2. Am I suitable to be a supervisor? What kind of supervisor?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20240401_擔任主管MP3.mp3"
     },
    
     

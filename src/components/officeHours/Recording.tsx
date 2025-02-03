@@ -82,11 +82,12 @@ class recording extends Component<RecordingProp> {
     const recordingIndex = recordings.findIndex((recording) => recording.id === recordingId);
   
     if (recordingIndex !== -1) {
-      this.showPlayer(recordingIndex);  
+      this.showPlayer(recordingIndex);
     } else {
       console.error(`Recording with ID ${recordingId} not found.`);
     }
   };
+  
 
   // Handle Date
   formatDate = (date: string) => {
@@ -134,6 +135,7 @@ class recording extends Component<RecordingProp> {
       this.setState({ visiblePlayerIndex: globalIndex }, this.scrollToPlayer);
     }
   };
+
   
   // Close Player
   closePlayer = (): void => {
@@ -388,7 +390,7 @@ class recording extends Component<RecordingProp> {
         {/* Recording List */}
         <div className="recording-container">
           {paginatedAudio.map((recording, index) => {
-            const globalIndex = currentPage * itemsPerPage + index;
+            const globalIndex = offset + index;
             const { monthDay, year } = this.formatDate(recording.date);
             const isVisible = this.state.visiblePlayerIndex === globalIndex;
 
@@ -433,7 +435,7 @@ class recording extends Component<RecordingProp> {
                   <div className="action">
                     <button
                       className="play-now-btn"
-                      onClick={() => this.showPlayer(index)}
+                      onClick={() => this.showPlayer(globalIndex)}
                     >
                       {t("playNow", { ns: "officehour" })}
                       <PlayIcon />
