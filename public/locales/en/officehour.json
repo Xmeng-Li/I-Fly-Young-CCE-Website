@@ -429,38 +429,564 @@
       "audioUrl": "/audio/CCE20240408_工作績效MP3.mp3"
     },
     {
-      "id" : "68",
+      "id" : "69",
       "date": "04/01/2024",
       "title": "Am I suitable to be a supervisor? What kind of supervisor?",
       "question": "Q1. What's the difference between a Technical Leader and a Team/People manager? Q2. Am I suitable to be a supervisor? What kind of supervisor?",
       "category": "Development",
       "audioUrl": "/audio/CCE20240401_擔任主管MP3.mp3"
     },
-   
-    
-
-
-
     {
+      "id" : "68",
+      "date": "03/25/2024",
+      "title": "Work overtime and Obedience",
+      "question": "Q1: My boss keeps asking me to work overtime (which is not part of my job). Do I need to obey him all the time? Q2: How to communicate wisely with my boss?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240325加班與順服.mp3"
+    },
+    {
+      "id" : "67",
+      "date": "03/18/2024",
+      "title": "How to deal with small groups in the company?",
+      "question": "Q1: Why are there small groups in the company? Q2: Shall I participate at these small group(s)?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240318公司内的小團體.mp3"
+    },
+    {
+      "id" : "66",
+      "date": "03/11/2024",
+      "title": "Management: Leading loners or subject matter expert(s)",
+      "question": "Q1: How to lead a team (or person) who has no less, or even more subject matter expertise than me? Q2: How to lead/help a loner, or a person who has strong opinions?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240311_管理MP3.mp3"
+    },
+    {
+      "id" : "65",
+      "date": "03/04/2024",
+      "title": "Dealing with colleague(s) having animosity against me",
+      "question": "Q1: I can feel one colleague's clear animosity against me, and I constantly run into challenges communicating with him. What are the possible reasons? Q2: How should I adjust myself, or what actions could I take, so I can get the task going?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240304_懷有敵意的同事MP3.mp3"
+    },
+    {
+      "id" : "64",
+      "date": "02/26/2024",
+      "title": "An assignment that is beyond my expertise",
+      "question": "Q1. My boss give me an assignment that is not beyond my expertise. It really stressed me out. What is my boss thinking? Q2. Shall I accept such assignment? What should I consider? How should I respond?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240226_上司交辦我不熟悉領域的項目.mp3"
+    },
+    {
+      "id" : "63",
+      "date": "02/19/2024",
+      "title": "Working with (overconfident, talkative) people",
+      "question": "Q1: How to work with or react to someone that is overly confident? Q2: How to conduct effective communication with talkative people (who tends to share excessive amount of information or dominate the conversation)?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240219_與過度自信喜歡長篇大論的人共事.mp3"
+    },
+    {
+      "id" : "62",
+      "date": "02/05/2024",
+      "title": "Should I care about everything that my boss cares about?",
+      "question": "Q1. Should I be close to the coworker who has tension with my boss? Q2. Should I care about everything that my boss cares abour? Or what should I care about?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240205_關心老闆在乎的哪些事.mp3"
+    },
+    {
+      "id" : "61",
+      "date": "01/29/2024",
+      "title": "How to be with my boss",
+      "question": "Q1: Can I treat my boss as my friend? Q2: What's the boundary when dealing with my boss?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240129_與老闆相處.mp3"
+    },
+    {
+      "id" : "60",
+      "date": "01/22/2024",
+      "title": "Favor at Workplace",
+      "question": "Q1: What is favor? What favor have I received at workplace?  Q2: Shall I seek favor? How to seek favor at workplace?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20240122_職場恩寵.mp3"
+    },
+    {
+      "id" : "59",
+      "date": "01/15/2024",
+      "title": "Managing employee's expectations on task assignments",
+      "question": "Q1: One of my team members are selective about his task assignment. He likes certain task assignments that are beneficial to his performance or growth, and shows discontents for other assignments (that might not look that shiny). What can I do?   Q2: Among all task assignments from my manager, I like those assignments that can help my performance or growth. Can I share my preferences? If so, how?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20240115_對工作内容的期待MP3.mp3"
+    },
+    {
+      "id" : "58",
+      "date": "01/08/2024",
+      "title": "How to manage expectations from colleagues",
+      "question": "Q1: My colleague(s) would share his(her) negative opinions about our boss and other colleagues. What can I do? Q2: My colleague, who referred me to my current employer and also a sister in Christ, expects me to give her heads up for all company business I am involved. She is not my supervisor. What can I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20240108_職場服事MP3.mp3"
+    },
+    {
+      "id" : "57",
+      "date": "12/18/2023",
+      "title": "Serving at Marketplace",
+      "question": "Q1: What is serving at marketplace? Q2: What are the challenges of serving at marketplace? What are the tips? What to avoid?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231218_職場服事MP3.mp3"
+    },
+    {
+      "id" : "56",
+      "date": "12/11/2023",
+      "title": "Breakthrough",
+      "question": "Q1. What breakthrough do I expect to see at workplace? Q2. What are the barriers for breakthrough at workplace? What are the tips?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20231211_突破MP3.mp3"
+    },
+    {
+      "id" : "55",
+      "date": "12/04/2023",
+      "title": "Interpersonal Relationship and Communication at workplace",
+      "question": "Q1. Do I have healthy interpersonal relationship at workplace? Q2. What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20231204_職場人際關係MP3.mp3"
+    },
+    {
+      "id" : "54",
+      "date": "11/27/2023",
+      "title": "Thanksgiving",
+      "question": "Q1: What/Who am I most thankful for in my career journey? Q2: What am I most thankful for my boss/colleague/subordinate? How have I expressed my appreciation?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231127_職場感恩MP3.mp3"
+    },
+    {
+      "id" : "53",
+      "date": "11/20/2023",
+      "title": "How to respond in the workplace?",
+      "question": "Q1: How shall I respond when I feel hurt in the workplace? Q2: How shall I perceive and respond when I was impacted by other's sins at workplace? Q3: How shall I perceive and respond when I was impacted by other's sins at a Christian based workplace?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231120_面對人的罪MP3.mp3"
+    },
+    {
+      "id" : "52",
+      "date": "11/13/2023",
+      "title": "Find balance between work, family, and faith",
+      "question": "Q1: How do marketplace professionals find a balance between work, family and the time to seek spiritual growth/spend time with God? Q2: What are the special challenges for career women to find such a balance? What can be done?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231113_平衡工作家庭和屬靈追求MP3.mp3"
+    },
+    {
+      "id" : "51",
+      "date": "11/06/2023",
+      "title": "Live out love",
+      "question": "Q1: Is it possible to live out Love at workplace? There is no right or wrong in family training, but in the company, we need to focus on positive results and conduct assessments. Although we can all use love and tolerance, it still feels a bit difficult to practice. We often favor one over the other and cannot achieve a balance. Do the teachers and speakers have any good testimonies or experiences to share?Q2: Why do we want to live out love at workplace?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231106_將愛行在職場MP3.mp3"
+    },
+    {
+      "id" : "50",
+      "date": "10/30/2023",
+      "title": "Work, Faith, and Life",
+      "question": "Q1: I feel like I was living a double life: I live one life in my church and services during the weekend, and another life at my work Monday through Friday. What should I do? Q2:  I had a really comfortable work/life balance before my promotion. Now I felt a lot of stress at my work and started to wonder if I should have sought promotion in the first place. What did I miss? What can I do?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231030_工作_信仰與生活MP3.mp3"
+    },
+    {
+      "id" : "49",
+      "date": "10/23/2023",
+      "title": "How to handle changes in the workplace",
+      "question": "Q1: There is constant reorg in my company, what should I do? Q2: My company is starting to layoff, what should I do? Q3: My boss is leaving, and there are expected changes in the organization and my work, what should I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20231023_處理職場上的變動MP3.mp3"
+    },
+    {
+      "id" : "48",
+      "date": "10/16/2023",
+      "title": "Relationships and conflicts in the workplace",
+      "question": "Q1: What should I do when facing challenges in interpersonal relationships at work? Q2: My values at work are different from those of my colleagues and leaders, and I cannot fit into any team. What should I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20231016_人際關係與價值觀MP3.mp3"
+    },
+    {
+      "id" : "47",
+      "date": "10/09/2023",
+      "title": "How to handle failures in the workplace",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20231009_職場上的挫敗MP3.mp3"
+    },
+    {
+      "id" : "46",
+      "date": "10/02/2023",
+      "title": "Denying oneself",
+      "question": "Is 'self-denial' applicable in the workplace? How to apply it?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20231002_捨己MP3.mp3"
+    },
+    {
+      "id" : "45",
+      "date": "09/25/2023",
+      "title": "Talents and expertise",
+      "question": "Q1. What is the difference between talent and expertise? What is my talent? What is my expertise? Q2. How can I use/develop my talent/expertise in my family/workplace/service?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230925_天賦與專長MP3.mp3"
+    },
+    {
+      "id" : "44",
+      "date": "09/18/2023",
+      "title": "My boss doesn’t help; a good manager",
+      "question": "Q1: What should I do if I have a problem and my supervisor is unwilling to help me solve it? Q2: What qualities does a good manager need to have, and how can I cultivate these qualities at work?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230918_管理者的素質MP3.mp3"
+    },
+    {
+      "id" : "43",
+      "date": "09/11/2023",
+      "title": "Communicating with people of strong personality",
+      "question": "Q1. What are the characteristics of a strong person? Q2. How should I communicate with a strong colleague or boss?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20230911_與強勢的人溝通MP3.mp3"
+    },
+    {
+      "id" : "42",
+      "date": "08/28/2023",
+      "title": "Good qualities",
+      "question": "Q1. What good qualities do influential people have in the workplace? Q2. How can I cultivate these good qualities in my life?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230828_培養影響力的特質MP3.mp3"
+    },
+    {
+      "id" : "41",
+      "date": "08/21/2023",
+      "title": "Increase influence",
+      "question": "Q1. How can I improve my influence in my workplace? Q2. How can I make my faith have an impact in the workplace?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230821_信仰與影響力MP3.mp3"
+    },
+    {
+      "id" : "40",
+      "date": "08/14/2023",
+      "title": "Which role suits me the best: Individual Contributor, Tech Lead, Manager?",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230814_角色MP3.mp3"
+    },
+    {
+      "id" : "39",
+      "date": "08/07/2023",
+      "title": "Unfair bosses and proper communication",
+      "question": "Q1: Character: Obedience: If you feel that your boss is unfair, how should you obey him? Q2: Communication: If your work results and performance do not satisfy your superiors, how should you face and respond?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230807_品格_溝通MP3.mp3"
+    },
+    {
+      "id" : "38",
+      "date": "07/31/2023",
+      "title": "Balancing faith, failure, and new beginnings",
+      "question": "Q1: I agree that faith should be lived in the workplace, but the fact is that I am so overwhelmed by work that I have no ability to consider faith issues. How can I break through? Q2: The real estate design industry is becoming increasingly sluggish. I am almost 40 years old and still a front-line worker. I have no direction for the future and I don’t know where to go if I change industries. Now I am just muddling through. What should I do? Q3: As an ordinary employee, sometimes I fail to achieve the goals that my superiors ask me to do. I feel like a failure, but I am powerless. What should I do?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230731_無力感_失敗感MP3.mp3"
+    },
+    {
+      "id" : "37",
+      "date": "07/24/2023",
+      "title": "Colleagues, Boss, and Boundary",
+      "question": "Q1: Should I help my coworkers on personal matters that are not work related? What are the boundaries? Q2: Should I help my boss on personal matters that are not work related? What are the boundaries? Q3: I have been helping my boss on personal matters (not work related) for a while, but I don’t want to do it anymore. What should I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20230724私人事務_同事_老闆和界限MP3.mp3"
+    },
+    {
+      "id" : "36",
+      "date": "07/17/2023",
+      "title": "Opportunities, challenges, and boundaries in workplace with Christians",
+      "question": "We are colleagues and brother/sisters in Christ. As a colleague at the same level, am I suitable to listen to my colleagues' doubts and tensions at work and help them? How can I grasp this relationship of being both a brother/sister in Christ and a colleague at work? What is the boundary?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230717_基督徒同事MP3.mp3"
+    },
+    {
+      "id" : "35",
+      "date": "07/10/2023",
+      "title": "Complaint",
+      "question": "Q1. Why do we complain about our work? Q2. Is there anything we can do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230710_抱怨MP3.mp3"
+    },
+    {
+      "id" : "34",
+      "date": "07/03/2023",
+      "title": "To do or not to do",
+      "question": "Q1. Should I accept the opportunity to tutor? Q2. Opportunities and boundaries",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230703_1做还是不做2机会与界限.mp3"
+    },
+    {
+      "id" : "33",
+      "date": "06/12/2023",
+      "title": "Asking questions",
+      "question": "Q1. Does your boss ask difficult questions? What are those questions? How can you best answer them? Q2. What are the important questions to ask (my boss/coworkers/myself?) at work?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230612_提問mp3.mp3"
+    },
+    {
+      "id" : "32",
+      "date": "06/05/2023",
+      "title": "All about opportunities",
+      "question": "We all need opportunities, and many people are looking for opportunities: 1. What is an opportunity? 2. How to find an opportunity? 3. What good opportunities are there for me?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230605_尋找機會mp3.mp3"
+    },
+    {
+      "id" : "31",
+      "date": "05/29/2023",
+      "title": "How to prepare for your next job?",
+      "question": "Q1. What is your next job? Q2. How do you prepare for your next job?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230529_1下一個工作2做準備mp3.mp3"
+    },
+    {
+      "id" : "30",
+      "date": "05/15/2023",
+      "title": "How to handle my high expectations and be a peacemaker at work?",
+      "question": "Q1. I have a strong sense of responsibility and high expectations for my work. Therefore, I am willing to stay up late to ensure the quality of my work. Is this a problem? Is there anything else I should consider or do? Q2. How can I be a good peacemaker among my colleagues (in the workplace)?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230515_1責任感與高期望2和平之子mp3.mp3"
+    },
+    {
+      "id" : "29",
+      "date": "05/08/2023",
+      "title": "Stress at work",
+      "question": "What’s the main source of stress at work? How can I deal with it?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230508_壓力的來源與應對.mp3"
+    },
+    {
+      "id" : "28",
+      "date": "04/24/2023",
+      "title": "How my faith can positively impact my work?",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230424_信仰在職場上的幫助.mp3"
+    },
+    {
+      "id" : "27",
+      "date": "04/17/2023",
+      "title": "How to bless a difficult boss",
+      "question": "Q1. How to bless an unlovable boss? Last time I shared that bitterness is a factor that hinders blessing bosses, and the torrent of time is in God's hands. If a Christian boss reveals his own pride, has big mood swings, is often angry, has a strong personality, is prone to criticizing and judging others, and often feels disrespected, judged, and misunderstood in the process of getting along with him, how can I not be bitter and bless my boss better? Can you share more details on how to overcome your bitterness and these negative feelings and continue to love an unlovable person? Q2. How to be a (easily) lovable boss? Q3. Should the debts owed from normal operations be recovered? How to recover them in accordance with God's will? The desire to collect debts is very urgent. Doesn't it glorify God?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230417_祝福不容易愛的老板_應收賬款.mp3"
+    },
+    {
+      "id" : "26",
+      "date": "04/10/2023",
+      "title": "Blessing your boss VS. Following your boss",
+      "question": "Q1. Please explain the 'want to be ahead of the boss, but work behind the boss' mentioned on 3/27. Can you give an actual example? Q2. Same as above, if you find a problem in a certain business, can you raise it to the boss? Or make directional suggestions? Q3. In the workplace, how to set the sales price and profit ratio is in God's will? Q4. Is there any difference between 'blessing the boss' and 'obeying the boss' in the workplace? Does this view apply to the authority of the church?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230410_銷售價格_祝福老闆和順服老闆的不同.mp3"
+    },
+    {
+      "id" : "25",
+      "date": "04/03/2023",
+      "title": "My boss doesn't value or listen to me, what should I do?",
+      "question": "My boss doesn't value my opinions. 1. He never asks for my opinions before making decisions. What should I do? 2. He asks for my opinions but still insists on his own way of doing things. What should I do?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230403_我的老闆不重視我的意見.mp3"
+    },
+    {
+      "id" : "24",
+      "date": "03/27/2023",
+      "title": "What do I want, what do I need, and how do I get what I need from my boss?",
+      "question": "",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20230327_從我的老闆得到什麽.mp3"
+    },
+    {
+      "id" : "23",
+      "date": "03/20/2023",
+      "title": "Stress and Happiness at work",
+      "question": "Q1. My work makes me very stressed, what should I do? Q2.What is the secret to being happy at work?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230320_喜樂抗壓_r1.mp3"
+    },
+    {
+      "id" : "22",
+      "date": "03/13/2023",
+      "title": "Interacting with Christians at work",
+      "question": "Q1. All my colleagues are Christians. They come from different churches and some from the same church. How do I deal with the sinfulness of other Christian colleagues at work and the conflicts and tensions between them? (For example, pride, competition, laziness, small groups, flattering the powerful and bullying the weak, inconsistency between what I say and what I do, inconsistent interpretation of the truth, etc.)",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20230313_同事是基督徒_r1.mp3"
+    },
+    {
+      "id" : "21",
+      "date": "03/06/2023",
+      "title": "How to prepare myself for the generative-AI world to come?",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230306_在“生成式人工智能”時代預備自己_r1.mp3"
+    },
+    {
+      "id" : "20",
+      "date": "02/27/2023",
+      "title": "Do I shine in the workplace?",
+      "question": "Q1. Am I shining in the workplace? How do I shine? Why can I shine? Q2. What (attitude, cognition, mentality, habit, or other) may limit God's blessing on me? Or the blessing that could have flown through me to others?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20230227_1發光2是什麽攔阻了祝福_r1.mp3"
+    },
+    {
+      "id" : "19",
+      "date": "02/21/2023",
+      "title": "I have no passion for my work right now, what should I do?",
+      "question": "Q1. I have no passion for my current job, what should I do? Q2. My boss doesn’t like me, what should I do? Q3. I am afraid to talk to my boss and always try to keep a distance from him. Is this right? What should I do? 4. If I have no passion for my job or my boss doesn’t like me, can I still wish my boss well?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230221_1沒有熱情2老闆不喜歡我3祝福老闆_r1.mp3"
+    },
+    {
+      "id" : "18",
+      "date": "01/16/2023",
+      "title": "Should I help? What are some good habits and bad habits?",
+      "question": "Q1. Someone asked me for a favor, should I help? Q2. At the start of a new year, let us reflect on what good habits in the workplace to keep? What bad habits to adjust and be rid of?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20230116_1有人請托2調整習慣1.mp3"
+    },
+    {
+      "id" : "17",
       "date": "01/09/2023",
       "title": "How to have positive impact in the workplace",
       "question": "Amid economic turmoil and the pandemic, how can we have a positive impact in the workplace?",
       "category": "Development",
       "audioUrl": "/audio/CCE20230109_正面影響力.mp3"
     },
-
-
-
-
     {
+      "id" : "16",
+      "date": "12/12/2022",
+      "title": "What to do in a recession, or when I am laid off?",
+      "question": "Q1.The economy is bad, what should I do? Q2. I was laid off, what should I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20221212_經濟不景氣_被裁員.mp3"
+    },
+    {
+      "id" : "15",
+      "date": "12/05/2022",
+      "title": "My boss is not satisfied with my work",
+      "question": "",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20221205_老闆對我的工作不滿意.mp3"
+    },
+    {
+      "id" : "14",
+      "date": "11/28/2022",
+      "title": "Ability VS. Interest",
+      "question": "1.Seven Mountains 2. Dialogue between Abilities and Interests",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20221128_1七山2興趣和能力的對談.mp3"
+    },
+    {
+      "id" : "13",
+      "date": "10/24/2022",
+      "title": "Good habits in the workplace",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20221024_工作的好習慣.mp3"
+    },
+    {
+      "id" : "12",
+      "date": "10/17/2022",
+      "title": "(Re) building trust between you and your boss?",
+      "question": "Q1. How to build trust with your boss? Q2. How to rebuild trust with your boss?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20221017_建立和老闆之間的信任.mp3"
+    },
+    {
+      "id" : "11",
+      "date": "10/10/2022",
+      "title": "How to become a blessing to bosses and employers?",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20221010_理想的員工.mp3"
+    },
+    {
+      "id" : "10",
+      "date": "10/03/2022",
+      "title": "How Christians bless coworkers, bosses and employers",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20221003_成為公司的祝福.mp3"
+    },
+    {
+      "id" : "9",
+      "date": "09/26/2022",
+      "title": "Time management: principles and tips",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220926_時間管理的概念和技巧.mp3"
+    },
+    {
+      "id" : "8",
+      "date": "09/12/2022",
+      "title": "Is it time to change direction?",
+      "question": "Q1.Is it time to change my career path? Q2. Passion and direction in my career Q3. Do you like it? Is it important?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20220912_1換跑道2熱情與方向3喜歡和重要.mp3"
+    },
+    {
+      "id" : "7",
+      "date": "09/05/2022",
+      "title": "Talent discovery journey V",
+      "question": "1. Discovering talents 2. Seeing favor at work 3. Highlight moments in the workplace",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220905_突破思考的限制1天賦2恩寵3高光時刻.mp3"
+    },
+    {
+      "id" : "6",
+      "date": "08/29/2022",
+      "title": "Breaking through the limits of thoughts",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20220829_突破思考的限制.mp3"
+    },
+    {
+      "id" : "5",
+      "date": "08/22/2022",
+      "title": "Talent discovery journey IV",
+      "question": "1. Gift 2. Ability to ask questions 3. Learn new skills",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220822_1恩賜2問問題的能力3學新技能.mp3"
+    },
+    {
+      "id" : "4",
+      "date": "08/15/2022",
+      "title": "Talent discovery journey III",
+      "question": "1. Gift 2. Medical aesthetics sales 3. Asking right questions",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220815_1恩賜2醫美銷售3問對問題.mp3"
+    },
+    {
+      "id" : "3",
+      "date": "08/08/2022",
+      "title": "Talent discovery journey II",
+      "question": "1. Gift 2. Resignation 3. Bad words 4. Performance evaluation",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220808_1恩賜2離職3說壞話4工作評等.mp3"
+    },
+    {
+      "id": "2",
+      "date": "08/01/2022",
+      "title": "Talent discovery journey I",
+      "question": "1. Discovering gifts 2. Time management",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20220801_1發現恩賜2時間管理.mp3"
+    },
+    {
+      "id": "1",
+      "date": "07/25/2022",
+      "title": "Starting and transitioning",
+      "question": "1. About establishing workplace fellowship. 2. Entrepreneurship and job transition.",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20220725_1建立职场团契2創業和工作轉換.mp3"
+    },
+    {
+      "id": "00",
       "date": "07/11/2022",
       "title": "Asking right questions",
       "question": "Seeking guidance at work (changing jobs? careers? or attitudes?)",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220711_尋求工作上的的帶領.mp3"
     }
-    
-
-
   ]
 }
