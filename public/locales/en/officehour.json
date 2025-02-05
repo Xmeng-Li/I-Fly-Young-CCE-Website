@@ -100,7 +100,7 @@
   "sort": "Sort",
   "timeSort" : {
     "recent" : "Most Recent",
-    "oldest" : "Most Oldest"
+    "oldest" : "Oldest"
   },
   "year": "Year",
   "years": "All Year",

@@ -28,6 +28,8 @@ type RecordingState = {
 
 
 class recording extends Component<RecordingProp> {
+  selectRef = React.createRef<HTMLSelectElement>();
+
   componentDidMount() {
     // Handle body color
     document.body.style.backgroundColor = "#F0F8FF";
@@ -36,7 +38,11 @@ class recording extends Component<RecordingProp> {
     const params = new URLSearchParams(window.location.search);
     const filter = params.get('filter');
     if (filter) {
-      this.setState({ selectedTopic: filter });
+      this.setState({ selectedTopic: filter }, () => {
+        if (this.selectRef.current) {
+          this.selectRef.current.focus();
+        }
+      });
     }
 
     // Link player to office hour round play icon
@@ -374,6 +380,7 @@ class recording extends Component<RecordingProp> {
           <div>
           <label className="label">{t("topic", { ns: "officehour" })}</label>
             <select
+              ref={this.selectRef}
               value={selectedTopic}
               onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
               } className="topic-dropdown"
