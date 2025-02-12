@@ -175,7 +175,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
 
     return (
-      <div>
+      <div className="content-wrap">
         <Header />
         {/* Top Section */}
         <div className="top-container">
@@ -207,9 +207,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Main Section */}
         <div className="main-container">
-          <label className="view-all">
-            <Link to="/recording">{viewAll} </Link>
-          </label>
+          <div className="view-all">
+            <Link to="/recording">{viewAll}</Link>
+          </div>
          
           <div className="recording-card">
             {/* Left: Most Recent */}
@@ -234,7 +234,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
                         <div className="oh-title">{recording.title}</div>
                         <div className="oh-question">{recording.question}</div>
                       </div>
-                      <this.PlayIconRound recordingId={recording.id} />
+                      < this.PlayIconRound recordingId={recording.id} />
                     </div>
                   );
                 })}

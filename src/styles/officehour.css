@@ -81,6 +81,7 @@
 .view-all {
   display: block;
   text-align: right;
+  justify-content: flex-end;
   margin-right: -20px;
 }
 .view-all a {
@@ -95,7 +96,6 @@
   display: flex; 
   gap: 20px;
 }
-
 .most-recent, 
 .colleagues, 
 .faith{
@@ -105,7 +105,8 @@
   flex-direction: column;
 }
 .main-left,
-.main-mid {
+.main-mid,
+.main-right {
   margin-bottom: 12px;
 }
 .cate-container{
@@ -140,6 +141,7 @@
 .oh-each-recording {
   display: flex;
   height: 120px;
+  width: 100%;
   padding: 16px 12px;
   flex-direction: row;
   align-items: center;
@@ -176,7 +178,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: left;
-  flex: 1;
 }
 .oh-title {
   width: 255px;
@@ -207,7 +208,64 @@
 .play-icon-round {
   display: flex;
   cursor: pointer;
+  flex-shrink: 0;
 }
+
+/* For Smaller Screens */
+@media (max-width: 1280px) { 
+  .most-recent,
+  .colleagues,
+  .faith {
+    width: 373px;
+  }
+  .oh-each-recording {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px; 
+  }
+  .oh-content {
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
+  .oh-title {
+    width: 200px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    align-self: stretch;
+  }
+  .oh-question {
+    width: 200px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  .play-icon-round {
+    flex-shrink: 0;
+  }
+}
+/* For Mobile */
+/* @media (max-width: 767px) {
+  .recording-card {
+    flex-direction: column; 
+    align-items: center;
+  }
+  .most-recent,
+  .colleagues,
+  .faith {
+    flex: 1 1 30%;
+  }
+} */
 
 
 .colleagues {
@@ -563,14 +621,12 @@
   height: 18px; 
   fill: var(--Text-Grey, #525252);
 }
-
 .time-dates {
   font-size: 16px;
   color: var(--Text-Grey, #525252);
   text-align: center;
   font-weight: 400;
 }
-
 .time-list {
   width: 229px;
   height: 166px;
@@ -585,14 +641,12 @@
   padding: 18px;
   gap: 18px;
 }
-
 .time-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 16px;
 }
-
 .region {
   color: var(--Text-Grey, #525252);
   font-size: 16px;
@@ -600,7 +654,6 @@
   line-height: 24px;
   text-align: center;
 }
-
 .time {
   color: var(--Text-primary, #333);
   font-size: 18px;
