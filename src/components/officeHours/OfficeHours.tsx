@@ -131,7 +131,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
   };
 
-
+  
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
@@ -191,7 +191,10 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 <p>{recording.date}</p>
                 <p className="new-audio-question">{recording.question}</p>
                 
-                <button className="oh-play-now-btn">
+                <button 
+                  className="oh-play-now-btn"
+                  onClick={() => this.props.navigate(`/recording?play=${recording.id}`)}
+                  >
                   {t("playNow", { ns: "officehour" })}
                   <div className="oh-play-icon">
                     <this.OhPlayIcon recordingId={recording.id} />
