@@ -33,7 +33,6 @@ const Header = () => {
             {isChinese ? 'EN' : '中文'}
             </button>
           </div>
-          
         </div>
       </nav>
     </header>
