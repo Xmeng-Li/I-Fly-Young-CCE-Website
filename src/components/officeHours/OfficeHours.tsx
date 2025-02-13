@@ -334,7 +334,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
             
             <div className="three-parts">
               {/* Left part */}
-              <div>
+              <div className="left">
                 <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
                 <div className="left-detail">
                   <p className="section-text">{t("text", { ns: "officehour" })}</p>
@@ -347,7 +347,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 </div>
               </div>
               {/* Middle part */}
-              <div>
+              <div className="mid">
                 <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
                 <div className="mid-detail">
                   {meeting.map((zoomMeeting, index) => (
@@ -365,7 +365,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 </div>
               </div>
               {/* Right part */}
-              <div>
+              <div className="right">
                 <p className="right-title">{t("rightTitle", { ns: "officehour" })}</p>
                 <div className="right-detail">
                   <div className="time-box">

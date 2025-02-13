@@ -275,8 +275,8 @@
 }
 .speaker-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 33px;
+  width: 1320px;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
 }
 .speaker-card {
@@ -290,11 +290,12 @@
   padding: 20px;
   box-shadow: 3px 4px 14px 1px rgba(99, 99, 99, 0.09);
   transition: transform 0.2s;
+  gap: 18px;
+  margin-bottom: 20px;
 }
 .speaker-image {
-  width: 80px;
-  height: 80px;
-  margin-right: 18px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
 }
 .speaker {
@@ -333,14 +334,12 @@
   gap: 24px;
   margin-bottom: 60px;
 }
-
 .office-airplane {
   display: flex; 
   justify-content: space-between; 
   align-items: baseline; 
   width: 100%;
 }
-
 .office-title {
   color: var(--Blue-700, #0E426C);
   font-size: 20px;
@@ -353,10 +352,18 @@
   display: flex;
   justify-content: space-between;
 }
-
+.left, 
+.mid {
+    width: 329px;
+    height: 277px;
+  }
+  .right {
+    width: 534px;
+    height: 277px;
+  }
 .left-title {
   display: flex;
-  width: 329px;
+  width: 100%;
   height: 64px;
   padding: 10px;
   justify-content: center;
@@ -370,10 +377,9 @@
   border-radius: 12px 12px 0 0;
   margin: 0; 
 }
-
 .left-detail {
-  width: 329px;
-  height: 277px;
+  width: 100%;
+  height: 100%;
   display: flex;
   padding: 0px 32px;
   flex-direction: column;
@@ -383,7 +389,6 @@
   background-color: var(--bg-light-blue, #F0F8FF);
   border-radius:0 0 12px 12px;
 }
-
 .section-text {
   color: var(--Text-primary, #333);
   text-align: center;
@@ -394,7 +399,6 @@
   margin-top: 52px;
   margin-bottom: 52px;
 }
-
 .office-text {
   display: flex;
   color: var(--Text-primary, #333);
@@ -402,16 +406,14 @@
   font-family: Inter;
   font-weight: 400;
   margin-bottom: 18px;
-  
+  text-wrap: nowrap;
 }
-
 .pencil svg {
   width: 18px;
   height: 18px;
   color: #333;
   margin-right: 4px;
 }
-
 .hour-content{
   color: var(--Text-primary, #333);
   font-family: Inter;
@@ -423,7 +425,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 329px;
+  width: 100%;
   height: 64px;
   padding: 10px;
   gap: 10px;
@@ -435,10 +437,9 @@
   border-radius: 12px 12px 0 0;
   margin: 0; 
 }
-
 .mid-detail {
   width: 100%;
-  height: 277px;
+  height: 100%;
   display: flex;
   padding: 0px 32px;
   flex-direction: column;
@@ -448,14 +449,12 @@
   background-color: var(--bg-light-blue, #F0F8FF);
   border-radius:0 0 12px 12px;
 }
-
 .mid-part {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .mid-text {
   color: var(--Text-primary, #333);
   font-family: Inter;
@@ -464,8 +463,8 @@
   line-height: 28px;
   margin-top: 52px;
   text-align: center;
+  text-wrap: nowrap;
 }
-
 .join-btn {
   color: var(--Blue-600, #065D9E);
   font-family: Inter;
@@ -487,7 +486,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 534px;
+  width: 100%;
   height: 64px;
   gap: 10px;
   flex-shrink: 0;
@@ -498,10 +497,9 @@
   border-radius: 12px 12px 0 0;
   margin: 0; 
 }
-
 .right-detail {
   width: 100%;
-  height: 277px;
+  height: 100%;
   display: flex;
   padding: 0px 0px;
   flex-direction: column;
@@ -528,19 +526,16 @@
   font-weight: 400;
   line-height: 28px; 
 }
-
 .time-type {
   color: var(--Text-primary, #333);
   font-size: 18px;
   font-weight: 400;
   margin: 0;
 }
-
 .icon-and-date {
   display: flex;
   text-align: center;
 }
-
 .date-icon {
   align-items: center;
   margin-right: 4px;
@@ -636,6 +631,63 @@
   .play-icon-round {
     flex-shrink: 0;
   }
+  
+  /* Panelists */
+  .speaker-card {
+    display: flex;
+    width: 280px;
+    height: 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+  }
+  .speaker-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .speaker-name {
+    text-align: center;
+    color: var(--Text-primary, #333);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .speaker-role {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--Text-Grey, #525252);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* Bottom Part */
+  .three-parts {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+  }
+  .left, 
+  .mid {
+    width: 300px;
+    /* height: 277px; */
+  }
+  .right {
+    width: 514px;
+  }
+
+  
+
+
+
+
 }
 /* For Mobile */
 /* @media (max-width: 767px) {
