@@ -751,10 +751,12 @@
 
   /* Bottom Part */
   .officehour-container {
-    padding: 10px 25px;
+    padding: 0px 25px;
   }
   .orange-airplane {
-    display: none;
+    /* display: none; */
+    width: 350px;
+    height: 35px;
   }
   .three-parts {
     display: flex;
