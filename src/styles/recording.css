@@ -274,3 +274,19 @@ select:focus {
   background: var(--bg-orange, #FFEFD9);
   color: var(--Text-orange, #7C300B);;
 }
+
+@media (max-width: 769px) {
+  /* Filters */
+  select { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 8px 16px;
+  }
+  .title {
+    white-space: wrap; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+}
