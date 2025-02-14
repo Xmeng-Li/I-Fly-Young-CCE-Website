@@ -8,11 +8,14 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   
   const [isChinese, setIsChinese] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const toggleLanguage = () => {
     const newLang = isChinese ? 'en' : 'zh';
     i18n.changeLanguage(newLang); 
     setIsChinese(!isChinese); 
   };
+
 
   return (
     <header>
@@ -21,7 +24,12 @@ const Header = () => {
           <img src={logo} alt="Logo" className="logo" />
           <div className="logo-title">I Fly Young CCE</div>
         </div>
-        <div className='navbar'>
+        {/* Hamburger Icon*/}
+        <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </button>
+
+        <div className={`navbar ${menuOpen ? "show" : ""}`}>
           <div className="nav-text">
             <span>{t("home")}</span>
             <span>{t("webinar")}</span>
@@ -29,8 +37,7 @@ const Header = () => {
             <span>{t("our_team")}</span>
             <span>{t("chronicles")}</span>
             <span>{t("programs")}</span>
-            <button className="language-btn" onClick={toggleLanguage}>
-            {isChinese ? 'EN' : '中文'}
+            <button className="language-btn" onClick={toggleLanguage}>{isChinese ? 'EN' : '中文'}
             </button>
           </div>
         </div>

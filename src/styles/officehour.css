@@ -686,7 +686,7 @@
   /* Top Section */
   .top-container {
     flex-direction: column;
-    padding: 20px 60px;
+    padding: 20px 0;
     align-items: center;
   }
   .new-recording {
@@ -703,12 +703,12 @@
 
   /* Main Section */
   .view-all {
-    margin-right: -5px;
+    margin-right: 25px;
   }
   .recording-card {
     flex-direction: column;
     align-items: stretch;
-    padding: 10px 60px;
+    padding: 10px 25px;
   }
   .most-recent, 
   .colleagues, 
@@ -732,10 +732,10 @@
   
   /* Panelists */
   .panelists-section {
-    padding: 10px 60px;
+    padding: 10px 25px;
   }
   .title-and-airplane {
-    width: 105%;
+    width: 95%;
   }
   .blue-airplane{
     width: 150px;
@@ -751,7 +751,7 @@
 
   /* Bottom Part */
   .officehour-container {
-    padding: 10px 60px;
+    padding: 10px 25px;
   }
   .orange-airplane {
     display: none;
