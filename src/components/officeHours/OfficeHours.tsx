@@ -175,7 +175,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
 
     return (
-      <div className="content-wrap">
+      <div>
         <Header />
         {/* Top Section */}
         <div className="top-container">
@@ -333,35 +333,37 @@ class OfficeHours extends Component<OfficeHoursProps> {
             </div>
             
             <div className="three-parts">
-              {/* Left part */}
-              <div className="left">
-                <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
-                <div className="left-detail">
-                  <p className="section-text">{t("text", { ns: "officehour" })}</p>
-                    {office.map((item: any, index: number) => (
-                      <div key={index} className="office-text">
-                        <span className="pencil"><Pencil /></span>
-                        <span className="office-content">{item.title}</span>
+              <div className="left-and-mid">
+                {/* Left part */}
+                <div className="left">
+                  <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
+                  <div className="left-detail">
+                    <p className="section-text">{t("text", { ns: "officehour" })}</p>
+                      {office.map((item: any, index: number) => (
+                        <div key={index} className="office-text">
+                          <span className="pencil"><Pencil /></span>
+                          <span>{item.title}</span>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+                {/* Middle part */}
+                <div className="mid">
+                  <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
+                  <div className="mid-detail">
+                    {meeting.map((zoomMeeting, index) => (
+                      <div className="mid-part" key={index}>
+                        <div className="mid-text">
+                          {Object.entries(zoomMeeting).map(([key, value]) => (
+                            <p key={key}>{key}: {value}</p>
+                          ))}
+                        </div>
+                        <button className="join-btn">
+                          {t("joinUs", { ns: "officehour" })}
+                        </button>
                       </div>
                     ))}
-                </div>
-              </div>
-              {/* Middle part */}
-              <div className="mid">
-                <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
-                <div className="mid-detail">
-                  {meeting.map((zoomMeeting, index) => (
-                    <div className="mid-part" key={index}>
-                      <div className="mid-text">
-                        {Object.entries(zoomMeeting).map(([key, value]) => (
-                          <p key={key}>{key}: {value}</p>
-                        ))}
-                      </div>
-                      <button className="join-btn">
-                        {t("joinUs", { ns: "officehour" })}
-                      </button>
-                    </div>
-                  ))}
+                  </div>
                 </div>
               </div>
               {/* Right part */}

@@ -1,5 +1,6 @@
 .top-container {
   display: flex;
+  flex-direction: row;
   padding: 30px 0px 30px 0px;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +8,7 @@
 }
 .banner {
   position: relative;
-  display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
 }
@@ -25,16 +26,16 @@
   font-weight: 700;
   line-height: normal;
 }
-.new-recording{
+.new-recording {
   font-family: "Noto Sans";
-  display: flex;
+  flex: 1;
   width: 689px;
   padding: 24px;
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
 }
-.new-audio-title{
+.new-audio-title {
   color: #0E426C;
   font-size: 32px;
   font-style: normal;
@@ -92,6 +93,7 @@
 
 .recording-card {
   display: flex; 
+  flex-direction: row;
   align-items: center;
   gap: 20px;
 }
@@ -102,6 +104,7 @@
   width: 427px;
   padding: 16px 24px 12px 24px;
   flex-direction: column;
+  flex: 1;
 }
 .main-left,
 .main-mid,
@@ -352,14 +355,22 @@
   display: flex;
   justify-content: space-between;
 }
+.left-and-mid {
+  display: flex;
+  flex-direction: row;
+  height:277px;
+  gap: 50px;
+  margin-right: 50px;
+}
 .left, 
 .mid {
     width: 329px;
-    height: 277px;
+    flex: 1;
   }
-  .right {
+.right {
     width: 534px;
     height: 277px;
+    flex: 1;
   }
 .left-title {
   display: flex;
@@ -600,33 +611,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 12px; 
   }
   .oh-content {
     flex: 1 1 auto;
     overflow: hidden;
+    margin-right: 12px;
   }
-  .oh-title {
-    width: 200px;
-    flex: 1 1 auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    align-self: stretch;
-  }
+  .oh-title,
   .oh-question {
     width: 200px;
-    flex: 1 1 auto;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden; 
-    text-overflow: ellipsis;
-    white-space: normal;
   }
   .play-icon-round {
     flex-shrink: 0;
@@ -672,27 +665,112 @@
   .three-parts {
     display: flex;
     justify-content: space-between;
-    gap: 33px;
+  }
+  .left-and-mid {
+    display: flex;
+    flex-direction: row;
+    gap: 23px; 
+    margin-right: 23px;
   }
   .left, 
   .mid {
     width: 300px;
-    /* height: 277px; */
   }
   .right {
     width: 514px;
   }
 }
 
-/* For Mobile */
-/* @media (max-width: 767px) {
-  .recording-card {
-    flex-direction: column; 
+/* For iPad */
+@media (max-width: 769px) {
+  /* Top Section */
+  .top-container {
+    flex-direction: column;
+    padding: 20px 60px;
     align-items: center;
   }
-  .most-recent,
-  .colleagues,
-  .faith {
-    flex: 1 1 30%;
+  .new-recording {
+    width: 640px;
   }
-} */
+  .new-audio-question {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    align-self: stretch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Main Section */
+  .view-all {
+    margin-right: -5px;
+  }
+  .recording-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px 60px;
+  }
+  .most-recent, 
+  .colleagues, 
+  .faith {
+    width: 649px;
+    flex-direction: column;
+  }
+  .oh-each-recording:nth-child(n+4) {
+    display: none;
+  }
+  .oh-each-recording {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px; 
+  }
+  .oh-title,
+  .oh-question {
+    width: 477px;
+  }
+  
+  /* Panelists */
+  .panelists-section {
+    padding: 10px 60px;
+  }
+  .title-and-airplane {
+    width: 105%;
+  }
+  .blue-airplane{
+    width: 150px;
+    height: 80px;
+    transform: rotate(-2.72deg);
+    margin-right: 10px;
+  }
+  .speaker-container {
+    width: 649px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px; 
+  }
+
+  /* Bottom Part */
+  .officehour-container {
+    padding: 10px 60px;
+  }
+  .orange-airplane {
+    display: none;
+  }
+  .three-parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .left-and-mid {
+    width: 649px;
+    height: 236px;
+    margin-bottom: 85px;
+  }
+  .right {
+    width: 649px;
+  }
+  .time-box {
+    padding: 20px 28px;
+    gap: 80px;
+  }
+}
