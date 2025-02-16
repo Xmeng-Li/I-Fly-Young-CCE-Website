@@ -359,7 +359,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
                           ))}
                         </div>
                         <button className="join-btn">
+                        <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
                           {t("joinUs", { ns: "officehour" })}
+                        </Link>
                         </button>
                       </div>
                     ))}

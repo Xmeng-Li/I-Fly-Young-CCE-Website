@@ -492,6 +492,11 @@
   margin-top: 35px;
   margin-bottom: 40px;
 }
+.join-btn a {
+  color: var(--Blue-600, #065D9E);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .right-title {
   display: flex;
@@ -681,6 +686,30 @@
   }
 }
 
+@media (min-width: 770px) and (max-width: 1199px) {
+  .top-container {
+    width: 1150px;
+    flex-direction: row;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .view-all {
+    margin-right: auto;
+  }
+  .title-and-airplane {
+    width: 120%;
+  }
+  /* .title-and-airplane {
+    position: relative;
+  } */
+  /* .blue-airplane {
+    position: absolute;
+  } */
+  .orange-airplane {
+    display: none;
+  }
+}
+
 /* For iPad */
 @media (max-width: 769px) {
   /* Top Section */
@@ -754,9 +783,9 @@
     padding: 0px 25px;
   }
   .orange-airplane {
-    /* display: none; */
-    width: 350px;
-    height: 35px;
+    display: none;
+    /* width: 350px;
+    height: 35px; */
   }
   .three-parts {
     display: flex;
