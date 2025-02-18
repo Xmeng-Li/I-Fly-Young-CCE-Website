@@ -821,7 +821,7 @@
 }
 
 /* For Mobile */
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 425px) {
   /* Top Section */
   .top-container {
     flex-direction: column;
