@@ -115,7 +115,6 @@ select:focus {
   flex: 1;
 }
 .title {
-  white-space: nowrap; 
   overflow: hidden;
   text-overflow: ellipsis;
   color: var(--Text-primary, #333);

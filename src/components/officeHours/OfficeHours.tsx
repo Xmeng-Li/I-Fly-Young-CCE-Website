@@ -180,7 +180,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
         {/* Top Section */}
         <div className="top-container">
           <div className="banner">
-            <img src={cloud} alt="cloud" />
+            <img className="cloud" src={cloud} alt="cloud" />
             <label className="cloud-title">{t("banner", { ns: "officehour" })}</label>
           </div>
           
@@ -188,7 +188,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
             {newRecording.map((recording, index) => (
               <div key={index}>
                 <h3 className="new-audio-title">{recording.title}</h3>
-                <p>{recording.date}</p>
+                <p className="new-audio-date">{recording.date}</p>
                 <p className="new-audio-question">{recording.question}</p>
                 
                 <button 

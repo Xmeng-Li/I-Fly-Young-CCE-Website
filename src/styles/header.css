@@ -114,5 +114,17 @@
   }
 }
 
-
-
+@media (min-width: 321px) and (max-width: 768px) {
+  .header {
+    width: 320px;
+    height: 50px;
+    border-bottom: 3px solid var(--Blue-400, #7FC9FA);
+  }
+  .logo {
+    height: 35px;
+    width: auto;
+  }
+  .logo-title {
+    font-size: 14px;
+  }
+}
