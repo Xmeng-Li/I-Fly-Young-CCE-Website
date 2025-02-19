@@ -24,10 +24,11 @@ type RecordingState = {
   selectedTopic: string;
   sortOrder: string;
   selectedYear: string;
+  showFilterMenu: boolean;
 };
 
 
-class recording extends Component<RecordingProp> {
+class recording extends Component<RecordingProp, RecordingState> {
   selectRef = React.createRef<HTMLSelectElement>();
 
   componentDidMount() {
@@ -79,7 +80,6 @@ class recording extends Component<RecordingProp> {
         return new Date(a.date).getTime() - new Date(b.date).getTime();
       }
     });
-  
     return sorted;
   };
   
@@ -114,14 +114,30 @@ class recording extends Component<RecordingProp> {
   };
 
   // Handle Player, Pagination and Filter
-  state: RecordingState = {
-    visiblePlayerIndex: null,
-    currentPage: 0,
-    itemsPerPage: 10,
-    selectedTopic: "allTopic",
-    sortOrder: "recent",
-    selectedYear: "all",
-  };
+  // state: RecordingState = {
+  //   visiblePlayerIndex: null,
+  //   currentPage: 0,
+  //   itemsPerPage: 10,
+  //   selectedTopic: "allTopic",
+  //   sortOrder: "recent",
+  //   selectedYear: "all",
+  //   showFilterMenu: false,
+  // };
+
+  constructor(props: RecordingProp) {
+    super(props);
+
+    this.state = {
+      visiblePlayerIndex: null,
+      currentPage: 0,
+      itemsPerPage: 10,
+      selectedTopic: "allTopic",
+      sortOrder: "recent",
+      selectedYear: "all",
+      showFilterMenu: false, 
+    };
+    this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
+  }
 
   // Update page for specific player
   scrollToPlayer = () => {
@@ -143,7 +159,6 @@ class recording extends Component<RecordingProp> {
     }
   };
 
-  
   // Close Player
   closePlayer = (): void => {
     this.setState({ visiblePlayerIndex: null });
@@ -153,6 +168,14 @@ class recording extends Component<RecordingProp> {
   pageChange = (selectedPage: { selected: number }) => {
     this.setState({ currentPage: selectedPage.selected });
   };
+
+  // Handle filter icon
+  toggleFilterMenu = () => {
+    this.setState((prevState) => ({
+      showFilterMenu: !prevState.showFilterMenu, 
+    }));
+  };
+  
   
   render() {
     const { t } = this.props;
@@ -308,6 +331,32 @@ class recording extends Component<RecordingProp> {
     </svg>
     );
 
+    const FilterIcon = () => (
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+      <mask id="mask0_537_3864" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+        <rect width="20" height="20" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_537_3864)">
+        <path d="M9.16667 15C8.93056 15 8.73264 14.9201 8.57292 14.7604C8.41319 14.6007 8.33333 14.4028 8.33333 14.1667C8.33333 13.9306 8.41319 13.7326 8.57292 13.5729C8.73264 13.4132 8.93056 13.3333 9.16667 13.3333H10.8333C11.0694 13.3333 11.2674 13.4132 11.4271 13.5729C11.5868 13.7326 11.6667 13.9306 11.6667 14.1667C11.6667 14.4028 11.5868 14.6007 11.4271 14.7604C11.2674 14.9201 11.0694 15 10.8333 15H9.16667ZM5.83333 10.8333C5.59722 10.8333 5.39931 10.7535 5.23958 10.5938C5.07986 10.434 5 10.2361 5 10C5 9.76389 5.07986 9.56597 5.23958 9.40625C5.39931 9.24653 5.59722 9.16667 5.83333 9.16667H14.1667C14.4028 9.16667 14.6007 9.24653 14.7604 9.40625C14.9201 9.56597 15 9.76389 15 10C15 10.2361 14.9201 10.434 14.7604 10.5938C14.6007 10.7535 14.4028 10.8333 14.1667 10.8333H5.83333ZM3.33333 6.66667C3.09722 6.66667 2.89931 6.58681 2.73958 6.42708C2.57986 6.26736 2.5 6.06944 2.5 5.83333C2.5 5.59722 2.57986 5.39931 2.73958 5.23958C2.89931 5.07986 3.09722 5 3.33333 5H16.6667C16.9028 5 17.1007 5.07986 17.2604 5.23958C17.4201 5.39931 17.5 5.59722 17.5 5.83333C17.5 6.06944 17.4201 6.26736 17.2604 6.42708C17.1007 6.58681 16.9028 6.66667 16.6667 6.66667H3.33333Z" fill="#525252"/>
+      </g>
+    </svg>
+    );
+
+    const CloseFilterIcon = () => {
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+        onClick={this.toggleFilterMenu}
+        >
+        <mask id="mask0_537_3868" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14">
+          <rect width="14" height="14" fill="#D9D9D9"/>
+        </mask>
+        <g mask="url(#mask0_537_3868)">
+          <path d="M6.99997 7.81712L4.14163 10.6755C4.03469 10.7824 3.89858 10.8359 3.7333 10.8359C3.56802 10.8359 3.43191 10.7824 3.32497 10.6755C3.21802 10.5685 3.16455 10.4324 3.16455 10.2671C3.16455 10.1018 3.21802 9.96573 3.32497 9.85879L6.1833 7.00046L3.32497 4.14212C3.21802 4.03518 3.16455 3.89907 3.16455 3.73379C3.16455 3.56851 3.21802 3.4324 3.32497 3.32546C3.43191 3.21851 3.56802 3.16504 3.7333 3.16504C3.89858 3.16504 4.03469 3.21851 4.14163 3.32546L6.99997 6.18379L9.8583 3.32546C9.96525 3.21851 10.1014 3.16504 10.2666 3.16504C10.4319 3.16504 10.568 3.21851 10.675 3.32546C10.7819 3.4324 10.8354 3.56851 10.8354 3.73379C10.8354 3.89907 10.7819 4.03518 10.675 4.14212L7.81663 7.00046L10.675 9.85879C10.7819 9.96573 10.8354 10.1018 10.8354 10.2671C10.8354 10.4324 10.7819 10.5685 10.675 10.6755C10.568 10.7824 10.4319 10.8359 10.2666 10.8359C10.1014 10.8359 9.96525 10.7824 9.8583 10.6755L6.99997 7.81712Z" fill="#525252"/>
+        </g>
+      </svg>
+      )
+    }
+    
     const { currentPage, itemsPerPage, selectedYear, selectedTopic} = this.state;
 
     // Filter SyStem
@@ -347,6 +396,8 @@ class recording extends Component<RecordingProp> {
         return new Date(a.date).getTime() - new Date(b.date).getTime(); 
       }
     });
+
+    const { showFilterMenu } = this.state;
   
     // Pagination
     const offset = currentPage * itemsPerPage;
@@ -356,69 +407,86 @@ class recording extends Component<RecordingProp> {
     return (
       <div className="recording-page">
         <Header />
-        <div className="backTo">
-          <Link to="/office-hours">
-            <LeftArrow />
-          </Link>
-          <label className="backTo-text">{t("officeHours", { ns: "officehour" })}
-          </label>
-        </div>
-        <div className="pageTitle">{t("allRecordings", { ns: "officehour" })}</div>
+        <div className="page-title-and-icon">
+          <div className="backTo">
+            <Link to="/office-hours">
+              <div className="left-arrow">
+                <LeftArrow />
+              </div>
+            </Link>
+            <label className="backTo-text">{t("officeHours", { ns: "officehour" })}
+            </label>
+          </div>
+          <div className="pageTitle">{t("allRecordings", { ns: "officehour" })}</div>
 
+          {/* Filter Icon for Mobile */}
+          <div className="filter-icon" onClick={this.toggleFilterMenu}>
+            <FilterIcon />
+          </div>
+        </div>
 
         {/* Filter Dropdown */}
-        <div className="filter-container">
-          {/* Chronological */}
-          <div>
-            <label className="label">{t("sort", { ns: "officehour" })}</label>
-            <select
-              value={this.state.sortOrder}
-              onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
-              } className="sort-dropdown"
-            >
-              <option value="recent" className="sort-text">{t("timeSort.recent", { ns: "officehour" })}</option>
-              <option value="oldest" className="sort-text">{t("timeSort.oldest", { ns: "officehour" })}</option>
-            </select>
-          </div>
+        <div className={`filter-container ${showFilterMenu ? "show" : ""}`}>
+          {/* <div className="filters"> */}
+            <div className="label-and-x">
+              <div className="filter-label">{t("filter", { ns: "officehour" })}</div>
+              <div className="close-filter-btn">
+                <CloseFilterIcon />
+              </div>
+            </div>
 
-          {/* Filter By Year */}
-          <div>
-          <label className="label">{t("year", { ns: "officehour" })}</label>
-            <select
-              id="year-filter"
-              value={this.state.selectedYear}
-              onChange={(e) =>
-                this.setState({ selectedYear: e.target.value, currentPage: 0 })
-              }
-              className="year-dropdown"
-            >
-              <option value="all">
-                {t("years", { ns: "officehour" })}
-              </option>
-              {this.getUniqueYears(recordings).map((year) => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </select>
-          </div>
+            {/* Chronological */}
+            <div className="each-filter">
+              <label className="label">{t("sort", { ns: "officehour" })}</label>
+              <select
+                value={this.state.sortOrder}
+                onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
+                } className="sort-dropdown"
+              >
+                <option value="recent" className="filter-text">{t("timeSort.recent", { ns: "officehour" })}</option>
+                <option value="oldest" className="filter-text">{t("timeSort.oldest", { ns: "officehour" })}</option>
+              </select>
+            </div>
 
-          {/* Filter By Topic */}
-          <div>
-          <label className="label">{t("topic", { ns: "officehour" })}</label>
-            <select
-              ref={this.selectRef}
-              value={selectedTopic}
-              onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
-              } className="topic-dropdown"
-            >
-              {Object.keys(categories).map((key) => (
-                <option key={key} value={key}>
-                  {categories[key]}
+            {/* Filter By Year */}
+            <div className="each-filter">
+              <label className="label">{t("year", { ns: "officehour" })}</label>
+              <select
+                id="year-filter"
+                value={this.state.selectedYear}
+                onChange={(e) =>
+                  this.setState({ selectedYear: e.target.value, currentPage: 0 })
+                }
+                className="year-dropdown"
+              >
+                <option value="all" className="filter-text">
+                  {t("years", { ns: "officehour" })}
                 </option>
-              ))}
-            </select>
-          </div>
+                {this.getUniqueYears(recordings).map((year) => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* Filter By Topic */}
+            <div className="each-filter">
+              <label className="label">{t("topic", { ns: "officehour" })}</label>
+              <select
+                ref={this.selectRef}
+                value={selectedTopic}
+                onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
+                } className="topic-dropdown"
+              >
+                {Object.keys(categories).map((key) => (
+                  <option key={key} value={key} className="filter-text">
+                    {categories[key]}
+                  </option>
+                ))}
+              </select>
+            </div>
+          {/* </div> */}
         </div>
 
         {/* Recording List */}

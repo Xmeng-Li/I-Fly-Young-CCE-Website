@@ -93,6 +93,7 @@
   ],
   "officeHours": "問答時間",
   "allRecordings": "所有錄音",
+  "filter": "過濾器",
   "sort": "排序",
   "timeSort" : {
     "recent" : "最近",

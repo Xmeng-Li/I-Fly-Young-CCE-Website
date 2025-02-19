@@ -97,6 +97,7 @@
 
   "officeHours": "Office Hours",
   "allRecordings": "All Recordings",
+  "filter": "Filter",
   "sort": "Sort",
   "timeSort" : {
     "recent" : "Most Recent",

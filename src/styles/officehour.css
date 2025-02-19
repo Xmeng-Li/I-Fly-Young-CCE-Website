@@ -325,7 +325,7 @@
 }
 .speaker-name {
   color: var(--Text-primary, #333);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   line-height: normal;
 }
