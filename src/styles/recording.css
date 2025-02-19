@@ -31,7 +31,7 @@
   align-items: center;
   gap: 20px;
   align-self: stretch;
-  border-radius: 16px;
+  border-radius: 8px;
   background: var(--Neutral-White, #FFF);
   margin-top: 24px;
   margin-bottom: 24px;
@@ -98,7 +98,7 @@ select:focus {
   display: flex;
   flex-direction: column;
   padding: 12px 20px 40px 20px;
-  border-radius: 16px;
+  border-radius: 8px;
   background: var(--Neutral-White, #FFF);
   width: 100%;
 }
@@ -122,7 +122,7 @@ select:focus {
   width: 76px;
   height: 76px;
   padding: 24px 16px;
-  border-radius: 12px;
+  border-radius: 4px;
   background: var(--Blue-300, #E1F0FD);
   flex-shrink: 0;
 }
@@ -247,7 +247,7 @@ select:focus {
 .rhap_progress-filled {
   background-color: #FF9700; 
   height: 100%; 
-  border-radius: 4px; 
+  border-radius: 0px; 
   transition: width 0.2s ease; 
 }
 .rhap_progress-indicator {
