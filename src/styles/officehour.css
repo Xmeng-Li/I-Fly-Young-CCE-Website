@@ -744,6 +744,99 @@
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1279px){
+  .top-container {
+    width: 1150px;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .view-all {
+    margin-right: -210px;
+  }
+  /* Panelists */
+  .panelists-section {
+    padding: 10px 0px;
+  }
+  .title-and-airplane {
+    width: 120%;
+  }
+  .blue-airplane{
+    width: 210px;
+    height: 118px;
+  }
+  .speaker-container {
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 120px; 
+    margin-left: 110px;
+  }
+  .speaker-card {
+    display: flex;
+    width: 280px;
+    height: 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+  }
+  .speaker-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .speaker-name {
+    text-align: center;
+    color: var(--Text-primary, #333);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .speaker-role {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--Text-Grey, #525252);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .orange-airplane {
+    margin-right: -210px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+  .top-container {
+    width: 1150px;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .view-all {
+    margin-right: -455px;
+  }
+  /* Panelists */
+  .panelists-section {
+    padding: 10px 0px;
+  }
+  .title-and-airplane {
+    width: 160%;
+  }
+  .speaker-container {
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px; 
+    margin-left: 230px;
+  }
+  .orange-airplane {
+    margin-right: -450px;
+  }
+}
+
+
 /* For iPad */
 @media (max-width: 768px) {
   /* Top Section */
@@ -876,8 +969,7 @@
   }
 }
 
-/* For Mobile 1*/
-@media (max-width: 425px) {
+@media (min-width: 426px) and (max-width: 767px) {
   /* Top Section */
   .top-container {
     width: 400px;
@@ -923,6 +1015,10 @@
     font-weight: 700;
     line-height: 28px;
     padding: 2px 5px 2px 13px;
+  }
+  .oh-play-icon svg{
+    width: 16px;
+    height: 16px;
   }
   .main-container {
     margin-left: -5px;
@@ -974,13 +1070,291 @@
     margin-right: 6px;
   }
   .oh-title {
-    width: 210px;
+    width: 240px;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    text-overflow: ellipsis;
   }
   .oh-question {
-    width: 200px;
+    width: 240px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+  
+  /* Panelists */
+  .panelists-section {
+    margin-left: -5px;
+  }
+  .blue-airplane{
+    display: none;
+  }
+  .panelists-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .speaker-container {
+    max-width: 410px;
+    justify-content: space-between;
+    row-gap: 8px;
+    column-gap: 65px;
+    flex-wrap: wrap;
+  }
+  .speaker-card {
+    width: 144px;
+    height: 180px;
+    gap: 8px;
+    padding: 8px;
+    border: 2px solid var(--stroke-blue, #E1F0FD);
+  }
+  .speaker-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .speaker-name {
+    text-align: center;
+    color: var(--Text-primary, #333);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .speaker-role {
+    font-size: 10px;
+  }
+
+  /* Bottom Part */
+  .officehour-container {
+    margin-top: -75px;
+    margin-left: -5px;
+  }
+  .office-title {
+    font-size: 12px;
+    line-height: 16px; 
+    margin-bottom: 10px;
+  }
+  .three-parts {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-and-mid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  .left-title, 
+  .mid-title,
+  .right-title {
+    height: 28px;
+    font-size: 12px;
+  }
+  .left {
+    width: 355px;
+    height: 86px;
+    margin-bottom: 12px;
+  } 
+  .section-text {
+    font-size: 14px;
+    width: 272px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+  .office-text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  .mid {
+    width: 355px;
+    height: 104px;
+  }
+  .mid-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mid-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    margin-left: -20px;
+    text-align: center;
+  }
+  .join-btn {
+    font-size: 14px;
+    display: flex;
+    padding: 2px 10px;
+    margin-left: 20px;
+  }
+  .right {
+    width: 355px;
+    height: 262px;
+    margin-top: 12px;
+  }
+  .time-box {
+    display: flex; 
+    flex-direction: column;
+    padding: 8px 12px;
+    gap: 0;
+  }
+  .time-type {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .icon-and-date {
+    display: flex;
+    text-align: center;
+  }
+  .date-icon {
+    align-items: center;
+    margin-right: 2px;
+    margin-top: -8px;
+  }
+  .date-icon svg {
+    width: 14px; 
+    height: 14px; 
+  }
+  .time-dates {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .time-list {
+    width: 272px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 15px;
+  }
+  .region {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .time {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+/* For Mobile 1*/
+@media (max-width: 425px) {
+  /* Top Section */
+  .top-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    margin-left: -10px;
+    margin-bottom: -20px;
+  }
+  .cloud {
+    width: 100%;
+  }
+  .cloud-title {
+    top: 60%;
+    left: 50%;
+    width: 200px; 
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .new-recording {
+    align-items: center;
+  }
+  .new-audio-title{
+    width: 100%;
+    align-self: stretch;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22px;
+  }
+  .new-audio-date {
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 18px;
+  }
+  .new-audio-question {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .oh-play-now-btn {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 2px 5px 2px 13px;
+  }
+  .oh-play-icon svg{
+    width: 16px;
+    height: 16px;
+  }
+  .main-container {
+    margin-left: -5px;
+    gap: 0px;
+    align-self: stretch;
+    margin-bottom: 15px;
+  }
+  .view-all a {
+    font-size: 10px;
+    font-weight: 400;
+    margin-right: 5px;
+
+  }
+  .most-recent,
+  .colleagues,
+  .faith {
+    max-width: 385px;
+    padding: 12px 8px 8px 8px;
+  }
+  .category-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .section-view-more a{
+    font-size: 12px;
+  }
+  .oh-date-box {
+    width: 50px;
+    height: 50px;
+  }
+  .left-month-day,
+  .mid-month-day,
+  .right-month-day {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .left-year,
+  .mid-year,
+  .mid-year {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .oh-each-recording {
+    height: 72px;
+  }
+  .oh-content {
+    flex: 1 1 auto;
+    overflow: hidden;
+    margin-right: 6px;
+  }
+  .oh-title {
+    width: 240px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  .oh-question {
+    width: 240px;
     font-size: 10px;
     line-height: 16px;
   }
@@ -1003,7 +1377,6 @@
     column-gap: 65px;
     flex-wrap: wrap;
   }
-  
   .speaker-card {
     width: 144px;
     height: 180px;
@@ -1153,6 +1526,10 @@
     font-weight: 400;
     margin-right: 5px;
   }
+  .oh-title,
+  .oh-question {
+    width: 200px;
+  }
   /* Panelists */
   .speaker-container {
     max-width: 385px;
@@ -1210,6 +1587,11 @@
     max-width: 296px;
     flex: 1;
   }
+  .oh-title,
+  .oh-question {
+    width: 180px;
+  }
+
 
   /* Panelists */
   .speaker-container {

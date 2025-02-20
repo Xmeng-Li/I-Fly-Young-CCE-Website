@@ -332,9 +332,10 @@ select:focus {
   color: var(--Text-orange, #7C300B);;
 }
 
-@media (max-width: 1024) {
-  .recording-page {
-    width: 100%;
+@media (min-width: 769px) and (max-width: 991px){
+  select { 
+    width: 180px;
+    padding: 8px 16px;
   }
 }
 
@@ -343,7 +344,7 @@ select:focus {
   select { 
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 180px;
     padding: 8px 16px;
   }
   .title {
@@ -351,6 +352,214 @@ select:focus {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+  }
+}
+
+@media (min-width: 726px) and (max-width: 767px){
+  .label-and-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .filter-icon {
+    display: flex;
+  }
+  .close-filter-btn {
+    display: flex;
+  }
+  .page-title-and-icon {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }
+  .pageTitle {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 25px;
+  }
+  .left-arrow svg{
+    width: 24px;
+    height: 24px;
+  }
+  .backTo-text {
+    display: none;
+  }
+  .filter-container { 
+    display: none;
+  }
+  .filter-container.show {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .each-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  select { 
+    padding: 8px 16px;
+    align-items: flex-start;
+  }
+  .filter-label {
+    color: var(--Text-Grey, #525252);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .filter-text{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sort-dropdown,
+  .year-dropdown,
+  .topic-dropdown {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  
+  .recording-container {
+    padding: 0px 8px 12px 8px;
+  }
+  .play-now-btn {
+    display: none;
+  }
+  .play-icon-round-btn {
+    display: inline-block; 
+  }
+  .date-box {
+    width: 50px;
+    height: 50px;
+  }
+  .month-day {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .year {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .each-recording {
+    padding: 18px 2px;
+    gap: 6px;
+  }
+  .title {
+    font-size: 14px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .title.full {
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 6px;
+  }
+  .question {
+    font-size: 10px;
+    line-height: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  .question.full {
+    max-width: 100%;
+    word-wrap: break-word; 
+    white-space: normal;
+  }
+  /* Player */
+  .player-container {
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+  }
+  .player {
+    height: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 30px;
+  }
+  .close-player-btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+  .close-player-btn svg {
+    width: 12px;
+    height: 12px;
+  }
+  .rhap_time {
+    font-size: 10px;
+    margin-left: -5px;
+  }
+  .rhap_progress-bar {
+    width: 120%;
+    height: 3px;
+  }
+  .rhap_progress-filled {
+    height: 120%; 
+    height: 3px;
+  }
+  .rhap_progress-indicator {
+    width: 8px;
+    height: 8px;
+    margin-left: -8px;
+    top: -3px;
+  }
+  .rhap_volume-bar {
+    height: 3px;
+  }
+  .rhap_volume-indicator {
+    height: 8px; 
+    width: 8px; 
+  }
+  .rhap_play-pause-button,
+  .rhap_forward-button,
+  .rhap_rewind-button,
+  .rhap_volume-button {
+    width: 12px; 
+    height: 12px;
+    margin-left: -5px;
+  }
+  .rhap_volume-button svg {
+    width: 12px; 
+    height: 12px;
+  }
+
+  /* Pagination */
+  .pagination {
+    gap: 8px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 18px; 
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .active {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    gap: 6px;
   }
 }
 
