@@ -113,17 +113,6 @@ class recording extends Component<RecordingProp, RecordingState> {
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
-  // Handle Player, Pagination and Filter
-  // state: RecordingState = {
-  //   visiblePlayerIndex: null,
-  //   currentPage: 0,
-  //   itemsPerPage: 10,
-  //   selectedTopic: "allTopic",
-  //   sortOrder: "recent",
-  //   selectedYear: "all",
-  //   showFilterMenu: false,
-  // };
-
   constructor(props: RecordingProp) {
     super(props);
 
@@ -427,66 +416,64 @@ class recording extends Component<RecordingProp, RecordingState> {
 
         {/* Filter Dropdown */}
         <div className={`filter-container ${showFilterMenu ? "show" : ""}`}>
-          {/* <div className="filters"> */}
-            <div className="label-and-x">
-              <div className="filter-label">{t("filter", { ns: "officehour" })}</div>
-              <div className="close-filter-btn">
-                <CloseFilterIcon />
-              </div>
+          <div className="label-and-x">
+            <div className="filter-label">{t("filter", { ns: "officehour" })}</div>
+            <div className="close-filter-btn">
+              <CloseFilterIcon />
             </div>
+          </div>
 
-            {/* Chronological */}
-            <div className="each-filter">
-              <label className="label">{t("sort", { ns: "officehour" })}</label>
-              <select
-                value={this.state.sortOrder}
-                onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
-                } className="sort-dropdown"
-              >
-                <option value="recent" className="filter-text">{t("timeSort.recent", { ns: "officehour" })}</option>
-                <option value="oldest" className="filter-text">{t("timeSort.oldest", { ns: "officehour" })}</option>
-              </select>
-            </div>
+          {/* Chronological */}
+          <div className="each-filter">
+            <label className="label">{t("sort", { ns: "officehour" })}</label>
+            <select
+              value={this.state.sortOrder}
+              onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
+              } className="sort-dropdown"
+            >
+              <option value="recent" className="filter-text">{t("timeSort.recent", { ns: "officehour" })}</option>
+              <option value="oldest" className="filter-text">{t("timeSort.oldest", { ns: "officehour" })}</option>
+            </select>
+          </div>
 
-            {/* Filter By Year */}
-            <div className="each-filter">
-              <label className="label">{t("year", { ns: "officehour" })}</label>
-              <select
-                id="year-filter"
-                value={this.state.selectedYear}
-                onChange={(e) =>
-                  this.setState({ selectedYear: e.target.value, currentPage: 0 })
-                }
-                className="year-dropdown"
-              >
-                <option value="all" className="filter-text">
-                  {t("years", { ns: "officehour" })}
+          {/* Filter By Year */}
+          <div className="each-filter">
+            <label className="label">{t("year", { ns: "officehour" })}</label>
+            <select
+              id="year-filter"
+              value={this.state.selectedYear}
+              onChange={(e) =>
+                this.setState({ selectedYear: e.target.value, currentPage: 0 })
+              }
+              className="year-dropdown"
+            >
+              <option value="all" className="filter-text">
+                {t("years", { ns: "officehour" })}
+              </option>
+              {this.getUniqueYears(recordings).map((year) => (
+                <option key={year} value={year}>
+                  {year}
                 </option>
-                {this.getUniqueYears(recordings).map((year) => (
-                  <option key={year} value={year}>
-                    {year}
-                  </option>
-                ))}
-              </select>
-            </div>
+              ))}
+            </select>
+          </div>
 
-            {/* Filter By Topic */}
-            <div className="each-filter">
-              <label className="label">{t("topic", { ns: "officehour" })}</label>
-              <select
-                ref={this.selectRef}
-                value={selectedTopic}
-                onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
-                } className="topic-dropdown"
-              >
-                {Object.keys(categories).map((key) => (
-                  <option key={key} value={key} className="filter-text">
-                    {categories[key]}
-                  </option>
-                ))}
-              </select>
-            </div>
-          {/* </div> */}
+          {/* Filter By Topic */}
+          <div className="each-filter">
+            <label className="label">{t("topic", { ns: "officehour" })}</label>
+            <select
+              ref={this.selectRef}
+              value={selectedTopic}
+              onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
+              } className="topic-dropdown"
+            >
+              {Object.keys(categories).map((key) => (
+                <option key={key} value={key} className="filter-text">
+                  {categories[key]}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
 
         {/* Recording List */}
