@@ -1514,6 +1514,13 @@
   }
 }
 
+@media (min-width: 376px) and (max-width: 424px){
+  .oh-title,
+  .oh-question {
+    width: 200px;
+  }
+}
+
 /* For Mobile 2*/
 @media (max-width: 375px) {
   /* Top Section */
@@ -1566,6 +1573,13 @@
   .right {
     width: 296px;
   } 
+}
+
+@media (min-width: 321px) and (max-width: 374px){
+  .oh-title,
+  .oh-question {
+    width: 183px;
+  }
 }
 
 /* For Mobile 3*/
