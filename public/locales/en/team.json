@@ -1,0 +1,84 @@
+{
+  "pageBanner": "Our Team",
+  "bannerText": "Overcome the barrier, to jump-start your career",
+  "pageTitle": "Meet our mentors",
+  "pageText": "Click on mentors below to see their bios",
+
+  "mentors": [
+    {
+      "name": "Shengming Shan",
+      "role": "CEO / SWR Technology\nFounder / I FLY YOUNG CCE",
+      "bio": "Mr. Shengming Shan, Founder & CEO of SWR Technology, Founder of I FLY YOUNG CCE, Founder of Creative Chinese, Board Director of Daniel Christian Academy, Engineering Director of Qualcomm, MSEE Stony Brook University, NY, USA, 30 years of technical development and management in semiconductor and communication industry.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Daniel Ding",
+      "role": "Machine Learning in Software & Hardware / Samsung",
+      "bio": "For the past decade, Dr. Daniel Ding is a tech lead and passionate AI practitioner in the crossfire of cutting edge software and hardware design. From microprocessors to SaaS, he contributed to and led projects that impact the design, analysis and optimization of high-end computing systemss. Inspired by the 2020 global pandemic and educators around the world, Daniel has found a new passion to give back to the community and prepare the young generation for the future job market. Daniel received his PhD degree in ECE at the University of Texas at Austin and has authored/co-authored more than 50 peer-reviewed publications, including best paper awards and the highly prestigious ACM SIGDA Best PhD Dissertation Award in 2011.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Nina Tsai",
+      "role": "Data Science Department Leader / Google",
+      "bio": "Nina Tsai is a data science and analytics leader with over 20 years of experience driving business impact at companies like Google, Meta, eBay, Safeway, and startups. Passionate about mentoring, she is committed to giving back to the community.",
+      "image": "/images/mentors/NinaTsai.png"
+    },
+    {
+      "name": "Dr. Steve Xi",
+      "role": "Machine Learning & Fraud Detection / Facebook",
+      "bio": "Dr. Xi has extensive experience in machine learning, AI infra and system design. He received his PhD degree in Computer Science at the University of California, Riverside. He has been working in the industry for 10+ years, with domain knowledge in fraud/risk detection and ads integrity. He is now a tech lead in the business integrity team at Facebook. Before Facebook, he worked at Google for 7 years, building large scale ads policy review systems to classify Google search ads, display ads, mobile ads etc. Steve mentored many junior engineers and interns during his career, he has a passion and enjoys to see young professionals growing. He is also glad to share his work experience and life experience with mentees.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Donald Cheng",
+      "role": "Electronics & Optics / Amazon",
+      "bio": "Dr. Cheng is a Sr. Hardware Engineer in Amazon Lab126 with eight years of industry experience working on laser, LED and consumer electronics. He has a PhD in Electrical and Computer Engineering from the University of Illinois at Urbana Champaign. Dr. Cheng receives guidance from many great mentors in his career. In the spirit of giving back, he has been mentoring young people to explore their passion and develop positive attitudes toward work and life. Outside of work he enjoys spending time with his family as well as outdoor activities.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Kedi Mei",
+      "role": "Civil & Transportation Engineering / BKF Engineers",
+      "bio": "Kedi Mei has 16+ years of experience in the Traffic Engineering field. She is currently a senior project engineer at BKF Engineers. She has managed numerous public transportation projects, as well as private development projects within the bay area and southern California. Some of the projects include BART extension in Fremont, VTA light rail extension in San Jose, Facebook campus, Gerald Desmond Bridge in Long Beach, and various highway improvement projects. Kedi is passionate to provide support by sharing her experiences to young engineers. She was one of the mentors in BKF Engineers’ Women in Engineering Resource Group. Outside of work, she is one of the spiritual parents at Young Adult Fellowship at her home church. She treasures her relationship with the young generation and enjoys sharing her life experiences to them.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Kun Zan",
+      "role": "Machine Learning & Data Science / Expedia",
+      "bio": "Dr. Zan is a Sr. Manager of Data Science at Expedia Group. He is leading the Marketplace Optimization team working on pricing and monetization problems of the travel platform. Prior to the management role, he worked on a variety of machine learning and data science problems in the vacation rental marketplace, such as pricing optimization and revenue management, ranking system, marketing and sales. He got the PhD in Operations Research from the University of Texas at Austin.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Liju Huang ",
+      "role": "UX & Visual Design / Enterprise Software",
+      "bio": "Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources management software and services industry for 25+ years. Liju has been the lead designer in the areas of user interface and interaction design for many micro-learning templates, websites, menus, and learning management systems. Liju's expertise is to combine user experience, brand, business and functional requirements with concise visual design to different products, services and platforms.",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+
+    
+    {
+      "name": "Irene Yuan",
+      "role": "CEO / RELinkage\nFounder / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
+      "bio": "",
+      "image": "/images/mentors/IreneYuan.png"
+    },
+    
+    {
+      "name": "Rong Yue",
+      "role": "Principal R&D Engineer / Siemens",
+      "bio": "",
+      "image": "/images/mentors/RongYue.png"
+    },
+    {
+      "name": "Weixu Meng",
+      "role": "Senior Chief Scientist / Pfizer Inc",
+      "bio": "",
+      "image": "/images/mentors/WeixuMeng.png"
+    },
+    {
+      "name": "Ta-Chang Fu",
+      "role": "The Dedicated Hard Drive R&D Department Mechanical Manager / Western Digital",
+      "bio": "",
+      "image": "/images/mentors/TaChangFu.png"
+    }
+  ]
+}

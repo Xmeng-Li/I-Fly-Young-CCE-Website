@@ -4,17 +4,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import OfficeHours from "./components/officeHours/OfficeHours";  
 import Recording from "./components/officeHours/Recording";
+import OurTeam from "./components/OurTeam";
 
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<OfficeHours />} />
           <Route path="/office-hours" element={<OfficeHours />} />
           <Route path="/recording" element={<Recording />} />
-        </Routes>
+        </Routes> */}
+
+
+      <OurTeam />
       </div>
     </BrowserRouter>
   );

@@ -1,0 +1,83 @@
+{
+  "pageBanner": "我們的團隊",
+  "bannerText": "克服障礙，開啟你的職業生涯",
+  "pageTitle": "認識我們的導師",
+  "pageText": "點擊下麵的導師查看他們的簡介和描述",
+
+  "mentors": [
+    {
+      "name": "Shengming Shan",
+      "role": "執行長 / SWR Technology\n創辦人 / 愛飛揚溝通與職涯探索",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Daniel Ding",
+      "role": "Machine Learning in Software & Hardware / Samsung",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Nina Tsai",
+      "role": "數據科學部門負責人 / 谷歌",
+      "bio": "",
+      "image": "/images/mentors/NinaTsai.png"
+    },
+    {
+      "name": "Dr. Steve Xi",
+      "role": "Machine Learning & Fraud Detection / Facebook",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Donald Cheng",
+      "role": "Electronics & Optics / Amazon",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Kedi Mei",
+      "role": "Civil & Transportation Engineering / BKF Engineers",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Dr. Kun Zan",
+      "role": "Machine Learning & Data Science / Expedia",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    {
+      "name": "Liju Huang ",
+      "role": "UX & Visual Design / Enterprise Software",
+      "bio": "",
+      "image": "/images/mentors/ShengmingShan.png"
+    },
+    
+
+    {
+      "name": "Irene Yuan",
+      "role": "執行長 / RELinkage\n創辦人 / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
+      "bio": "",
+      "image": "/images/mentors/IreneYuan.png"
+    },
+    {
+      "name": "Rong Yue",
+      "role": "研發主任工程師 / 西門子",
+      "bio": "",
+      "image": "/images/mentors/RongYue.png"
+    },
+    {
+      "name": "Weixu Meng",
+      "role": "資深主任科學家 / 輝瑞",
+      "bio": "",
+      "image": "/images/mentors/WeixuMeng.png"
+    },
+    {
+      "name": "Ta-Chang Fu",
+      "role": "數據中心專用硬碟機研發部技術主管 / Western Digital",
+      "bio": "",
+      "image": "/images/mentors/TaChangFu.png"
+    }
+  ]
+}
