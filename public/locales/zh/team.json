@@ -15,7 +15,7 @@
       "name": "Dr. Daniel Ding",
       "role": "Machine Learning in Software & Hardware / Samsung",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/DanielDing.png"
     },
     {
       "name": "Nina Tsai",
@@ -27,45 +27,85 @@
       "name": "Dr. Steve Xi",
       "role": "Machine Learning & Fraud Detection / Facebook",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/SteveXi.png"
     },
     {
       "name": "Dr. Donald Cheng",
       "role": "Electronics & Optics / Amazon",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/DonaldCheng.png"
     },
     {
       "name": "Kedi Mei",
       "role": "Civil & Transportation Engineering / BKF Engineers",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/KediMei.png"
     },
     {
       "name": "Dr. Kun Zan",
       "role": "Machine Learning & Data Science / Expedia",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/KunZan.png"
     },
     {
       "name": "Liju Huang ",
       "role": "UX & Visual Design / Enterprise Software",
       "bio": "",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/LijuHuang.png"
     },
-    
-
+    {
+      "name": "Timothy Ma",
+      "role": "Principal Tech BD and Product Management",
+      "bio": "",
+      "image": "/images/mentors/TimothyMa.png"
+    },
+    {
+      "name": "Selena Shan",
+      "role": "Principal / I Fly Young Chinese School",
+      "bio": "",
+      "image": "/images/mentors/SelenaShan.png"
+    },
+    {
+      "name": "Linda Lee",
+      "role": "Corporate Debt Financing / Banking",
+      "bio": "",
+      "image": "/images/mentors/LindaLee.png"
+    },
+    {
+      "name": "John Chueng",
+      "role": "Network Testing & Automation / Intel",
+      "bio": "",
+      "image": "/images/mentors/JohnCheung.png"
+    },
+    {
+      "name": "Bindu Therthala",
+      "role": "Embedded Software Architecture / Wireless Technology",
+      "bio": "",
+      "image": "/images/mentors/Bindu.png"
+    },
+    {
+      "name": "Woojin Kim",
+      "role": "Entrepreneur / E-Commerce",
+      "bio": "",
+      "image": "/images/mentors/WoojinKim.png"
+    },
+    {
+      "name": "Dr. Jack Chen",
+      "role": "Oncology Research & Development / Pfizer Inc",
+      "bio": "",
+      "image": "/images/mentors/JackChen.png"
+    },
     {
       "name": "Irene Yuan",
       "role": "執行長 / RELinkage\n創辦人 / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
-      "bio": "",
+      "bio": "Ms. Irene Yuan RELinkage 顧問公司執行長 ; 前 Voltraware IC設計公司創辨人, 佳必琦股份有限公司執行副總及董事，政治大學科技創新管理碩士，世新大學兼課講師， 近40 年資訊科技產業經營管理，業務開發，企業重整募資等經驗。",
       "image": "/images/mentors/IreneYuan.png"
     },
     {
-      "name": "Rong Yue",
-      "role": "研發主任工程師 / 西門子",
+      "name": "Marcus White",
+      "role": "Design Strategist / Booz Allen Hamilton",
       "bio": "",
-      "image": "/images/mentors/RongYue.png"
+      "image": "/images/mentors/MarcusWhite.png"
     },
     {
       "name": "Weixu Meng",
@@ -74,10 +114,52 @@
       "image": "/images/mentors/WeixuMeng.png"
     },
     {
+      "name": "Rong Yue",
+      "role": "研發主任工程師 / 西門子",
+      "bio": "Mr. Rong Yue, 西门子研发主任工程师, 普度大学(Purdue)数学博士+計算机碩士, 有近三十年信息产业多种領域的软件研发经历。",
+      "image": "/images/mentors/RongYue.png"
+    },
+    {
+      "name": "Sheana Chen",
+      "role": "General Counsel & Vice President / Diodes Inc",
+      "bio": "",
+      "image": "/images/mentors/SheanaChen.png"
+    },
+    {
+      "name": "Dr. Star Gao",
+      "role": "农业国际组织管理咨询顾问/生物信息遗传育种专家",
+      "bio": "概览: 信主21年,结婚20年,2女1子,工作19年。职场：农业国际组织管理咨询顾问\\生物信息遗传育种专家。教育：农业博士('04), 工商管理硕士('22), XCC认证教练('22)。教会：带领查经，组织大型庆祝活动。爱好：烹饪，美食，交友待客，跳舞，旅行。 福地：职青家庭团契，青少年及父母。双职事奉：CalledToWork 导师，使徒领导力组长。",
+      "image": "/images/mentors/StarGao.png"
+    },
+    {
       "name": "Ta-Chang Fu",
       "role": "數據中心專用硬碟機研發部技術主管 / Western Digital",
-      "bio": "",
+      "bio": "Dr. Ta-Chang Fu (傅大章)，現任 Western Digital 數據中心專用硬碟機研發部技術主管， 柏克萊加州大學機械工程博士,從事硬碟機研發27年經驗。",
       "image": "/images/mentors/TaChangFu.png"
+    },
+    {
+      "name": "Gloria Li",
+      "role": "加州認證執照婚姻家庭諮商師",
+      "bio": "從事精神健康與全人康復領域工作二十多年，現就任政府部門，公家機關的工作經歷也有十多年餘。",
+      "image": "/images/mentors/GloriaLi.png"
+    },
+    {
+      "name": "Brian Lee",
+      "role": "Research Scientist / Gilead Sciences",
+      "bio": "",
+      "image": "/images/mentors/BrianLee.png"
+    },
+    {
+      "name": "George Shan",
+      "role": "Seasoned HR professional",
+      "bio": "",
+      "image": "/images/mentors/GeorgeShan.png"
+    },
+    {
+      "name": "Tevin Tseng",
+      "role": "Senior Director of Technology Development / Sandisk Technology",
+      "bio": "",
+      "image": "/images/mentors/TevinTseng.png"
     }
   ]
 }

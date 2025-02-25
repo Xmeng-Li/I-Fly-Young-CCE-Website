@@ -15,7 +15,7 @@
       "name": "Dr. Daniel Ding",
       "role": "Machine Learning in Software & Hardware / Samsung",
       "bio": "For the past decade, Dr. Daniel Ding is a tech lead and passionate AI practitioner in the crossfire of cutting edge software and hardware design. From microprocessors to SaaS, he contributed to and led projects that impact the design, analysis and optimization of high-end computing systemss. Inspired by the 2020 global pandemic and educators around the world, Daniel has found a new passion to give back to the community and prepare the young generation for the future job market. Daniel received his PhD degree in ECE at the University of Texas at Austin and has authored/co-authored more than 50 peer-reviewed publications, including best paper awards and the highly prestigious ACM SIGDA Best PhD Dissertation Award in 2011.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/DanielDing.png"
     },
     {
       "name": "Nina Tsai",
@@ -27,58 +27,139 @@
       "name": "Dr. Steve Xi",
       "role": "Machine Learning & Fraud Detection / Facebook",
       "bio": "Dr. Xi has extensive experience in machine learning, AI infra and system design. He received his PhD degree in Computer Science at the University of California, Riverside. He has been working in the industry for 10+ years, with domain knowledge in fraud/risk detection and ads integrity. He is now a tech lead in the business integrity team at Facebook. Before Facebook, he worked at Google for 7 years, building large scale ads policy review systems to classify Google search ads, display ads, mobile ads etc. Steve mentored many junior engineers and interns during his career, he has a passion and enjoys to see young professionals growing. He is also glad to share his work experience and life experience with mentees.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/SteveXi.png"
     },
     {
       "name": "Dr. Donald Cheng",
       "role": "Electronics & Optics / Amazon",
       "bio": "Dr. Cheng is a Sr. Hardware Engineer in Amazon Lab126 with eight years of industry experience working on laser, LED and consumer electronics. He has a PhD in Electrical and Computer Engineering from the University of Illinois at Urbana Champaign. Dr. Cheng receives guidance from many great mentors in his career. In the spirit of giving back, he has been mentoring young people to explore their passion and develop positive attitudes toward work and life. Outside of work he enjoys spending time with his family as well as outdoor activities.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/DonaldCheng.png"
     },
     {
       "name": "Kedi Mei",
       "role": "Civil & Transportation Engineering / BKF Engineers",
       "bio": "Kedi Mei has 16+ years of experience in the Traffic Engineering field. She is currently a senior project engineer at BKF Engineers. She has managed numerous public transportation projects, as well as private development projects within the bay area and southern California. Some of the projects include BART extension in Fremont, VTA light rail extension in San Jose, Facebook campus, Gerald Desmond Bridge in Long Beach, and various highway improvement projects. Kedi is passionate to provide support by sharing her experiences to young engineers. She was one of the mentors in BKF Engineers’ Women in Engineering Resource Group. Outside of work, she is one of the spiritual parents at Young Adult Fellowship at her home church. She treasures her relationship with the young generation and enjoys sharing her life experiences to them.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/KediMei.png"
     },
     {
       "name": "Dr. Kun Zan",
       "role": "Machine Learning & Data Science / Expedia",
       "bio": "Dr. Zan is a Sr. Manager of Data Science at Expedia Group. He is leading the Marketplace Optimization team working on pricing and monetization problems of the travel platform. Prior to the management role, he worked on a variety of machine learning and data science problems in the vacation rental marketplace, such as pricing optimization and revenue management, ranking system, marketing and sales. He got the PhD in Operations Research from the University of Texas at Austin.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/KunZan.png"
     },
     {
-      "name": "Liju Huang ",
+      "name": "Liju Huang",
       "role": "UX & Visual Design / Enterprise Software",
       "bio": "Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources management software and services industry for 25+ years. Liju has been the lead designer in the areas of user interface and interaction design for many micro-learning templates, websites, menus, and learning management systems. Liju's expertise is to combine user experience, brand, business and functional requirements with concise visual design to different products, services and platforms.",
-      "image": "/images/mentors/ShengmingShan.png"
+      "image": "/images/mentors/LijuHuang.png"
     },
-
-    
+    {
+      "name": "Timothy Ma",
+      "role": "Principal Tech BD and Product Management",
+      "bio": "Timothy has 10+ years of industry experience in technical sales, business development, and product management focus on machine learning and cloud computing. He led multiple product developments, executions, and launches ranging from $10M to $100M run rates. Timothy is passionate about learning and building new products and a believer in giving back to the community. On a personal note, Timothy is a happy father and a family man who still tries to be better in both. He is also a big fan of college football and loves skiing and scuba diving.",
+      "image": "/images/mentors/TimothyMa.png"
+    },
+    {
+      "name": "Selena Shan",
+      "role": "Principal / I Fly Young Chinese School",
+      "bio": "Ms. Selena Shan is the Founder of I Fly Young and serves as the Pastor of FRCC. She is also the 46th President of the American National Chinese Christian School (ANCCS). Ms. Shan holds a Master's degree in Applied Mathematics and Statistics from SUNY Stony Brook, New York, as well as a Master's degree in Business Administration (MBA) from National Taipei University, Taiwan. Additionally, Ms. Shan has been awarded a Certificate in Christian Counseling by the Christian Leadership Institute in California. She is also a credentialed Early Childhood Teacher and Site Supervisor.",
+      "image": "/images/mentors/SelenaShan.png"
+    },
+    {
+      "name": "Linda Lee",
+      "role": "Corporate Debt Financing / Banking",
+      "bio": "Linda has over two decades experience in the financial services industry including branch operation, wealth management, and technology lending. Through her broad experiences, Linda has managed to fund over $600 million dollars loan transactions to companies in various industries including a $100 million syndication loan to a multi-billion eCommerce company as the Lead Agent. Currently Linda is the Director of a premium commercial bank with the exclusive focus on the United States and Greater China markets. Linda received her MBA from Santa Clara University with focus on Finance and Marketing.",
+      "image": "/images/mentors/LindaLee.png"
+    },
+    {
+      "name": "John Chueng",
+      "role": "Network Testing & Automation / Intel",
+      "bio": "John has been in the network test industry for 15+ years, with primary focus on enterprise and data center network infrastructure tests. He has worked in Cisco Systems for 11 years where he has been doing software testing in switches, routers and POC (customer proof of concept) testing for the various chassis based platforms including Nexus and Catalyst platforms. John then worked at a startup company Barefoot Networks, where he tested cutting edge programmable data plane switches, as well as mentoring teammates with his all rounded networking expertise. Barefoot was then acquired by Intel in 2019. John has been passionate about automation to help on test coverage and improve efficiency on the test process.",
+      "image": "/images/mentors/JohnCheung.png"
+    },
+    {
+      "name": "Bindu Therthala",
+      "role": "Embedded Software Architecture / Wireless Technology",
+      "bio": "Bindu Therthala has 25 years of experience in Software engineering and management across all stages of growth from small startups to large public companies. She is currently the Director of Software Engineering at ON Semiconductors through the acquisition of Wi-Fi technology leader Quantenna communications. Bindu is passionate about technology and values being part of purpose-driven teams. She has been a key contributor at Packet Engines/Alcatel, Mesh Networks/Motorola, Tropos Networks/ABB Wireless, Meru Networks/Fortinet, and Atheros Communications/Qualcomm. She enjoys reading, traveling, volunteering and Zen meditation.",
+      "image": "/images/mentors/Bindu.png"
+    },
+    {
+      "name": "Woojin Kim",
+      "role": "Entrepreneur / E-Commerce",
+      "bio": "3x DTC Serial Entrepreneur Ex-CEO Caseology (Exited) - CPG Brand bootstrapped from $0 to $144M GMV (5 Years). Top 10 Amazon Seller - 9 Figures Sold on Amazon. Consulted 2 DTC Brands from $10M to $30M (1 Exited)",
+      "image": "/images/mentors/WoojinKim.png"
+    },
+    {
+      "name": "Dr. Jack Chen",
+      "role": "Oncology Research & Development / Pfizer Inc",
+      "bio": "Jack is a R&D Scientist with 15+ years of cancer research and oncology drug discovery experience. He is currently a research group leader mentoring PhD and non-PhD scientists for developing breakthrough cancer immunotherapies that may change patient life. Prior to Pfizer, he received his PhD degree at Johns Hopkins University and worked at Eli Lilly and OncoMed pharmaceuticals. His expertise includes R&D pipeline leadership, targeted & immunotherapy discovery, and precision medicine for patient- tailoring strategy.",
+      "image": "/images/mentors/JackChen.png"
+    },
     {
       "name": "Irene Yuan",
       "role": "CEO / RELinkage\nFounder / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
-      "bio": "",
+      "bio": "Ms. Irene Yuan is the CEO of RELinkage Consulting. She is the founder of Voltraware, an IC design company, and has served as the Executive Vice President for JPC Co., Ltd. She holds a Master's degree in Technology Innovation Management from National Chengchi University and is a part-time lecturer at Shih Hsin University. With nearly 40 years of experience in the information technology industry, she specializes in business management, business development, corporate restructuring, and fundraising.",
       "image": "/images/mentors/IreneYuan.png"
     },
-    
     {
-      "name": "Rong Yue",
-      "role": "Principal R&D Engineer / Siemens",
+      "name": "Marcus White",
+      "role": "Design Strategist / Booz Allen Hamilton",
       "bio": "",
-      "image": "/images/mentors/RongYue.png"
+      "image": "/images/mentors/MarcusWhite.png"
     },
     {
       "name": "Weixu Meng",
       "role": "Senior Chief Scientist / Pfizer Inc",
-      "bio": "",
+      "bio": "Weixu earned her MD and PhD in China. She is a dedicated scientist with a deep faith in God, passionate about both science and people. Committed to continuous growth, she embraces lifelong learning in all the roles she carries—as a child of God, a mother, a wife, a friend, an employee, etc.",
       "image": "/images/mentors/WeixuMeng.png"
+    },
+    {
+      "name": "Rong Yue",
+      "role": "Principal R&D Engineer / Siemens",
+      "bio": "Dr. Rong Yue, Rd principal engineer at Siemens.Ph.D in mathematics and Master in computer science from Purdue University, with over 30+ years experience in software r&d development",
+      "image": "/images/mentors/RongYue.png"
+    },
+    {
+      "name": "Sheana Chen",
+      "role": "General Counsel & Vice President / Diodes Inc",
+      "bio": "Sheana Chen is a senior legal executive with over 20 years of experience in international commercial transactions and supply chain, M&A, IP strategies, cross-border dispute resolution, ethics and compliance, enterprise risk management as well as ESG (environmental, social and governance).\nAs a forward-thinking international lawyer, Sheana is passionate about the intersection between law and technology. She brings innovative solutions to help companies solve complex legal and business challenges. Sheana has extensive experience in the semiconductor industry. She leads a global legal team to counsel business units, R&D, sales, manufacturing and support entities, while managing ethics and compliance. Sheana currently serves as the General Counsel, Vice President of Diodes Incorporated. Prior to Joining Diodes Incorporated, Sheana was the Vice President, Assistance General Counsel with Texas Instruments.\nSheana also serves as the Policy Advisor, Chair of the Oversight Committee, and a board member of the Chinese Institute of Engineers/USA-DFW Chapter (CIE). She leads a CIE mentoring group and is also a mentor at Te Ohaka - the Cetre for Growth and Innovation (startup incubation). Sheana is a dual qualified English Solicitor and Barrister and a qualified New York State Attorney. Sheana was a Partner at Baker & McKenzie and has worked in Dallas, Taipei, Shanghai, Singapore and London. Sheana holds a Master's degree in International Commercial Law from the University of London and a LL. B Honors degree from the University of Manchester. She also has a Postgraduate Degree in Professional Legal Skills from the Inns of Court School of Law in the U.K. Sheana has completed the Harvard Business School Executive Education program, and the INSEAD Women Leading Global Change Program in France and is a Fellow with the International Women's Forum.",
+      "image": "/images/mentors/SheanaChen.png"
+    },
+    {
+      "name": "Dr. Star Gao",
+      "role": "",
+      "bio": "",
+      "image": "/images/mentors/StarGao.png"
     },
     {
       "name": "Ta-Chang Fu",
       "role": "The Dedicated Hard Drive R&D Department Mechanical Manager / Western Digital",
-      "bio": "",
+      "bio": "Dr. Ta-Chang Fu, a Senior Manager of enterprise hard disk drive development engineering in Western Digital. He earned his Ph.D degree in mechanical engineering at UC Berkeley, and has 27 years experiences of hard disk drive research and development",
       "image": "/images/mentors/TaChangFu.png"
+    },
+    {
+      "name": "Gloria Li",
+      "role": "Licensed Marriage and Family Therapist / allcove Palo Alto",
+      "bio": "Gloria has worked in mental health field for 20+ years.  Her passion is jn reading, writing and building connections and understanding for the marginalized people. Working in county agencies for youth services since 2017.",
+      "image": "/images/mentors/GloriaLi.png"
+    },
+    {
+      "name": "Brian Lee",
+      "role": "Research Scientist / Gilead Sciences",
+      "bio": "Brian has 15+ years of experience with upstream bioprocessing and process development in the bio pharmaceutical industry. He is passionate about science and technology as well as introducing STEM education to young children through summer camps to spark curiosity and promote sense of wonder.",
+      "image": "/images/mentors/BrianLee.png"
+    },
+    {
+      "name": "George Shan",
+      "role": "Seasoned HR professional",
+      "bio": "George obtained degrees in Business Management and an MBA from Wuhan University and Fudan University in China. Over the past 2+ decades, George has worked in HR field across various industries, including consumer electronics, software development, telecommunications, and renewable energy. George is well-versed in the full spectrum of HR strategy, operations and processes.",
+      "image": "/images/mentors/GeorgeShan.png"
+    },
+    {
+      "name": "Tevin Tseng",
+      "role": "Senior Director of Technology Development / Sandisk Technology",
+      "bio": "Tevin Tseng has dedicated over 20 years to advancing NAND flash memory technology. As a leader of global design teams, he drives the development and production of cutting-edge memory solutions, contributing significantly to the company's revenue growth.",
+      "image": "/images/mentors/TevinTseng.png"
     }
   ]
 }
