@@ -69,6 +69,7 @@
 }
 
 .mentor-container {
+  font-family: "Noto Sans";
   display: grid;
   width: 100%;
   max-width: 1440px;
@@ -128,6 +129,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  white-space: pre-line;
 }
 .overlay {
   position: fixed;
@@ -139,6 +141,7 @@
   z-index: 50; 
 }
 .mentor-popup {
+  font-family: "Noto Sans";
   position: fixed;
   top: 50%;
   left: 50%;
@@ -183,6 +186,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 8px;
 }
 .popup-role {
   color: var(--Text-Grey, #525252);
@@ -192,6 +196,27 @@
   line-height: normal;
   white-space: pre-line;
 }
+.popup-linkedIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.linkedIn-logo {
+  width: 18px;
+  height: 18px;
+  aspect-ratio: 1/1;
+}
+.linkedin {
+  color: var(--Text-link, #3067F2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
 .popup-bio {
   color: var(--Neutral-Black, #333);
   font-size: 18px;

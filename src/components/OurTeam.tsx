@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-// import { Link, useNavigate, NavigateFunction } from "react-router-dom";
 
 import Header from "./Header";
 import "../styles/ourteam.css";
 import cloud from "../components/officeHours/Cloud.png";
-
-// import { render } from "@testing-library/react";
+import linkedInLogo from "../../src/linkedin-logo.png";
 
 type Mentor = {
   name: string;
   role: string;
   bio: string;
   image: string;
+  linkedIn: string;
 };
 
 const OurTeam = () => {
@@ -83,8 +82,14 @@ const OurTeam = () => {
                 <div className="popup-top">
                   <img src={clickedMentor.image} alt={clickedMentor.name} className="popup-image"/>
                   <div className="mentor-info">
-                    <h5 className="popup-name">{clickedMentor.name}</h5>
-                    <p className="popup-role">{clickedMentor.role}</p>
+                    <div className="popup-name">{clickedMentor.name}</div>
+                    <div className="popup-role">{clickedMentor.role}</div>
+                    <div className="popup-linkedIn">
+                      <img className="linkedIn-logo" src={linkedInLogo} alt="linkedIn-logo" />
+                      <a className="linkedin" href={clickedMentor.linkedIn} target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                      </a>
+                    </div>
                   </div>
                   <div className="close-popup-btn">
                     <CloseIcon />
