@@ -56,6 +56,14 @@
   cursor: pointer;
   gap: 40px;
 }
+.nav-text a {
+  color: var(--Text-primary, #333);
+  text-decoration: none;
+}
+.nav-text .active {
+  color: var(--Blue-500, #37ACF4);
+  font-weight: 800;
+}
 .language-btn {
   background-color: transparent;
   color: var(--Text-primary, #333);

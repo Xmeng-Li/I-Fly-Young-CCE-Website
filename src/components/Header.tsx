@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 import logo from '../components/officeHours/CCELogo.png';
-
 import "../styles/header.css";
 
 const Header = () => {
@@ -31,12 +31,24 @@ const Header = () => {
 
         <div className={`navbar ${menuOpen ? "show" : ""}`}>
           <div className="nav-text">
-            <span>{t("home")}</span>
-            <span>{t("webinar")}</span>
-            <span>{t("office_hours")}</span>
-            <span>{t("our_team")}</span>
+            <NavLink to="/" onClick={() => setMenuOpen(false)}>
+              {t("home")}
+            </NavLink>
+            <NavLink to="/office-hours" onClick={() => setMenuOpen(false)}>
+              {t("office_hours")}
+            </NavLink>
+            <NavLink to="/our-team" onClick={() => setMenuOpen(false)}>
+              {t("our_team")}
+            </NavLink>
+          
+
             <span>{t("chronicles")}</span>
             <span>{t("programs")}</span>
+            <span>{t("webinar")}</span>
+
+            <a href="https://iflyyoung.com/" target="_blank" rel="noopener noreferrer">
+              {t("iFlyYoung")}
+            </a>
             <button className="language-btn" onClick={toggleLanguage}>{isChinese ? 'EN' : '中文'}
             </button>
           </div>

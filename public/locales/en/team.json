@@ -16,13 +16,15 @@
       "name": "Dr. Daniel Ding",
       "role": "Machine Learning in Software & Hardware / Samsung",
       "bio": "For the past decade, Dr. Daniel Ding is a tech lead and passionate AI practitioner in the crossfire of cutting edge software and hardware design. From microprocessors to SaaS, he contributed to and led projects that impact the design, analysis and optimization of high-end computing systemss. Inspired by the 2020 global pandemic and educators around the world, Daniel has found a new passion to give back to the community and prepare the young generation for the future job market. Daniel received his PhD degree in ECE at the University of Texas at Austin and has authored/co-authored more than 50 peer-reviewed publications, including best paper awards and the highly prestigious ACM SIGDA Best PhD Dissertation Award in 2011.",
-      "image": "/images/mentors/DanielDing.png"
+      "image": "/images/mentors/DanielDing.png",
+      "linkedIn": "https://www.linkedin.com/in/duoding/"
     },
     {
       "name": "Nina Tsai",
       "role": "Data Science Department Leader / Google",
       "bio": "Nina Tsai is a data science and analytics leader with over 20 years of experience driving business impact at companies like Google, Meta, eBay, Safeway, and startups. Passionate about mentoring, she is committed to giving back to the community.",
-      "image": "/images/mentors/NinaTsai.png"
+      "image": "/images/mentors/NinaTsai.png",
+      "linkedIn": "https://www.linkedin.com/in/nina-tsai/"
     },
     {
       "name": "Dr. Steve Xi",

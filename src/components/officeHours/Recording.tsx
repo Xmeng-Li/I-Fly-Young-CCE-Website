@@ -547,7 +547,7 @@ class recording extends Component<RecordingProp, RecordingState> {
           pageRangeDisplayed={2}
           onPageChange={this.pageChange}
           containerClassName={"pagination"}
-          activeClassName={"active"}
+          activeClassName={"page-active"}
           pageClassName={"page"}
           breakClassName={"break"}
           previousClassName={"prev"}
