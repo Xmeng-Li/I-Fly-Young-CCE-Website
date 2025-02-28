@@ -15,12 +15,13 @@
 }
 .cloud {
   width: 100%; 
+  max-width: 563px;
   height: auto; 
 }
 .cloud-title {
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   width: 370px;
   white-space: pre-line;
@@ -631,6 +632,11 @@
 
 /* For Smaller Screens */
 @media (max-width: 1280px) { 
+  .cloud-title {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .view-all {
     margin-right: -30px;
   }

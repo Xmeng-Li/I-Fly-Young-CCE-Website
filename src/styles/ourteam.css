@@ -2,7 +2,7 @@
   font-family: "Noto Sans";
   display: flex;
   flex-direction: row;
-  padding: 30px 60px 30px 60px;
+  padding: 30px 60px;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
