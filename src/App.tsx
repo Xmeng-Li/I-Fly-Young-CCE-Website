@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import OfficeHours from "./components/officeHours/OfficeHours";  
 import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
+import Webinar from "./components/Webinar";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/office-hours" element={<OfficeHours />} />
           <Route path="/recording" element={<Recording />} />
           <Route path="/our-team" element={<OurTeam />} />
+          <Route path="/webinar" element={<Webinar />} />
         </Routes>
       </div>
     </BrowserRouter>

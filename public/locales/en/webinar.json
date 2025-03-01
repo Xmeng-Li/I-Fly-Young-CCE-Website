@@ -1,0 +1,49 @@
+{
+  "pageBanner": "Webinar",
+  "bannerText": "Feeling lost? Gain some knowledge with no cost!",
+  "pageTitle": "Webinar Series + Past Webinars",
+
+  "sectionTitle": "Webinar Series",
+  "meeting": [
+    {
+      "meetingDate": "3/31/2024 Sunday",
+      "time": "5:00PM - 6:60PM",
+      "region": "(U.S. Pacific Time)"
+    },
+
+    {
+      "meetingDate": "4/1/2024 Monday",
+      "time": "8:00AM - 9:00AM",
+      "region": "(Beijing/Taiwan Time)"
+    }
+  ],
+
+  "pastWebinar": "Past Webinars",
+  "webinar": [
+    {
+      "image": "/images/webinars/11202021.png",
+      "title": "2022 Soaring Eagle Internship",
+      "date": "11/20/2021",
+      "description": "Mentors @ CCE talk about internship and mock interview opportunities."
+    },
+    {
+      "image": "/images/webinars/07312021.png",
+      "title": "Intern Graduation Showcase",
+      "date": "07/31/2021",
+      "description": "Learn what some of our interns have accomplished."
+    },
+    {
+      "image": "/images/webinars/06262021.png",
+      "title": "College Education Exploration",
+      "date": "06/26/2021",
+      "description": "Listen to four families talk about each of their different education journeys."
+    },
+    {
+      "image": "/images/webinars/09192020.png",
+      "title": "Venture Capital Careers",
+      "date": "09/19/2020",
+      "description": "Timothy Chen speaks about software engineering and the venture capital career."
+    }
+    
+  ]
+}

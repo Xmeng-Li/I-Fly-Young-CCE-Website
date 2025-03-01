@@ -40,11 +40,15 @@ const Header = () => {
             <NavLink to="/our-team" onClick={() => setMenuOpen(false)}>
               {t("our_team")}
             </NavLink>
+
           
 
             <span>{t("chronicles")}</span>
             <span>{t("programs")}</span>
-            <span>{t("webinar")}</span>
+            
+            <NavLink to="/webinar" onClick={() => setMenuOpen(false)}>
+              {t("webinar")}
+            </NavLink>
 
             <a href="https://iflyyoung.com/" target="_blank" rel="noopener noreferrer">
               {t("iFlyYoung")}
