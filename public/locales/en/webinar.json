@@ -4,21 +4,38 @@
   "pageTitle": "Webinar Series + Past Webinars",
 
   "sectionTitle": "Webinar Series",
+  "leftTitle": "Zoom Meeting",
   "meeting": [
     {
-      "meetingDate": "3/31/2024 Sunday",
+      "date": "3/31/2024 Sunday",
       "time": "5:00PM - 6:60PM",
       "region": "(U.S. Pacific Time)"
     },
 
     {
-      "meetingDate": "4/1/2024 Monday",
+      "date": "4/1/2024 Monday",
       "time": "8:00AM - 9:00AM",
       "region": "(Beijing/Taiwan Time)"
     }
   ],
+  "rightTitle": "12 Capabilities for Life",
+  "content": [
+    {
+      "about" : "Ask us about",
+      "one": "1. CCE Prime + College Fun classes",
+      "two": "2. Application of 12 capabilities",
+      "three": "3. Career Exploration"
+    },
+    {
+      "speakers" : "Panelists",
+      "one": "1. Bethany Lane (11th grade)",
+      "two": "2. Chris Chen (10th grade)",
+      "three": "3. Emmanuel Chiang (9th grade)"
+    }
+  ],
 
   "pastWebinar": "Past Webinars",
+  "watchNow": "Watch Now",
   "webinar": [
     {
       "image": "/images/webinars/11202021.png",
