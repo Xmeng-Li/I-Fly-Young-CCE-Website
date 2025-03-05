@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import "../styles/webinar.css";
 import cloud from "../components/officeHours/Cloud.png";
 import newWebinar from "../components/03312024.png";
@@ -11,6 +12,7 @@ type WebinarType = {
   title: string;
   date: string;
   description: string;
+  videoLink: string;
 };
 
 type Meeting = {
@@ -64,77 +66,76 @@ const Webinar = () => {
 
   const rightContent: Content[] = t("content", {ns: "webinar",returnObjects: true})
 
+
   return (
     <div>
       <Header />
-      <div>
-          <div className="top-part">
-            <div className="team-banner">
-              <img className="team-cloud" src={cloud} alt="cloud" />
-              <label className="team-title">{t("pageBanner")}</label>
-              <div className="banner-text">{t("bannerText")}</div>
-            </div>
-            <div className="right-text-container">
-              <div className="page-title">{t("pageTitle")}</div>
-            </div>
+        <div className="top-part">
+          <div className="team-banner">
+            <img className="team-cloud" src={cloud} alt="cloud" />
+            <label className="team-title">{t("pageBanner")}</label>
+            <div className="banner-text">{t("bannerText")}</div>
           </div>
+          <div className="right-text-container">
+            <div className="page-title">{t("pageTitle")}</div>
+          </div>
+        </div>
 
-          {/* Webinar Series*/}
-          <div className="webinar-series">
-            <label className="section-label">{t("sectionTitle")}</label>
-            <div className="series-container">
-              <img className="new-webinar" src={newWebinar} alt="webinar-poster"/>
-              <div className="description">
-                {/* Left part */}
-                <div className="left-info">
-                  <p className="webinar-title">{t("leftTitle", { ns: "webinar" })}</p>
-                  {zoomMeeting.map((meeting: Meeting, index: number) => (
-                  <div className="meeting-info" key={index}>
-                    {meeting.date} {meeting.time} {meeting.region}
-                  </div>
-                ))}
+        {/* Webinar Series*/}
+        <div className="webinar-series">
+          <label className="section-label">{t("sectionTitle")}</label>
+          <div className="series-container">
+            <img className="new-webinar" src={newWebinar} alt="webinar-poster"/>
+            <div className="description">
+              {/* Left part */}
+              <div className="left-info">
+                <p className="webinar-title">{t("leftTitle", { ns: "webinar" })}</p>
+                {zoomMeeting.map((meeting: Meeting, index: number) => (
+                <div className="meeting-info" key={index}>
+                  {meeting.date} {meeting.time} {meeting.region}
                 </div>
+              ))}
+              </div>
 
-                {/* Right part */}
-                <div className="right-info">
-                  <p className="webinar-title">{t("rightTitle", { ns: "webinar" })}</p>
-                  <div className="content-container">
-                    {rightContent.map((section: Content, index: number) => (
-                    <div className="content-details" key={index}>
-                      <div className="cnt-title">{section.about || section.speakers}</div>
-                      <div className="item1">{section.one}</div>
-                      <div className="item2">{section.two}</div>
-                      <div className="item3">{section.three}</div>
-                    </div>
-                    ))}
+              {/* Right part */}
+              <div className="right-info">
+                <p className="webinar-title">{t("rightTitle", { ns: "webinar" })}</p>
+                <div className="content-container">
+                  {rightContent.map((section: Content, index: number) => (
+                  <div className="content-details" key={index}>
+                    <div className="cnt-title">{section.about || section.speakers}</div>
+                    <div className="item1">{section.one}</div>
+                    <div className="item2">{section.two}</div>
+                    <div className="item3">{section.three}</div>
                   </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Past Webinar */}
-          <div className="past-webinar">
-            <label className="section-label">{t("pastWebinar")}</label>
-            <div className="webinar-container">
-              {webinars.map((webinar, index) => (
-                <div key={index} className="webinar-card">
-                  <img src={webinar.image} alt={webinar.title} className="webinar-image" />
-                  <div className="webinar-info">
-                    <h4 className="webinar-title">{webinar.title}</h4>
-                    <p className="webinar-date">{webinar.date}</p>
-                    <p className="webinar-text">{webinar.description}</p>
-                    <button className="watch-now-btn">
-                      {t("watchNow", { ns: "webinar" })}<PlayIcon />
-                    </button>
-                  </div>
+        {/* Past Webinar */}
+        <div className="past-webinar">
+          <label className="section-label">{t("pastWebinar")}</label>
+          <div className="webinar-container">
+            {webinars.map((webinar, index) => (
+              <div key={index} className="webinar-card">
+                <img src={webinar.image} alt={webinar.title} className="webinar-image" />
+                <div className="webinar-info">
+                  <h4 className="webinar-title">{webinar.title}</h4>
+                  <p className="webinar-date">{webinar.date}</p>
+                  <p className="webinar-text">{webinar.description}</p>
+                  <button className="watch-now-btn" 
+                    onClick={() => window.open(webinar.videoLink, "_blank")}>
+                    {t("watchNow", { ns: "webinar" })}<PlayIcon />
+                  </button>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
-
-  
-      </div>
+        </div>
+      <Footer />
     </div>
   ); 
 }

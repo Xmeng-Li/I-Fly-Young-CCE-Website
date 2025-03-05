@@ -5,6 +5,7 @@ import AudioPlayer from "react-h5-audio-player";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 import Header from "../Header";
+import Footer from "../Footer";
 import "../../styles/recording.css";
 
 
@@ -555,6 +556,7 @@ class recording extends Component<RecordingProp, RecordingState> {
           forcePage={this.state.currentPage}
         />
         </div>
+        <Footer />
       </div>
     );
   }

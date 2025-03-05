@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: var(--Blue-700, #0E426C);
+  width: 100%;
+  max-width: 1440px;
+  justify-content: space-between; 
+  height: auto;
+  padding: 80px 160px 100px 160px;
+  gap: 40px;
+}
+.footer-logo-box {
+  display: flex;
+  align-items: center;
+}
+.footer-logo {
+  width: 63px;
+  height: 59px;
+  display: flex;
+  padding: 4.576px 0px 0.442px 4.867px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+.footer-logo-title {
+  color: var(--Neutral-White, #FFF);
+  font-family: "Baloo 2";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.texts-and-links {
+  color: var(--Text-white, #FFF);
+  font-family: "Noto Sans";
+  display: flex;
+  justify-content: space-between;
+}
+.footer-texts {
+  display: flex;
+  width: 762px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  white-space: pre-line;
+}
+.footer-links {
+  display: flex;
+  max-width: 225px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.top-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: -40px;
+}
+.mid-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.link-title {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; 
+  
+}
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #FFF;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail-icon svg {
+  width: 24px;
+  height: 24px;
+}
+

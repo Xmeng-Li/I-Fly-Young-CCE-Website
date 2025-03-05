@@ -7,6 +7,8 @@ import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
 import Webinar from "./components/Webinar";
 
+// import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
+
+    // <Footer />
   );
 }
 

@@ -381,6 +381,7 @@
 .three-parts {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 .left-and-mid {
   display: flex;

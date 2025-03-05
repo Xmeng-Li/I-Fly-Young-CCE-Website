@@ -1,0 +1,84 @@
+{
+  "pageBanner": "研討會",
+  "bannerText": "感到失落嗎？免費獲得一些知識！",
+  "pageTitle": "研討會系列 + 過去的研討會",
+
+  "sectionTitle": "研討會系列",
+  "leftTitle": "Zoom會議",
+  "meeting": [
+    {
+      "date": "3/31/2024 週日下午",
+      "time": "5:00PM - 6:60PM",
+      "region": "(美西時間)"
+    },
+
+    {
+      "date": "4/1/2024 週一早上",
+      "time": "8:00AM - 9:00AM",
+      "region": "(北京/台灣時間)"
+    }
+  ],
+  "rightTitle": "12種生活的能力",
+  "content": [
+    {
+      "about" : "向我們詢問",
+      "one": "1. CCE Prime + 大學趣味課程",
+      "two": "2. 12項能力的應用",
+      "three": "3. 職涯探索"
+    },
+    {
+      "speakers" : "講員",
+      "one": "1. Bethany Lane (11th 年級)",
+      "two": "2. Chris Chen (10th 年級)",
+      "three": "3. Emmanuel Chiang (9th 年級)"
+    }
+  ],
+
+  "pastWebinar": "過去的研討會",
+  "watchNow": "現在觀看",
+  "webinar": [
+    {
+      "image": "/images/webinars/11202021.png",
+      "title": "2022 翱翔實習",
+      "date": "11/20/2021",
+      "description": "CCE的導師談論實習和模擬面試機會。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq"
+    },
+    {
+      "image": "/images/webinars/07312021.png",
+      "title": "實習生畢業展示",
+      "date": "07/31/2021",
+      "description": "了解我們的一些實習生所取得的成就。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3"
+    },
+    {
+      "image": "/images/webinars/06262021.png",
+      "title": "大學教育探索",
+      "date": "06/26/2021",
+      "description": "聆聽四個家庭談論他們各自不同的教育旅程。",
+      "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
+    },
+    {
+      "image": "/images/webinars/09192020.png",
+      "title": "創投職業",
+      "date": "09/19/2020",
+      "description": "Timothy Chen 談軟體工程和創投職業",
+      "videoLink" : "https://www.youtube.com/watch?v=-kB2zxsj5Zo&list=PLQTND4OzgUVRgM2YQWtSRlftF3QDBTHTk"
+    },
+    {
+      "image": "/images/webinars/09052020.jpg",
+      "title": "建築職業",
+      "date": "09/05/2020",
+      "description": "Jocelyn Chiou 講述她的生活以及她如何探索建築。",
+      "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
+    },
+    {
+      "image": "/images/webinars/08012020.jpg",
+      "title": "投資銀行職業",
+      "date": "08/01/2020",
+      "description": "Gloria Su 談論她成為投資銀行家的道路。",
+      "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
+    }
+    
+  ]
+}

@@ -3,6 +3,7 @@ import { withTranslation, WithTranslation } from "react-i18next";
 import { Link, useNavigate, NavigateFunction } from "react-router-dom";
 
 import Header from "../Header";
+import Footer from "../Footer";
 import "../../styles/officehour.css";
 import cloud from "../officeHours/Cloud.png";
 import blueAirplane from "../officeHours/blueAirplane.png";
@@ -397,6 +398,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

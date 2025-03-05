@@ -41,25 +41,43 @@
       "image": "/images/webinars/11202021.png",
       "title": "2022 Soaring Eagle Internship",
       "date": "11/20/2021",
-      "description": "Mentors @ CCE talk about internship and mock interview opportunities."
+      "description": "Mentors @ CCE talk about internship and mock interview opportunities.",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq"
     },
     {
       "image": "/images/webinars/07312021.png",
       "title": "Intern Graduation Showcase",
       "date": "07/31/2021",
-      "description": "Learn what some of our interns have accomplished."
+      "description": "Learn what some of our interns have accomplished.",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3"
     },
     {
       "image": "/images/webinars/06262021.png",
       "title": "College Education Exploration",
       "date": "06/26/2021",
-      "description": "Listen to four families talk about each of their different education journeys."
+      "description": "Listen to four families talk about each of their different education journeys.",
+      "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
     },
     {
       "image": "/images/webinars/09192020.png",
       "title": "Venture Capital Careers",
       "date": "09/19/2020",
-      "description": "Timothy Chen speaks about software engineering and the venture capital career."
+      "description": "Timothy Chen speaks about software engineering and the venture capital career.",
+      "videoLink" : "https://www.youtube.com/watch?v=-kB2zxsj5Zo&list=PLQTND4OzgUVRgM2YQWtSRlftF3QDBTHTk"
+    },
+    {
+      "image": "/images/webinars/09052020.jpg",
+      "title": "Architectural Career",
+      "date": "09/05/2020",
+      "description": "Jocelyn Chiou talks about her life and how she went about exploring architecture.",
+      "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
+    },
+    {
+      "image": "/images/webinars/08012020.jpg",
+      "title": "Investment Banking Career",
+      "date": "08/01/2020",
+      "description": "Gloria Su talks about her path to becoming an investment banker.",
+      "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
     }
     
   ]

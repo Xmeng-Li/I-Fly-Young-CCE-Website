@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import "../styles/ourteam.css";
 import cloud from "../components/officeHours/Cloud.png";
 import linkedInLogo from "../../src/linkedin-logo.png";
@@ -47,59 +48,58 @@ const OurTeam = () => {
   return (
     <div>
       <Header />
-      <div>
-          <div className="top-part">
-            <div className="team-banner">
-              <img className="team-cloud" src={cloud} alt="cloud" />
-              <label className="team-title">{t("pageBanner")}</label>
-              <div className="banner-text">{t("bannerText")}</div>
-            </div>
-            <div className="right-text-container">
-              <div className="page-title">{t("pageTitle")}</div>
-              <div className="page-text">{t("pageText")}</div>
-            </div>
+        <div className="top-part">
+          <div className="team-banner">
+            <img className="team-cloud" src={cloud} alt="cloud" />
+            <label className="team-title">{t("pageBanner")}</label>
+            <div className="banner-text">{t("bannerText")}</div>
           </div>
+          <div className="right-text-container">
+            <div className="page-title">{t("pageTitle")}</div>
+            <div className="page-text">{t("pageText")}</div>
+          </div>
+        </div>
 
-          <div className="mentor-container">
-            {mentor.map((mentors, index) => (
-              <div key={index} 
-              className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
-                <img src={mentors.image} alt={mentors.name} className="mentor-image" />
-                
-                <div className="mentors">
-                  <h4 className="mentor-name">{mentors.name}</h4>
-                  <p className="mentor-role">{mentors.role}</p>
-                </div>
+        <div className="mentor-container">
+          {mentor.map((mentors, index) => (
+            <div key={index} 
+            className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
+              <img src={mentors.image} alt={mentors.name} className="mentor-image" />
+              
+              <div className="mentors">
+                <h4 className="mentor-name">{mentors.name}</h4>
+                <p className="mentor-role">{mentors.role}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
+        </div>
 
-          {/* Popup for selected mentor */}
-          {clickedMentor && (
-            <>
-              <div className="overlay" onClick={closeMentorPopup}></div>
-              <div className="mentor-popup">
-                <div className="popup-top">
-                  <img src={clickedMentor.image} alt={clickedMentor.name} className="popup-image"/>
-                  <div className="mentor-info">
-                    <div className="popup-name">{clickedMentor.name}</div>
-                    <div className="popup-role">{clickedMentor.role}</div>
-                    <div className="popup-linkedIn">
-                      <img className="linkedIn-logo" src={linkedInLogo} alt="linkedIn-logo" />
-                      <a className="linkedin" href={clickedMentor.linkedIn} target="_blank" rel="noopener noreferrer">
-                        LinkedIn
-                      </a>
-                    </div>
-                  </div>
-                  <div className="close-popup-btn">
-                    <CloseIcon />
+        {/* Popup for selected mentor */}
+        {clickedMentor && (
+          <>
+            <div className="overlay" onClick={closeMentorPopup}></div>
+            <div className="mentor-popup">
+              <div className="popup-top">
+                <img src={clickedMentor.image} alt={clickedMentor.name} className="popup-image"/>
+                <div className="mentor-info">
+                  <div className="popup-name">{clickedMentor.name}</div>
+                  <div className="popup-role">{clickedMentor.role}</div>
+                  <div className="popup-linkedIn">
+                    <img className="linkedIn-logo" src={linkedInLogo} alt="linkedIn-logo" />
+                    <a className="linkedin" href={clickedMentor.linkedIn} target="_blank" rel="noopener noreferrer">
+                      LinkedIn
+                    </a>
                   </div>
                 </div>
-                <p className="popup-bio" >{clickedMentor.bio}</p>
+                <div className="close-popup-btn">
+                  <CloseIcon />
+                </div>
               </div>
-              </>
-          )}
-      </div>
+              <p className="popup-bio" >{clickedMentor.bio}</p>
+            </div>
+            </>
+        )}
+      <Footer />
     </div>
   ); 
 };
