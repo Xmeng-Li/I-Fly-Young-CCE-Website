@@ -60,10 +60,26 @@ const Footer = () => {
           <div className="mid-part">
             <div className="link-title">{t("followUs")}</div>
             <div className="logos">
-              <span className="icon"><MetaIcon /></span>
-              <span className="icon"><LinkedInIcon /></span>
-              <span className="mail-icon"><MailIcon /></span>
-              <span className="icon"><YoutubeIcon /></span>
+              <a className="icon"
+                href="https://www.facebook.com/IFLYYOUNGCCE"
+                rel="noreferrer"
+                target="_blank"
+              ><MetaIcon /></a>
+              <a className="icon"
+                href="https://www.linkedin.com/company/i-fly-young-cce/"
+                rel="noreferrer"
+                target="_blank"
+              ><LinkedInIcon /></a>
+              <a className="mail-icon"
+                href="mailto:ccepro+subscribe@iflyyoung.com"
+                rel="noreferrer"
+                target="_blank"
+              ><MailIcon /></a>
+              <a className="icon"
+                href="https://www.youtube.com/channel/UCRI6gez9dVg1ohbKKMzoEAQ?sub_confirmation=1"
+                rel="noreferrer"
+                target="_blank"
+              ><YoutubeIcon /></a>
             </div>
           </div>
           <div>iflyyoung.com</div>

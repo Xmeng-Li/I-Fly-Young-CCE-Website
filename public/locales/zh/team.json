@@ -7,185 +7,183 @@
   "mentors": [
     {
       "name": "Shengming Shan",
-      "role": "執行長 / SWR Technology\n創辦人 / 愛飛揚溝通與職涯探索",
-      "bio": "",
+      "role": "SWR Technology執行長\n愛飛揚溝通與職涯探索創辦人",
+      "bio": "Mr. Shengming Shan, SWR科技創辦人兼執行長，I FLY YOUNG CCE創辦人，創意中文創辦人，但以理基督教學院董事，高通工程總監，美國紐約石溪大學MSEE，30年半導體和通訊產業技術開發與管理經驗。",
       "image": "/images/mentors/ShengmingShan.png",
       "linkedIn": "https://www.linkedin.com/in/shengming-shan-071a2b2/"
     },
     {
       "name": "Dr. Daniel Ding",
-      "role": "Machine Learning in Software & Hardware / Samsung",
-      "bio": "",
+      "role": "軟硬體機器學習 / 三星",
+      "bio": "在過去的十年裡，Daniel Ding 博士是尖端軟體和硬體設計交叉領域的技術領導者和充滿熱情的人工智慧實踐者。從微處理器到 SaaS，他貢獻並領導了影響高階運算系統的設計、分析和最佳化的專案。受到 2020 年全球大流行和世界各地教育工作者的啟發，Daniel找到了回饋社區並讓年輕一代為未來就業市場做好準備的新熱情。 Daniel 在德克薩斯大學奧斯汀分校獲得了 ECE 博士學位，並撰寫/合著了 50 多篇同行評審出版物，包括最佳論文獎和 2011 年享有盛譽的 ACM SIGDA 最佳博士論文獎。",
       "image": "/images/mentors/DanielDing.png",
       "linkedIn": "https://www.linkedin.com/in/duoding/"
     },
     {
       "name": "Nina Tsai",
       "role": "數據科學部門負責人 / 谷歌",
-      "bio": "",
+      "bio": "Nina Tsai 是一位數據科學與分析領域的領導者，在 Google、Meta、eBay、Safeway 和新創公司等公司推動業務影響方面擁有 20 多年的經驗。她熱衷於指導，致力於回饋社區。",
       "image": "/images/mentors/NinaTsai.png",
       "linkedIn": "https://www.linkedin.com/in/nina-tsai/"
     },
     {
       "name": "Dr. Steve Xi",
-      "role": "Machine Learning & Fraud Detection / Facebook",
-      "bio": "",
+      "role": "機器學習和詐欺偵測 / 臉書",
+      "bio": "Dr. Xi 在機器學習、人工智慧基礎設施和系統設計方面擁有豐富的經驗。他在加州大學河濱分校獲得電腦科學博士學位。他在該行業工作了10多年，並擁有欺詐/風險檢測和廣告完整性方面的領域知識。他現在是 Facebook 商業誠信團隊的技術主管。在 Facebook 之前，他在 Google 工作了 7 年，建立了大規模的廣告政策審查系統，對 Google 搜尋廣告、展示廣告、行動廣告等進行分類。他也很樂意與學員分享他的工作經驗和生活經驗。",
       "image": "/images/mentors/SteveXi.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/0509148/"
     },
     {
       "name": "Dr. Donald Cheng",
-      "role": "Electronics & Optics / Amazon",
-      "bio": "",
+      "role": "電子與光學 / 亞馬遜",
+      "bio": "Dr. Cheng 是 Amazon Lab126 的高級硬體工程師，在雷射、LED 和消費性電子產品領域擁有八年的產業經驗。他擁有伊利諾大學香檳分校電機與電腦工程博士學位。Dr. Cheng在其職業生涯中得到了許多偉大導師的指導。本著回饋社會的精神，他一直指導年輕人探索自己的熱情，培養積極的工作和生活態度。工作之餘，他喜歡與家人共度時光以及戶外活動。",
       "image": "/images/mentors/DonaldCheng.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/donaldkcheng/"
     },
     {
       "name": "Kedi Mei",
-      "role": "Civil & Transportation Engineering / BKF Engineers",
-      "bio": "",
+      "role": "土木與交通工程 / BKF 工程師",
+      "bio": "Kedi Mei 在交通工程領域擁有 16 年以上的經驗。她目前是 BKF Engineers 的高級專案工程師。她管理過許多公共交通項目以及灣區和南加州的私人開發項目。其中一些項目包括位於弗里蒙特的 BART 延伸、聖何塞的 VTA 輕軌延伸、Facebook 園區、長灘的 Gerald Desmond 大橋以及各種高速公路改善項目。 Kedi 熱衷於向年輕工程師分享她的經驗來提供支援。她是 BKF 工程師女性工程資源小組的導師之一。工作之餘，她是家鄉教會青年團契的精神父母之一。她珍惜與年輕一代的關係，並喜歡與他們分享自己的生活經驗。",
       "image": "/images/mentors/KediMei.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/kedi-mei-37479b110/"
     },
     {
       "name": "Dr. Kun Zan",
-      "role": "Machine Learning & Data Science / Expedia",
-      "bio": "",
+      "role": "機器學習與資料科學 / Expedia",
+      "bio": "Dr. Zan 是 Expedia Group 的數據科學高級經理。他領導市場優化團隊解決旅遊平台的定價和貨幣化問題。在擔任管理職務之前，他致力於解決度假租賃市場中的各種機器學習和數據科學問題，例如定價優化和收入管理、排名系統、行銷和銷售。他在德州大學奧斯汀分校獲得運籌學博士學位。",
       "image": "/images/mentors/KunZan.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/kun-z-a4656917/"
     },
     {
       "name": "Liju Huang ",
-      "role": "UX & Visual Design / Enterprise Software",
-      "bio": "",
+      "role": "使用者體驗與視覺設計 / 企業軟體",
+      "bio": "Liju Huang 是人力資源管理軟體和服務業企業學習組織的高級視覺媒體設計師，工作時間超過 25 年。 Liju 一直是許多微學習範本、網站、選單和學習管理系統的使用者介面和互動設計領域的首席設計師。力居的專長是將使用者體驗、品牌、業務和功能需求與簡潔的視覺設計結合到不同的產品、服務和平台上。",
       "image": "/images/mentors/LijuHuang.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/liju-huang-13524657/"
     },
     {
       "name": "Timothy Ma",
-      "role": "Principal Tech BD and Product Management",
-      "bio": "",
+      "role": "技術商務開發和產品管理 首席",
+      "bio": "Timothy 在技術銷售、業務開發和產品管理方面擁有 10 多年的行業經驗，專注於機器學習和雲端運算。他領導了多個產品的開發、執行和發布，運行費用從 1000 萬美元到 1 億美元不等。蒂莫西熱衷於學習和開發新產品，並堅信回饋社區。就個人而言，蒂莫西是一個快樂的父親和一個家庭男人，他仍然努力在這兩方面做得更好。他也是大學橄欖球的忠實粉絲，喜歡滑雪和水肺潛水。",
       "image": "/images/mentors/TimothyMa.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/timothy-ma-6759b138/"
     },
     {
       "name": "Selena Shan",
-      "role": "Principal / I Fly Young Chinese School",
-      "bio": "",
-      "image": "/images/mentors/SelenaShan.png",
-      "linkedIn": ""
+      "role": "愛飛揚中文學校 校長",
+      "bio": "Ms. Selena Shan 是I Fly Young的創辦人，並擔任FRCC牧師。她也是美國國立華人基督教學校（ANCCS）第46任校長。單女士擁有紐約州立大學石溪分校應用數學和統計學碩士學位以及台灣國立台北大學工商管理碩士學位（MBA）。此外，單女士還獲得了加州基督教領袖學院頒發的基督教諮詢證書。她也是一名認證的幼兒教師和現場主管。",
+      "image": "/images/mentors/SelenaShan.png"
     },
     {
       "name": "Linda Lee",
-      "role": "Corporate Debt Financing / Banking",
-      "bio": "",
+      "role": "企業債務融資 / 銀行",
+      "bio": "Linda 在金融服務業擁有二十多年的經驗，包括分行營運、財富管理和技術貸款。憑藉豐富的經驗，Linda 已成功為各行業的公司提供了超過 6 億美元的貸款交易，其中包括作為牽頭代理向一家價值數十億美元的電子商務公司提供了 1 億美元的銀團貸款。目前，Linda 是一家高級商業銀行的高階經理人，專注於美國和大中華區市場。 Linda 在聖克拉拉大學獲得了 MBA 學位，主修金融和行銷。",
       "image": "/images/mentors/LindaLee.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/linda-lee-2b876a3/"
     },
     {
       "name": "John Chueng",
-      "role": "Network Testing & Automation / Intel",
-      "bio": "",
+      "role": "網路測試與自動化 / 英特爾",
+      "bio": "John 在網路測試產業工作了 15 年以上，主要專注於企業和資料中心網路基礎設施測試。他在 Cisco Systems 工作了 11 年，負責交換器、路由器的軟體測試以及針對各種基於機箱的平台（包括 Nexus 和 Catalyst 平台）的 POC（客戶概念驗證）測試。隨後，John 在一家新創公司 Barefoot Networks 工作，在那裡他測試了最先進的可編程資料平面交換機，並用他全面的網路專業知識指導隊友。 Barefoot 隨後於 2019 年被英特爾收購。",
       "image": "/images/mentors/JohnCheung.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/john-c-928b3443/"
     },
     {
       "name": "Bindu Therthala",
-      "role": "Embedded Software Architecture / Wireless Technology",
-      "bio": "",
+      "role": "嵌入式軟體架構 / 無線技術",
+      "bio": "Bindu Therthala 在軟體工程和管理方面擁有 25 年的經驗，涵蓋從小型新創公司到大型上市公司的各個成長階段。她目前在安森美半導體 (ON Semiconductors) 擔任軟體工程總監，該公司收購了 Wi-Fi 技術領導者 Quantenna communications。 Bindu 對科技充滿熱情，並重視成為目標驅動團隊的一部分。她是 Packet Engines/Alcatel、Mesh Networks/Motorola、Tropos Networks/ABB Wireless、Meru Networks/Fortinet 和 Atheros Communications/Qualcomm 的關鍵貢獻者。她喜歡閱讀、旅行、志工和禪修。",
       "image": "/images/mentors/Bindu.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/bindutherthala/"
     },
     {
       "name": "Woojin Kim",
-      "role": "Entrepreneur / E-Commerce",
-      "bio": "",
+      "role": "企業家 / 電子商務",
+      "bio": "3x DTC 連續創業家前執行長案例分析（已出售獲利） - CPG 品牌引導 GMV 從 0美元到1.44 億美元（5年）亞馬遜前 10 名賣家 - 亞馬遜上銷售的9個數字諮詢了 2個DTC品牌，從1000萬美元到3000萬美元（1個已出售獲利）",
       "image": "/images/mentors/WoojinKim.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/wjkim17/"
     },
     {
       "name": "Dr. Jack Chen",
-      "role": "Oncology Research & Development / Pfizer Inc",
-      "bio": "",
+      "role": "腫瘤學研究與開發 / 輝瑞公司",
+      "bio": "Jack 是一位研發科學家，擁有 15 年以上的癌症研究和腫瘤藥物發現經驗。他目前是研究小組組長，指導博士和非博士科學家開發可能改變患者生活的突破性癌症免疫療法。在加入輝瑞之前，他在約翰霍普金斯大學獲得博士學位，並在禮來公司和 OncoMed 製藥公司工作。他的專業知識包括研發管線領導力、標靶和免疫療法發現以及針對患者量身訂做策略的精準醫療。",
       "image": "/images/mentors/JackChen.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/jack-sh-chen-5846511a/"
     },
     {
       "name": "Irene Yuan",
-      "role": "執行長 / RELinkage\n創辦人 / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
-      "bio": "Ms. Irene Yuan RELinkage 顧問公司執行長 ; 前 Voltraware IC設計公司創辨人, 佳必琦股份有限公司執行副總及董事，政治大學科技創新管理碩士，世新大學兼課講師， 近40 年資訊科技產業經營管理，業務開發，企業重整募資等經驗。",
+      "role": "RELinkage 執行長\nVoltraware 創辦人",
+      "bio": "Ms. Irene Yuan RELinkage 顧問公司執行長 ; 前 Voltraware IC設計公司創辨人, 佳必琦股份有限公司執行副總及董事，政治大學科技創新管理碩士，世新大學兼課講師，近40年資訊科技產業經營管理，業務開發，企業重整募資等經驗。",
       "image": "/images/mentors/IreneYuan.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/irene-yuan-1043323b/"
     },
     {
       "name": "Marcus White",
-      "role": "Design Strategist / Booz Allen Hamilton",
+      "role": "設計策略師 / Booz Allen Hamilton",
       "bio": "",
       "image": "/images/mentors/MarcusWhite.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/marcuswhite7802/"
     },
     {
       "name": "Weixu Meng",
-      "role": "資深主任科學家 / 輝瑞",
-      "bio": "",
+      "role": "副研究院士（科研總監）",
+      "bio": "Weixu 在中國獲得醫學博士和博士學位。她是一位敬業的科學家，對上帝懷有深深的信仰，對科學和人類充滿熱情。她致力於不斷成長，在她所扮演的所有角色中擁抱終身學習——作為上帝的孩子、母親、妻子、朋友、員工等。",
       "image": "/images/mentors/WeixuMeng.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/weixu-meng-55960213/"
     },
     {
       "name": "Rong Yue",
       "role": "研發主任工程師 / 西門子",
       "bio": "Mr. Rong Yue, 西门子研发主任工程师, 普度大学(Purdue)数学博士+計算机碩士, 有近三十年信息产业多种領域的软件研发经历。",
       "image": "/images/mentors/RongYue.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/rong-yue-515b6523/"
     },
     {
       "name": "Sheana Chen",
-      "role": "General Counsel & Vice President / Diodes Inc",
-      "bio": "",
+      "role": "總法律顧問兼副總裁 / Diodes Inc",
+      "bio": "Sheana Chen是一位資深法律主管，在國際商業交易與供應鏈、併購、智慧財產權策略、跨國爭議解決、道德與合規、企業風險管理以及ESG（環境、社會與治理）領域擁有20多年的經驗。\n作為一名具有前瞻性思維的國際律師，Sheana 對法律與科技的交叉充滿熱情。她帶來創新的解決方案，幫助公司解決複雜的法律和商業挑戰。 Sheana 在半導體產業擁有豐富的經驗。她領導一個全球法律團隊，為業務部門、研發、銷售、製造和支援實體提供諮詢，同時管理道德和合規性。 Sheana 目前擔任 Diodes 公司的總法律顧問、副總裁。在加入 Diodes 公司之前，Sheana 曾擔任德州儀器 (TI) 副總裁兼助理總法律顧問。\nSheana 也擔任政策顧問、監督委員會主席以及中國工程師學會/美國 DFW 分會 (CIE) 的董事會成員。她領導著一個 CIE 指導小組，也是 Te Ohaka（成長與創新中心）（新創企業孵化器）的導師。 Sheana 是一位具有雙重資格的英國事務律師和大律師以及合格的紐約州檢察官。 Sheana 是 Baker & McKenzie 的合夥人，曾在達拉斯、台北、上海、新加坡和倫敦工作。 Sheana 擁有倫敦大學國際商法碩士學位和法學碩士學位。曼徹斯特大學榮譽學士學位。她還擁有英國法院法學院的專業法律技能研究生學位。",
       "image": "/images/mentors/SheanaChen.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/sheanachen/"
     },
     {
       "name": "Dr. Star Gao",
       "role": "农业国际组织管理咨询顾问/生物信息遗传育种专家",
       "bio": "概览: 信主21年,结婚20年,2女1子,工作19年。职场：农业国际组织管理咨询顾问\\生物信息遗传育种专家。教育：农业博士('04), 工商管理硕士('22), XCC认证教练('22)。教会：带领查经，组织大型庆祝活动。爱好：烹饪，美食，交友待客，跳舞，旅行。 福地：职青家庭团契，青少年及父母。双职事奉：CalledToWork 导师，使徒领导力组长。",
       "image": "/images/mentors/StarGao.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/star-yanxin-gao-a72ba03b/"
     },
     {
       "name": "Ta-Chang Fu",
       "role": "數據中心專用硬碟機研發部技術主管 / Western Digital",
       "bio": "Dr. Ta-Chang Fu (傅大章)，現任 Western Digital 數據中心專用硬碟機研發部技術主管， 柏克萊加州大學機械工程博士,從事硬碟機研發27年經驗。",
       "image": "/images/mentors/TaChangFu.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/ta-chang-fu-635b75182/"
     },
     {
       "name": "Gloria Li",
       "role": "加州認證執照婚姻家庭諮商師",
       "bio": "從事精神健康與全人康復領域工作二十多年，現就任政府部門，公家機關的工作經歷也有十多年餘。",
-      "image": "/images/mentors/GloriaLi.png",
-      "linkedIn": ""
+      "image": "/images/mentors/GloriaLi.png"
     },
     {
       "name": "Brian Lee",
-      "role": "Research Scientist / Gilead Sciences",
-      "bio": "",
+      "role": "研究科學家 / 吉利德科學",
+      "bio": "Brian 在生物製藥產業的上游生物加工和製程開發方面擁有 15 年以上的經驗。他熱衷於科學與技術，並透過夏令營向幼兒引入STEM教育，以激發好奇心並促進驚奇感。",
       "image": "/images/mentors/BrianLee.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/brian-lee-a02a0a104/"
     },
     {
       "name": "George Shan",
-      "role": "Seasoned HR professional",
-      "bio": "",
+      "role": "資深人力資源專家",
+      "bio": "George 獲得了中國武漢大學和復旦大學的工商管理學位和 MBA 學位。在過去的 2 多年裡，George 在各行業的人力資源領域工作過，包括消費性電子、軟體開發、電信和再生能源。喬治精通人力資源策略、營運和流程的各個方面。",
       "image": "/images/mentors/GeorgeShan.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/george-c-shan-85a1b620/"
     },
     {
       "name": "Tevin Tseng",
-      "role": "Senior Director of Technology Development / Sandisk Technology",
-      "bio": "",
+      "role": "資深技術開發總監 / Sandisk Technology",
+      "bio": "Tevin Tseng 20 多年來一直致力於推進 NAND 快閃記憶體技術。作為全球設計團隊的領導者，他推動尖端記憶體解決方案的開發和生產，為公司的收入成長做出了重大貢獻。",
       "image": "/images/mentors/TevinTseng.png",
-      "linkedIn": ""
+      "linkedIn": "https://www.linkedin.com/in/tai-yuan-tseng-96a607a9/"
     }
   ]
 }
