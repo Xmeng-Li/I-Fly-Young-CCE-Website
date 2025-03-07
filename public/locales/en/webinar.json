@@ -35,6 +35,15 @@
   ],
 
   "pastWebinar": "Past Webinars",
+  "sort": "Sort",
+  "timeSort" : {
+    "recent" : "Most Recent",
+    "oldest" : "Oldest"
+  },
+  "year": "Year",
+  "years": "All Year",
+  
+  "viewMore": "View More",
   "watchNow": "Watch Now",
   "webinar": [
     {
@@ -59,6 +68,72 @@
       "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
     },
     {
+      "image": "/images/webinars/06052021.png",
+      "title": "Good Skills to Succession",
+      "date": "06/05/2021",
+      "description": "Panelists from IFY CCE Prime talk about skills that lead to success."
+    },
+    {
+      "image": "/images/webinars/02202021.png",
+      "title": "Walk with Others",
+      "date": "02/20/2021",
+      "description": "Dr. Paul Petrus talks about the transition from college to professional life."
+    },
+    {
+      "image": "/images/webinars/01302021.png",
+      "title": "Your Career and You",
+      "date": "01/30/2021",
+      "description": "David Su talks about his experience in the wireless semiconductor industry."
+    },
+    {
+      "image": "/images/webinars/01162021.png",
+      "title": "Journey Through Tech",
+      "date": "01/16/2021",
+      "description": "Bindu Therthala talks about her journey through tech startups.",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVSUOm1kdCsqAVCbgC61i82S"
+    },
+    {
+      "image": "/images/webinars/12192020.jpg",
+      "title": "Soaring Eagle Internship",
+      "date": "12/19/2020",
+      "description": "Panelist of mentors @ CCE talk about internship opportunities.",
+      "videoLink" : "https://www.youtube.com/watch?v=9cRmugn6KzI&list=PLQTND4OzgUVTstlw8R1CpBm8TRT63Qnh5"
+    },
+    {
+      "image": "/images/webinars/12052020.jpg",
+      "title": "Trading Industry as SWE",
+      "date": "12/05/2020",
+      "description": "Howard Shan shares his experiences and journey into the trading industry.",
+      "videoLink" : "https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD"
+    },
+    {
+      "image": "/images/webinars/11212020.jpg",
+      "title": "Successful Interview & Onboarding",
+      "date": "11/21/2020",
+      "description": "Dr. Chen Chen talks about how to be successful in interviews and onboarding process.",
+      "videoLink" : "https://www.youtube.com/watch?v=y5lN9vMWwRs&list=PLQTND4OzgUVQc9yZ1vwJXdRK3VManDkOa"
+    },
+    {
+      "image": "/images/webinars/10312020.jpg",
+      "title": "Passion in High School",
+      "date": "10/31/2020",
+      "description": "Rachel Chen shares how she found her passion in high school.",
+      "videoLink" : "https://www.youtube.com/watch?v=s9eTus06NDY&list=PLQTND4OzgUVTcv10Rc9SZtBhB-iaJeU8n"
+    },
+    {
+      "image": "/images/webinars/10172020.jpg",
+      "title": "Preparing for Your Future",
+      "date": "10/17/2020",
+      "description": "Daniel Chen talks about how he prepared for his future and how you can too.",
+      "videoLink" : "https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ"
+    },
+    {
+      "image": "/images/webinars/09272020.jpg",
+      "title": "Guide for Life",
+      "date": "09/27/2020",
+      "description": "Panel of CCE students talk about the 12 life-changing capabilities."
+    },
+    {
       "image": "/images/webinars/09192020.png",
       "title": "Venture Capital Careers",
       "date": "09/19/2020",
@@ -73,12 +148,24 @@
       "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
     },
     {
+      "image": "/images/webinars/08222020.jpg",
+      "title": "Finance-Technology Career",
+      "date": "08/22/2020",
+      "description": "David Liu speaks about his life and having a finance-technology career."
+    },
+    {
       "image": "/images/webinars/08012020.jpg",
       "title": "Investment Banking Career",
       "date": "08/01/2020",
       "description": "Gloria Su talks about her path to becoming an investment banker.",
       "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
+    },
+    {
+      "image": "/images/webinars/07182020.jpg",
+      "title": "Medical Career",
+      "date": "07/18/2020",
+      "description": "Judy Shan talks about her life and path towards medical school.",
+      "videoLink" : "https://www.youtube.com/watch?v=uJDAUQW2EiY&list=PLQTND4OzgUVTZ3WaMNCu9ncUEuM4-TNVF"
     }
-    
   ]
 }

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import OfficeHours from "./components/officeHours/OfficeHours";  
 import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
-import Webinar from "./components/Webinar";
+import Webinar from "./components/webinar/Webinar";
 
 // import Footer from "./components/Footer";
 
@@ -23,8 +23,6 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
-
-    // <Footer />
   );
 }
 

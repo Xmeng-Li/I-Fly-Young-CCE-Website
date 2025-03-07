@@ -35,11 +35,20 @@
   ],
 
   "pastWebinar": "過去的研討會",
+  "sort": "排序",
+  "timeSort" : {
+    "recent" : "最近",
+    "oldest" : "最早"
+  },
+  "year": "年份",
+  "years": "所有年份",
+
+  "viewMore": "查看更多",
   "watchNow": "現在觀看",
   "webinar": [
     {
       "image": "/images/webinars/11202021.png",
-      "title": "2022 翱翔實習",
+      "title": "2022 翱翔的雄鷹實習",
       "date": "11/20/2021",
       "description": "CCE的導師談論實習和模擬面試機會。",
       "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq"
@@ -59,6 +68,72 @@
       "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
     },
     {
+      "image": "/images/webinars/06052021.png",
+      "title": "繼承良好的技能",
+      "date": "06/05/2021",
+      "description": "來自 IFY CCE Prime 的小組成員談論了通往成功的技能。"
+    },
+    {
+      "image": "/images/webinars/02202021.png",
+      "title": "與他人同行",
+      "date": "02/20/2021",
+      "description": "Dr. Paul Petrus 談論從大學生活到職業生活的轉變。"
+    },
+    {
+      "image": "/images/webinars/01302021.png",
+      "title": "你的事業和你",
+      "date": "01/30/2021",
+      "description": "David Su 講述了他在無線半導體行業的經歷。"
+    },
+    {
+      "image": "/images/webinars/01162021.png",
+      "title": "科技之旅",
+      "date": "01/16/2021",
+      "description": "Bindu Therthala 講述了她在科技新創公司的經歷。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVSUOm1kdCsqAVCbgC61i82S"
+    },
+    {
+      "image": "/images/webinars/12192020.jpg",
+      "title": "翱翔的雄鷹實習",
+      "date": "12/19/2020",
+      "description": "CCE導師小組成員談論實習機會",
+      "videoLink" : "https://www.youtube.com/watch?v=9cRmugn6KzI&list=PLQTND4OzgUVTstlw8R1CpBm8TRT63Qnh5"
+    },
+    {
+      "image": "/images/webinars/12052020.jpg",
+      "title": "作為貿易業的軟體工程師",
+      "date": "12/05/2020",
+      "description": "Howard Shan 分享了他進入交易行業的經歷和歷程。",
+      "videoLink" : "https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD"
+    },
+    {
+      "image": "/images/webinars/11212020.jpg",
+      "title": "成功面試和入職",
+      "date": "11/21/2020",
+      "description": "Dr. Chen Chen 講述如何在面試和入職過程中取得成功",
+      "videoLink" : "https://www.youtube.com/watch?v=y5lN9vMWwRs&list=PLQTND4OzgUVQc9yZ1vwJXdRK3VManDkOa"
+    },
+    {
+      "image": "/images/webinars/10312020.jpg",
+      "title": "高中時期的熱情",
+      "date": "10/31/2020",
+      "description": "Rachel Chen 分享她如何在高中找到自己的熱情。",
+      "videoLink" : "https://www.youtube.com/watch?v=s9eTus06NDY&list=PLQTND4OzgUVTcv10Rc9SZtBhB-iaJeU8n"
+    },
+    {
+      "image": "/images/webinars/10172020.jpg",
+      "title": "為你的未來做好準備",
+      "date": "10/17/2020",
+      "description": "Daniel Chen 談論他如何為自己的未來做準備，以及你也可以如何做。",
+      "videoLink" : "https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ"
+    },
+    {
+      "image": "/images/webinars/09272020.jpg",
+      "title": "生活指南",
+      "date": "09/27/2020",
+      "description": "CCE 學生小組談論 12 種改變生活的能力。"
+    },
+    {
       "image": "/images/webinars/09192020.png",
       "title": "創投職業",
       "date": "09/19/2020",
@@ -73,12 +148,24 @@
       "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
     },
     {
+      "image": "/images/webinars/08222020.jpg",
+      "title": "金融科技職業",
+      "date": "08/22/2020",
+      "description": "David Liu 談論他的生活和金融科技職業生涯。"
+    },
+    {
       "image": "/images/webinars/08012020.jpg",
       "title": "投資銀行職業",
       "date": "08/01/2020",
       "description": "Gloria Su 談論她成為投資銀行家的道路。",
       "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
+    },
+    {
+      "image": "/images/webinars/07182020.jpg",
+      "title": "醫療職業",
+      "date": "07/18/2020",
+      "description": "Judy Shan 講述了她的生活和進入醫學院的道路。",
+      "videoLink" : "https://www.youtube.com/watch?v=uJDAUQW2EiY&list=PLQTND4OzgUVTZ3WaMNCu9ncUEuM4-TNVF"
     }
-    
   ]
 }
