@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/webinar.css";
@@ -66,6 +66,8 @@ const Webinar = () => {
 
   const rightContent: Content[] = t("content", {ns: "webinar",returnObjects: true})
 
+  const mostRecent = webinars.slice(0, 6);
+
 
   return (
     <div>
@@ -117,9 +119,15 @@ const Webinar = () => {
 
         {/* Past Webinar */}
         <div className="past-webinar">
-          <label className="section-label">{t("pastWebinar")}</label>
+          <div className="past-webinar-title">
+            <label className="section-label">{t("pastWebinar")}</label>
+            <label className="web-view-more">
+              <Link to="/allVideo">{t("viewMore")}</Link>
+            </label>
+          </div>
+          
           <div className="webinar-container">
-            {webinars.map((webinar, index) => (
+            {mostRecent.map((webinar, index) => (
               <div key={index} className="webinar-card">
                 <img src={webinar.image} alt={webinar.title} className="webinar-image" />
                 <div className="webinar-info">

@@ -6,8 +6,7 @@ import OfficeHours from "./components/officeHours/OfficeHours";
 import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
 import Webinar from "./components/webinar/Webinar";
-
-// import Footer from "./components/Footer";
+import AllVideo from "./components/webinar/Video";
 
 
 function App() {
@@ -20,9 +19,11 @@ function App() {
           <Route path="/recording" element={<Recording />} />
           <Route path="/our-team" element={<OurTeam />} />
           <Route path="/webinar" element={<Webinar />} />
+          <Route path="/allVideo" element={<AllVideo />} />
         </Routes>
       </div>
     </BrowserRouter>
+
   );
 }
 
