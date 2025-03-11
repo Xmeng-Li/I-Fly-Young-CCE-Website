@@ -51,7 +51,7 @@ select {
   border: none;
   background: var(--bg-grey, #F0F0F0);
   cursor: pointer;
-  appearance: none;
+  /* appearance: none; */
 }
 select:focus {
   outline: 2px solid var(--stroke-orange, #FF9700);
@@ -97,10 +97,11 @@ select:focus {
 .recording-container {
   display: flex;
   flex-direction: column;
-  padding: 12px 20px 40px 20px;
+  padding: 12px 20px 30px 20px;
   border-radius: 8px;
   background: var(--Neutral-White, #FFF);
   width: 100%;
+  margin-bottom: 60px;
 }
 .each-recording {
   display: flex;
@@ -301,7 +302,7 @@ select:focus {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .page {
   color: var(--Text-primary, #333);

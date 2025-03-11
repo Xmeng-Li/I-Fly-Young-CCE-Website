@@ -225,7 +225,7 @@ class AllVideo extends Component<VideoProp, VideoState> {
         </div>
 
         {/* Filter Dropdown */}
-        <div className={`filter-container ${showFilterMenu ? "show" : ""}`}>
+        <div className={`web-filter-container ${showFilterMenu ? "show" : ""}`}>
           <div className="label-and-x">
             <div className="filter-label">{t("filter", { ns: "webinar" })}</div>
             <div className="close-filter-btn">
@@ -257,7 +257,7 @@ class AllVideo extends Component<VideoProp, VideoState> {
               }
               className="web-year-dropdown"
             >
-              <option value="all" className="filter-text">
+              <option value="all" className="web-filter-text">
                 {t("years", { ns: "webinar" })}
               </option>
               {this.getUniqueYears(webinars).map((year) => (
@@ -270,40 +270,40 @@ class AllVideo extends Component<VideoProp, VideoState> {
         </div>
 
         {/* Video List */}
-        <div className="video-container">
-          {paginatedVideo.map((webinar, index) => (
-            <div key={index} className="webinar-card">
-              <img src={webinar.image} alt={webinar.title} className="webinar-image" />
-              <div className="webinar-info">
-                <h4 className="webinar-title">{webinar.title}</h4>
-                <p className="webinar-date">{webinar.date}</p>
-                <p className="webinar-text">{webinar.description}</p>
-                <button className="watch-now-btn" 
-                  onClick={() => window.open(webinar.videoLink, "_blank")}>
-                  {t("watchNow", { ns: "webinar" })}<PlayIcon />
-                </button>
+        <div className="video-and-pagination">
+          <div className="video-container">
+            {paginatedVideo.map((webinar, index) => (
+              <div key={index} className="webinar-card">
+                <img src={webinar.image} alt={webinar.title} className="webinar-image" />
+                <div className="webinar-info">
+                  <h4 className="webinar-title">{webinar.title}</h4>
+                  <p className="webinar-date">{webinar.date}</p>
+                  <p className="webinar-text">{webinar.description}</p>
+                  <button className="watch-now-btn" 
+                    onClick={() => window.open(webinar.videoLink, "_blank")}>
+                    {t("watchNow", { ns: "webinar" })}<PlayIcon />
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
-          
-
-        {/* Pagination Component */}
-        <ReactPaginate
-          previousLabel={PreviousIcon}
-          nextLabel={NextIcon}
-          breakLabel={"..."}
-          pageCount={pageCnt}
-          marginPagesDisplayed={1}
-          pageRangeDisplayed={2}
-          onPageChange={this.pageChange}
-          containerClassName={"pagination"}
-          activeClassName={"page-active"}
-          pageClassName={"page"}
-          breakClassName={"break"}
-          previousClassName={"prev"}
-          nextClassName={"next"}
-          forcePage={this.state.currentPage}
-        />
+            ))}
+          </div> 
+          {/* Pagination Component */}
+          <ReactPaginate
+            previousLabel={PreviousIcon}
+            nextLabel={NextIcon}
+            breakLabel={"..."}
+            pageCount={pageCnt}
+            marginPagesDisplayed={1}
+            pageRangeDisplayed={2}
+            onPageChange={this.pageChange}
+            containerClassName={"pagination"}
+            activeClassName={"page-active"}
+            pageClassName={"page"}
+            breakClassName={"break"}
+            previousClassName={"prev"}
+            nextClassName={"next"}
+            forcePage={this.state.currentPage}
+          />
         </div>
         <Footer />
       </div>

@@ -103,6 +103,20 @@
   flex-direction: column;
   gap: 24px; 
 }
+.past-webinar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.web-view-more a{
+  color: var(--Text-Grey, #525252);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+}
 .webinar-container {
   display: grid;
   width: 1345px;
