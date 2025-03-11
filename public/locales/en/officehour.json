@@ -118,6 +118,62 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "115",
+      "date": "03/03/2025",
+      "title": "How to prepare for a job interview?",
+      "question": "Q1. What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2. What are the mistakes to avoid and tips to master during interviews?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250303_預備工作面試MP3.mp3"
+    },
+    {
+      "id" : "114",
+      "date": "02/24/2025",
+      "title": "What should I do about the struggles of career development, starting a family, and caring for my parents?",
+      "question": "My parents are now older and really want me to move back to my hometown. Firstly, to be closer to them and be able to take care of them (although they are currently healthy and can take care of themselves). Secondly, they still hope that I can get married (but this is not the life I want). ",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250224_職涯_家庭_照顧父母MP3.mp3"
+    },
+    {
+      "id" : "113",
+      "date": "02/17/2025",
+      "title": "What should I do if I see injustice at workplace?",
+      "question": "Q1. My boss has lowered my salary for a long time and I feel aggrieved. What should I do? Q2. I have seen and experienced political struggle and persecution from superiors, rank-and-file, and subordinates in the company. In addition to praying, should I face it directly, point it out, and persist? What should I do?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20250217_工作上的不公義.mp3"
+    },
+    {
+      "id" : "112",
+      "date": "02/10/2025",
+      "title": "Meeting patron(s) for your career",
+      "question": "Q1. Is there a so-called patron in the workplace? How do I tell if someone is helping me or taking advantage of me? Q2. Is it reasonable to sign a part-time contract for a part-time job recommended by a friend? Is this too much? ",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250210_遇見職場中的貴人.mp3"
+    },
+    {
+      "id" : "111",
+      "date": "02/03/2025",
+      "title": "Growing Your Network",
+      "question": "Q1. Do I need to expand my network? Why? How to do it? Q2. A lot of unknown people asked to connect with me on my LinkedIn, what should I do with them?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250203_人際網絡.mp3"
+    },
+    {
+      "id" : "110",
+      "date": "01/27/2025",
+      "title": "How do you know if you are on the right track?",
+      "question": "As you enter your sixth year of work, do you still feel like you are dependent on others? Example Q&A",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250127_是不是在對的跑道.mp3"
+    },
+    {
+      "id" : "109",
+      "date": "01/20/2025",
+      "title": "I haven't found a starting point that will allow me to move towards my ideal job. Should I give up?",
+      "question": "Q1. Shall I pursue a film or show director's job? Q2.  Does qualities of my coworker matter? Q3. Shall I keep looking for opportunities to pursue my dream job? Or shall I pick a job that covers my cost of living & paying off debt?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250120_向理想的工作邁進MP3.mp3"
+    },
+    {
       "id" : "108",
       "date": "01/13/2025",
       "title": "Two bosses have different opinions, what should I do?",
