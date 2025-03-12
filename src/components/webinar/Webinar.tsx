@@ -78,7 +78,7 @@ const Webinar = () => {
             <label className="team-title">{t("pageBanner")}</label>
             <div className="banner-text">{t("bannerText")}</div>
           </div>
-          <div className="right-text-container">
+          <div className="web-right-text-container">
             <div className="page-title">{t("pageTitle")}</div>
           </div>
         </div>

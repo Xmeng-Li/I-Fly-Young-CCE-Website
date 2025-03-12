@@ -65,7 +65,6 @@ const OurTeam = () => {
             <div key={index} 
             className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
               <img src={mentors.image} alt={mentors.name} className="mentor-image" />
-              
               <div className="mentors">
                 <h4 className="mentor-name">{mentors.name}</h4>
                 <p className="mentor-role">{mentors.role}</p>

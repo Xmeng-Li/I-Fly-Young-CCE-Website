@@ -1,3 +1,10 @@
+.web-right-text-container {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
 .webinar-series {
   display: flex;
   width: 100%;
