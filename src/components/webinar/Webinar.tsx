@@ -96,7 +96,12 @@ const Webinar = () => {
                 <div className="meeting-info" key={index}>
                   {meeting.date} {meeting.time} {meeting.region}
                 </div>
-              ))}
+                ))}
+                <button className="web-join-btn">
+                  <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
+                    {t("joinUs", { ns: "webinar" })}
+                  </Link>
+                </button>
               </div>
 
               {/* Right part */}

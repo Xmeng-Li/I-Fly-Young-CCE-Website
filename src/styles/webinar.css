@@ -58,6 +58,26 @@
   font-weight: 400;
   line-height: 28px; 
 }
+.web-join-btn {
+  display: flex;
+  padding: 16px 16px 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: var(--Orange-500, #FF9700);
+  border: none;
+  font-family: "Noto Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; 
+  margin-top: 18px;
+}
+.web-join-btn a {
+  color: var(--Text-white, #FFF);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* Right Part */
 .right-info {
