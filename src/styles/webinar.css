@@ -47,6 +47,12 @@
   justify-content: space-between;
   gap: 32px;
 }
+.icon-and-title {
+  display: flex;
+}
+.title-icons {
+  margin-right: 8px;
+}
 .webinar-title {
   color: var(--Text-primary, #333);
   font-size: 20px;
