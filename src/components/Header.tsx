@@ -42,10 +42,12 @@ const Header = () => {
             </NavLink>
 
           
-
             <span>{t("chronicles")}</span>
-            <span>{t("programs")}</span>
+
             
+            <NavLink to="/programs" onClick={() => setMenuOpen(false)}>
+              {t("programs")}
+            </NavLink>
             <NavLink to="/webinar" onClick={() => setMenuOpen(false)}>
               {t("webinar")}
             </NavLink>

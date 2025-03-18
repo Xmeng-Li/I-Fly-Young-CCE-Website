@@ -7,6 +7,7 @@ import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
 import Webinar from "./components/webinar/Webinar";
 import AllVideo from "./components/webinar/Video";
+import Programs from "./components/programs/LandingPage";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/our-team" element={<OurTeam />} />
           <Route path="/webinar" element={<Webinar />} />
           <Route path="/allVideo" element={<AllVideo />} />
+          <Route path="/programs" element={<Programs />} />
         </Routes>
       </div>
     </BrowserRouter>

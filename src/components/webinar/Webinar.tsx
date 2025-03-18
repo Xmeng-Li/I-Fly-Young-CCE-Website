@@ -95,10 +95,10 @@ const Webinar = () => {
     <div>
       <Header />
         <div className="top-part">
-          <div className="team-banner">
-            <img className="team-cloud" src={cloud} alt="cloud" />
-            <label className="team-title">{t("pageBanner")}</label>
-            <div className="banner-text">{t("bannerText")}</div>
+          <div className="web-banner">
+            <img className="web-cloud" src={cloud} alt="cloud" />
+            <label className="web-title">{t("pageBanner")}</label>
+            <div className="web-text">{t("bannerText")}</div>
           </div>
           <div className="web-right-text-container">
             <div className="page-title">{t("pageTitle")}</div>
