@@ -37,10 +37,24 @@ const Programs = () => {
           <div className="en-section">
             <div className="top-left">
               <img className="table" src={table} alt="table" />
+              <div className="program-title">{t("Interview")}</div>
+              <div className="program-text">{t("InterviewText")}</div>
+              <button className="learn-more-btn">
+                {/* <Link> */}
+                  {t("LearnMore")}
+                {/* </Link> */}
+              </button>
             </div>
 
             <div className="top-right">
               <img className="pc" src={pcImg} alt="pc" />
+              <div className="program-title">{t("Internship")}</div>
+              <div className="program-text">{t("InternshipText")}</div>
+              <button className="learn-more-btn">
+                {/* <Link> */}
+                  {t("LearnMore")}
+                {/* </Link> */}
+              </button>
             </div>
           </div>
 
@@ -49,10 +63,24 @@ const Programs = () => {
           <div className="zh-section">
             <div className="bottom-left">
               <img className="meeting" src={meetingImg} alt="meeting" />
+              <div className="program-title">{t("FocusGroup")}</div>
+              <div className="program-text">{t("FocusGroupText")}</div>
+              <button className="learn-more-btn">
+                {/* <Link> */}
+                  {t("LearnMore")}
+                {/* </Link> */}
+              </button>
             </div>
 
             <div className="bottom-right">
               <img className="hands" src={handsImg} alt="hands" />
+              <div className="program-title">{t("Project")}</div>
+              <div className="program-text">{t("ProjectText")}</div>
+              <button className="learn-more-btn">
+                {/* <Link> */}
+                  {t("LearnMore")}
+                {/* </Link> */}
+              </button>
             </div>
           </div>  
         </div>
