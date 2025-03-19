@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/landing.css";
@@ -40,9 +40,7 @@ const Programs = () => {
               <div className="program-title">{t("Interview")}</div>
               <div className="program-text">{t("InterviewText")}</div>
               <button className="learn-more-btn">
-                {/* <Link> */}
-                  {t("LearnMore")}
-                {/* </Link> */}
+                <Link to = "/interview">{t("LearnMore")}</Link>
               </button>
             </div>
 

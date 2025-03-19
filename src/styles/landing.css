@@ -131,9 +131,12 @@
   border-radius: 40px;
   border: 2px solid var(--Blue-600, #065D9E);
   background: var(--Neutral-White, #FFF);
+}
+.learn-more-btn a {
   color: var(--Blue-600, #065D9E);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
+  text-decoration: none;
 }
