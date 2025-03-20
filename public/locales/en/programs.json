@@ -42,7 +42,7 @@
       "whoText":"I FLY YOUNG CCE is a nonprofit organization that provides opportunities for students and young professions to develop skills and experience needed to successfully enter the workforce. We are committed to providing access to careers that will empower them with the skills necessary for success in today's world. ",
       "problem":"The Problem",
       "proSubTitle":"People are afraid of job interviews",
-      "problemText":"The fear of the unknown is what makes us feel like we're walking on eggshells. We don't know what to expect, which can make it hard to prepare fro them in advance. And that means you could easily end up stumbling over your words and looking unprepared when you finally do get called into an interview room. ",
+      "problemText":"The fear of the unknown is what makes us feel like we're walking on eggshells. We don't know what to expect, which can make it hard to prepare for them in advance. And that means you could easily end up stumbling over your words and looking unprepared when you finally do get called into an interview room. ",
       "solution":"The Solution",
       "solSubTitle":"Practice makes perfect",
       "solutionText":"CCE will help you gain confidence by practicing with experienced professionals who have been through countless job interviews already and can teach you how to deal with any situation that comes your way during a typical interview process. "
@@ -58,5 +58,6 @@
       "rt": "Join the CCE community",
       "rtText": "We believe in an ecosystem of giving and receiving, we want you to be a part of our community where your gifts can bless many and you can also be greatly blessed."
     }
-  ]
+  ],
+  "btmText": "Join CCE for job interview practice group sessions and 1:1 sessions"
 }
