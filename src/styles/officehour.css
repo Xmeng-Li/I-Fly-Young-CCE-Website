@@ -992,9 +992,10 @@
   .cloud-title {
     top: 60%;
     left: 50%;
-    width: 200px; 
-    font-size: 18px;
+    width: 270px; 
+    font-size: 24px;
     font-weight: 700;
+    line-height: 36px;
   }
   .new-recording {
     align-items: center;
@@ -1002,9 +1003,9 @@
   .new-audio-title{
     width: 100%;
     align-self: stretch;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
-    line-height: 22px;
+    line-height: 32px;
   }
   .new-audio-date {
     font-size: 12px;
@@ -1265,9 +1266,10 @@
   .cloud-title {
     top: 60%;
     left: 50%;
-    width: 200px; 
-    font-size: 18px;
+    width: 270px; 
+    font-size: 24px;
     font-weight: 700;
+    line-height: 36px;
   }
   .new-recording {
     align-items: center;
@@ -1275,9 +1277,9 @@
   .new-audio-title{
     width: 100%;
     align-self: stretch;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
-    line-height: 22px;
+    line-height: 32px;
   }
   .new-audio-date {
     font-size: 12px;
@@ -1533,6 +1535,21 @@
   .top-container {
     width: 350px;
     margin-bottom: -20px;
+  }
+  .cloud-title {
+    top: 60%;
+    left: 50%;
+    width: 200px; 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .new-audio-title{
+    width: 100%;
+    align-self: stretch;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
   }
   .view-all a {
     font-size: 10px;

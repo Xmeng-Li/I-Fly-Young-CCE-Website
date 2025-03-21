@@ -48,15 +48,15 @@ const OurTeam = () => {
   return (
     <div>
       <Header />
-        <div className="top-part">
+        <div className="team-top-part">
           <div className="team-banner">
             <img className="team-cloud" src={cloud} alt="cloud" />
             <label className="team-title">{t("pageBanner")}</label>
             <div className="banner-text">{t("bannerText")}</div>
           </div>
           <div className="team-right-text-container">
-            <div className="page-title">{t("pageTitle")}</div>
-            <div className="page-text">{t("pageText")}</div>
+            <div className="team-page-title">{t("pageTitle")}</div>
+            <div className="team-page-text">{t("pageText")}</div>
           </div>
         </div>
 
@@ -94,9 +94,9 @@ const OurTeam = () => {
                   <CloseIcon />
                 </div>
               </div>
-              <p className="popup-bio" >{clickedMentor.bio}</p>
+              <div className="popup-bio" >{clickedMentor.bio}</div>
             </div>
-            </>
+          </>
         )}
       <Footer />
     </div>
