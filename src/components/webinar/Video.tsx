@@ -273,12 +273,12 @@ class AllVideo extends Component<VideoProp, VideoState> {
         <div className="video-and-pagination">
           <div className="video-container">
             {paginatedVideo.map((webinar, index) => (
-              <div key={index} className="webinar-card">
-                <img src={webinar.image} alt={webinar.title} className="webinar-image" />
-                <div className="webinar-info">
-                  <h4 className="webinar-title">{webinar.title}</h4>
-                  <p className="webinar-date">{webinar.date}</p>
-                  <p className="webinar-text">{webinar.description}</p>
+              <div key={index} className="video-card">
+                <img src={webinar.image} alt={webinar.title} className="video-image" />
+                <div className="video-info">
+                  <h4 className="video-title">{webinar.title}</h4>
+                  <p className="video-date">{webinar.date}</p>
+                  <p className="video-text">{webinar.description}</p>
                   <button className="watch-now-btn" 
                     onClick={() => window.open(webinar.videoLink, "_blank")}>
                     {t("watchNow", { ns: "webinar" })}<PlayIcon />

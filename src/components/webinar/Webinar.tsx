@@ -139,15 +139,19 @@ const Webinar = () => {
                     {t("rightTitle", { ns: "webinar" })}
                   </p>
                 </div>
-                <div className="content-container">
-                  {rightContent.map((section: Content, index: number) => (
-                  <div className="content-details" key={index}>
-                    <div className="cnt-title">{section.about || section.speakers}</div>
-                    <div className="item1">{section.one}</div>
-                    <div className="item2">{section.two}</div>
-                    <div className="item3">{section.three}</div>
+                <div className="content-row">
+                  <div className="content-details">
+                    <label className="cnt-title">{rightContent[0].about}</label>
+                    <div className="item1">{rightContent[0].one}</div>
+                    <div className="item2">{rightContent[0].two}</div>
+                    <div className="item3">{rightContent[0].three}</div>
                   </div>
-                  ))}
+                  <div className="content-details">
+                    <label className="cnt-title">{rightContent[1].speakers}</label>
+                    <div className="item1">{rightContent[1].one}</div>
+                    <div className="item2">{rightContent[1].two}</div>
+                    <div className="item3">{rightContent[1].three}</div>
+                  </div>
                 </div>
               </div>
             </div>
