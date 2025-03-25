@@ -1,11 +1,11 @@
-.top-part {
+.view-top-part {
   display: flex;
   padding: 60px 0px 30px 0px;
   justify-content: space-between;
   align-items: center;
   font-family: "Noto Sans";
 }
-.left-content {
+.view-left-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
   line-height: 28px; 
   margin-bottom: 12px;
 }
-.internTitle {
+.viewTitle {
   color: var(--Blue-700, #0E426C);
   text-align: center;
   font-size: 32px;
@@ -27,7 +27,7 @@
   line-height: 40px;
   margin-bottom: 12px;
 }
-.internDes {
+.viewDes {
   color: var(--Text-primary, #333);
   text-align: center;
   font-size: 18px;

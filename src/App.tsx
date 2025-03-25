@@ -22,7 +22,7 @@ function App() {
 
           <Route path="/our-team" element={<OurTeam />} />
           <Route path="/webinar" element={<Webinar />} />
-          <Route path="/allVideo" element={<AllVideo />} />
+          <Route path="/allVideo" element={<AllVideo />} /> 
 
           <Route path="/programs" element={<Programs />} />
           <Route path="/interview" element={<Interview />} />

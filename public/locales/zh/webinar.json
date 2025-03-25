@@ -38,6 +38,8 @@
 
   "backToWebinar" : "研討會",
   "pastWebinar": "過去的研討會",
+  "filter": "過濾器",
+  
   "sort": "排序",
   "timeSort" : {
     "recent" : "最近",

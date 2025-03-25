@@ -38,6 +38,8 @@
 
   "backToWebinar" : "Webinar",
   "pastWebinar": "Past Webinars",
+  "filter": "Filter",
+  
   "sort": "Sort",
   "timeSort" : {
     "recent" : "Most Recent",

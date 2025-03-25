@@ -102,11 +102,11 @@ const Interview = () => {
   return (
     <div>
       <Header />
-      <div className="top-part">
-        <div className="left-content">
+      <div className="view-top-part">
+        <div className="view-left-content">
           <span className="icon-blue-title"><WingIcon />{t("blueTitle")}</span>
-          <span className="internTitle">{t("title")}</span>
-          <span className="internDes">{t("des")}</span>
+          <span className="viewTitle">{t("title")}</span>
+          <span className="viewDes">{t("des")}</span>
           <button className="apply-btn">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
