@@ -21,12 +21,12 @@ type VideoState = {
   sortOrder: string;
   selectedYear: string;
   showFilterMenu: boolean;
+  isMobile: boolean;
 };
 
 
 class AllVideo extends Component<VideoProp, VideoState> {
   selectRef = React.createRef<HTMLSelectElement>();
-
 
   getFilteredVideos = (): WebinarType[] => {
     const {selectedYear, sortOrder } = this.state;
@@ -60,15 +60,35 @@ class AllVideo extends Component<VideoProp, VideoState> {
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize);
+  }
+  
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize);
+  }
+  
+  handleResize = () => {
+    const isMobile = window.innerWidth <= 768;
+    this.setState({
+      isMobile,
+      itemsPerPage: isMobile ? 6 : 9,
+      currentPage: 0 
+    });
+  }
+
   constructor(props: VideoProp) {
     super(props);
+    const isMobile = typeof window != 'undefined' && window.innerWidth <= 768;
 
     this.state = {
       currentPage: 0,
-      itemsPerPage: 9,
+      itemsPerPage: isMobile ? 6 : 9,
       sortOrder: "recent",
       selectedYear: "all",
       showFilterMenu: false, 
+      isMobile
     };
     this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
   }

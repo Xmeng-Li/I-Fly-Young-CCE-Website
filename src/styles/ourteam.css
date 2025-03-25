@@ -21,7 +21,7 @@
 }
 .team-title {
   position: absolute;
-  top: 48%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 370px;
@@ -35,7 +35,7 @@
 }
 .banner-text {
   position: absolute;
-  top: 58%;
+  top: 57%;
   left: 18%;
   width: 100%;
   max-width: 373px;

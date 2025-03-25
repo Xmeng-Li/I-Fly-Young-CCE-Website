@@ -127,16 +127,15 @@
 }
 @media (max-width: 768px) {
   .footer {
-    width: 93%;
-    padding: 80px 100px 100px 100px;
-    margin-left: 25px;
+    width: 100%;
+    padding: 60px 80px 80px 80px;
   }
   .texts-and-links {
     display: flex;
     flex-direction: column;
   }
   .footer-texts {
-    width: 450px;
+    width: 550px;
     margin-bottom: 40px;
   }
 }

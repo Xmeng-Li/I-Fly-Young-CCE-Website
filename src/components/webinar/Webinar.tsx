@@ -94,7 +94,7 @@ const Webinar = () => {
   return (
     <div>
       <Header />
-        <div className="top-part">
+        <div className="web-top-part">
           <div className="web-banner">
             <img className="web-cloud" src={cloud} alt="cloud" />
             <label className="web-title">{t("pageBanner")}</label>
