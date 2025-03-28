@@ -101,7 +101,7 @@ const Webinar = () => {
             <div className="web-text">{t("bannerText")}</div>
           </div>
           <div className="web-right-text-container">
-            <div className="page-title">{t("pageTitle")}</div>
+            <div className="web-page-title">{t("pageTitle")}</div>
           </div>
         </div>
 

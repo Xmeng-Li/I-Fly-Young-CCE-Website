@@ -14,6 +14,7 @@
   align-items: center;
 }
 .web-cloud {
+  width: 100%; 
   max-width: 563px;
   height: auto; 
 }
@@ -51,7 +52,7 @@
   align-items: flex-start;
   gap: 12px;
 }
-.page-title {
+.web-page-title {
   color: var(--Blue-700, #0E426C);
   font-size: 32px;
   font-style: normal;
@@ -390,70 +391,95 @@
 }
 
 /* For Mobile L */
-@media (max-width: 425px) {
-  .team-top-part {
+@media (min-width: 320px) and (max-width: 425px) {
+  .web-top-part {
     width: 400px;
     padding: 15px 0px;
     align-items: center;
     justify-content: center;
-    margin-left: -10px;
+    margin-left: -30px;
+    margin-bottom: -30px;
   }
-  .team-title {
+  .web-cloud {
+    max-width: 360px;
+    height: auto; 
+  }
+  .web-title {
+    top: 44%;
+    left: 50%;
     font-size: 24px;
   }
-  .banner-text {
+  .web-text {
     position: absolute;
-    top: 55%;
-    left: 13%;
+    top: 53%;
+    left: 10%;
     width: 100%;
     max-width: 300px;
     text-align: center;
     font-size: 18px;
   }
-  .team-right-text-container {
-    display: flex;
-    padding: 0px;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    margin-right: 10px;
-    margin-top: -40px;
-  }
-  .team-page-title {
-    font-size: 24px; 
-    line-height: 30px;
-  }
-  .team-page-text {
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-
-/* For Mobile M */
-@media (max-width: 375px) {
-  .team-top-part {
-    width: 350px;
-  }
-  .team-title {
-    top: 45%;
-    left: 50%;
-    font-size: 20px;
-  }
-  .banner-text {
-    position: absolute;
-    top: 53%;
-    left: 13%;
-    width: 100%;
-    max-width: 250px;
-    text-align: center;
-    font-size: 16px;
-  }
-  .team-page-title {
+  .web-page-title {
     font-size: 20px; 
     line-height: 24px;
   }
-  .team-page-text {
+  
+  .series-container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .content-row {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  .webinar-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .meeting-info {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 28px; 
+  }
+  .web-join-btn {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 12px;
+  }
+  .cnt-title {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .item1, 
+  .item2, 
+  .item3 {
+    font-size: 16px;
+  }
+
+
+  .webinar-series {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .webinar-container {
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));  
+    justify-content: center;
+  }
+  .web-view-more a{
+    font-size: 14px;
+    margin-right: 90px;
+  }
+  .webinar-card {
+    display: flex;
+    max-width: 80%;
+    max-height: 70%;
+    margin-bottom: 30px;
+    gap: 5px;
   }
 }

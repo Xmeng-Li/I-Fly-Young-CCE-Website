@@ -143,9 +143,8 @@
 /* Mobile L */
 @media (max-width: 425px) {
   .footer {
-    width: 87%;
+    width: 100%;
     padding: 60px 30px 80px 30px;
-    margin-left: 20px;
   }
   .footer-logo {
     width: 58px;
@@ -158,7 +157,7 @@
     font-size: 14px;
   }
   .footer-texts {
-    width: 290px;
+    width: 350px;
     margin-bottom: 40px;
   }
   .link-title {   
@@ -173,11 +172,11 @@
 /* Mobile M */
 @media (max-width: 375px) {
   .footer {
-    width: 84%;
-    padding: 40px 20px 40px 20px;
+    width: 100%;
+    padding: 40px 20px;
   }
   .footer-texts {
-    width: 240px;
+    width: 310px;
     margin-bottom: 40px;
   }
   .link-title {   
@@ -190,6 +189,10 @@
 @media (max-width: 320px) {
   .footer {
     width: 100%;
+  }
+  .footer-texts {
+    width: 250px;
+    margin-bottom: 40px;
   }
 }
 

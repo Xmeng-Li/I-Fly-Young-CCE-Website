@@ -21,7 +21,6 @@ type VideoState = {
   sortOrder: string;
   selectedYear: string;
   showFilterMenu: boolean;
-  isMobile: boolean;
 };
 
 
@@ -60,38 +59,36 @@ class AllVideo extends Component<VideoProp, VideoState> {
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
-  componentDidMount() {
-    this.handleResize();
-    window.addEventListener('resize', this.handleResize);
-  }
-  
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.handleResize);
-  }
-  
-  handleResize = () => {
-    const isMobile = window.innerWidth <= 768;
-    this.setState({
-      isMobile,
-      itemsPerPage: isMobile ? 6 : 9,
-      currentPage: 0 
-    });
-  }
-
   constructor(props: VideoProp) {
     super(props);
-    const isMobile = typeof window != 'undefined' && window.innerWidth <= 768;
-
     this.state = {
       currentPage: 0,
-      itemsPerPage: isMobile ? 6 : 9,
+      // itemsPerPage: 9,
+      itemsPerPage: this.getItemsPerPage(),
       sortOrder: "recent",
       selectedYear: "all",
       showFilterMenu: false, 
-      isMobile
     };
     this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
   }
+
+  getItemsPerPage = (): number => {
+    return window.innerWidth <= 768 ? 6 : 9;
+  };
+
+  // Update videos per page on small window size
+  updateVideoNum = () => {
+    this.setState({ itemsPerPage: this.getItemsPerPage(), currentPage: 0 });
+  };
+
+  componentDidMount() {
+    window.addEventListener("resize", this.updateVideoNum);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateVideoNum);
+  }
+
 
   
   // Handle page change
@@ -226,29 +223,29 @@ class AllVideo extends Component<VideoProp, VideoState> {
     return (
       <div className="video-page">
         <Header />
-        <div className="page-title-and-icon">
+        <div className="video-page-title-and-icon">
           <div className="web-backTo">
             <Link to="/webinar">
               <div className="left-arrow">
                 <LeftArrow />
               </div>
             </Link>
-            <label className="backTo-text">{t("backToWebinar", { ns: "webinar" })}
+            <label className="video-backTo-text">{t("backToWebinar", { ns: "webinar" })}
             </label>
           </div>
           <div className="web-pageTitle">{t("pastWebinar", { ns: "webinar" })}</div>
 
           {/* Filter Icon for Mobile */}
-          <div className="filter-icon" onClick={this.toggleFilterMenu}>
+          <div className="video-filter-icon" onClick={this.toggleFilterMenu}>
             <FilterIcon />
           </div>
         </div>
 
         {/* Filter Dropdown */}
         <div className={`web-filter-container ${showFilterMenu ? "show" : ""}`}>
-          <div className="label-and-x">
-            <div className="filter-label">{t("filter", { ns: "webinar" })}</div>
-            <div className="close-filter-btn">
+          <div className="video-label-and-x">
+            <div className="video-filter-label">{t("filter", { ns: "webinar" })}</div>
+            <div className="video-close-filter-btn">
               <CloseFilterIcon />
             </div>
           </div>
@@ -261,8 +258,8 @@ class AllVideo extends Component<VideoProp, VideoState> {
               onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
               } className="web-sort-dropdown"
             >
-              <option value="recent" className="filter-text">{t("timeSort.recent", { ns: "webinar" })}</option>
-              <option value="oldest" className="filter-text">{t("timeSort.oldest", { ns: "webinar" })}</option>
+              <option value="recent" className="video-filter-text">{t("timeSort.recent", { ns: "webinar" })}</option>
+              <option value="oldest" className="video-filter-text">{t("timeSort.oldest", { ns: "webinar" })}</option>
             </select>
           </div>
 
@@ -301,7 +298,7 @@ class AllVideo extends Component<VideoProp, VideoState> {
                   <p className="video-text">{webinar.description}</p>
                   <button className="watch-now-btn" 
                     onClick={() => window.open(webinar.videoLink, "_blank")}>
-                    {t("watchNow", { ns: "webinar" })}<PlayIcon />
+                    {this.props.t("watchNow", { ns: "webinar" })}<PlayIcon />
                   </button>
                 </div>
               </div>
