@@ -5,6 +5,7 @@
   margin-top: 24px;
   margin-bottom: 24px;
   cursor: pointer;
+  gap: 10px;
 }
 .web-pageTitle {
   align-self: stretch;

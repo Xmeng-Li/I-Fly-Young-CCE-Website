@@ -75,9 +75,7 @@ const Programs = () => {
               <div className="program-title">{t("Project")}</div>
               <div className="program-text">{t("ProjectText")}</div>
               <button className="learn-more-btn">
-                {/* <Link> */}
-                  {t("LearnMore")}
-                {/* </Link> */}
+                <Link to = "/project">{t("LearnMore")}</Link>
               </button>
             </div>
           </div>  

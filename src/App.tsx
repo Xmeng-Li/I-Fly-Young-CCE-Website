@@ -9,6 +9,7 @@ import Webinar from "./components/webinar/Webinar";
 import AllVideo from "./components/webinar/Video";
 import Programs from "./components/programs/LandingPage";
 import Interview from "./components/programs/Interview";
+import Project from "./components/programs/Project";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
 
           <Route path="/programs" element={<Programs />} />
           <Route path="/interview" element={<Interview />} />
+          <Route path="/project" element={<Project />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -19,7 +19,7 @@
 
   "LearnMore": "Learn More",
 
-
+  "backToText": "Programs",
   "blueTitle": "Eagle Wing Interview Training",
   "title": "Practice Job Interviews with Experienced Professionals",
   "des": "Gain the confidence you need to succeed in stressful job interviews",
@@ -59,5 +59,42 @@
       "rtText": "We believe in an ecosystem of giving and receiving, we want you to be a part of our community where your gifts can bless many and you can also be greatly blessed."
     }
   ],
-  "btmText": "Join CCE for job interview practice group sessions and 1:1 sessions"
+  "btmText": "Join CCE for job interview practice group sessions and 1:1 sessions",
+
+
+
+  "projTitle": "CCE Project Transformation",
+  "projSubTitle": "Are you ready to transform?",
+  "projContents": [
+    {
+      "overview": "Overview",
+      "projLeft": "Purpose",
+      "projLeftText": "Equip “Christians who have the burden to serve in the workplace” to transform your workplace into a beautiful place.",
+
+      "projMid": "Duration",
+      "projMidText": "September 2024 - June 2025",
+
+      "projRight": "Format",
+      "projRightText": "60 minute online meeting monthly + 8 hours / month operation"
+    },
+    {
+      "projMainTitle": "Expected Outcome",
+      "projMainTop": "Help you learn to use CCE's resources. Within one year, start a Project Transformation group among your colleagues/friends. Everyone submits at least one testimony about workplace ministry.",
+      "projMainMid": "By attending the Project Transformation training, you will learn how to use the CCE weekly office hour material to start a new series of recurring meeting with your friends/colleagues at/known through work.",
+      "projMainBtm": "The material provides practical and biblical guidance to help people address workplace challenges. Therefore, it is suitable for use in leading group discussion among Christians, as well as Seekers.",
+      "ohRecording": "CCE Office Hours Recording"
+    },
+    {
+      "projBtmTitle": "Does this training suit me?",
+      "projBtmSub": "If you can answer all of the following questions below, this training is meant for you:",
+      "projBtmLeftText": "Please describe the people with whom you have burden/would like to start a group meeting (age group, years of work experience, how do you know them...)",
+      "projBtmText": "Please browse through the CCE Office Hour recordings and identify at least 3 topics that you see suitable for your group meeting/discussion. (Please write down the recording dates and topics)",
+      "projBtmRightText": "Have you attended CCE focus groups before? It would be very helpful if you've attended CCE gocus group before. If not, please also sign up for 2024-2025 CCE Focus Group."
+    }
+  ],
+  "projBtmTitle": "Join CCE Project Transformation",
+  "projBtmText": "Contact us for more questions: cce.info@iflyyoung.com"
+
+
+
 }
