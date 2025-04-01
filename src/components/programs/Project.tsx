@@ -111,6 +111,19 @@ const Project = () => {
   </svg>
   );
 
+  const extractLink = (text: string) => {
+    const regex = /(2024-2025 CCE Focus Group|2024-2025 CCE 焦點小組)/g;
+    return text.split(regex).map((part, index) =>
+      regex.test(part) ? (
+        <Link key={index} to="/focus-group">
+          {part}
+        </Link>
+      ) : (
+        part
+      )
+    );
+  };
+
 
   return (
     <div>
@@ -204,7 +217,9 @@ const Project = () => {
             </div>
             <div className="overview-part">
               <span className="proj-btm-icons"><NumThreeIcon /></span>
-              <div className="proj-three-text">{mainContent[2].projBtmRightText}</div>
+              <div className="proj-three-text">
+                {extractLink(mainContent[2].projBtmRightText)}
+              </div>
             </div>
           </div>
         </div>
