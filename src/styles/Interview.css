@@ -22,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: "Noto Sans";
+  gap: 60px;
 }
 .view-left-content {
   display: flex;
@@ -114,8 +115,8 @@
 }
 .apply-part {
   display: flex;
-  width: 370px;
-  height: 330px;
+  width: 400px;
+  height: 340px;
   padding: 12px;
   flex-direction: column;
   gap: 12px;
