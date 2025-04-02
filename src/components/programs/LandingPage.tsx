@@ -49,9 +49,7 @@ const Programs = () => {
               <div className="program-title">{t("Internship")}</div>
               <div className="program-text">{t("InternshipText")}</div>
               <button className="learn-more-btn">
-                {/* <Link> */}
-                  {t("LearnMore")}
-                {/* </Link> */}
+                <Link to = "/intern">{t("LearnMore")}</Link>
               </button>
             </div>
           </div>
@@ -64,9 +62,7 @@ const Programs = () => {
               <div className="program-title">{t("FocusGroup")}</div>
               <div className="program-text">{t("FocusGroupText")}</div>
               <button className="learn-more-btn">
-                {/* <Link> */}
-                  {t("LearnMore")}
-                {/* </Link> */}
+                <Link to = "/focus-group">{t("LearnMore")}</Link>
               </button>
             </div>
 

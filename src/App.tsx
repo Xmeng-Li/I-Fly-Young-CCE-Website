@@ -9,7 +9,9 @@ import Webinar from "./components/webinar/Webinar";
 import AllVideo from "./components/webinar/Video";
 import Programs from "./components/programs/LandingPage";
 import Interview from "./components/programs/Interview";
+import Intern from "./components/programs/Intern";
 import Project from "./components/programs/Project";
+import FocusGroup from "./components/programs/FocusGroup";
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
 
           <Route path="/programs" element={<Programs />} />
           <Route path="/interview" element={<Interview />} />
+          <Route path="/intern" element={<Intern />} />
+          <Route path="/focus-group" element={<FocusGroup />} />
           <Route path="/project" element={<Project />} />
         </Routes>
       </div>

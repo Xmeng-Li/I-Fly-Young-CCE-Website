@@ -93,7 +93,46 @@
     }
   ],
   "projBtmTitle": "Join CCE Project Transformation",
-  "projBtmText": "Contact us for more questions: cce.info@iflyyoung.com"
+  "projBtmText": "Contact us for more questions: cce.info@iflyyoung.com",
+
+
+
+  "focusTitle": "Monthly Focus Group",
+  "focusSubTitle": "Don't miss out! Registration for Focus Group 2024-2025 season opens 08/17/2024 - 08/24/2024",
+  "focusContents": [
+    {
+      "focusOverview": "Overview",
+      "overviewDes": "What is your meaning of working? Is it just a financial obligation? Or is it a dream? Do you want to know how to live out your destiny at work, and create the legacy to pass down to the generations?",
+      "focusLeft": "Purpose",
+      "focusLeftText": "No matter what your current circumstances are at work and/or in life, we sincerely invite you to join our Monthly Focus Group to re-examine the value of work and to be happy with what you have while working at what you want",
+
+      "focusMid": "Duration",
+      "focusMidText": "Focus Group 2024-2025 Season: September 2024 - June 2025",
+
+      "focusRight": "Registration",
+      "focusRightText": "The meeting is sponsored by I FLY YOUNG CCE, so attendees can sign up free of charge."
+    },
+    {
+      "moreInfo":"More Information",
+      "topic":"Topics",
+      "topicDes":"The monthly meeting will cover the topics like: \"Ask the right questions\", \"Discover your talents\", \"Capability and Passion\", \"Changing career path\", \"Time/Money Management\", \"Workplace interpersonal relationships\" (setting boundaries, getting support from your boss, being a blessing to the company, boss, and colleagues)",
+      "testimonial":"Testimonials",
+      "testimonialsDes":"Testimonials from the 2024 Focus Group",
+      "leaders":"Focus Group Leaders",
+      "leaderDes":"Focus Group Leader Bios",
+      "timeline":"Focus Group Leaders",
+      "timelineDes": [
+        {
+          "appOpen": "Application open: 12/17/2022",
+          "period": "Selection Period: 01/08 - 01/14/2023",
+          "offer": "Offer Notification/ Doc Signing: 01/15 - 01/20/2023",
+          "projPeriod": "Project Execution (3-6 months): 01/28 - 07/08/2023"
+        }
+      ]
+    }
+  ],
+  "focusBtmTitle": "Join Monthly Focus Group",
+  "focusBtmText": "Contact us for more questions: cce.info@iflyyoung.com"
 
 
 
