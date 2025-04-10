@@ -71,7 +71,7 @@
       "projLeftText": "裝備“有負擔在職場上服事的基督徒”轉化你的職場成爲佳美之地。",
 
       "projMid": "期間",
-      "projMidText": "2024九月 - 2025六月",
+      "projMidText": "2024年九月 - 2025年六月",
 
       "projRight": "形式",
       "projRightText": "每月一次60分鐘線上會議\n+\n每月8小時以上的實際操作"
@@ -92,5 +92,38 @@
     }
   ],
   "projBtmTitle": "加入CCE佳美之地計劃",
-  "projBtmText": "有任何問題，請電郵: cce.info@iflyyoung.com"
+  "projBtmText": "有任何問題，請電郵: cce.info@iflyyoung.com",
+
+
+
+  "focusTitle": "每月焦點小組",
+  "focusSubTitle": "不要錯過！焦點小組2024-2025年度報名開放時間為 08/17/2024 - 08/24/2024",
+  "focusContents": [
+    {
+      "focusOverview": "概述",
+      "overviewDes": "你對工作的定義及態度是什麼？是義務？還是熱情？是懐才不遇？還是實現夢想？你想了解如何在工作中如何活出自己的命定，在家庭裏如何創造傳家的價值嗎？",
+      "focusLeft": "主旨",
+      "focusLeftText": "不論現在你工作及生活中的光景如何，我們誠摯地邀請你加入我們的每月焦點小組，在導師精心的帶領下，一起重新審視工作的價值，轉換我們的心態，快樂工作享受生活。",
+
+      "focusMid": "期間",
+      "focusMidText": "焦點小組2024-2025年度: 2024年九月 - 2025年六月",
+
+      "focusRight": "報名",
+      "focusRightText": "本聚會由愛飛揚溝通與職涯探索平臺 (I FLY YOUNG CCE)贊助，參加者無需繳費。"
+    },
+    {
+      "moreInfo":"更多資訊",
+      "topic":"主題",
+      "topicDes":"每月一次聚會主題包含: 問對的問題，發現恩賜，能力與興趣，換跑道，時間/金錢管理，職場人際關係（設立界限, 得到老闆的支持, 成爲公司、老闆、同事的祝福）。",
+      "testimonial":"見證",
+      "testimonialsDes":"2024年焦點小組的見證",
+      "leaders":"焦點小組導師",
+      "leaderDes":"焦點小組導師介紹",
+      "group": "分組",
+      "newGuy": "第一年焦點小組: 第一次參加者",
+      "returnGuy": "第二年焦點小組: 已完成2023-2024年度的參加者"
+    }
+  ],
+  "focusBtmTitle": "加入每月焦點小組",
+  "focusBtmText": "有任何問題，請電郵: cce.info@iflyyoung.com"
 }

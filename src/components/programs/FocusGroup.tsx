@@ -1,44 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "../Header";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
-import "../../styles/intern.css";
+import "../../styles/focusGroup.css";
 
-import projTopImg from "./projTop.png";
-import projBtmImg from "./projBtm.png";
-import projTopBk from "./bg_top.png";
-// import projBtmBk from "./bg_bottom.png";
-// import projMain1 from "./projMain1.jpeg";
-// import projMain2 from "./projMain2.jpeg";
-// import projMain3 from "./projMain3.jpeg";
+import focusTopImg from "./focusTop.png";
+import focusBtmImg from "./focusBtm.png";
+import focusTopBk from "./bg_top.png";
+import focusBtmBk from "./bg_bottom.png";
+import focusMain from "./focusMain.jpeg";
+
 
 
 type FocusContents = {
-  overview: string;
-  projLeft: string;
-  projLeftText: string;
-  projMid: string;
-  projMidText: string;
-  projRight: string;
-  projRightText: string;
-  
-  projMainTitle: string;
-  projMainTop: string;
-  projMainMid: string;
-  projMainBtm: string;
-  ohRecording: string;
+  focusOverview: string;
+  overviewDes: string;
+  focusLeft: string;
+  focusLeftText: string;
+  focusMid: string;
+  focusMidText: string;
+  focusRight: string;
+  focusRightText: string;
 
-  projBtmTitle: string;
-  projBtmSub: string;
-  projBtmLeftText: string;
-  projBtmText: string;
-  projBtmRightText: string;
+  moreInfo: string;
+  topic: string;
+  topicDes: string;
+  testimonial: string;
+  testimonialsDes: string;
+  leaders: string;
+  leaderDes: string;
+  group: string;
+  newGuy: string;
+  returnGuy: string;
 }
 
 const FocusGroup = () => {
   const { t } = useTranslation("programs");
-  const mainContent: FocusContents[] = t("projContents", { ns: "programs", returnObjects: true });
+  const focusContent: FocusContents[] = t("focusContents", { ns: "programs", returnObjects: true });
 
   const LeftArrow = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -80,6 +79,33 @@ const FocusGroup = () => {
       </g>
     </svg>    
   );
+  const PlusIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <mask id="mask0_1245_3476" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+        <rect width="32" height="32" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_1245_3476)">
+        <path d="M17.3199 17.3199L17.3199 26.5595C17.3199 26.9052 17.1864 27.2116 16.9192 27.4787C16.6521 27.7458 16.3457 27.8794 16 27.8794C15.6543 27.8794 15.3479 27.7458 15.0808 27.4787C14.8136 27.2116 14.6801 26.9052 14.6801 26.5595L14.6801 17.3199L5.44053 17.3199C5.09483 17.3199 4.78842 17.1864 4.52129 16.9192C4.25416 16.6521 4.1206 16.3457 4.1206 16C4.1206 15.6543 4.25416 15.3479 4.52129 15.0808C4.78842 14.8136 5.09483 14.6801 5.44053 14.6801L14.6801 14.6801L14.6801 5.44054C14.6801 5.09484 14.8136 4.78843 15.0808 4.5213C15.3479 4.25417 15.6543 4.12061 16 4.12061C16.3457 4.12061 16.6521 4.25417 16.9192 4.5213C17.1864 4.78843 17.3199 5.09484 17.3199 5.44054L17.3199 14.6801L26.5595 14.6801C26.9051 14.6801 27.2116 14.8136 27.4787 15.0808C27.7458 15.3479 27.8794 15.6543 27.8794 16C27.8794 16.3457 27.7458 16.6521 27.4787 16.9192C27.2116 17.1864 26.9051 17.3199 26.5595 17.3199L17.3199 17.3199Z" fill="#333333"/>
+      </g>
+    </svg>
+  );
+  const XIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <mask id="mask0_1245_2157" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+        <rect width="32" height="32" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_1245_2157)">
+        <path d="M16.0001 17.8667L9.46673 24.4001C9.22229 24.6445 8.91118 24.7667 8.5334 24.7667C8.15562 24.7667 7.84451 24.6445 7.60007 24.4001C7.35562 24.1556 7.2334 23.8445 7.2334 23.4667C7.2334 23.089 7.35562 22.7778 7.60007 22.5334L14.1334 16.0001L7.60007 9.46673C7.35562 9.22229 7.2334 8.91118 7.2334 8.5334C7.2334 8.15562 7.35562 7.84451 7.60007 7.60007C7.84451 7.35562 8.15562 7.2334 8.5334 7.2334C8.91118 7.2334 9.22229 7.35562 9.46673 7.60007L16.0001 14.1334L22.5334 7.60007C22.7778 7.35562 23.089 7.2334 23.4667 7.2334C23.8445 7.2334 24.1556 7.35562 24.4001 7.60007C24.6445 7.84451 24.7667 8.15562 24.7667 8.5334C24.7667 8.91118 24.6445 9.22229 24.4001 9.46673L17.8667 16.0001L24.4001 22.5334C24.6445 22.7778 24.7667 23.089 24.7667 23.4667C24.7667 23.8445 24.6445 24.1556 24.4001 24.4001C24.1556 24.6445 23.8445 24.7667 23.4667 24.7667C23.089 24.7667 22.7778 24.6445 22.5334 24.4001L16.0001 17.8667Z" fill="#0E426C"/>
+      </g>
+    </svg>
+  );
+
+  // Handle hidden description
+  const [showDes, setShowDes] = useState<string | null>(null);
+  const toggleSection = (key: string) => {
+    setShowDes(prev => (prev === key ? null : key));
+  };
+  
 
 
 
@@ -96,58 +122,165 @@ const FocusGroup = () => {
       </div>
       <div className="focus-top-part">
         <div className="focus-left-content">
-          <span className="focusTitle">{t("projTitle")}</span>
+          <span className="focusTitle">{t("focusTitle")}</span>
+          <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn"> {/* form need to be updated */}
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
         </div>
-        <img className="focus-top-img" src={projTopImg} alt="topImg" />
+        <img className="focus-top-img" src={focusTopImg} alt="topImg" />
       </div>
-
-
-
 
 
       {/* Main Part */}
       <div className="focus-content-container">
         {/* Overview */}
         <div className="focus-main-top">
-          <label className="focus-section-label">{mainContent[0].overview}</label>
-          <img className="focus-top-bk" src={projTopBk} alt="top background" />
+          <label className="focus-section-label">{focusContent[0].focusOverview}</label>
+          <div className="overview-des">{focusContent[0].overviewDes}</div>
+          <img className="focus-top-bk" src={focusTopBk} alt="top background" />
           <div className="focus-top-three">
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><StarIcon /></span>
-              <div className="focus-three-titles">{mainContent[0].projLeft}</div>
-              <div className="focus-three-text">{mainContent[0].projLeftText}</div>
+              <div className="focus-three-titles">{focusContent[0].focusLeft}</div>
+              <div className="focus-three-text">{focusContent[0].focusLeftText}</div>
 
             </div>
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><PencilIcon /></span>
-              <div className="focus-three-titles">{mainContent[0].projLeft}</div>
-              <div className="focus-three-text">{mainContent[0].projLeftText}</div>
+              <div className="focus-three-titles">{focusContent[0].focusMid}</div>
+              <div className="focus-three-text">{focusContent[0].focusMidText}</div>
             </div>
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><PcIcon /></span>
-              <div className="focus-three-titles">{mainContent[0].projLeft}</div>
-              <div className="focus-three-text">{mainContent[0].projLeftText}</div>
+              <div className="focus-three-titles">{focusContent[0].focusRight}</div>
+              <div className="focus-three-text">{focusContent[0].focusRightText}</div>
             </div>
           </div>
         </div>
 
         {/* Main */}
         <div className="focus-main">
-          <label className="focus-section-label">{mainContent[1].projMainTitle}</label>
+          <label className="focus-section-label">{focusContent[1].moreInfo}</label>
+          <img className="focus-btm-bk" src={focusBtmBk} alt="btm background" />
           
+          <div className="focus-mid-main">
+            <img className="focus-main-img" src={focusMain} alt="mainImg" />
+            {/* Four Items */}
+            <div className="focus-main-texts">
+              <div className="item-detal-row">
+                {showDes === "topic" ? (
+                  <div className="section-des">
+                    <div className="focus-main-title" onClick={() => toggleSection("topic")}>
+                      <span className="main-text-left">{focusContent[1].topic}</span>
+                      <span className="main-icon-right">
+                        <XIcon />
+                      </span>
+                    </div>
+                    <div className="des-texts">
+                      {focusContent[1].topicDes}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="focus-main-title" onClick={() => toggleSection("topic")}>
+                    <span className="main-text-left">{focusContent[1].topic}</span>
+                    <span className="main-icon-right">
+                      <PlusIcon />
+                    </span>
+                  </div>
+                )}
+              </div>
+              {/* Item 2 */}
+              <div className="item-detal-row">
+                {showDes === "testimonial" ? (
+                  <div className="section-des">
+                    <div className="focus-main-title" onClick={() => toggleSection("testimonial")}>
+                      <span className="main-text-left">{focusContent[1].testimonial}</span>
+                      <span className="main-icon-right">
+                        <XIcon />
+                      </span>
+                    </div>
+                    <div className="des-texts">
+                      <a href="https://www.youtube.com/watch?v=5T8BtfgZ-tM&list=PLQTND4OzgUVQfTRGbjAvXqWEY7A9w6Uz_&index=8" target="_blank" rel="noopener noreferrer">
+                        {focusContent[1].testimonialsDes}
+                      </a>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="focus-main-title" onClick={() => toggleSection("testimonial")}>
+                    <span className="main-text-left">{focusContent[1].testimonial}</span>
+                    <span className="main-icon-right">
+                      <PlusIcon />
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              {/* Item 3 */}
+              <div className="item-detal-row">
+                {showDes === "leaders" ? (
+                  <div className="section-des">
+                    <div className="focus-main-title" onClick={() => toggleSection("leaders")}>
+                      <span className="main-text-left">{focusContent[1].leaders}</span>
+                      <span className="main-icon-right">
+                        <XIcon />
+                      </span>
+                    </div>
+                    <div className="des-texts">
+                      <Link to="/our-team">
+                        {focusContent[1].leaderDes}
+                      </Link>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="focus-main-title" onClick={() => toggleSection("leaders")}>
+                    <span className="main-text-left">{focusContent[1].leaders}</span>
+                    <span className="main-icon-right">
+                      <PlusIcon />
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              {/* Item 4 */}
+              <div className="item-detal-row">
+                {showDes === "group" ? (
+                  <div className="section-des">
+                    <div className="focus-main-title" onClick={() => toggleSection("group")}>
+                      <span className="main-text-left">{focusContent[1].group}</span>
+                      <span className="main-icon-right">
+                        <XIcon />
+                      </span>
+                    </div>
+                    <div className="des-texts">
+                      <ul className="group-detail">
+                        <li>{focusContent[1].newGuy}</li>
+                        <li>{focusContent[1].returnGuy}</li>
+                      </ul>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="focus-main-title" onClick={() => toggleSection("group")}>
+                    <span className="main-text-left">{focusContent[1].group}</span>
+                    <span className="main-icon-right">
+                      <PlusIcon />
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* Bottom Part */}
       <div className="focus-bottom-part">
-        <img className="focus-btm-img" src={projBtmImg} alt="btmImg" />
+        <img className="focus-btm-img" src={focusBtmImg} alt="btmImg" />
         <div className="focus-right-content">
-          <span className="focus-btm-title">{t("projBtmTitle")}</span>
+          <span className="focus-btm-title">{t("focusBtmTitle")}</span>
+          <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">{/* form need to be updated */}
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
