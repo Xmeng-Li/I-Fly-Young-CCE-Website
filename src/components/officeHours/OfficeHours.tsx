@@ -149,17 +149,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
     const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
 
     const office: OfficeDetail[] = t("detail", { ns: "officehour", returnObjects: true }); 
-    const Pencil = () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <mask id="mask0_85_1481" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-        <rect width="24" height="24" fill="#D9D9D9"/>
-      </mask>
-      <g mask="url(#mask0_85_1481)">
-        <path d="M4.20012 20.975C3.85012 21.0583 3.54595 20.9708 3.28762 20.7125C3.02928 20.4542 2.94178 20.15 3.02512 19.8L3.90012 15.55L8.45012 20.1L4.20012 20.975ZM10.0751 18.875L5.12512 13.925L15.4501 3.59999C15.8335 3.21666 16.3084 3.02499 16.8751 3.02499C17.4418 3.02499 17.9168 3.21666 18.3001 3.59999L20.4001 5.69999C20.7834 6.08333 20.9751 6.55833 20.9751 7.12499C20.9751 7.69166 20.7834 8.16666 20.4001 8.54999L10.0751 18.875Z" fill="#333333"/>
-      </g>
-    </svg>
-    );
-
+    
     const meeting: Meeting[] = t("zoomMeeting", {ns: "officehour",returnObjects: true,})
 
     const timeDetail: TimeDetail[] = t("meetingTime", {ns: "officehour",returnObjects: true,})
@@ -208,9 +198,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Main Section */}
         <div className="main-container">
-          <div className="view-all">
+          {/* <div className="view-all">
             <Link to="/recording">{viewAll}</Link>
-          </div>
+          </div> */}
          
           <div className="recording-card">
             {/* Left: Most Recent */}
@@ -218,7 +208,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
               <div className="cate-container">
                 <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
                 <div className="section-view-more">
-                  <Link to="/recording">{viewMoreText}</Link>
+                  <Link to="/recording">{viewAll}</Link>
                 </div>
               </div>
 
@@ -342,7 +332,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
                     <p className="section-text">{t("text", { ns: "officehour" })}</p>
                       {office.map((item: any, index: number) => (
                         <div key={index} className="office-text">
-                          <span className="pencil"><Pencil /></span>
                           <span>{item.title}</span>
                         </div>
                       ))}

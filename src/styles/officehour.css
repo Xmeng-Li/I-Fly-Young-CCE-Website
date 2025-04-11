@@ -91,13 +91,14 @@
   flex-direction: column;
   gap: 20px;
   align-self: stretch;
+  margin-top: 50px;
   margin-bottom: 15px;
 }
-.view-all {
+/* .view-all {
   display: block;
   text-align: right;
   justify-content: flex-end;
-}
+} */
 .view-all a {
   color: var(--Text-Grey, #525252);
   font-size: 16px;

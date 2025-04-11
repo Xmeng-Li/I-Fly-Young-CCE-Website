@@ -410,18 +410,18 @@ class recording extends Component<RecordingProp, RecordingState> {
           <div className="pageTitle">{t("allRecordings", { ns: "officehour" })}</div>
 
           {/* Filter Icon for Mobile */}
-          <div className="filter-icon" onClick={this.toggleFilterMenu}>
-            <FilterIcon />
+          <div className="filter-icon-and-label">
+            <div className="filter-label">{t("filter", { ns: "officehour" })}</div>
+            <div className="filter-icon" onClick={this.toggleFilterMenu}>
+              <FilterIcon />
+            </div>
           </div>
         </div>
 
         {/* Filter Dropdown */}
         <div className={`filter-container ${showFilterMenu ? "show" : ""}`}>
-          <div className="label-and-x">
-            <div className="filter-label">{t("filter", { ns: "officehour" })}</div>
-            <div className="close-filter-btn">
-              <CloseFilterIcon />
-            </div>
+          <div className="close-filter-btn">
+            <CloseFilterIcon />
           </div>
 
           {/* Chronological */}

@@ -1,11 +1,11 @@
 {
   "banner" :"溝通與職涯探索\n職場問答時間",
   "playNow": "現在播放",
-  "viewAll": "查看所有錄音",
+  "viewAll": "查看所有",
 
   "ohRecent": "最近",
-  "ohColleague": "工作與同事",
-  "ohFaith": "信仰與工作",
+  "ohColleague": "主題：工作與同事",
+  "ohFaith": "主題：信仰與工作",
 
   "panelistsTitle": "問答時間講員",
   "speaker": [
@@ -41,7 +41,7 @@
     }
   ],
   "OfficeTitle": "溝通與職涯探索時間",
-  "leftTitle": "問答時間",
+  "leftTitle": "會議流程",
   "text": "得益於職場導師的智慧",
   "detail": [
     {
@@ -58,12 +58,12 @@
       "密碼": "042263"
     }
   ],
-  "joinUs": "加入我們",
+  "joinUs": "加入會議",
 
   "rightTitle": "Zoom會議",
   "meetingTime" : [
     {
-      "type": "日光節約時間",
+      "type": "夏令時間",
       "dates": "3/9/2025 ~ 11/2/2025",
       "times": [
         {

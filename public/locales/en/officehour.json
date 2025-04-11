@@ -1,7 +1,7 @@
 {
   "banner" : "Communications & Career Exploration (CCE) Office Hours",
   "playNow": "Play Now",
-  "viewAll": "View All Recordings",
+  "viewAll": "View All",
 
   "ohRecent": "Most Recent",
   "ohColleague": "Work & Colleagues",
@@ -60,7 +60,7 @@
       "Passcode": "042263"
     }
   ],
-  "joinUs": "Join Us",
+  "joinUs": "Join Meeting",
 
 
   "rightTitle": "Zoom Meeting",
