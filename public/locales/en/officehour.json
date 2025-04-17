@@ -4,8 +4,8 @@
   "viewAll": "View All",
 
   "ohRecent": "Most Recent",
-  "ohColleague": "Work & Colleagues",
-  "ohFaith": "Faith & Work",
+  "ohColleague": "Topic: Colleagues",
+  "ohFaith": "Topic: Faith & Work",
   
   "panelistsTitle": "Office Hours Panelists",
   "speaker": [
@@ -109,8 +109,8 @@
   "topic": "Topic",
   "categories": {
     "allTopic": "All Topics",
-    "boss": "Work & Supervisor",
-    "colleague": "Work & Colleagues",
+    "boss": "Supervisor",
+    "colleague": "Colleagues",
     "faith": "Faith & Work",
     "development": "Personal Development",
     "focusGroup": "Focus Group"

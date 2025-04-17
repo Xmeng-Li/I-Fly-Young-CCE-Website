@@ -126,8 +126,59 @@
     }
   ],
   "focusBtmTitle": "Join Monthly Focus Group",
-  "focusBtmText": "Contact us for more questions: cce.info@iflyyoung.com"
+  "focusBtmText": "Contact us for more questions: cce.info@iflyyoung.com",
 
 
 
+  "internBlueTitle": "Soaring Eagle",
+  "internTitle": "Internship Program for all students & young professionals",
+  "internSubTitle": "Do you want to work on projects valued by the industry and mentored by industry professionals?",
+  "internContents": [
+    {
+      "infoOne": "Flying like an eagle",
+      "infoOneDes": "Eagles prefer soaring to flapping. The energy needed to maintain soaring or gliding flight is perhaps a 1/20 or less the power needed for flapping.",
+      "infoTwo": "To Soar, you have to first leave the ground",
+      "infoTwoDes": "You might find it grustrating after flapping so hard and still going nowhere...",
+      "infoThree": "To Soar, you need to know how to leverage air currents",
+      "infoThreeDes": "General advice helps. However, you might benefit from more specific advice related/personalized to your circumstances."
+    },
+    {
+      "topFourTitle": "Why do we, I FLY YOUNG CCE, help you leave the ground and learn to soar?",
+      "topFourText1": "We know how important a career is to a person's life journey, as we are all seasoned career professionals",
+      "topFourText2": "We believe in an ecosystem of giving and receiving",
+      "topFourText3": "We are beneficiaries of generous giving from people before us",
+      "topFourText4": "We want you to be inspired and continue the culture of giving to those after you"
+    },
+    {
+      "prog":"Internship Program",
+      "internPurpose":"Internship Program Purpose",
+      "internPurpDes":"\"How did you find your internships?\" \"How did you overcome the catch-22 of needing prior experience, even for your first job?\" These are the most commonly asked questions by frustrated job seekers, and we design the CCE internship program to address this exact problem.",
+      "how":"How?",
+      "howDes":"We value \"determination\" more than \"experience\". As long as you meet the requirements (see each position for details), can demonstrate the eagerness to learn and commitment to quality deliverables, we will give you a chance.",
+      "internWho":"Who is this for?",
+      "internWhoDes":"Whether you are looking for a first internship, or exploring career options that better fit your talents, you are all welcome to apply.",
+      "timeline": "Timeline",
+      "appOpen": "Application open: 12/17/2022",
+      "period": "Selection Period: 01/08 - 01/14/2023",
+      "offer": "Offer Notification/Doc Signing: 01/15 - 01/20/2023",
+      "durationIntern": "Project Execution (3-6 months): 01/28 - 07/08/2023"
+    },
+    {
+      "eagleTitle": "Soaring Eagle Winter 2022 Focus Areas",
+      "eagleDes": "Here are the focus areas we are accepting applicants for CCE Internship in this coming season. We expect more programs in the future to cover broader areas of expertise.",
+      "catOne": "AWS Cloud Computing Associate Intern",
+      "catOneSub": "Cloud",
+      "catOneDes": "Launch your cloud career with AWS cloud computing associate internship to develop technical skills and domain knowledge through industry-recognized certification and proven learning curriculum, experiment with real-world, on-the-job experience through automated hands-on projects and exposure to a wide varitety of cloud career paths and gain invaluable insights into career planning and trajectory from experienced industry leaders. This internshipo also help you build interview readiness skills, a professional protfolio, and your personal brand to stand out at every step of the hiring process with cloud computing companies. AWS Cloud internship is offered by CCE and is not associated with Amazon.",
+      "catTwo": "Oncology Drug Discovery Intern",
+      "catTwoSub": "Biotech/Pharma",
+      "catTwoDes": "The program is designed for who are interested in drug R&D in biotech and pharmaceutical industries for their future career. The ideal candidates are current graduate students at biology related major. This is a good opportunity to learn the basic knowledge of how to identify and discover new therapeutics via in vitro and in vivo validation in a highly matrix cross-functional team before moving into clinical trials."
+    },
+    {
+      "internWhy": "Why apply?",
+      "internBtm1": "Gain valuable working experience on projects valued by the industries",
+      "internBtm2": "Learn from and mentored by industry professional",
+      "internBtm3": "Join CCE's healthy ecosystem of growing through giving and recieving"
+    }
+  ],
+  "internBtmTitle": "Join CCE Internship (Soaring Eagle) programs & launch your career here! "
 }

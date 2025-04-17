@@ -124,8 +124,8 @@ const FocusGroup = () => {
         <div className="focus-left-content">
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
-          <button className="focus-apply-btn"> {/* form need to be updated */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+          <button className="focus-apply-btn">
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
@@ -174,7 +174,7 @@ const FocusGroup = () => {
                 {showDes === "topic" ? (
                   <div className="section-des">
                     <div className="focus-main-title" onClick={() => toggleSection("topic")}>
-                      <span className="main-text-left">{focusContent[1].topic}</span>
+                      <span className="inner-blue-title">{focusContent[1].topic}</span>
                       <span className="main-icon-right">
                         <XIcon />
                       </span>
@@ -197,7 +197,7 @@ const FocusGroup = () => {
                 {showDes === "testimonial" ? (
                   <div className="section-des">
                     <div className="focus-main-title" onClick={() => toggleSection("testimonial")}>
-                      <span className="main-text-left">{focusContent[1].testimonial}</span>
+                      <span className="inner-blue-title">{focusContent[1].testimonial}</span>
                       <span className="main-icon-right">
                         <XIcon />
                       </span>
@@ -223,7 +223,7 @@ const FocusGroup = () => {
                 {showDes === "leaders" ? (
                   <div className="section-des">
                     <div className="focus-main-title" onClick={() => toggleSection("leaders")}>
-                      <span className="main-text-left">{focusContent[1].leaders}</span>
+                      <span className="inner-blue-title">{focusContent[1].leaders}</span>
                       <span className="main-icon-right">
                         <XIcon />
                       </span>
@@ -249,7 +249,7 @@ const FocusGroup = () => {
                 {showDes === "group" ? (
                   <div className="section-des">
                     <div className="focus-main-title" onClick={() => toggleSection("group")}>
-                      <span className="main-text-left">{focusContent[1].group}</span>
+                      <span className="inner-blue-title">{focusContent[1].group}</span>
                       <span className="main-icon-right">
                         <XIcon />
                       </span>
@@ -281,8 +281,8 @@ const FocusGroup = () => {
         <div className="focus-right-content">
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
-          <button className="focus-apply-btn">{/* form need to be updated */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+          <button className="focus-apply-btn">
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>

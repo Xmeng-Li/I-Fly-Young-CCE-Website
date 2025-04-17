@@ -209,6 +209,13 @@
   font-weight: 700;
   line-height: normal;
 }
+.inner-blue-title {
+  color: var(--Text-blue, #0E426C);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .main-icon-right {
   display: flex;
   justify-content: flex-end;
