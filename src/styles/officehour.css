@@ -319,10 +319,12 @@
   gap: 18px;
   margin-bottom: 20px;
 }
+
+/* Not linked yet
 .speaker-card:hover {
   background-color: var(--stroke-blue, #E1F0FD);
   cursor: pointer;
-}
+} */
 .speaker-image {
   width: 120px;
   height: 120px;

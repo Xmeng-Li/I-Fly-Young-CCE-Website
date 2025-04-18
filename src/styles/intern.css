@@ -261,7 +261,7 @@
   align-items: flex-start;
   border-radius: 4px;
   border-left: 4px solid var(--Blue-500, #37ACF4);
-  background: rgba(255, 255, 255, 0.40);
+  background: var(--Neutral-White, #FFF);
 }
 .intern-des-texts {
   color: var(--Text-primary, #333);
@@ -308,7 +308,7 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  top: 357%;
+  top: 365%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
@@ -348,22 +348,6 @@
 .intern-btm-icons {
   margin-bottom: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Bottom Part */

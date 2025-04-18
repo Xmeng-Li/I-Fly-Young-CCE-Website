@@ -118,6 +118,46 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "120",
+      "date": "04/07/2025",
+      "title": "How to face and deal with failure/setback at work",
+      "question": "Q1.How should I see failure/setbacks at work? Q2. What do I gain from failure/frustration at work?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250407_面對處理失敗MP3.mp3"
+    },
+    {
+      "id" : "119",
+      "date": "03/31/2025",
+      "title": "I Fly Young CCE 2024-2025 Focus Group Interview 1",
+      "question": "Q1. What is CCE Focus Goup? How can it help me?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250331_焦點小組訪談MP3.mp3"
+    },
+    {
+      "id" : "118",
+      "date": "03/24/2025",
+      "title": "Which job is more stable?",
+      "question": "Q1. I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250324_哪一份工作比較穩定MP3.mp3"
+    },
+    {
+      "id" : "117",
+      "date": "03/17/2025",
+      "title": " Why is my work performance not improving?",
+      "question": "Q1. My work performance has never improved. How can I judge whether it is my own fault or whether it is a trial given to me by God, allowing me to learn lessons through this waiting process? ",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250317_工作没有起色MP3.mp3"
+    },
+    {
+      "id" : "116",
+      "date": "03/10/2025",
+      "title": " I work hard but haven't been able to find a suitable job",
+      "question": "Q1. Do I need to change the job/position I am looking for? Q2. What else can I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250310_找到合適的工作MP3.mp3"
+    },
+    {
       "id" : "115",
       "date": "03/03/2025",
       "title": "How to prepare for a job interview?",

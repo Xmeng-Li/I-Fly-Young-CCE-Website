@@ -20,6 +20,7 @@ import airPlane from "./airplaneIcon.png";
 import personIcon from "./personIcon.png";
 import guysIcon from "./guysIcon.png";
 
+
 type internContents = {
   infoOne: string;
   infoOneDes: string;
