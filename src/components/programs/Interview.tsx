@@ -126,7 +126,7 @@ const Interview = () => {
           <span className="icon-blue-title"><WingIcon />{t("blueTitle")}</span>
           <span className="viewTitle">{t("title")}</span>
           <span className="viewDes">{t("des")}</span>
-          <button className="apply-btn">
+          <button className="view-apply-btn">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
@@ -170,7 +170,7 @@ const Interview = () => {
                 <div className="main-three-text">{mainContent[1].whoText}</div>
               </div>
             </div>
-            <div className="main-detail">
+            <div className="main-detail swap-on-mobile">
               <div className="main-texts">
                 <div className="main-three-titles">{mainContent[1].problem}</div>
                 <div className="main-three-sub">{mainContent[1].proSubTitle}</div>
@@ -218,7 +218,7 @@ const Interview = () => {
         <img className="btm-img" src={btmImg} alt="btmImg" />
         <div className="right-content">
           <span className="btm-text">{t("btmText")}</span>
-          <button className="apply-btn">
+          <button className="view-apply-btn">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>

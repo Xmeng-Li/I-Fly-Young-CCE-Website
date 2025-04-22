@@ -63,7 +63,6 @@ class AllVideo extends Component<VideoProp, VideoState> {
     super(props);
     this.state = {
       currentPage: 0,
-      // itemsPerPage: 9,
       itemsPerPage: this.getItemsPerPage(),
       sortOrder: "recent",
       selectedYear: "all",
