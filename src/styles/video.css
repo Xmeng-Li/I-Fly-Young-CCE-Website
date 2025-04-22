@@ -204,18 +204,19 @@
 
 /* For Mobile */
 @media (min-width: 320px) and (max-width: 425px) {
-  /*filter part*/
-  .video-label-and-x {
+  .video-filter-icon-and-label {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .video-filter-icon {
     display: flex;
   }
   .video-close-filter-btn {
     display: flex;
+    align-items: flex-start;
+    margin-left: auto;
   }
   .video-page-title-and-icon {
     display: flex;

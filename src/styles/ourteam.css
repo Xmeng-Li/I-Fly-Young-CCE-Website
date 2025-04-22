@@ -304,6 +304,7 @@
     max-width: 300px;
     text-align: center;
     font-size: 18px;
+    line-height: 22px;
   }
   .team-right-text-container {
     display: flex;

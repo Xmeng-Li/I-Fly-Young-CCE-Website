@@ -236,19 +236,20 @@ class AllVideo extends Component<VideoProp, VideoState> {
           <div className="web-pageTitle">{t("pastWebinar", { ns: "webinar" })}</div>
 
           {/* Filter Icon for Mobile */}
-          <div className="video-filter-icon" onClick={this.toggleFilterMenu}>
-            <FilterIcon />
+          <div className="video-filter-icon-and-label">
+            <div className="video-filter-label">{t("filter", { ns: "webinar" })}</div>
+            <div className="video-filter-icon" onClick={this.toggleFilterMenu}>
+              <FilterIcon />
+            </div>
           </div>
         </div>
 
         {/* Filter Dropdown */}
         <div className={`web-filter-container ${showFilterMenu ? "show" : ""}`}>
-          <div className="video-label-and-x">
-            <div className="video-filter-label">{t("filter", { ns: "webinar" })}</div>
-            <div className="video-close-filter-btn">
-              <CloseFilterIcon />
-            </div>
+          <div className="video-close-filter-btn">
+            <CloseFilterIcon />
           </div>
+          
 
           {/* Chronological */}
           <div className="web-each-filter">

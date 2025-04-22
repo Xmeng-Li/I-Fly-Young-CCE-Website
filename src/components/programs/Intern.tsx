@@ -402,12 +402,12 @@ const Intern = () => {
               </div>
               <img className="intern-main-img" src={internMain2} alt="mainImg" />
             </div>
+            <img className="intern-btm-bk" src={internBtmBk} alt="btm background" />
           </div>
         </div>
 
         <div className="intern-btm-three">
           <label className="intern-section-label">{internContent[4].internWhy}</label>
-          <img className="intern-btm-bk" src={internBtmBk} alt="btm background" />
           <div className="intern-three">
             <div className="intern-three-parts">
               <img className="intern-btm-icon-lt" src={airPlane} alt="airplane"/>

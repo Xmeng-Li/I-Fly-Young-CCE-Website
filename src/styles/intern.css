@@ -275,6 +275,7 @@
 }
 .intern-main-btm {
   display: flex;
+  position: relative;
   width: 105%;
   max-width: 1296px; 
   flex-direction: column;
@@ -308,14 +309,13 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  bottom: -25%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
 }
 .intern-btm-three {
   width: 100%;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
