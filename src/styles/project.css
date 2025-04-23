@@ -199,10 +199,10 @@
 }
 .proj-main-btm-text {
   width: 100%;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--Text-primary, #333);
   font-size: 18px;
   font-style: normal;
@@ -298,4 +298,218 @@
 .proj-btm-icons svg {
   width: 50px;
   height: 50px;
+}
+
+
+/* For Mobile L */
+@media (max-width: 425px) {
+  .proj-top-part {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
+    gap: 24px;
+  }
+  .proj-left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projTitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .projSub {
+    font-size: 14px;
+    line-height: 22px; 
+    text-align: center;
+  }
+  .proj-apply-btn {
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  .proj-apply-btn a {
+    padding: 2px 10px;
+    font-size: 16px;
+    line-height: 28px; 
+  }
+
+  .proj-top-img {
+    width: 296px;
+    height: 167px;
+  }
+  
+  /* Main Part */
+  .proj-main-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 74%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .proj-section-label {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .proj-top-bk {
+    width: 700vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .proj-top-three {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .overview-part {
+    display: flex;
+    width: 296px;
+    height: 230px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .proj-three-titles {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .proj-three-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  /* Main Three Part */
+  .proj-main {
+    width: 200vw;
+    background: var(--bg-light-blue, #F0F8FF);
+    display: flex;
+    justify-content: center;
+  }
+  .proj-main-three {
+    width: 100%;
+    max-width: 296px; 
+  }
+  .proj-main-detail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+  }
+  .proj-main-three-img {
+    width: 296px;
+    height: 179px;
+    margin-bottom: -60px;
+  }
+  .proj-main-three-text {
+    width: 100%;
+    height: 254px;
+    padding: 12px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .proj-main-btm-text {
+    width: 120%;
+    height: 254px;
+    padding: 0px;
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+  .proj-main-btm-link {
+    width: 85%;
+    height: 254px;
+    display: flex;
+    padding: 12px;
+  }
+  .proj-ohLink-icon {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+  }
+  .proj-ohLink {
+    font-size: 10px;
+    line-height: 16px; 
+  }
+  .swap-on-mobile {
+    flex-direction: column-reverse;
+    transition: all 0.3s ease;
+  }
+  .proj-main-sub {
+    font-size: 10px;
+    line-height: 16px; 
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+
+  
+  /* Main Bottom */
+  .proj-main-btm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .proj-btm-bk {
+    width: 700vw;
+    height: auto;
+  }
+  
+  /* Bottom Part  */
+  .proj-bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .proj-btm-img {
+    width: 296px;
+    height: 167px;
+  }
+  .proj-btm-title {
+    font-size: 20px;
+    line-height: 26px; 
+    margin-bottom: 12px;
+  }
+  .proj-btm-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 12px;
+  }
+}
+
+/* For Mobile M */
+@media (max-width: 375px) {
+  .proj-main-top,
+  .proj-main-btm {
+    width: 85%;
+  }
+}
+
+/* For Mobile */
+@media (max-width: 320px) {
+  .proj-main-top,
+  .proj-main-btm {
+    width: 100%;
+  }
 }

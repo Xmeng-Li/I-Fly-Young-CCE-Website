@@ -319,6 +319,7 @@
   }
   .section-label {
     display: flex;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .top-bk {
@@ -438,7 +439,6 @@
     margin-bottom: 24px;
   }
 }
-
 
 /* For Mobile M */
 @media (max-width: 375px) {

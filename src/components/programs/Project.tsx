@@ -182,7 +182,7 @@ const Project = () => {
               <img className="proj-main-three-img" src={projMain1} alt="projMain1" />
               <div className="proj-main-three-text">{mainContent[1].projMainTop}</div>
             </div>
-            <div className="proj-main-detail">
+            <div className="proj-main-detail swap-on-mobile">
               <div className="proj-main-three-text">{mainContent[1].projMainMid}</div>
               <img className="proj-main-three-img" src={projMain2} alt="projMain2" />
             </div>
