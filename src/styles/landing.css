@@ -143,7 +143,7 @@
 
 
 /* For Mobile */
-@media (min-width: 320px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .program-cloud {
     max-width: 360px;
     height: auto; 
@@ -224,7 +224,7 @@
   .program-title {
     font-size: 18px;
     gap: 10px;
-    margin-top: 20px; 
+    margin-top: 8px; 
     margin-bottom: 8px;
   }
   .program-text {
@@ -242,9 +242,6 @@
     border: 2px solid var(--Blue-600, #065D9E);
     background: var(--Neutral-White, #FFF);
   }
-}
-
-@media (max-width: 425px) {
   .prog-top-part {
     display: flex;
     flex-direction: column;
