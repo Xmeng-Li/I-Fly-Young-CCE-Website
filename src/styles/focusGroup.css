@@ -313,8 +313,9 @@
     line-height: 28px; 
   }
   .focus-top-img {
-    width: 296px;
-    height: 167px;
+    width: 320px;
+    height: auto;
+    margin-left: 20px;
   }
   
   /* Main Part */
@@ -325,7 +326,7 @@
     align-items: center;
     width: 74%;
     position: relative;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
   .focus-section-label {
@@ -439,8 +440,8 @@
     margin-bottom: 40px;
   }
   .focus-btm-img {
-    width: 296px;
-    height: 167px;
+    width: 320px;
+    height: auto;
   }
   .focus-btm-title {
     font-size: 20px;

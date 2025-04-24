@@ -10,9 +10,9 @@ import internBtmImg from "./internBtm.png";
 import internTopBk from "./bg_top.png";
 import internBtmBk from "./intern_bg_bottom.png";
 import WingImg from "./wingImg.png";
-import NoOne from "./NumberOne.png";
-import NoTwo from "./NumberTwo.png";
-import NoThree from "./NumberThree.png";
+import NoOne from "./Number1.png";
+import NoTwo from "./Number2.png";
+import NoThree from "./Number3.png";
 import internMain1 from "./internMain1.jpeg";
 import internMain2 from "./internMain2.jpeg";
 
@@ -194,7 +194,7 @@ const Intern = () => {
       <div className="intern-content-container">
         {/* Top */}
         <div className="intern-main-top">
-          <img className="Wing" src={WingImg} alt="WingImg" />
+          <img className="wing" src={WingImg} alt="WingImg" />
           <div className="info-texts">
             <div className="each-item">
               <div className="info-title">{internContent[0].infoOne}</div>

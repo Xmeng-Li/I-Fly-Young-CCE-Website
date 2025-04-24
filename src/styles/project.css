@@ -336,8 +336,9 @@
   }
 
   .proj-top-img {
-    width: 296px;
-    height: 167px;
+    width: 320px;
+    height: auto;
+    margin-left: 20px;
   }
   
   /* Main Part */
@@ -482,8 +483,8 @@
     margin-bottom: 40px;
   }
   .proj-btm-img {
-    width: 296px;
-    height: 167px;
+    width: 320px;
+    height: auto;
   }
   .proj-btm-title {
     font-size: 20px;
