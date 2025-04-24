@@ -402,11 +402,10 @@
   .intern-apply-btn {
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
   }
   .intern-apply-btn a {
     padding: 2px 10px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
   }
   .intern-top-img {

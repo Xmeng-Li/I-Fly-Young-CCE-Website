@@ -327,11 +327,10 @@
   .proj-apply-btn {
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
   }
   .proj-apply-btn a {
     padding: 2px 10px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
   }
 

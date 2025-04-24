@@ -293,11 +293,10 @@
   .view-apply-btn {
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
   }
   .view-apply-btn a {
     padding: 2px 10px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px; 
   }
 

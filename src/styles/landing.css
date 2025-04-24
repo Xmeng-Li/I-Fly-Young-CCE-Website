@@ -235,12 +235,15 @@
     margin-bottom: 8px;
   }
   .learn-more-btn {
-    padding: 2px 10px;
+    padding: 2px 12px;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
     border: 2px solid var(--Blue-600, #065D9E);
     background: var(--Neutral-White, #FFF);
+  }
+  .learn-more-btn a {
+    font-size: 14px;
+    line-height: 28px;
   }
   .prog-top-part {
     display: flex;

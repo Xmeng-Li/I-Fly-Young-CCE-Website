@@ -175,7 +175,7 @@ const Webinar = () => {
                   <h4 className="webinar-title">{webinar.title}</h4>
                   <p className="webinar-date">{webinar.date}</p>
                   <p className="webinar-text">{webinar.description}</p>
-                  <button className="watch-now-btn" 
+                  <button className="web-watch-now-btn" 
                     onClick={() => window.open(webinar.videoLink, "_blank")}>
                     {t("watchNow", { ns: "webinar" })}<PlayIcon />
                   </button>

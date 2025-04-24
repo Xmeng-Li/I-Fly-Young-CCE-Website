@@ -132,7 +132,7 @@
 }
 .web-join-btn {
   display: flex;
-  padding: 16px 16px 16px 20px;
+  padding: 12px 20px;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
@@ -259,7 +259,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-.watch-now-btn {
+.web-watch-now-btn {
   display: flex;
   padding: 12px 14px 12px 20px;
   justify-content: center;
@@ -449,7 +449,11 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    padding: 5px 12px;
+    padding: 2px 12px;
+  }
+  .web-watch-now-btn {
+    font-size: 14px;
+    padding: 5px 7px 5px 13px;
   }
   .cnt-title {
     font-size: 16px;
