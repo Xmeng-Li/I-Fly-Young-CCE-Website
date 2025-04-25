@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Home from "./components/Home";
 import OfficeHours from "./components/officeHours/OfficeHours";  
 import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
@@ -19,7 +20,7 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Routes>
-          <Route path="/" element={<OfficeHours />} />
+          <Route path="/" element={<Home />} />
           <Route path="/office-hours" element={<OfficeHours />} />
           <Route path="/recording" element={<Recording />} />
 

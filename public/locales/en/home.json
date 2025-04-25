@@ -1,0 +1,81 @@
+{
+  "homeBanner": "Communication and Career Exploration",
+  "homeBannerSub": "Welcome!",
+  "homeTopText": "Jump-start your career and get over your fear",
+  
+  "category": [
+    {
+      "image": "/images/home/home1.jpg",
+      "title": "Weekly Office Hour",
+      "description": "Submit your questions and gain valuable insights from experienced mentors during our weekly 30-minute panel sessions. Discover practical tips for overcoming workplace challenges and learn how to become a positive asset to your boss, colleagues, and organization.",
+      "link" : "/office-hours"
+    },
+    {
+      "image": "/images/home/home2.jpg",
+      "title": "Monthly Focus Group",
+      "description": "Be part of a mentor-led discussion group where you'll learn how to live out your purpose and make your work life count.",
+      "link" : "/focus-group"
+    },
+    {
+      "image": "/images/home/home3.jpg",
+      "title": "Project Transformation",
+      "description": "Become a catalyst for positive change—transform your workplace and empower others to do the same.",
+      "link" : "/project"
+    },
+    {
+      "image": "/images/home/home4.jpg",
+      "title": "CCE Class",
+      "description": "Designed for students in grades 8-12, this program teaches 12 life-changing capabilities—including listening accurately, asking thoughtful questions, and navigating failure—that support both college readiness and long-term career success.",
+      "link" : ""
+    },
+    {
+      "image": "/images/home/home5.jpg",
+      "title": "CCE Webinar",
+      "description": "Program Launch, Career Journey Exploration (various career paths including medical, investment banking, finance-technology, architecture, trading industry...)",
+      "link" : "/webinar"
+    },
+    {
+      "image": "/images/home/home6.jpg",
+      "title": "Our Team",
+      "description": "Rooted in the spirit of giving and receiving—get to know the team behind the mission.",
+      "link" : "/our-team"
+    },
+    {
+      "image": "/images/home/home7.jpg",
+      "title": "CCE Chronicle",
+      "description": "Gain valuable insights from interviews conducted by our Chronicle team of college students.",
+      "link" : ""
+    },
+    {
+      "image": "/images/home/home8.jpg",
+      "title": "Interview Training (Eagle Wing)",
+      "description": "Build the confidence you need to excel in high-pressure job interviews.",
+      "link" : "/interview"
+    },
+    {
+      "image": "/images/home/home9.jpg",
+      "title": "Internship (Soaring Eagle)",
+      "description": "Gain hands-on experience through projects valued by the industry, guided by mentorship from seasoned professionals.",
+      "link" : "/intern"
+    }
+  ],
+  "homeLearnMore": "Learn More",
+  "homeViewMore": "View More",
+
+
+  "homeAbout": "About I Fly Young CCE",
+  "homeWho": "Who are we",
+  "homeWhoDes": "We are a 501(c)(3) nonprofit organization dedicated to providing a comprehensive support system that empowers individuals to grow and thrive through every stage of their career journey.",
+  "homeWhat": "What do we do",
+  "homeWhatDes": "We build a healthy ecosystem of \"giving and receiving\" where people of all ages can build a healthy career through mentorship. ",
+  "homeHow": "How can we help",
+  "homeHowDes": "Career (re)launch (internship, interview training), career development mentorship (CCE class, office hour, focus group...)",
+
+  "homeJoin": "Join Us!",
+  "joinTitle1": "Keep me posted!",
+  "joinDes1": "If you would like to be part of the process in producing webinars or helping to grow CCE, fill out the form linked below!",
+  "joinBtn1": "Join Email List",
+  "joinTitle2": "I want to help!",
+  "joinDes2": "If you would like to be part of the process in producing webinars or helping to grow CCE, fill out the form linked below!",
+  "joinBtn2": "Join Volunteer"
+}
