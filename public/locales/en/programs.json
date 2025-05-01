@@ -12,7 +12,7 @@
 
 
   "ZhSection": "Chinese Programs",
-  "FocusGroup": "Monthly Focus Group",
+  "FocusGroup": "Focus Group",
   "FocusGroupText": "Join the mentor-led discussion group and learn to live out your destiny at work.",
   "Project": "Project Transformation",
   "ProjectText": "Be the change agent to transform your workplace into a better one, and help people transform theirs.",
@@ -97,14 +97,14 @@
 
 
 
-  "focusTitle": "Monthly Focus Group",
+  "focusTitle": "Focus Group",
   "focusSubTitle": "Don't miss out! Registration for Focus Group 2024-2025 season opens 08/17/2024 - 08/24/2024",
   "focusContents": [
     {
       "focusOverview": "Overview",
       "overviewDes": "What is your meaning of working? Is it just a financial obligation? Or is it a dream? Do you want to know how to live out your destiny at work, and create the legacy to pass down to the generations?",
       "focusLeft": "Purpose",
-      "focusLeftText": "No matter what your current circumstances are at work and/or in life, we sincerely invite you to join our Monthly Focus Group to re-examine the value of work and to be happy with what you have while working at what you want.",
+      "focusLeftText": "No matter what your current circumstances are at work and/or in life, we sincerely invite you to join our Focus Group to re-examine the value of work and to be happy with what you have while working at what you want.",
 
       "focusMid": "Duration",
       "focusMidText": "Focus Group 2024-2025 Season: September 2024 - June 2025",
@@ -115,7 +115,7 @@
     {
       "moreInfo":"More Information",
       "topic":"Topics",
-      "topicDes":"The monthly meeting will cover the topics like: Ask the right questions, Discover your talents, Capability and Passion, Changing career path, Time/Money Management, Workplace interpersonal relationships (setting boundaries, getting support from your boss, being a blessing to the company, boss, and colleagues).",
+      "topicDes":"The meeting will cover the topics like: Ask the right questions, Discover your talents, Capability and Passion, Changing career path, Time/Money Management, Workplace interpersonal relationships (setting boundaries, getting support from your boss, being a blessing to the company, boss, and colleagues).",
       "testimonial":"Testimonials",
       "testimonialsDes":"Testimonials from the 2024 Focus Group",
       "leaders":"Focus Group Leaders",
@@ -125,7 +125,7 @@
       "returnGuy": "Year 2 Focus Group: for returning participant who attended the 2023-2024 season"
     }
   ],
-  "focusBtmTitle": "Join Monthly Focus Group",
+  "focusBtmTitle": "Join Focus Group",
   "focusBtmText": "Contact us for more questions: cce.info@iflyyoung.com",
 
 

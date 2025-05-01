@@ -76,10 +76,6 @@ const Programs = () => {
             </div>
           </div>  
         </div>
-
-        
-
-        
       <Footer />
     </div>
   ); 

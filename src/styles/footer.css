@@ -99,6 +99,15 @@
   height: 24px;
   margin-bottom: 2px;
 }
+.iflyyoung a {
+  color: var(--Text-white, #FFF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  margin-left: 4px;
+}
 
 @media (max-width: 1280px) { 
   .footer {

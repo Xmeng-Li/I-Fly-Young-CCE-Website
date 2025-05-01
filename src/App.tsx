@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +17,7 @@ import FocusGroup from "./components/programs/FocusGroup";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,7 +35,7 @@ function App() {
           <Route path="/project" element={<Project />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
 
   );
 }

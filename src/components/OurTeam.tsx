@@ -6,6 +6,9 @@ import Footer from "./Footer";
 import "../styles/ourteam.css";
 import cloud from "../components/officeHours/Cloud.png";
 import linkedInLogo from "../../src/linkedin-logo.png";
+import partner1 from "../components/@Cloud-logo.png";
+import partner2 from "../components/Center of Navigating Life Logo.png";
+import partner3 from "../components/CTW Logo.png";
 
 type Mentor = {
   name: string;
@@ -98,6 +101,23 @@ const OurTeam = () => {
             </div>
           </>
         )}
+        <div className="partner-part">
+          <label className="partner-title">{t("partnerTitle")}</label>
+          <div className="partners">
+            <div className="each-partner">
+              <img className="partner-logo" src={partner1} alt="partner-logo" />
+              <span className="partner-name">{t("partner1")}</span>
+            </div>
+            <div className="each-partner">
+              <img className="partner-logo" src={partner2} alt="partner-logo" />
+              <span className="partner-name">{t("partner2")}</span>
+            </div>
+            <div className="each-partner">
+              <img className="partner-logo3" src={partner3} alt="partner-logo" />
+              <span className="partner-name">{t("partner3")}</span>
+            </div>
+          </div>
+        </div>
       <Footer />
     </div>
   ); 
