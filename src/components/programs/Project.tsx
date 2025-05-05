@@ -115,9 +115,9 @@ const Project = () => {
     const regex = /(2024-2025 CCE Focus Group|2024-2025 CCE 焦點小組)/g;
     return text.split(regex).map((part, index) =>
       regex.test(part) ? (
-        <Link key={index} to="/focus-group">
+        <a key={index} href="/focus-group">
           {part}
-        </Link>
+        </a>
       ) : (
         part
       )
@@ -190,12 +190,12 @@ const Project = () => {
               <img className="proj-main-three-img" src={projMain3} alt="projMain3" />
               <div className="proj-main-btm-link">
                 <div className="proj-main-btm-text">{mainContent[1].projMainBtm}</div>
-                <Link to="/recording">
+                <a href="/recording">
                   <div className="proj-ohLink-icon">
                     <div className="proj-ohLink">{mainContent[1].ohRecording}</div>
                     <div className="right-arrow-icon"><ArrowRight /></div>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

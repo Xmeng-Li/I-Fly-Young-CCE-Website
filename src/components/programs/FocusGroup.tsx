@@ -229,9 +229,7 @@ const FocusGroup = () => {
                       </span>
                     </div>
                     <div className="des-texts">
-                      <Link to="/our-team">
-                        {focusContent[1].leaderDes}
-                      </Link>
+                      <a href="/our-team">{focusContent[1].leaderDes}</a>
                     </div>
                   </div>
                 ) : (
