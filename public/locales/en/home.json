@@ -60,7 +60,10 @@
     }
   ],
   "homeLearnMore": "Learn More",
+  "viewMoreSub": "You've viewed 6 of 9",
+  "viewMoreSubExpand": "You've viewed 9 of 9",
   "homeViewMore": "View More",
+  "homeViewLess": "View Less",
 
 
   "homeAbout": "About I Fly Young CCE",
@@ -77,5 +80,26 @@
   "joinBtn1": "Join Email List",
   "joinTitle2": "I want to help!",
   "joinDes2": "If you would like to be part of the process in producing webinars or helping to grow CCE, fill out the form linked below!",
-  "joinBtn2": "Join Volunteer"
+  "joinBtn2": "Join Volunteer",
+
+
+  "homeBtmTitle": "Don't know where to start?",
+  "aboutMe" : "I'm a",
+  "role1": "High Schooler",
+  "role2": "College Student",
+  "role3": "Parent",
+  "role4": "Young/Career Professional!",
+  "role5": "Young/Career Professional!",
+  "otherResource": "More Materials",
+  "zh": "[Chinese]",
+  "en": "[English]",
+  
+  "class": "CCE Class",
+  "chronicle": "CCE Chronicles",
+  "officeHr": "Weekly Office Hour",
+  "group": "Focus Group Program",
+  "proj": "Project Transformation Program",
+  "interview": "Interview Training Program",
+  "intern" : "Internship Program",
+  "recording": "CCE Office Hours Recording"
 }

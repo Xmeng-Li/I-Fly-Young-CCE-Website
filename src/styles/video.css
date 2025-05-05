@@ -51,7 +51,11 @@
 .video-label-and-x {
   display: none;
 }
-.close-filter-btn {
+.video-filter-label {
+  display: none;
+}
+.video-close-filter-btn {
+  display: none;
   width: 18px;
   height: 18px;
   cursor: pointer;
@@ -256,6 +260,7 @@
     align-items: flex-start;
   }
   .video-filter-label {
+    display: flex;
     color: var(--Text-Grey, #525252);
     font-size: 14px;
     font-weight: 400;

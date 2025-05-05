@@ -221,6 +221,9 @@
   font-weight: 400;
   line-height: 27px; 
   white-space: pre-line;
+  overflow-y: auto;
+  flex-grow: 1;
+  max-height: 50vh;
 }
 .close-popup-btn {
   position: absolute;
@@ -381,18 +384,25 @@
     margin-left: -10px;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
   }
+  .mentor-name {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .mentor-role {
+    font-size: 14px;
+  }
   .mentor-popup {
     top: 50%;
-    left: 49%;
-    width: 320px;
+    left: 50%;
+    width: 380px;
     padding: 20px;
-    gap: 10px;
+    gap: 0px;
   }
   .popup-top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 0px;
   }
   .popup-image {
     width: 100px;
@@ -406,21 +416,23 @@
     gap: 0px;
   }
   .popup-name {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;      
   }
   .popup-role {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 12px;
   }
   .linkedIn-logo {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
   }
   .linkedin {
-    font-size: 14px;
+    font-size: 12px;
   }
   .popup-bio {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .close-popup-btn {
     position: absolute;
@@ -497,8 +509,7 @@
   .mentor-popup {
     top: 50%;
     left: 50%;
-    width: 300px;
-    padding: 20px;
-    gap: 10px;
+    width: 350px;
+    padding: 15px;
   }
 }

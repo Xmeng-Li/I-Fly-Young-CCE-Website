@@ -97,7 +97,7 @@ const OurTeam = () => {
                   <CloseIcon />
                 </div>
               </div>
-              <div className="popup-bio" >{clickedMentor.bio}</div>
+              <div className="popup-bio">{clickedMentor.bio}</div>
             </div>
           </>
         )}
