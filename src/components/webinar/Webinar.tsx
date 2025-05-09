@@ -173,8 +173,8 @@ const Webinar = () => {
                 <img src={webinar.image} alt={webinar.title} className="webinar-image" />
                 <div className="webinar-info">
                   <h4 className="webinar-title">{webinar.title}</h4>
-                  <p className="webinar-date">{webinar.date}</p>
-                  <p className="webinar-text">{webinar.description}</p>
+                  <div className="webinar-date">{webinar.date}</div>
+                  <div className="webinar-text">{webinar.description}</div>
                   <button className="web-watch-now-btn" 
                     onClick={() => window.open(webinar.videoLink, "_blank")}>
                     {t("watchNow", { ns: "webinar" })}<PlayIcon />

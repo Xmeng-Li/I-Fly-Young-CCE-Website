@@ -13,6 +13,7 @@ import Interview from "./components/programs/Interview";
 import Intern from "./components/programs/Intern";
 import Project from "./components/programs/Project";
 import FocusGroup from "./components/programs/FocusGroup";
+import Chronicle from "./components/chronicles/Chronicles";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/intern" element={<Intern />} />
           <Route path="/focus-group" element={<FocusGroup />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/chronicle" element={<Chronicle />} />
         </Routes>
       </div>
     </Router>

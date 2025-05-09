@@ -1,0 +1,219 @@
+.chron-page {
+  font-family: "Noto Sans";
+}
+.chron-top-part {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  gap: 60px;
+}
+.chron-banner {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.chron-cloud {
+  width: 100%; 
+  max-width: 563px;
+  height: auto;
+}
+.chron-title {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  color: var(--Blue-500, #37ACF4);
+  text-align: center;
+  font-family: "Baloo 2";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 12px;
+}
+.chron-text {
+  position: absolute;
+  top: 57%;
+  left: 18%;
+  width: 100%;
+  max-width: 373px;
+  color: var(--Blue-500, #37ACF4);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.chron-right-text-container {
+  display: flex;
+  width: 624px;
+  padding: 24px 24px 24px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.chron-page-title {
+  color: var(--Blue-700, #0E426C);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; 
+}
+.chron-page-text {
+  color: var(--Text-primary, #333);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.chron-filter-container {
+  display: flex;
+  width: 100%;
+  padding: 28px;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Neutral-White, #FFF);
+  border: 1px solid var(--Neutral-Grey-500, #DADADA);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.chron-each-filter {
+  display: flex;
+  flex-direction: column;
+}
+.chron-filter-text{
+  color: var(--Text-primary, #333);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.chron-sort-dropdown,
+.chron-year-dropdown {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+.chron-filter-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+
+}
+.chron-label-and-x {
+  display: none;
+}
+.chron-filter-label {
+  display: none;
+}
+.chron-close-filter-btn {
+  display: none;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.chron-and-pagination {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.chron-container {
+  display: grid;
+  width: 103.5%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin-bottom: -40px;
+}
+.article-card {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 453px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 60px;
+}
+.article-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 8px; 
+  object-fit: cover;
+}
+.article-info {
+  gap: 16px;
+}
+.article-title {
+  color: var(--Text-primary, #333);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+}
+.article-date {
+  color: var(--Text-Grey, #525252);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  margin-bottom: 8px;
+}
+.article-text {
+  height: 72px;
+  overflow: hidden;
+  color: var(--Text-primary, #333);
+  text-overflow: ellipsis;
+  white-space: wrap;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.read-btn {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px solid var(--Blue-600, #065D9E);
+  background: var(--Neutral-White, #FFF);
+  color: var(--Blue-600, #065D9E);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/* For Mobile */
+@media (min-width: 320px) and (max-width: 425px) {
+  .chron-filter-icon-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .chron-filter-icon {
+    display: flex;
+  }
+  .chron-close-filter-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+  }
+  .chron-page-title-and-icon {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }
+}

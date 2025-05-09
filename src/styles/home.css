@@ -104,6 +104,7 @@
 .home-learn-btn {
   display: flex;
   padding: 8px 16px;
+  justify-content: center;
   align-items: center;
   border-radius: 40px;
   border: 2px solid var(--Blue-600, #065D9E);
@@ -159,7 +160,7 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%); 
-  z-index: -1;
+  z-index: 5;
 }
 
 .aboutUS {
@@ -186,7 +187,7 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  top: -20%;
+  top: -25%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
@@ -234,7 +235,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 120px;
 }
 .home-join-two {
@@ -318,6 +319,9 @@
   background: rgba(255, 255, 255, 0.50);
   box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.09);
   cursor: pointer;
+}
+.home-each-card:hover {
+  background: var(--bg-light-blue, #F0F8FF);
 }
 .extra-info {
   display: flex;

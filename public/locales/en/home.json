@@ -44,7 +44,7 @@
       "image": "/images/home/home7.jpg",
       "title": "CCE Chronicle",
       "description": "Gain valuable insights from interviews conducted by our Chronicle team of college students.",
-      "link" : ""
+      "link" : "/chronicle"
     },
     {
       "image": "/images/home/home8.jpg",
@@ -76,10 +76,10 @@
 
   "homeJoin": "Join Us!",
   "joinTitle1": "Keep me posted!",
-  "joinDes1": "If you would like to be part of the process in producing webinars or helping to grow CCE, fill out the form linked below!",
+  "joinDes1": "Enter your email to receive updates on our activities and events!",
   "joinBtn1": "Join Email List",
   "joinTitle2": "I want to help!",
-  "joinDes2": "If you would like to be part of the process in producing webinars or helping to grow CCE, fill out the form linked below!",
+  "joinDes2": "Regardless of your skills or experience, you can make a lasting impact through the CCE community!",
   "joinBtn2": "Join Volunteer",
 
 

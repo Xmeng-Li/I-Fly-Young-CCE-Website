@@ -1,21 +1,22 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
 import ReactPaginate from "react-paginate";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
-import "../../styles/video.css";
+import "../../styles/chronicles.css";
+import cloud from "../../components/officeHours/Cloud.png";
 
 
-type VideoProp = WithTranslation;
-type WebinarType = {
+type ChronProp = WithTranslation;
+type ArticlesType = {
   image: string;
   title: string;
   date: string;
   description: string;
-  videoLink: string;
+  link: string;
 };
-type VideoState = {
+type ChronState = {
   currentPage: number;
   itemsPerPage: number;
   sortOrder: string;
@@ -24,42 +25,20 @@ type VideoState = {
 };
 
 
-class AllVideo extends Component<VideoProp, VideoState> {
+class Chronicles extends Component<ChronProp, ChronState> {
   selectRef = React.createRef<HTMLSelectElement>();
 
-  getFilteredVideos = (): WebinarType[] => {
-    const {selectedYear, sortOrder } = this.state;
-    const { t } = this.props;
-    const webinars: WebinarType[] = t("webinar", { ns: "webinar", returnObjects: true }) as WebinarType[];
-  
-    // Apply year filter
-    const yearFiltered = selectedYear === "all"
-      ? webinars
-      : webinars.filter((webinar) => new Date(webinar.date).getFullYear().toString() === selectedYear);
-  
-    // Apply sorting
-    const sorted = [...yearFiltered].sort((a, b) => {
-      if (sortOrder === "recent") {
-        return new Date(b.date).getTime() - new Date(a.date).getTime();
-      } else {
-        return new Date(a.date).getTime() - new Date(b.date).getTime();
-      }
-    });
-    return sorted;
-  };
-  
-
   // Handle Filter by year
-  getUniqueYears = (webinars: WebinarType[]): string[] => {
-    const years = [ ...new Set(webinars.map((webinar) =>
-          new Date(webinar.date).getFullYear().toString()
+  getUniqueYears = (chron: ArticlesType[]): string[] => {
+    const years = [ ...new Set(chron.map((articles) =>
+          new Date(articles.date).getFullYear().toString()
         )
       ),
     ];
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
-  constructor(props: VideoProp) {
+  constructor(props: ChronProp) {
     super(props);
     this.state = {
       currentPage: 0,
@@ -75,21 +54,20 @@ class AllVideo extends Component<VideoProp, VideoState> {
     return window.innerWidth <= 768 ? 6 : 9;
   };
 
-  // Update videos per page on small window size
-  updateVideoNum = () => {
+  // Update article per page on small window size
+  updateArticleNum = () => {
     this.setState({ itemsPerPage: this.getItemsPerPage(), currentPage: 0 });
   };
 
   componentDidMount() {
-    window.addEventListener("resize", this.updateVideoNum);
+    window.addEventListener("resize", this.updateArticleNum);
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateVideoNum);
+    window.removeEventListener("resize", this.updateArticleNum);
   }
 
 
-  
   // Handle page change
   pageChange = (selectedPage: { selected: number }) => {
     this.setState({ currentPage: selectedPage.selected });
@@ -105,47 +83,7 @@ class AllVideo extends Component<VideoProp, VideoState> {
   
   render() {
     const { t } = this.props;
-    const webinars: WebinarType[] = t("webinar", { ns: "webinar", returnObjects: true });
-
-    const LeftArrow = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-      <mask id="mask0_440_2232" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-        <rect width="20" height="20" fill="#D9D9D9"/>
-      </mask>
-      <g mask="url(#mask0_440_2232)">
-        <path d="M9.00016 9.99996L12.2502 13.25C12.4029 13.4027 12.4793 13.5972 12.4793 13.8333C12.4793 14.0694 12.4029 14.2638 12.2502 14.4166C12.0974 14.5694 11.9029 14.6458 11.6668 14.6458C11.4307 14.6458 11.2363 14.5694 11.0835 14.4166L7.25016 10.5833C7.16683 10.5 7.1078 10.4097 7.07308 10.3125C7.03836 10.2152 7.021 10.1111 7.021 9.99996C7.021 9.88885 7.03836 9.78468 7.07308 9.68746C7.1078 9.59024 7.16683 9.49996 7.25016 9.41663L11.0835 5.58329C11.2363 5.43051 11.4307 5.35413 11.6668 5.35413C11.9029 5.35413 12.0974 5.43051 12.2502 5.58329C12.4029 5.73607 12.4793 5.93051 12.4793 6.16663C12.4793 6.40274 12.4029 6.59718 12.2502 6.74996L9.00016 9.99996Z" fill="#525252"/>
-      </g>
-    </svg>
-    );
-    const PlayIcon = () => (
-      <svg
-        className="play-icon"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-      >
-        <mask
-          id="mask0_85_1485"
-          style={{ maskType: "alpha" }}
-          maskUnits="userSpaceOnUse"
-          x="0"
-          y="0"
-          width="24"
-          height="24"
-        >
-          <rect width="24" height="24" fill="#D9D9D9" />
-        </mask>
-        <g mask="url(#mask0_85_1485)">
-          <path
-            d="M6 18.5976V6.19809C6 5.85865 6.1198 5.57411 6.35941 5.34449C6.59901 5.11487 6.87855 5.00006 7.19802 5.00006C7.29786 5.00006 7.40269 5.01504 7.51251 5.04499C7.62233 5.07494 7.72715 5.11986 7.82699 5.17976L17.5909 11.3795C17.7706 11.4993 17.9054 11.6491 17.9952 11.8288C18.0851 12.0085 18.13 12.1982 18.13 12.3979C18.13 12.5975 18.0851 12.7872 17.9952 12.9669C17.9054 13.1466 17.7706 13.2964 17.5909 13.4162L7.82699 19.616C7.72715 19.6759 7.62233 19.7208 7.51251 19.7507C7.40269 19.7807 7.29786 19.7957 7.19802 19.7957C6.87855 19.7957 6.59901 19.6809 6.35941 19.4512C6.1198 19.2216 6 18.9371 6 18.5976Z"
-            fill="#333333"
-          />
-        </g>
-      </svg>
-    );
-
+    const chron: ArticlesType[] = t("articles", { ns: "chronicles", returnObjects: true });
 
     // Replace pagination icons
     const PreviousIcon = (
@@ -196,13 +134,13 @@ class AllVideo extends Component<VideoProp, VideoState> {
     // Filter SyStem
     // BY Year
     const filterYear = selectedYear === "all" 
-    ? webinars : webinars.filter((webinar) =>
-        new Date(webinar.date).getFullYear().toString() === this.state.selectedYear
+    ? chron : chron.filter((articles) =>
+        new Date(articles.date).getFullYear().toString() === this.state.selectedYear
       );
 
 
     // Chronological
-    const sortedVideo = [...filterYear].sort((a, b) => {
+    const sortedArticle = [...filterYear].sort((a, b) => {
       if (this.state.sortOrder === "recent") {
         // descending order 
         return new Date(b.date).getTime() - new Date(a.date).getTime(); 
@@ -216,68 +154,73 @@ class AllVideo extends Component<VideoProp, VideoState> {
   
     // Pagination
     const offset = currentPage * itemsPerPage;
-    const paginatedVideo = sortedVideo.slice(offset, offset + itemsPerPage);
-    const pageCnt = Math.ceil(sortedVideo.length / itemsPerPage);
+    const paginatedArticle = sortedArticle.slice(offset, offset + itemsPerPage);
+    const pageCnt = Math.ceil(sortedArticle.length / itemsPerPage);
 
     return (
-      <div className="video-page">
+      <div className="chron-page">
         <Header />
-        <div className="video-page-title-and-icon">
-          <div className="web-backTo">
-            <Link to="/webinar">
-              <div className="left-arrow">
-                <LeftArrow />
-              </div>
-            </Link>
-            <label className="video-backTo-text">{t("backToWebinar", { ns: "webinar" })}
-            </label>
+        <div className="chron-top-part">
+          <div className="chron-banner">
+            <img className="chron-cloud" src={cloud} alt="cloud" />
+            <label className="chron-title">{t("pageBanner")}</label>
+            <div className="chron-text">{t("bannerText")}</div>
           </div>
-          <div className="web-pageTitle">{t("pastWebinar", { ns: "webinar" })}</div>
+          <div className="chron-right-text-container">
+            <div className="chron-page-title">{t("pageTitle")}</div>
+            <div className="chron-page-text">{t("pageText")}</div>
+          </div>
+        </div>
 
+        <div className="chron-page-title-and-icon">
+          <div className="chron-backTo">
+          </div>
+    
           {/* Filter Icon for Mobile */}
-          <div className="video-filter-icon-and-label">
-            <div className="video-filter-label">{t("filter", { ns: "webinar" })}</div>
-            <div className="video-filter-icon" onClick={this.toggleFilterMenu}>
+          <div className="chron-filter-icon-and-label">
+            <div className="chron-filter-label">{t("filter")}</div>
+            <div className="chron-filter-icon" onClick={this.toggleFilterMenu}>
               <FilterIcon />
             </div>
           </div>
         </div>
 
+
         {/* Filter Dropdown */}
-        <div className={`web-filter-container ${showFilterMenu ? "show" : ""}`}>
-          <div className="video-close-filter-btn">
+        <div className={`chron-filter-container ${showFilterMenu ? "show" : ""}`}>
+          <div className="chron-close-filter-btn">
             <CloseFilterIcon />
           </div>
           
 
           {/* Chronological */}
-          <div className="web-each-filter">
-            <label className="web-label">{t("sort", { ns: "webinar" })}</label>
+          <div className="chron-each-filter">
+            <label className="chron-label">{t("sort", { ns: "chronicles" })}</label>
             <select
               value={this.state.sortOrder}
               onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
-              } className="web-sort-dropdown"
+              } className="chron-sort-dropdown"
             >
-              <option value="recent" className="video-filter-text">{t("timeSort.recent", { ns: "webinar" })}</option>
-              <option value="oldest" className="video-filter-text">{t("timeSort.oldest", { ns: "webinar" })}</option>
+              <option value="recent" className="chron-filter-text">{t("timeSort.recent", { ns: "chronicles" })}</option>
+              <option value="oldest" className="chron-filter-text">{t("timeSort.oldest", { ns: "chronicles" })}</option>
             </select>
           </div>
 
           {/* Filter By Year */}
-          <div className="web-each-filter">
-            <label className="web-label">{t("year", { ns: "webinar" })}</label>
+          <div className="chron-each-filter">
+            <label className="chron-label">{t("year", { ns: "chronicles" })}</label>
             <select
               id="year-filter"
               value={this.state.selectedYear}
               onChange={(e) =>
                 this.setState({ selectedYear: e.target.value, currentPage: 0 })
               }
-              className="web-year-dropdown"
+              className="chron-year-dropdown"
             >
-              <option value="all" className="web-filter-text">
-                {t("years", { ns: "webinar" })}
+              <option value="all" className="chron-filter-text">
+                {t("years", { ns: "chronicles" })}
               </option>
-              {this.getUniqueYears(webinars).map((year) => (
+              {this.getUniqueYears(chron).map((year) => (
                 <option key={year} value={year}>
                   {year}
                 </option>
@@ -286,19 +229,20 @@ class AllVideo extends Component<VideoProp, VideoState> {
           </div>
         </div>
 
-        {/* Video List */}
-        <div className="video-and-pagination">
-          <div className="video-container">
-            {paginatedVideo.map((webinar, index) => (
-              <div key={index} className="video-card">
-                <img src={webinar.image} alt={webinar.title} className="video-image" />
-                <div className="video-info">
-                  <h4 className="video-title">{webinar.title}</h4>
-                  <div className="video-date">{webinar.date}</div>
-                  <div className="video-text">{webinar.description}</div>
-                  <button className="watch-now-btn" 
-                    onClick={() => window.open(webinar.videoLink, "_blank")}>
-                    {this.props.t("watchNow", { ns: "webinar" })}<PlayIcon />
+        
+        {/* Article List */}
+        <div className="chron-and-pagination">
+          <div className="chron-container">
+            {paginatedArticle.map((articles, index) => (
+              <div key={index} className="article-card">
+                <img className="article-image" src={articles.image} alt={articles.title} />
+                <div className="article-info">
+                  <h4 className="article-title">{articles.title}</h4>
+                  <div className="article-date">{articles.date}</div>
+                  <div className="article-text">{articles.description}</div>
+                  <button className="read-btn" 
+                    onClick={() => window.open(articles.link, "_blank")}>
+                    {this.props.t("readMore", { ns: "chronicles" })}
                   </button>
                 </div>
               </div>
@@ -328,4 +272,4 @@ class AllVideo extends Component<VideoProp, VideoState> {
   }
 }
 
-export default withTranslation()(AllVideo);
+export default withTranslation("chronicles")(Chronicles);

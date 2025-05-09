@@ -14,7 +14,7 @@ import NoOne from "./Number1.png";
 import NoTwo from "./Number2.png";
 import NoThree from "./Number3.png";
 import internMain1 from "./internMain1.jpeg";
-import internMain2 from "./internMain2.jpeg";
+import internMain2 from "./biotech.jpg";
 
 import airPlane from "./airplaneIcon.png";
 import personIcon from "./personIcon.png";

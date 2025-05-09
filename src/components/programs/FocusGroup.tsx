@@ -9,7 +9,7 @@ import focusTopImg from "./focusTop.png";
 import focusBtmImg from "./focusBtm.png";
 import focusTopBk from "./bg_top.png";
 import focusBtmBk from "./bg_bottom.png";
-import focusMain from "./focusMain.jpeg";
+import focusMain from "./meeting-img.jpeg";
 
 
 

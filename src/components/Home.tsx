@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/home.css";
@@ -50,9 +49,9 @@ const Home = () => {
                   <h4 className="cat-title">{category.title}</h4>
                   <p className="cat-text">{category.description}</p>
                   <button className="home-learn-btn">
-                    <Link to={category.link}>
+                    <a href={category.link}>
                       {t("homeLearnMore")}
-                    </Link>
+                    </a>
                   </button>
                 </div>
               </div>
@@ -123,9 +122,9 @@ const Home = () => {
                 {selectedRole === "role1" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a>{t("class")}</a>
+                    <a href="/cceClass">{t("class")}</a>
                     {t("en")}
-                    <a>{t("chronicle")}</a>
+                    <a href="/chronicle">{t("chronicle")}</a>
                   </div>
                 ) : (
                   <>
@@ -142,7 +141,7 @@ const Home = () => {
                 {selectedRole === "role2" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a>{t("chronicle")}</a>
+                    <a href="/chronicle">{t("chronicle")}</a>
                   </div>
                 ) : (
                   <>
@@ -159,7 +158,8 @@ const Home = () => {
                 {selectedRole === "role3" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a>{t("chronicle")}</a>
+                    <a href="/chronicle">{t("chronicle")}</a>
+                    <a href="/cceClass">{t("class")}</a>
                   </div>
                 ) : (
                   <>

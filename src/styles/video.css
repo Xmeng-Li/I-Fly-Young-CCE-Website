@@ -63,6 +63,7 @@
 
 /* Video Part */
 .video-and-pagination {
+  font-family: "Noto Sans";
   width: 100%;
   max-width: 100%;
   margin-bottom: 60px;
@@ -109,6 +110,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px; 
+  margin-bottom: 8px;
  }
 .video-text {
   height: 72px;

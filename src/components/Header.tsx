@@ -41,9 +41,9 @@ const Header = () => {
               {t("our_team")}
             </NavLink>
 
-          
-            <span>{t("chronicles")}</span>
-
+            <NavLink to="/chronicle" onClick={() => setMenuOpen(false)}>
+              {t("chronicles")}
+            </NavLink>
             
             <NavLink to="/programs" onClick={() => setMenuOpen(false)}>
               {t("programs")}

@@ -211,6 +211,7 @@
   text-decoration: none;
 }
 .webinar-container {
+  font-family: "Noto Sans";
   display: grid;
   width: 1345px;
   grid-template-columns: repeat(3, 1fr);
@@ -247,6 +248,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px; 
+  margin-bottom: 8px;
  }
 .webinar-text {
   height: 72px;
