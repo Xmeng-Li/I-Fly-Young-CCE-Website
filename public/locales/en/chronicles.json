@@ -21,112 +21,112 @@
       "title": "Everyone Is Different",
       "date": "08/29/2022",
       "description": "Everyone has different approaches, personalities, concerns, and worries.",
-      "link" : "/everyoneisdifferent"
+      "link" : "/everyone-is-different"
     },
     {
       "image": "/images/chronicles/bridge.jpg",
       "title": "Go Ahead And Ask",
       "date": "06/24/2022",
       "description": "You'll be surprised at what you get if you just ask.",
-      "link" : ""
+      "link" : "/go-ahead-and-ask"
     },
     {
-      "image": "/images/chronicles/hands hold flower.jpg",
+      "image": "/images/chronicles/hold_flower.jpg",
       "title": "If You Want to Fail, Fail Early",
       "date": "04/08/2022",
       "description": "If we need to pivot to a different solution then so be it. If you're not taking risks, you're also not going to innovate.",
-      "link" : ""
+      "link" : "/fail-early"
     },
     {
       "image": "/images/chronicles/caps.jpg",
       "title": "Remind Yourself Your Initial Motivation",
       "date": "01/14/2022",
       "description": "Regardless of how many kinds of challenges happen down the road, you can remind yourself - your initial motivation.",
-      "link" : ""
+      "link" : "/remind-yourself"
     },
     {
       "image": "/images/chronicles/sunset.jpg",
       "title": "Become the Strongest Person",
       "date": "11/26/2021",
       "description": "When you empower other people and allow them to empower you, you become the strongest person.",
-      "link" : ""
+      "link" : "/strongest-person"
     },
     {
-      "image": "/images/chronicles/sitting man.jpg",
+      "image": "/images/chronicles/sitting_man.jpg",
       "title": "Communication Is Key",
       "date": "09/17/2021",
       "description": "Education is necessary to learn the technical points, but soft skills are vital to your success.",
-      "link" : ""
+      "link" : "/communication-is-key"
     },
     {
       "image": "/images/chronicles/flowers.jpg",
       "title": "Certification Helps",
       "date": "08/13/2021",
       "description": "Certification helps for concrete skills, and also helps for landing your first or second job.",
-      "link" : ""
+      "link" : "/certification-helps"
     },
     {
       "image": "/images/chronicles/happy.jpg",
       "title": "The Biggest Happiness",
       "date": "05/27/2021",
       "description": "It is when you get to help others in a way where you would have never thought you could help.",
-      "link" : ""
+      "link" : "/biggest-happiness"
     },
     {
-      "image": "/images/chronicles/paper airplane.jpg",
+      "image": "/images/chronicles/paperAirplane.jpg",
       "title": "Do Something You Like",
       "date": "04/16/2021",
       "description": "As your career extends, the pay isn't going to be the major motivation, but really the fulfillment.",
-      "link" : ""
+      "link" : "/do-something-you-like"
     },
     {
-      "image": "/images/chronicles/sticky notes.jpg",
+      "image": "/images/chronicles/sticky_notes.jpg",
       "title": "You Can Do This",
       "date": "03/12/2021",
       "description": "Sometimes we have to have that person in our life that says you can do this and encourages us.",
-      "link" : ""
+      "link" : "/you-can-do-this"
     },
     {
       "image": "/images/chronicles/psychology.jpg",
       "title": "Psychology is my Calling",
       "date": "02/19/2021",
       "description": "Psychology remains a popular program and can help students to discover more about themselves and how to be happier.",
-      "link" : ""
+      "link" : "/psychology"
     },
     {
       "image": "/images/chronicles/people.jpg",
       "title": "Internships are Opportunities",
       "date": "01/30/2021",
       "description": "Expose yourself to actual classes and do hands-on learning before you can decide whether that's something that you want to go for.",
-      "link" : ""
+      "link" : "/internships-are-opp"
     },
     {
       "image": "/images/chronicles/mountain.jpg",
       "title": "Explore the Real World",
       "date": "01/15/2021",
       "description": "Study hard to build a solid foundation of knowledge and good habits of learning. Exercising regularly is also important.",
-      "link" : ""
+      "link" : "/explore-real-world"
     },
     {
       "image": "/images/chronicles/technology.jpg",
       "title": "Good Technology is for Helping People",
       "date": "12/25/2020",
       "description": "Not only do we need to understand the technology, but also how this technology is useful for our potential clients.",
-      "link" : ""
+      "link" : "/good-tech"
     },
     {
-      "image": "/images/chronicles/typing lady.jpg",
+      "image": "/images/chronicles/typing_lady.jpg",
       "title": "Constant Exposure Leads to Right Direction",
       "date": "11/20/2020",
       "description": "\"I am glad that constant exposure to the inspiration of research helped to overcome my doubt and pointed me in the direction I should go.\"",
-      "link" : ""
+      "link" : "/const-exposure"
     },
     {
       "image": "/images/chronicles/macbook.jpg",
       "title": "Stem Students ≠ \"Nerds\"",
       "date": "10/30/2020",
       "description": "Life is VERY hard to predict. You just have to follow your passion, become your best self, and when opportunities knock, be ready.",
-      "link" : ""
+      "link" : "/stem-not-nerds"
     }
   ]
 }

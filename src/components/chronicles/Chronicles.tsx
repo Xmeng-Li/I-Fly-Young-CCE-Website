@@ -240,7 +240,7 @@ class Chronicles extends Component<ChronProp, ChronState> {
                   <div className="article-date">{articles.date}</div>
                   <div className="article-text">{articles.description}</div>
                   <button className="read-btn" 
-                    onClick={() => window.open(articles.link, "_blank")}>
+                    onClick={() => window.open(articles.link, "_self")}>
                     {this.props.t("readMore", { ns: "chronicles" })}
                   </button>
                 </div>

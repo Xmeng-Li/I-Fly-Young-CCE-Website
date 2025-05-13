@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
+import img1 from "./notebook.jpg";
 
 
 type ArticleType = {
@@ -18,7 +19,7 @@ type ArticleType = {
 
 const EveryoneIsDifferent = () => {
   const { t } = useTranslation("articles");
-  const articleTexts: ArticleType[] = t("eachArticle", { ns: "articles", returnObjects: true });
+  const articleTexts: ArticleType[] = t("article16", { ns: "articles", returnObjects: true });
 
   const LeftArrow = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -31,8 +32,15 @@ const EveryoneIsDifferent = () => {
   </svg>
   );
 
-  
+  useEffect(() => {
+    document.body.style.backgroundColor = "#F0F8FF";
+    return () => {
+      document.body.style.backgroundColor = ""; 
+    };
+  }, []);
 
+
+ 
   return (
     <div>
       <Header />
@@ -45,37 +53,46 @@ const EveryoneIsDifferent = () => {
         <label className="article-backTo-text">{t("backTo")}</label>
       </div>
       <div className="article-container">
-        {articleTexts.map((eachArticle, index) => (
+        {articleTexts.map((article16, index) => (
           <div key={index} className="art-card">
-            <h4 className="art-title">{eachArticle.title}</h4>
+            <h4 className="art-title">{article16.title}</h4>
             <div className="authors-box">
-              <span>{eachArticle.date} {eachArticle.duration}</span>
-              <span>{t("authors")}</span>
+              <span className="date-and-duration">{article16.date} &#183; {article16.duration}</span>
+              <span className="authors">{t("authors")}</span>
             </div>
             <div className="responder-box">
               <div className="resp-left">
-                <img className="resp-image" src={eachArticle.image} alt={eachArticle.image} />
-                <div className="resp-role">
-                  {eachArticle.role}
-                </div>
+                <img className="resp-image" src={article16.image} alt={article16.image} />
+                <div className="resp-name">{article16.responder}</div>
+                <div className="resp-role">{article16.role}</div>
               </div>
               <div className="resp-right">
-                <span>{t("guest")}</span>
+                <span className="resp-label">{t("guest")}</span>
                 <div className="resp-bio">
-                  {eachArticle.bio}
+                  {article16.bio}
                 </div>
               </div>
             </div>
             <div className="art-detail">
-              {eachArticle.content.map ((item, index) => (
-                <div key={index} className="qa-pair">
-                  <h5 className="question">{item.question}</h5>
-                  <p className="answer">{item.answer}</p>
+              {article16.content.map((item, index) => (
+                <div key={index}>
+                  <div className="qa-pair">
+                    <h5 className="resp-question">{item.question}</h5>
+                    <p className="resp-answer">{item.answer}</p>
+                  </div>
+                  {index === 4 && (
+                    <img className="article-inner-img" src={img1} alt="mainImg" />
+                  )}
                 </div>
               ))}
             </div>
           </div>
         ))}
+        <div className="backTo-btn-box">
+          <button className="art-btm-btn">
+            <a href="/chronicle">{t("backToAll")}</a>
+          </button>
+        </div>
       </div>
       <Footer />
     </div>
