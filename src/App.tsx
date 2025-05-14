@@ -9,7 +9,6 @@ import Recording from "./components/officeHours/Recording";
 import OurTeam from "./components/OurTeam";
 import Webinar from "./components/webinar/Webinar";
 import AllVideo from "./components/webinar/Video";
-import Programs from "./components/programs/LandingPage";
 import Interview from "./components/programs/Interview";
 import Intern from "./components/programs/Intern";
 import Project from "./components/programs/Project";
@@ -48,7 +47,6 @@ function App() {
           <Route path="/webinar" element={<Webinar />} />
           <Route path="/allVideo" element={<AllVideo />} /> 
 
-          <Route path="/programs" element={<Programs />} />
           <Route path="/interview" element={<Interview />} />
           <Route path="/intern" element={<Intern />} />
           <Route path="/focus-group" element={<FocusGroup />} />

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Header from "../Header";
 import Footer from "../Footer";
-import { Link } from "react-router-dom";
 import "../../styles/focusGroup.css";
 
 import focusTopImg from "./focusTop.png";
@@ -39,16 +38,6 @@ const FocusGroup = () => {
   const { t } = useTranslation("programs");
   const focusContent: FocusContents[] = t("focusContents", { ns: "programs", returnObjects: true });
 
-  const LeftArrow = () => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <mask id="mask0_440_2232" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
-      <rect width="20" height="20" fill="#D9D9D9"/>
-    </mask>
-    <g mask="url(#mask0_440_2232)">
-      <path d="M9.00016 9.99996L12.2502 13.25C12.4029 13.4027 12.4793 13.5972 12.4793 13.8333C12.4793 14.0694 12.4029 14.2638 12.2502 14.4166C12.0974 14.5694 11.9029 14.6458 11.6668 14.6458C11.4307 14.6458 11.2363 14.5694 11.0835 14.4166L7.25016 10.5833C7.16683 10.5 7.1078 10.4097 7.07308 10.3125C7.03836 10.2152 7.021 10.1111 7.021 9.99996C7.021 9.88885 7.03836 9.78468 7.07308 9.68746C7.1078 9.59024 7.16683 9.49996 7.25016 9.41663L11.0835 5.58329C11.2363 5.43051 11.4307 5.35413 11.6668 5.35413C11.9029 5.35413 12.0974 5.43051 12.2502 5.58329C12.4029 5.73607 12.4793 5.93051 12.4793 6.16663C12.4793 6.40274 12.4029 6.59718 12.2502 6.74996L9.00016 9.99996Z" fill="#525252"/>
-    </g>
-  </svg>
-  );
   const StarIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
       <mask id="mask0_1171_3735" maskUnits="userSpaceOnUse" x="0" y="0" width="54" height="54">
@@ -112,14 +101,6 @@ const FocusGroup = () => {
   return (
     <div>
       <Header />
-      <div className="focus-backTo">
-        <Link to="/programs">
-          <div className="left-arrow">
-            <LeftArrow />
-          </div>
-        </Link>
-        <label className="focus-backTo-text">{t("backToText")}</label>
-      </div>
       <div className="focus-top-part">
         <div className="focus-left-content">
           <span className="focusTitle">{t("focusTitle")}</span>

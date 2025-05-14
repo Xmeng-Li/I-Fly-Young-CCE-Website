@@ -98,14 +98,18 @@ const Home = () => {
                 <div className="home-two-titles">{t("joinTitle1")}</div>
                 <div className="home-two-text">{t("joinDes1")}</div>
                 <button className="home-join-btn">
+                  <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
                     {t("joinBtn1")}
+                  </a>
                 </button>
               </div>
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle2")}</div>
                 <div className="home-two-text">{t("joinDes2")}</div>
                 <button className="home-join-btn">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMgl3WrOUriWkGdx3ooxiafXGs0digVF_ORyMfnn_BdhBz7Q/viewform" target="_blank" rel="noopener noreferrer">
                     {t("joinBtn2")}
+                  </a>
                 </button>
               </div>
             </div>

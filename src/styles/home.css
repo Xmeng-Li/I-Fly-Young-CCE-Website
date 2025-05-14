@@ -280,12 +280,15 @@
   align-items: center;
   border-radius: 40px;
   background: var(--Orange-500, #FF9700);
+  border: none;
+}
+.home-join-btn a {
   color: var(--Text-white, #FFF);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  border: none;
+  text-decoration: none;
 }
 .home-btm-container {
   display: flex;

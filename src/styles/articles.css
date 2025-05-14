@@ -72,7 +72,6 @@
   width: 120px;
   height: 120px;
   margin-bottom: 16px;
-  /* border-radius: 150px; */
 }
 .resp-square-image {
   width: 120px;
@@ -81,6 +80,7 @@
   object-position: 0px 20%;
   margin-bottom: 16px;
   border-radius: 8px;
+  border-radius: 60px;
 }
 .resp-name {
   color: var(--Text-primary, #333);

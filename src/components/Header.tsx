@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import {useLocation, NavLink } from "react-router-dom";
 import logo from '../components/officeHours/CCELogo.png';
 import "../styles/header.css";
 
@@ -9,6 +9,7 @@ const Header = () => {
   
   const [isChinese, setIsChinese] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleLanguage = () => {
     const newLang = isChinese ? 'en' : 'zh';
@@ -16,14 +17,35 @@ const Header = () => {
     setIsChinese(!isChinese); 
   };
 
+  const handleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+  const closeDropdown = () => {
+    setMenuOpen(false);
+    setDropdownOpen(false);
+  };
+
+  const location = useLocation();
+  const programPaths = [
+    "/focus-group",
+    "/project",
+    "/interview",
+    "/intern",
+    "/class",
+    "/webinar",
+    "/chronicle",
+  ];
+  const isProgramPage = programPaths.includes(location.pathname);
 
   return (
     <header>
       <nav className='header'>
-        <div className='logo-box'>
-          <img src={logo} alt="Logo" className="logo" />
-          <div className="logo-title">I Fly Young CCE</div>
-        </div>
+        <a href='/' className='logo-link'>
+          <div className='logo-box'>
+            <img src={logo} alt="Logo" className="logo" />
+            <div className="logo-title">I Fly Young CCE</div>
+          </div>
+        </a>
         {/* Hamburger Icon*/}
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
@@ -41,21 +63,39 @@ const Header = () => {
               {t("our_team")}
             </NavLink>
 
-            <NavLink to="/chronicle" onClick={() => setMenuOpen(false)}>
-              {t("chronicles")}
-            </NavLink>
-            
-            <NavLink to="/programs" onClick={() => setMenuOpen(false)}>
-              {t("programs")}
-            </NavLink>
-            <NavLink to="/webinar" onClick={() => setMenuOpen(false)}>
-              {t("webinar")}
-            </NavLink>
-
-            <a href="https://iflyyoung.com/" target="_blank" rel="noopener noreferrer">
-              {t("iFlyYoung")}
-            </a>
-            <button className="language-btn" onClick={toggleLanguage}>{isChinese ? 'EN' : '中文'}
+            {/* Dropdown menu for Programs */}
+            <div className='home-dropdown'>
+              <div onClick={handleDropdown}
+                   className={isProgramPage ? "active" : ""}>
+                {t("programs")} 
+              </div>
+              {dropdownOpen && (
+                <div className="home-dropdown-content">
+                  <NavLink to="/focus-group" onClick={closeDropdown}>
+                    {t("focus_group")}
+                  </NavLink>
+                  <NavLink to="/project" onClick={closeDropdown}>
+                    {t("proj")}
+                  </NavLink>
+                  <NavLink to="/interview" onClick={closeDropdown}>
+                    {t("interview")}
+                  </NavLink>
+                  <NavLink to="/intern" onClick={closeDropdown}>
+                    {t("intern")}
+                  </NavLink>
+                  <NavLink to="/class" onClick={closeDropdown}>
+                    {t("class")}
+                  </NavLink>
+                  <NavLink to="/webinar" onClick={closeDropdown}>
+                    {t("webinar")}
+                  </NavLink>
+                  <NavLink to="/chronicle" onClick={closeDropdown}>
+                    {t("chronicles")}
+                  </NavLink>
+                </div>
+              )}
+            </div>
+            <button className="language-btn" onClick={toggleLanguage}>    {isChinese ? 'EN' : '中文'}
             </button>
           </div>
         </div>
