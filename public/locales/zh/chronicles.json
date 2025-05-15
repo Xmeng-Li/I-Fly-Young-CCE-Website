@@ -1,0 +1,132 @@
+{
+  "pageBanner": "專訪",
+  "bannerText": "不知道需要什麼？也許是快速閱讀!",
+  "pageTitle": "文章",
+  "pageText": "從我們的大學生專訪團隊進行的訪談中獲得寶貴的見解。",
+
+  "filter": "過濾器",
+
+  "sort": "排序",
+  "timeSort" : {
+    "recent" : "最近",
+    "oldest" : "最早"
+  },
+  "year": "年份",
+  "years": "所有年份",
+  
+  "readMore": "閱讀更多",
+  "articles": [
+    {
+      "image": "/images/chronicles/notebook.jpg",
+      "title": "每個人都是不同",
+      "date": "08/29/2022",
+      "description": "每個人都有不同的方法、個性、關注點和擔憂。",
+      "link" : "/everyone-is-different"
+    },
+    {
+      "image": "/images/chronicles/bridge.jpg",
+      "title": "繼續問吧",
+      "date": "06/24/2022",
+      "description": "只要問一下，你就會對你得到的答案感到驚訝。",
+      "link" : "/go-ahead-and-ask"
+    },
+    {
+      "image": "/images/chronicles/hold_flower.jpg",
+      "title": "如果你想失敗，那就早點失敗",
+      "date": "04/08/2022",
+      "description": "如果我們需要轉向不同的解決方案，那就這樣吧。如果你不承擔風險，你就不會創新。",
+      "link" : "/fail-early"
+    },
+    {
+      "image": "/images/chronicles/caps.jpg",
+      "title": "提醒自己最初的動機",
+      "date": "01/14/2022",
+      "description": "無論未來遇到多少挑戰，你都可以提醒自己──你最初的動力。",
+      "link" : "/remind-yourself"
+    },
+    {
+      "image": "/images/chronicles/sunset.jpg",
+      "title": "成為最強的人",
+      "date": "11/26/2021",
+      "description": "當你賦予他人權力並允許他們賦予你權力時，你就會成為最強大的人。",
+      "link" : "/strongest-person"
+    },
+    {
+      "image": "/images/chronicles/sitting_man.jpg",
+      "title": "溝通是關鍵",
+      "date": "09/17/2021",
+      "description": "教育對於學習技術要點是必要的，但軟技能對於您的成功至關重要。",
+      "link" : "/communication-is-key"
+    },
+    {
+      "image": "/images/chronicles/flowers.jpg",
+      "title": "認證幫助",
+      "date": "08/13/2021",
+      "description": "認證有助於獲得具體的技能，也有助於獲得第一份或第二份工作。",
+      "link" : "/certification-helps"
+    },
+    {
+      "image": "/images/chronicles/happy.jpg",
+      "title": "最大的幸福",
+      "date": "05/27/2021",
+      "description": "當你以一種你從未想過的方式幫助別人。",
+      "link" : "/biggest-happiness"
+    },
+    {
+      "image": "/images/chronicles/paperAirplane.jpg",
+      "title": "做你喜歡的事",
+      "date": "04/16/2021",
+      "description": "隨著職業生涯的延長，薪水不再是主要的動力，而是真正的成就感。",
+      "link" : "/do-something-you-like"
+    },
+    {
+      "image": "/images/chronicles/sticky_notes.jpg",
+      "title": "你能做到",
+      "date": "03/12/2021",
+      "description": "有時，我們的生活中需要有那麼一個人告訴我們，你可以做到，並鼓勵我們。",
+      "link" : "/you-can-do-this"
+    },
+    {
+      "image": "/images/chronicles/psychology.jpg",
+      "title": "心理學是我的使命",
+      "date": "02/19/2021",
+      "description": "心理學仍然是一門受歡迎的課程，可以幫助學生更多地了解自己以及如何變得更快樂。",
+      "link" : "/psychology"
+    },
+    {
+      "image": "/images/chronicles/people.jpg",
+      "title": "實習是機會",
+      "date": "01/30/2021",
+      "description": "先接觸實際課程並進行實踐學習，然後才能決定這是否是您想要做的事情。",
+      "link" : "/internships-are-opp"
+    },
+    {
+      "image": "/images/chronicles/mountain.jpg",
+      "title": "探索現實世界",
+      "date": "01/15/2021",
+      "description": "努力學習，打下紮實的知識基礎，養成良好的學習習慣。定期運動也很重要。",
+      "link" : "/explore-real-world"
+    },
+    {
+      "image": "/images/chronicles/technology.jpg",
+      "title": "好的技術是為了幫助人們",
+      "date": "12/25/2020",
+      "description": "我們不僅需要了解這項技術，還需要了解這項技術如何對我們的潛在客戶有用。",
+      "link" : "/good-tech"
+    },
+    {
+      "image": "/images/chronicles/typing_lady.jpg",
+      "title": "持續的接觸引領我們走向正確的方向",
+      "date": "11/20/2020",
+      "description": "\"我很高興，不斷接觸研究的靈感幫助我克服了疑慮，並為我指明了應該前進的方向。\"",
+      "link" : "/const-exposure"
+    },
+    {
+      "image": "/images/chronicles/macbook.jpg",
+      "title": "STEM 學生 ≠ \"書呆子\"",
+      "date": "10/30/2020",
+      "description": "生活真的很難預測。你只需要追隨你的熱情，成為最好的自己，當機會來臨時，做好準備。",
+      "link" : "/stem-not-nerds"
+    }
+  ]
+}

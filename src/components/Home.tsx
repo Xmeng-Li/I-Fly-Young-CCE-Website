@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom'; 
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/home.css";
@@ -34,8 +35,10 @@ const Home = () => {
           <div className="home-banner">
             <img className="banner-bk" src={bannerBk} alt="banner"/>
             <label className="home-sub">{t("homeBannerSub")}</label>
-            <label className="home-title">{t("homeBanner")}</label>
-            <label className="home-text">{t("homeTopText")}</label>
+            <div className="banner-content">
+              <label className="home-title">{t("homeBanner")}</label>
+              <label className="home-text">{t("homeTopText")}</label>
+            </div>
           </div>
         </div>
 
@@ -49,9 +52,9 @@ const Home = () => {
                   <h4 className="cat-title">{category.title}</h4>
                   <p className="cat-text">{category.description}</p>
                   <button className="home-learn-btn">
-                    <a href={category.link}>
+                    <Link to={category.link} onClick={() => window.scrollTo(0, 0)}>
                       {t("homeLearnMore")}
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -126,9 +129,13 @@ const Home = () => {
                 {selectedRole === "role1" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a href="/cceClass">{t("class")}</a>
+                    <Link to="/cceClass" onClick={() => window.scrollTo(0, 0)}>
+                      {t("class")}
+                    </Link>
                     {t("en")}
-                    <a href="/chronicle">{t("chronicle")}</a>
+                    <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+                      {t("chronicle")}
+                    </Link>
                   </div>
                 ) : (
                   <>
@@ -145,7 +152,9 @@ const Home = () => {
                 {selectedRole === "role2" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a href="/chronicle">{t("chronicle")}</a>
+                    <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+                      {t("chronicle")}
+                    </Link>
                   </div>
                 ) : (
                   <>
@@ -162,8 +171,12 @@ const Home = () => {
                 {selectedRole === "role3" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a href="/chronicle">{t("chronicle")}</a>
-                    <a href="/cceClass">{t("class")}</a>
+                    <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+                      {t("chronicle")}
+                    </Link>
+                    <Link to="/cceClass" onClick={() => window.scrollTo(0, 0)}>
+                      {t("class")}
+                    </Link>
                   </div>
                 ) : (
                   <>
@@ -182,11 +195,17 @@ const Home = () => {
                 {selectedRole === "role4" ? (
                   <div className="extra-info">
                     {t("zh")}
-                    <a href="/office-hours">{t("officeHr")}</a>
+                    <Link to="/office-hours" onClick={() => window.scrollTo(0, 0)}>
+                      {t("officeHr")}
+                    </Link>
                     {t("zh")}
-                    <a href="/focus-group">{t("group")}</a>
+                    <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)}>
+                      {t("group")}
+                    </Link>
                     {t("zh")}
-                    <a href="/project">{t("proj")}</a>
+                    <Link to="/project" onClick={() => window.scrollTo(0, 0)}>
+                      {t("proj")}
+                    </Link>
                   </div>
                 ) : (
                   <>
@@ -204,9 +223,13 @@ const Home = () => {
                 {selectedRole === "role5" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <a href="/interview">{t("interview")}</a>
+                    <Link to="/interview" onClick={() => window.scrollTo(0, 0)}>
+                      {t("interview")}
+                    </Link>
                     {t("en")}
-                    <a href="/intern">{t("intern")}</a>
+                    <Link to="/intern" onClick={() => window.scrollTo(0, 0)}>
+                      {t("intern")}
+                    </Link>
                   </div>
                 ) : (
                   <>
@@ -224,7 +247,9 @@ const Home = () => {
                 {selectedRole === "otherResource" ? (
                   <div className="extra-info">
                     {t("zh")}
-                    <a href="/recording">{t("recording")}</a>
+                    <Link to="/recording" onClick={() => window.scrollTo(0, 0)}>
+                      {t("recording")}
+                    </Link>
                   </div>
                 ) : (
                   <>
