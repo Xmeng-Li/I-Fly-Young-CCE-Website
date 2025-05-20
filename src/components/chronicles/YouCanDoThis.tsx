@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom'; 
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
 import img1 from "./hold_flower.jpg";
 import img2 from "./rainbow.jpg";
+import { useLocation } from 'react-router-dom';
 
 
 type ArticleType = {
@@ -40,17 +42,16 @@ const YouCanDoThis = () => {
     };
   }, []);
 
-
+  const location = useLocation();
+  const fromPage = location.state?.fromPage || 1; 
  
   return (
     <div>
       <Header />
       <div className="article-backTo">
-        <a href="/chronicle">
-          <div className="left-arrow">
-            <LeftArrow />
-          </div>
-        </a>
+        <Link to="/chronicle" className="left-arrow">
+          <LeftArrow />
+        </Link>
         <label className="article-backTo-text">{t("backTo")}</label>
       </div>
       <div className="article-container">
@@ -94,7 +95,9 @@ const YouCanDoThis = () => {
         ))}
         <div className="backTo-btn-box">
           <button className="art-btm-btn">
-            <a href="/chronicle">{t("backToAll")}</a>
+            <Link to="/chronicle" state={{ page: fromPage }} onClick={() => window.scrollTo(0, 0)}>
+              {t("backToAll")}
+            </Link>
           </button>
         </div>
       </div>

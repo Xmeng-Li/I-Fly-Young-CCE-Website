@@ -14,6 +14,7 @@ import Intern from "./components/programs/Intern";
 import Project from "./components/programs/Project";
 import FocusGroup from "./components/programs/FocusGroup";
 import Chronicle from "./components/chronicles/Chronicles";
+import Class from "./components/programs/Class";
 
 // Chronicle Contents
 import EveryoneIsDifferent from "./components/chronicles/EveryoneIsDifferent";
@@ -52,7 +53,7 @@ function App() {
           <Route path="/focus-group" element={<FocusGroup />} />
           <Route path="/project" element={<Project />} />
           <Route path="/chronicle" element={<Chronicle />} />
-
+          <Route path="/cce-class" element={<Class />} />
 
           <Route path="/everyone-is-different" element={<EveryoneIsDifferent />}/>
           <Route path="/go-ahead-and-ask" element={<GoAheadAndAsk />}/>

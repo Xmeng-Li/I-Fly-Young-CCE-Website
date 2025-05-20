@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom'; 
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
@@ -39,17 +40,13 @@ const EveryoneIsDifferent = () => {
     };
   }, []);
 
-
- 
   return (
     <div>
       <Header />
       <div className="article-backTo">
-        <a href="/chronicle">
-          <div className="left-arrow">
-            <LeftArrow />
-          </div>
-        </a>
+        <Link to="/chronicle" className="left-arrow">
+          <LeftArrow />
+        </Link>
         <label className="article-backTo-text">{t("backTo")}</label>
       </div>
       <div className="article-container">
@@ -90,7 +87,9 @@ const EveryoneIsDifferent = () => {
         ))}
         <div className="backTo-btn-box">
           <button className="art-btm-btn">
-            <a href="/chronicle">{t("backToAll")}</a>
+            <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+              {t("backToAll")}
+            </Link>
           </button>
         </div>
       </div>

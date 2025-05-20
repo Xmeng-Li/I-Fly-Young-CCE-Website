@@ -31,7 +31,7 @@ const Header = () => {
     "/project",
     "/interview",
     "/intern",
-    "/class",
+    "/cce-class",
     "/webinar",
     "/chronicle",
   ];
@@ -83,7 +83,7 @@ const Header = () => {
                   <NavLink to="/intern" onClick={closeDropdown}>
                     {t("intern")}
                   </NavLink>
-                  <NavLink to="/class" onClick={closeDropdown}>
+                  <NavLink to="/cce-class" onClick={closeDropdown}>
                     {t("class")}
                   </NavLink>
                   <NavLink to="/webinar" onClick={closeDropdown}>

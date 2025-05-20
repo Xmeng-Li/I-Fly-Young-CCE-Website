@@ -129,7 +129,7 @@ const Home = () => {
                 {selectedRole === "role1" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <Link to="/cceClass" onClick={() => window.scrollTo(0, 0)}>
+                    <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
                       {t("class")}
                     </Link>
                     {t("en")}
@@ -174,7 +174,7 @@ const Home = () => {
                     <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
                       {t("chronicle")}
                     </Link>
-                    <Link to="/cceClass" onClick={() => window.scrollTo(0, 0)}>
+                    <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
                       {t("class")}
                     </Link>
                   </div>

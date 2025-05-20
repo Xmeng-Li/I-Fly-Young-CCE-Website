@@ -186,6 +186,9 @@
   border-radius: 40px;
   border: 2px solid var(--Blue-600, #065D9E);
   background: var(--Neutral-White, #FFF);
+}
+.read-btn a {
+  text-decoration: none;
   color: var(--Blue-600, #065D9E);
   font-size: 16px;
   font-style: normal;
