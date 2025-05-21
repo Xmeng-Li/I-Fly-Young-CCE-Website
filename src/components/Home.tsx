@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import "../styles/home.css";
 import cloud from "../components/officeHours/CCELogo.png";
 import bannerBk from "../components/bannerBk.png";
+import mobileBannerBk from "../components/mobile-banner.png";
 import mainBk from "../components/homeBk.png";
 import lineDele from "../components/line.png";
 
@@ -34,6 +35,7 @@ const Home = () => {
           <img className="home-cloud" src={cloud} alt="Logo"/>
           <div className="home-banner">
             <img className="banner-bk" src={bannerBk} alt="banner"/>
+            <img className="mobile-banner-bk" src={mobileBannerBk} alt="banner"/>
             <label className="home-sub">{t("homeBannerSub")}</label>
             <div className="banner-content">
               <label className="home-title">{t("homeBanner")}</label>
@@ -129,13 +131,14 @@ const Home = () => {
                 {selectedRole === "role1" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
-                      {t("class")}
-                    </Link>
-                    {t("en")}
-                    <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
-                      {t("chronicle")}
-                    </Link>
+                    <div className="info-row">
+                      <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
+                        {t("class")}
+                      </Link>
+                      <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+                        {t("chronicle")}
+                      </Link>
+                    </div>
                   </div>
                 ) : (
                   <>
@@ -171,12 +174,14 @@ const Home = () => {
                 {selectedRole === "role3" ? (
                   <div className="extra-info">
                     {t("en")}
-                    <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
-                      {t("chronicle")}
-                    </Link>
-                    <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
-                      {t("class")}
-                    </Link>
+                    <div className="info-row">
+                      <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+                        {t("chronicle")}
+                      </Link>
+                      <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
+                        {t("class")}
+                      </Link>
+                    </div>
                   </div>
                 ) : (
                   <>
@@ -195,17 +200,17 @@ const Home = () => {
                 {selectedRole === "role4" ? (
                   <div className="extra-info">
                     {t("zh")}
-                    <Link to="/office-hours" onClick={() => window.scrollTo(0, 0)}>
-                      {t("officeHr")}
-                    </Link>
-                    {t("zh")}
-                    <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)}>
-                      {t("group")}
-                    </Link>
-                    {t("zh")}
-                    <Link to="/project" onClick={() => window.scrollTo(0, 0)}>
-                      {t("proj")}
-                    </Link>
+                    <div className="info-row">
+                      <Link to="/office-hours" onClick={() => window.scrollTo(0, 0)}>
+                        {t("officeHr")}
+                      </Link>
+                      <Link to="/project" onClick={() => window.scrollTo(0, 0)}>
+                        {t("proj")}
+                      </Link>
+                      <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)}>
+                        {t("group")}
+                      </Link>
+                    </div>
                   </div>
                 ) : (
                   <>
@@ -226,7 +231,6 @@ const Home = () => {
                     <Link to="/interview" onClick={() => window.scrollTo(0, 0)}>
                       {t("interview")}
                     </Link>
-                    {t("en")}
                     <Link to="/intern" onClick={() => window.scrollTo(0, 0)}>
                       {t("intern")}
                     </Link>
