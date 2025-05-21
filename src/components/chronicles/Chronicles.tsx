@@ -38,29 +38,17 @@ class Chronicles extends Component<ChronProp, ChronState> {
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
-  // constructor(props: ChronProp) {
-  //   super(props);
-  //   this.state = {
-  //     currentPage: 0,
-  //     itemsPerPage: this.getItemsPerPage(),
-  //     sortOrder: "recent",
-  //     selectedYear: "all",
-  //     showFilterMenu: false, 
-  //   };
-  //   this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
-  // }
-
-  constructor(props: ChronProp & { currentPageFromRouter?: number }) {
-  super(props);
-  this.state = {
-    currentPage: props.currentPageFromRouter || 0,
-    itemsPerPage: this.getItemsPerPage(),
-    sortOrder: "recent",
-    selectedYear: "all",
-    showFilterMenu: false,
-  };
-}
-
+  constructor(props: ChronProp) {
+    super(props);
+    this.state = {
+      currentPage: 0,
+      itemsPerPage: this.getItemsPerPage(),
+      sortOrder: "recent",
+      selectedYear: "all",
+      showFilterMenu: false, 
+    };
+    this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
+  }
 
   getItemsPerPage = (): number => {
     return window.innerWidth <= 768 ? 6 : 9;
@@ -184,13 +172,11 @@ class Chronicles extends Component<ChronProp, ChronState> {
           </div>
         </div>
 
-        <div className="chron-page-title-and-icon">
-          {/* Filter Icon for Mobile */}
-          <div className="chron-filter-icon-and-label">
-            <div className="chron-filter-label">{t("filter")}</div>
-            <div className="chron-filter-icon" onClick={this.toggleFilterMenu}>
-              <FilterIcon />
-            </div>
+        {/* Filter Icon for Mobile */}
+        <div className="chron-filter-icon-and-label">
+          <div className="chron-filter-label">{t("filter")}</div>
+          <div className="chron-filter-icon" onClick={this.toggleFilterMenu}>
+            <FilterIcon />
           </div>
         </div>
 

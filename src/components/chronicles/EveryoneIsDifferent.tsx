@@ -5,6 +5,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
 import img1 from "./notebook.jpg";
+import img2 from "./rainbow.jpg";
 
 
 type ArticleType = {
@@ -77,8 +78,11 @@ const EveryoneIsDifferent = () => {
                     <h5 className="resp-question">{item.question}</h5>
                     <p className="resp-answer">{item.answer}</p>
                   </div>
-                  {index === 4 && (
+                  {index === 2 && (
                     <img className="article-inner-img" src={img1} alt="mainImg" />
+                  )}
+                  {index === 6 && (
+                    <img className="article-inner-img" src={img2} alt="mainImg" />
                   )}
                 </div>
               ))}

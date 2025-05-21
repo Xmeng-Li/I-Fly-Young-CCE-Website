@@ -197,12 +197,56 @@
 
 
 /* For Mobile */
-@media (min-width: 320px) and (max-width: 425px) {
+@media (max-width: 425px) {
+  .chron-top-part {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+  }
+  .chron-title {
+    font-size: 24px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .chron-right-text-container {
+    width: 380px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-right: -10px;
+    margin-top: -40px;
+  }
+  .chron-page-title {
+    font-size: 24px; 
+    line-height: 30px;
+  }
+  .chron-page-text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+
   .chron-filter-icon-and-label {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .chron-filter-icon {
     display: flex;
@@ -218,5 +262,137 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
+  }
+  .chron-filter-container { 
+    display: none;
+  }
+  .chron-filter-container.show {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .chron-each-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  select { 
+    padding: 8px 16px;
+    align-items: flex-start;
+  }
+  .chron-filter-label {
+    display: flex;
+    color: var(--Text-Grey, #525252);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .chron-label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .chron-filter-text{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .chron-sort-dropdown,
+  .chron-year-dropdown {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  /* Article List */
+  .chron-and-pagination {
+    width: 100%;
+    max-width: 100%;
+  }
+  .chron-container {
+    width: 125%;
+    grid-template-columns: repeat(1, minmax(320px, 1fr));  
+    justify-content: center;
+  }
+  .article-card {
+    display: flex;
+    max-width: 80%;
+    margin-bottom: 30px;
+    gap: 5px;
+  }
+  .read-btn {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+
+  /* Pagination */
+  .pagination {
+    gap: 8px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 18px; 
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .page-active {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 375px) {
+  .chron-top-part {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .chron-right-text-container {
+    width: 340px;
+  }
+}
+
+@media (max-width: 320px) {
+  .chron-top-part {
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .chron-right-text-container {
+    width: 300px;
   }
 }
