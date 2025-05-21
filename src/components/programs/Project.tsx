@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/project.css";
@@ -104,9 +105,9 @@ const Project = () => {
     const regex = /(2024-2025 CCE Focus Group|2024-2025 CCE 焦點小組)/g;
     return text.split(regex).map((part, index) =>
       regex.test(part) ? (
-        <a key={index} href="/focus-group">
+        <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)} key={index}>
           {part}
-        </a>
+        </Link>
       ) : (
         part
       )
@@ -171,12 +172,12 @@ const Project = () => {
               <img className="proj-main-three-img" src={projMain3} alt="projMain3" />
               <div className="proj-main-btm-link">
                 <div className="proj-main-btm-text">{mainContent[1].projMainBtm}</div>
-                <a href="/recording">
+                <Link to="/recording" onClick={() => window.scrollTo(0, 0)} >
                   <div className="proj-ohLink-icon">
                     <div className="proj-ohLink">{mainContent[1].ohRecording}</div>
                     <div className="right-arrow-icon"><ArrowRight /></div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -38,17 +38,29 @@ class Chronicles extends Component<ChronProp, ChronState> {
     return years.sort((a, b) => Number(b) - Number(a)); 
   };
 
-  constructor(props: ChronProp) {
-    super(props);
-    this.state = {
-      currentPage: 0,
-      itemsPerPage: this.getItemsPerPage(),
-      sortOrder: "recent",
-      selectedYear: "all",
-      showFilterMenu: false, 
-    };
-    this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
-  }
+  // constructor(props: ChronProp) {
+  //   super(props);
+  //   this.state = {
+  //     currentPage: 0,
+  //     itemsPerPage: this.getItemsPerPage(),
+  //     sortOrder: "recent",
+  //     selectedYear: "all",
+  //     showFilterMenu: false, 
+  //   };
+  //   this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
+  // }
+
+  constructor(props: ChronProp & { currentPageFromRouter?: number }) {
+  super(props);
+  this.state = {
+    currentPage: props.currentPageFromRouter || 0,
+    itemsPerPage: this.getItemsPerPage(),
+    sortOrder: "recent",
+    selectedYear: "all",
+    showFilterMenu: false,
+  };
+}
+
 
   getItemsPerPage = (): number => {
     return window.innerWidth <= 768 ? 6 : 9;

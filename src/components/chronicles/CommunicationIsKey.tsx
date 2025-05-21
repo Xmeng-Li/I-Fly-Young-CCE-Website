@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
@@ -46,11 +47,9 @@ const CommunicationIsKey = () => {
     <div>
       <Header />
       <div className="article-backTo">
-        <a href="/chronicle">
-          <div className="left-arrow">
-            <LeftArrow />
-          </div>
-        </a>
+        <Link to="/chronicle" className="left-arrow">
+          <LeftArrow />
+        </Link>
         <label className="article-backTo-text">{t("backTo")}</label>
       </div>
       <div className="article-container">
@@ -81,10 +80,10 @@ const CommunicationIsKey = () => {
                     <h5 className="resp-question">{item.question}</h5>
                     <p className="resp-answer">{item.answer}</p>
                   </div>
-                  {index === 2 && (
+                  {index === 1 && (
                     <img className="article-inner-img" src={img1} alt="mainImg" />
                   )}
-                  {index === 5 && (
+                  {index === 3 && (
                     <img className="article-inner-img" src={img2} alt="mainImg" />
                   )}
                 </div>
@@ -94,7 +93,9 @@ const CommunicationIsKey = () => {
         ))}
         <div className="backTo-btn-box">
           <button className="art-btm-btn">
-            <a href="/chronicle">{t("backToAll")}</a>
+            <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+              {t("backToAll")}
+            </Link>
           </button>
         </div>
       </div>

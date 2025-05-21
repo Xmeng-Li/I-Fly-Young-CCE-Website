@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/focusGroup.css";
@@ -210,7 +211,9 @@ const FocusGroup = () => {
                       </span>
                     </div>
                     <div className="des-texts">
-                      <a href="/our-team">{focusContent[1].leaderDes}</a>
+                      <Link to="/our-team" onClick={() => window.scrollTo(0, 0)}>
+                        {focusContent[1].leaderDes}
+                      </Link>
                     </div>
                   </div>
                 ) : (

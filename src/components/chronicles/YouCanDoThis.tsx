@@ -49,9 +49,13 @@ const YouCanDoThis = () => {
     <div>
       <Header />
       <div className="article-backTo">
-        <Link to="/chronicle" className="left-arrow">
+        {/* <Link to="/chronicle" className="left-arrow">
+          <LeftArrow />
+        </Link> */}
+        <Link to="/chronicle" state={{ page: fromPage }} className="left-arrow" onClick={() => window.scrollTo(0, 0)}>
           <LeftArrow />
         </Link>
+
         <label className="article-backTo-text">{t("backTo")}</label>
       </div>
       <div className="article-container">
