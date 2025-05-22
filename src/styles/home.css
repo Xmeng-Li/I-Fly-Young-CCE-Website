@@ -473,7 +473,7 @@
     line-height: 26px; 
   }
   .aboutUS {
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -726,7 +726,7 @@
   }
   .mobile-banner-bk {
     display: flex;
-    width: 296px;
+    width: 295px;
   }
   .home-sub {
     top: 14%;
@@ -753,7 +753,7 @@
   }
   .home-container {
     display: grid;
-    width: 296px;
+    width: 295px;
     margin-bottom: 5px;
   }
   .cat-card {
@@ -820,7 +820,7 @@
     left: 50%;
   }
   .home-three-info {
-    width: 296px;
+    width: 295px;
     height: 240px;
     padding: 10px 12px;
     gap: 12px;
@@ -837,7 +837,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 296px;
+    width: 295px;
     height: 210px;
     padding: 20px;
     gap: 10px;
@@ -862,7 +862,7 @@
   }
   .home-btm-container {
     display: flex;
-    width: 296px;
+    width: 295px;
     padding: 20px;
     flex-direction: column;
     align-items: center;
