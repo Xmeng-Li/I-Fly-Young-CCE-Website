@@ -342,8 +342,8 @@ class OfficeHours extends Component<OfficeHoursProps> {
                   <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
                   <div className="mid-detail">
                     {meeting.map((zoomMeeting, index) => (
-                      <div className="mid-part" key={index}>
-                        <div className="mid-text">
+                      <div className="oh-mid-part" key={index}>
+                        <div className="oh-mid-text">
                           {Object.entries(zoomMeeting).map(([key, value]) => (
                             <p key={key}>{key}: {value}</p>
                           ))}

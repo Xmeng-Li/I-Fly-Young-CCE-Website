@@ -173,13 +173,14 @@ class Chronicles extends Component<ChronProp, ChronState> {
         </div>
 
         {/* Filter Icon for Mobile */}
-        <div className="chron-filter-icon-and-label">
-          <div className="chron-filter-label">{t("filter")}</div>
-          <div className="chron-filter-icon" onClick={this.toggleFilterMenu}>
-            <FilterIcon />
+        <div className="chron-mobile-filter">
+          <div className="chron-filter-icon-and-label">
+            <div className="chron-filter-label">{t("filter")}</div>
+            <div className="chron-filter-icon" onClick={this.toggleFilterMenu}>
+              <FilterIcon />
+            </div>
           </div>
         </div>
-
 
         {/* Filter Dropdown */}
         <div className={`chron-filter-container ${showFilterMenu ? "show" : ""}`}>
@@ -187,7 +188,6 @@ class Chronicles extends Component<ChronProp, ChronState> {
             <CloseFilterIcon />
           </div>
           
-
           {/* Chronological */}
           <div className="chron-each-filter">
             <label className="chron-label">{t("sort", { ns: "chronicles" })}</label>

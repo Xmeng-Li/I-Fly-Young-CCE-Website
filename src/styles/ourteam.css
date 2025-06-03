@@ -331,11 +331,6 @@
     justify-content: center;
     margin-left: 0px;
   }
-  .mentor-popup {
-    top: 50%;
-    left: 50%;
-    width: 550px;
-  }
 }
 
 /* For Mobile L */
@@ -385,24 +380,25 @@
     grid-template-columns: repeat(2, minmax(150px, 1fr));
   }
   .mentor-name {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 26px;
   }
   .mentor-role {
-    font-size: 14px;
+    font-size: 16px;
   }
   .mentor-popup {
     top: 50%;
     left: 50%;
-    width: 380px;
+    width: 375px;
     padding: 20px;
-    gap: 0px;
+    gap: 8px;
   }
   .popup-top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0px;
+    gap: 10x;
+    margin-bottom: 15px;
   }
   .popup-image {
     width: 100px;
@@ -413,15 +409,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 0px;
+    gap: 8px;
+    margin-bottom: 20px;
   }
   .popup-name {
     font-size: 18px;
-    margin-bottom: 5px;      
+    margin-bottom: 5px; 
+    margin-top: 8px;     
   }
   .popup-role {
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .linkedIn-logo {
     width: 14px;
@@ -431,8 +429,8 @@
     font-size: 12px;
   }
   .popup-bio {
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 28px;
   }
   .close-popup-btn {
     position: absolute;
@@ -509,7 +507,10 @@
   .mentor-popup {
     top: 50%;
     left: 50%;
-    width: 350px;
+    width: 325px;
     padding: 15px;
+  }
+  .mentor-info {
+    margin-bottom: 5px;
   }
 }

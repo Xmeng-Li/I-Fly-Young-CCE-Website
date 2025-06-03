@@ -486,13 +486,13 @@
   background-color: var(--bg-light-blue, #F0F8FF);
   border-radius:0 0 8px 8px;
 }
-.mid-part {
+.oh-mid-part {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.mid-text {
+.oh-mid-text {
   color: var(--Text-primary, #333);
   font-family: Inter;
   font-size: 18px;
@@ -1176,12 +1176,12 @@
     width: 355px;
     height: 104px;
   }
-  .mid-part {
+  .oh-mid-part {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .mid-text {
+  .oh-mid-text {
     font-size: 12px;
     line-height: 16px;
     margin-top: 12px;
@@ -1450,12 +1450,12 @@
     width: 350px;
     height: 104px;
   }
-  .mid-part {
+  .oh-mid-part {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .mid-text {
+  .oh-mid-text {
     font-size: 12px;
     line-height: 16px;
     margin-top: 12px;
@@ -1593,6 +1593,24 @@
   .right {
     width: 296px;
   } 
+  .oh-mid-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .oh-mid-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    text-align: center;
+  }
+  .join-btn {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 5px 12px;
+    margin-left: 20px;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 374px){

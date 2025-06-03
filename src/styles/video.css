@@ -144,72 +144,9 @@
   margin-top: 40px;
 }
 
-@media (max-width: 1280px) {
-  .web-filter-container {
-    width: 104%;
-  }
-  .video-container {
-    width: 109%;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));  
-    justify-content: center;
-  }
-  .video-card {
-    display: flex;
-    max-width: 90%;
-    max-height: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    margin-bottom: 60px;
-  }
-  .video-image {
-    max-width: 350px;
-    max-height: 200px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .web-filter-container {
-    width: 124%;
-  }
-  .video-and-pagination {
-    width: 130%;
-    max-width: 130%;
-  }
-  .video-container {
-    width: 100%;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));  
-    justify-content: center;
-  }
-  .video-card {
-    max-width: 88%;
-    max-height: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .web-filter-container {
-    width: 100%;
-  }
-  .video-and-pagination {
-    width: 100%;
-    max-width: 100%;
-  }
-  .video-container {
-    width: 105%;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));  
-    justify-content: center;
-  }
-  .video-card {
-    display: flex;
-    max-width: 90%;
-    max-height: 100%;
-    margin-bottom: 50px;
-  }
-}
 
 /* For Mobile */
-@media (min-width: 320px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .video-filter-icon-and-label {
     display: flex;
     flex-direction: column;
@@ -227,9 +164,13 @@
   .video-page-title-and-icon {
     display: flex;
     flex: row;
-    justify-content: space-between;
     align-items: center;
     justify-items: center;
+    width: 375px;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
   .web-pageTitle {
     font-size: 18px;
@@ -244,11 +185,12 @@
   }
   .web-filter-container.show {
     display: flex;
-    width: 100%;
+    width: 375px;
     padding: 12px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
+    margin-left: 13px;
   }
   .web-each-filter {
     display: flex;
@@ -285,16 +227,25 @@
   }
 
   /* Video */
+  .video-and-pagination {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
   .video-container {
-    width: 125%;
-    grid-template-columns: repeat(1, minmax(320px, 1fr));  
+    max-width: 375px;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
+    margin-bottom: -10px;
   }
   .video-card {
     display: flex;
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 30px;
-    gap: 5px;
+    gap: 10px;
   }
   .watch-now-btn {
     font-size: 14px;
@@ -316,5 +267,120 @@
     height: 30px;
     padding: 6px;
     gap: 6px;
+  }
+}
+
+/* For Mobile */
+@media (max-width: 375px) {
+  .video-filter-icon-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .video-filter-icon {
+    display: flex;
+  }
+  .video-close-filter-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+  }
+  .video-page-title-and-icon {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-items: center;
+    width: 325px;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .web-filter-container.show {
+    display: flex;
+    width: 325px;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-left: 13px;
+  }
+  
+  /* Video */
+  .video-and-pagination {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .video-container {
+    max-width: 325px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-bottom: -10px;
+  }
+  .video-card {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  .watch-now-btn {
+    font-size: 14px;
+    padding: 5px 7px 5px 13px;
+  }
+}
+
+/* For Mobile */
+@media (max-width: 325px) {
+  .video-page-title-and-icon {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-items: center;
+    width: 275px;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  .web-filter-container.show {
+    display: flex;
+    width: 275px;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-left: 13px;
+  }
+  
+  /* Video */
+  .video-and-pagination {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .video-container {
+    max-width: 275px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-bottom: -30px;
+  }
+  .video-card {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  .watch-now-btn {
+    font-size: 14px;
+    padding: 5px 7px 5px 13px;
+    margin-top: 10px;
   }
 }

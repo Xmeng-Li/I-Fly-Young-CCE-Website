@@ -107,7 +107,7 @@ const Webinar = () => {
 
         {/* Webinar Series*/}
         <div className="webinar-series">
-          <label className="section-label">{t("sectionTitle")}</label>
+          <label className="web-section-label">{t("sectionTitle")}</label>
           <div className="series-container">
             <img className="new-webinar" src={newWebinar} alt="webinar-poster"/>
             <div className="description">
@@ -160,13 +160,7 @@ const Webinar = () => {
 
         {/* Past Webinar */}
         <div className="past-webinar">
-          <div className="past-webinar-title">
-            <label className="section-label">{t("pastWebinar")}</label>
-            <label className="web-view-more">
-              <Link to="/allVideo">{t("viewMore")}</Link>
-            </label>
-          </div>
-          
+          <label className="web-section-label">{t("pastWebinar")}</label>
           <div className="webinar-container">
             {mostRecent.map((webinar, index) => (
               <div key={index} className="webinar-card">
@@ -183,6 +177,9 @@ const Webinar = () => {
               </div>
             ))}
           </div>
+          <Link to="/allVideo" onClick={() => window.scrollTo(0, 0)} className="webinar-viewmore">
+            {t("viewMore")}
+          </Link>
         </div>
       <Footer />
     </div>

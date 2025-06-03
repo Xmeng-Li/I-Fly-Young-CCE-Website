@@ -69,7 +69,7 @@ const Header = () => {
                    className={isProgramPage ? "active" : ""}>
                 {t("programs")} 
               </div>
-              {dropdownOpen && (
+              {dropdownOpen && i18n.language && (
                 <div className="home-dropdown-content">
                   <NavLink to="/focus-group" onClick={closeDropdown}>
                     {t("focus_group")}
@@ -95,7 +95,7 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <button className="language-btn" onClick={toggleLanguage}>    {isChinese ? 'EN' : '中文'}
+            <button className="language-btn" onClick={toggleLanguage}> {isChinese ? 'EN' : '中文'}
             </button>
           </div>
         </div>

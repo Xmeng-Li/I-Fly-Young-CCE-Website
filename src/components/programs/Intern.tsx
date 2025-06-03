@@ -332,7 +332,7 @@ const Intern = () => {
 
           <div className="intern-main-btm">
             <label className="intern-section-label">{internContent[3].eagleTitle}</label>
-            <div className="intern-mid">
+            <div className="intern-mid swap-on-mobile">
               {/* Two Items */}
               <div className="intern-main-texts">
                 <div className="eagleDes">{internContent[3].eagleDes}</div>

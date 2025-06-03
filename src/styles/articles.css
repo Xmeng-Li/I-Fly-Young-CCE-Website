@@ -208,10 +208,10 @@
   }
   .date-and-duration,
   .authors {
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
     white-space: pre-line;
   }
   .responder-box {
@@ -219,7 +219,7 @@
     flex-direction: column;
     width: 380px;
     padding: 8px;
-    gap: 0px;
+    gap: 8px;
   }
   .resp-left {
     width: 265px;
@@ -236,7 +236,7 @@
     line-height: normal;
   }
   .resp-role {
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -259,7 +259,7 @@
   }
   .art-detail {
     width: 380px;
-    padding: 8px;
+    padding: 10px;
     gap: 8px;
     border-radius: 8px;
   }
@@ -268,8 +268,8 @@
     margin-bottom: 8px;
   }
   .resp-answer {
-    font-size: 14px;
-    line-height: 24px; 
+    font-size: 16px;
+    line-height: 27px; 
   }
   .article-inner-img {
     width: 380px;
@@ -296,25 +296,25 @@
 
 @media (max-width: 375px) {
   .art-card {
-  padding: 16px;
+  padding: 20px;
   gap: 5px;
   }
   .art-title {
     font-size: 24px;
-    line-height: 20px;
+    line-height: 30px;
   }
   .authors-box {
     width: 330px;
     padding: 8px 12px;
+    margin-bottom: 5px;
   }
   .responder-box {
     width: 330px;
     padding: 8px;
-    gap: 0px;
   }
   .art-detail {
     width: 330px;
-    padding: 8px;
+    padding: 10px;
   }
   .iframe-video {
     width: 300px;
@@ -334,12 +334,12 @@
   }
   .art-title {
     font-size: 20px;
+    line-height: 28px;
   }
   .authors-box {
     width: 300px;
     padding: 8px 12px;
-    gap: 4px;
-    text-align: center;
+    margin-bottom: 0px;
   }
   .date-and-duration,
   .authors {
@@ -349,7 +349,6 @@
   .responder-box {
     width: 300px;
     padding: 8px;
-    gap: 0px;
   }
   .resp-name {
     font-size: 16px;
@@ -368,8 +367,8 @@
     margin-bottom: 8px;
   }
   .resp-answer {
-    font-size: 14px;
-    line-height: 24px; 
+    font-size: 16px;
+    line-height: 27px; 
   }
   .article-inner-img {
     width: 280px;
@@ -386,7 +385,7 @@
   margin-bottom: 20px;
   }
   .art-btm-btn a {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 24px; 
   }
 }

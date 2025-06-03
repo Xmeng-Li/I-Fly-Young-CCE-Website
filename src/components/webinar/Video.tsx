@@ -328,4 +328,4 @@ class AllVideo extends Component<VideoProp, VideoState> {
   }
 }
 
-export default withTranslation()(AllVideo);
+export default withTranslation("webinar")(AllVideo);

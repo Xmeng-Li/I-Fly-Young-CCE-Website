@@ -268,7 +268,7 @@
   .focus-top-part {
     display: flex;
     flex-direction: column;
-    padding: 20px 0px;
+    padding: 35px 0px;
     align-items: center;
     gap: 24px;
   }
@@ -278,27 +278,23 @@
     align-items: center;
   }
   .focusTitle {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 26px;
+    line-height: 28px;
   }
   .focusSub {
-    font-size: 14px;
-    line-height: 22px; 
+    font-size: 16px;
+    line-height: 24px; 
     text-align: center;
   }
-  .focus-apply-btn {
-    justify-content: center;
-    align-items: center;
-  }
   .focus-apply-btn a {
-    padding: 2px 10px;
-    font-size: 14px;
-    line-height: 28px; 
+    padding: 7px 10px;
+    font-size: 16px;
+    line-height: 26px; 
   }
   .focus-top-img {
-    width: 320px;
+    width: 400px;
     height: auto;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   
   /* Main Part */
@@ -307,51 +303,55 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 74%;
+    width: 100%;
     position: relative;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 40px;
   }
   .focus-section-label {
-    display: flex;
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 20px;
   }
   .overview-des {
-    font-size: 10px;
-    line-height: 16px;
+    width: 360px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .focus-top-bk {
-    width: 700vw;
+    /* width: 100vw;
     height: auto;
     position: absolute;
-    top: 0;
-    left: 0%;
+    top: 75%;
+    left: 50%;
     transform: translateX(-50%); 
-    z-index: -1;
+    z-index: -1; */
+    display: none;
   }
   .focus-top-three {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     gap: 12px;
   }
   .focus-three-parts {
     display: flex;
-    width: 296px;
-    height: 230px;
-    padding: 12px;
     flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    height: 300px;
+    padding: 15px;
     gap: 12px;
   }
   .focus-three-titles {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .focus-three-text {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 28px;
   }
   
   /* Main Three Part */
@@ -363,53 +363,53 @@
     padding: 20px 0px;
   }
   .focus-mid-main {
-    width: 74%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
+    gap: 10px;
   }
   .focus-main-img {
-    width: 296px;
-    height: 243px;
+    width: 375px;
+    height: 343px;
   }
   .item-detal-row {
-    width: 296px;
+    width: 375px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-radius: 4px;
-    border-bottom: 1px solid var(--stroke-card-underline, #DADADA);
   }
   .focus-main-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 8px 8px 8px 12px;
+    padding: 20px;
     gap: 8px;
   }
-  .main-text-left {
-    font-size: 14px;
-    line-height: normal;
-  }
-  .inner-blue-title {
-    font-size: 14px;
-    line-height: normal;
+  .main-text-left,
+  .inner-blue-title  {
+    font-size: 20px;
+    line-height: 26px;
   }
   .des-texts {
-    font-size: 10px;
-    line-height: 20px; 
-    padding-left: 12px;
-    padding-right: 8px;
-    padding-bottom: 8px;
+    font-size: 18px;
+    line-height: 28px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
   }
   .main-icon-right svg {
     width: 20px;
     height: 20px;
   }
   .focus-btm-bk {
-    width: 700vw;
+    /* width: 100vw;
     height: auto;
+    position: absolute;
+    top: 200%;
+    left: 50%; */
+    display: none;
   }
 
   /* Bottom Part  */
@@ -418,12 +418,200 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 20px;
     gap: 20px;
     margin-bottom: 40px;
   }
   .focus-btm-img {
+    width: 400px;
+    height: auto;
+  }
+  .focus-btm-title {
+    font-size: 26px;
+    line-height: 28px; 
+    margin-bottom: 12px;
+  }
+  .focus-btm-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+/* For Mobile M */
+@media (max-width: 375px) {
+  .focusTitle {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  .focusSub {
+    font-size: 16px;
+    line-height: 24px; 
+    text-align: center;
+  }
+  .focus-top-img {
+    width: 350px;
+    height: auto;
+  }
+
+  .focus-section-label {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .overview-des {
     width: 320px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .focus-three-parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 325px;
+    height: 300px;
+    padding: 15px;
+    gap: 12px;
+  }
+  .focus-three-titles {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .focus-three-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .focus-top-bk {
+    display: none;
+  }
+  
+  .focus-main-img {
+    width: 325px;
+    height: 270px;
+  }
+  .item-detal-row {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .focus-main-title {
+    padding: 20px;
+    gap: 8px;
+  }
+  .main-text-left,
+  .inner-blue-title  {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .des-texts {
+    font-size: 16px;
+    line-height: 28px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Bottom Part  */
+  .focus-btm-img {
+    width: 350px;
+    height: auto;
+  }
+  .focus-btm-title {
+    font-size: 23px;
+    line-height: 28px; 
+    margin-bottom: 12px;
+  }
+  .focus-btm-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+
+}
+
+/* For Mobile */
+@media (max-width: 320px) {
+  .focusTitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .focusSub {
+    font-size: 16px;
+    line-height: 24px; 
+  }
+  .focus-top-img {
+    width: 295px;
+    height: auto;
+    margin-left: 17px;
+  }
+
+  .focus-section-label {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  .overview-des {
+    width: 285px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .focus-three-parts {
+    width: 275px;
+    height: 300px;
+    padding: 10px;
+    gap: 10px;
+  }
+  .focus-three-titles {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .focus-three-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .focus-main-img {
+    width: 275px;
+    height: 230px;
+  }
+  .item-detal-row {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .focus-main-title {
+    padding: 10px;
+    gap: 8px;
+  }
+  .main-text-left,
+  .inner-blue-title  {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .des-texts {
+    font-size: 16px;
+    line-height: 26px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .focus-top-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+
+  /* Bottom Part  */
+  .focus-btm-img {
+    width: 295px;
     height: auto;
   }
   .focus-btm-title {
@@ -433,28 +621,8 @@
   }
   .focus-btm-text {
     text-align: center;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 24px;
     margin-bottom: 12px;
-  }
-}
-
-/* For Mobile M */
-@media (max-width: 375px) {
-  .focus-main-top {
-    width: 81%;
-  }
-  .focus-main {
-    width: 110%;
-  }
-}
-
-/* For Mobile */
-@media (max-width: 320px) {
-  .focus-main-top{
-    width: 100%;
-  }
-  .focus-main {
-    width: 133%;
   }
 }
