@@ -63,6 +63,25 @@ const OurTeam = () => {
           </div>
         </div>
 
+        {/* About CCE Section */}
+        {/* <div className="aboutUS">
+          <label className="home-section-label">{t("homeAbout")}</label>
+          <div className="home-three">
+            <div className="home-three-info">
+              <div className="home-three-titles">{t("homeWho")}</div>
+              <div className="home-three-text">{t("homeWhoDes")}</div>
+            </div>
+            <div className="home-three-info">
+              <div className="home-three-titles">{t("homeWhat")}</div>
+              <div className="home-three-text">{t("homeWhatDes")}</div>
+            </div>
+            <div className="home-three-info">
+              <div className="home-three-titles">{t("homeHow")}</div>
+              <div className="home-three-text">{t("homeHowDes")}</div>
+            </div>
+          </div>
+        </div> */}
+
         <div className="mentor-container">
           {mentor.map((mentors, index) => (
             <div key={index} 

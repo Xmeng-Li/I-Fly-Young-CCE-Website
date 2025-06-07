@@ -131,11 +131,6 @@ const Class = () => {
     </svg>
   );
 
-  // const navigate = useNavigate();
-  // const handleLearnMore = (mentorName: string) => {
-  // navigate("/our-team", { state: { mentorName } });
-  // };
-
   // Handle hidden description
     const [showDes, setShowDes] = useState<string | null>(null);
     const toggleSection = (key: string) => {

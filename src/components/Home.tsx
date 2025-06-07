@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import "../styles/home.css";
 import cloud from "../components/officeHours/CCELogo.png";
 import bannerBk from "../components/bannerBk.png";
-import mobileBannerBk from "../components/mobile-banner.png";
+import mobileBannerBk from "../components/mobile-home-banner.png";
 import mainBk from "../components/homeBk.png";
 import lineDele from "../components/line.png";
 
@@ -27,7 +27,17 @@ const Home = () => {
 
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
 
- 
+  const XIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+      <mask id="mask0_1803_7429" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="21">
+        <rect y="0.916016" width="20" height="20" fill="#D9D9D9"/>
+      </mask>
+      <g mask="url(#mask0_1803_7429)">
+        <path d="M10 12.0833L5.91671 16.1667C5.76393 16.3194 5.56949 16.3958 5.33337 16.3958C5.09726 16.3958 4.90282 16.3194 4.75004 16.1667C4.59726 16.0139 4.52087 15.8194 4.52087 15.5833C4.52087 15.3472 4.59726 15.1528 4.75004 15L8.83337 10.9167L4.75004 6.83333C4.59726 6.68056 4.52087 6.48611 4.52087 6.25C4.52087 6.01389 4.59726 5.81944 4.75004 5.66667C4.90282 5.51389 5.09726 5.4375 5.33337 5.4375C5.56949 5.4375 5.76393 5.51389 5.91671 5.66667L10 9.75L14.0834 5.66667C14.2362 5.51389 14.4306 5.4375 14.6667 5.4375C14.9028 5.4375 15.0973 5.51389 15.25 5.66667C15.4028 5.81944 15.4792 6.01389 15.4792 6.25C15.4792 6.48611 15.4028 6.68056 15.25 6.83333L11.1667 10.9167L15.25 15C15.4028 15.1528 15.4792 15.3472 15.4792 15.5833C15.4792 15.8194 15.4028 16.0139 15.25 16.1667C15.0973 16.3194 14.9028 16.3958 14.6667 16.3958C14.4306 16.3958 14.2362 16.3194 14.0834 16.1667L10 12.0833Z" fill="#525252"/>
+      </g>
+    </svg>
+  );
+
   return (
     <div>
       <Header />
@@ -38,6 +48,7 @@ const Home = () => {
             <img className="mobile-banner-bk" src={mobileBannerBk} alt="banner"/>
             <label className="home-sub">{t("homeBannerSub")}</label>
             <div className="banner-content">
+              <label className="home-title-ify">{t("homeBannerTop")}</label>
               <label className="home-title">{t("homeBanner")}</label>
               <label className="home-text">{t("homeTopText")}</label>
             </div>
@@ -76,28 +87,9 @@ const Home = () => {
             </div>
           </div>
 
-          {/* About CCE Section */}
-          <div className="aboutUS">
-            <label className="home-section-label">{t("homeAbout")}</label>
-            <img className="home-bk" src={mainBk} alt="top background" />
-            <div className="home-three">
-              <div className="home-three-info">
-                <div className="home-three-titles">{t("homeWho")}</div>
-                <div className="home-three-text">{t("homeWhoDes")}</div>
-              </div>
-              <div className="home-three-info">
-                <div className="home-three-titles">{t("homeWhat")}</div>
-                <div className="home-three-text">{t("homeWhatDes")}</div>
-              </div>
-              <div className="home-three-info">
-                <div className="home-three-titles">{t("homeHow")}</div>
-                <div className="home-three-text">{t("homeHowDes")}</div>
-              </div>
-            </div>
-          </div>
-
           <div className="home-joinUS">
             <label className="home-section-label">{t("homeJoin")}</label>
+            <img className="home-bk" src={mainBk} alt="top background" />
             <div className="home-join-two">
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle1")}</div>
@@ -130,6 +122,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "role1" ? null : "role1"))}>
                 {selectedRole === "role1" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("en")}
                     <div className="info-row">
                       <Link to="/cce-class" onClick={() => window.scrollTo(0, 0)}>
@@ -154,6 +149,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "role2" ? null : "role2"))}>
                 {selectedRole === "role2" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("en")}
                     <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
                       {t("chronicle")}
@@ -173,6 +171,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "role3" ? null : "role3"))}>
                 {selectedRole === "role3" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("en")}
                     <div className="info-row">
                       <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
@@ -199,6 +200,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "role4" ? null : "role4"))}>
                 {selectedRole === "role4" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("zh")}
                     <div className="info-row">
                       <Link to="/office-hours" onClick={() => window.scrollTo(0, 0)}>
@@ -227,6 +231,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "role5" ? null : "role5"))}>
                 {selectedRole === "role5" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("en")}
                     <Link to="/interview" onClick={() => window.scrollTo(0, 0)}>
                       {t("interview")}
@@ -250,6 +257,9 @@ const Home = () => {
                   setSelectedRole((prev) => (prev === "otherResource" ? null : "otherResource"))}>
                 {selectedRole === "otherResource" ? (
                   <div className="extra-info">
+                    <span className="home-close-icon">
+                      <XIcon />
+                    </span>
                     {t("zh")}
                     <Link to="/recording" onClick={() => window.scrollTo(0, 0)}>
                       {t("recording")}

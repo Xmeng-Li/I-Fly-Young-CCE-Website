@@ -1,4 +1,5 @@
 {
+  "homeBannerTop": "愛飛揚",
   "homeBanner": "溝通與職涯探索",
   "homeBannerSub": "歡迎!",
   "homeTopText": "克服恐懼, 開啟全新職涯",
@@ -60,8 +61,8 @@
     }
   ],
   "homeLearnMore": "了解更多",
-  "viewMoreSub": "您已查看9個中的6個",
-  "viewMoreSubExpand": "您已查看9個中的9個",
+  "viewMoreSub": "您已查看9個項目中的6個",
+  "viewMoreSubExpand": "您已查看9個項目中的9個",
   "homeViewMore": "查看更多",
   "homeViewLess": "查看更少",
 
@@ -91,8 +92,8 @@
   "role4": "年輕人/專業人士!",
   "role5": "年輕人/專業人士!",
   "otherResource": "更多資訊",
-  "zh": "[中文]",
-  "en": "[英文]",
+  "zh": "[中文內容]",
+  "en": "[英文內容]",
   
   "class": "CCE課程",
   "chronicle": "CCE專訪",

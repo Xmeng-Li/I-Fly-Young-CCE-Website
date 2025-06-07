@@ -1,5 +1,6 @@
 {
-  "homeBanner": "Communication and Career Exploration",
+  "homeBannerTop": "I Fly Young",
+  "homeBanner": "Communication and Career Exploration (CCE)",
   "homeBannerSub": "Welcome!",
   "homeTopText": "Jump-start your career and get over your fear",
   
@@ -60,8 +61,8 @@
     }
   ],
   "homeLearnMore": "Learn More",
-  "viewMoreSub": "You've viewed 6 of 9",
-  "viewMoreSubExpand": "You've viewed 9 of 9",
+  "viewMoreSub": "You've viewed 6 of 9 items",
+  "viewMoreSubExpand": "You've viewed 9 of 9 items",
   "homeViewMore": "View More",
   "homeViewLess": "View Less",
 
@@ -91,8 +92,8 @@
   "role4": "Young/Career Professional!",
   "role5": "Young/Career Professional!",
   "otherResource": "More Materials",
-  "zh": "[Chinese]",
-  "en": "[English]",
+  "zh": "[Chinese Content]",
+  "en": "[English Content]",
   
   "class": "CCE Class",
   "chronicle": "CCE Chronicles",
