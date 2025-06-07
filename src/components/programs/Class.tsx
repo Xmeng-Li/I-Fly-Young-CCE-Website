@@ -61,14 +61,11 @@ type ClassType = {
   testimony5Des: string;
 
   testimony6: string;
-  testimony6Sub: string;
   testimony6Des: string;
   testimony7: string;
-  testimony7Sub: string;
   testimony7Des: string;
   testimony8: string;
   testimony8Des: string;
-  testimony8Des2: string;
 }
 
 const Class = () => {
@@ -361,7 +358,6 @@ const Class = () => {
                         <XIcon />
                       </span>
                     </div>
-                    <div className="class-des-sub">{classContent[2].testimony6Sub}</div>
                     <div className="class-des-texts">{classContent[2].testimony6Des}</div>
                   </div>
                 ) : (
@@ -383,7 +379,6 @@ const Class = () => {
                         <XIcon />
                       </span>
                     </div>
-                    <div className="class-des-sub">{classContent[2].testimony7Sub}</div>
                     <div className="class-des-texts">{classContent[2].testimony7Des}</div>
                   </div>
                 ) : (

@@ -10,13 +10,13 @@
     {
       "aboutClass": "About the Class",
       "left": "Beginner CCE Prime",
-      "leftTime": "16 F2F/Online Meetings (90 min each)",
+      "leftTime": "16 Meetings (90 min each)",
       "leftAge": "Student Age: 8 - 11th graders",
       "leftSize": "Class Size: 4 - 6",
       "leftContent": "Students will learn the 12 life changing capabilities",
 
       "mid": "Advanced CCE College FUN",
-      "midTime": "12 F2F/Online Meetings (120 min each)",
+      "midTime": "12 Meetings (120 min each)",
       "midAge": "Student Age: 10 - 12th graders",
       "midSize": "Class Size: 4 - 6",
       "midContent": "Pre-Requisite: CCE Prime or Equivalent",
@@ -25,8 +25,8 @@
       "rightText": "Mr. Shengming Shan, who has more than 30 years of management experience in world renowned semiconductor companies. "
     },
     {
-      "notes":"Notes for the parents:",
-      "notesDes":"Acceptance and Praise We often meet many parents who are as anxious as ants on a hot pot. Their biggest frustration comes from having no way to help their children walk on the so-called ideal path. In fact, if we can accept and praise, it will not be difficult for us to get out of this vortex of despair and become healthy and happy parents again. \n\n Do you like to be with someone who always criticizes you for what you do not do well and what you lack? If we, as responsible parents, often use the limited communication opportunities with our children to efficiently point out the areas where they need to improve, do you think they will like listening to you? Will he feel accepted by you? Can you expect him to respond positively to what you say and do when he doesn't feel accepted by you? \n\n It is one thing for us to understand the truth, but it is another thing to be able to put it into practice in our daily lives. Through the design of this course, children will have the opportunity to often hear their parents praising them and understand that they are accepted by their parents. This key foundation for repair is to restore parental influence.",
+      "notes":"Notes for the parents: Acceptance and Praise ",
+      "notesDes":"We often meet many parents who are as anxious as ants on a hot pot. Their biggest frustration comes from having no way to help their children walk on the so-called ideal path. In fact, if we can accept and praise, it will not be difficult for us to get out of this vortex of despair and become healthy and happy parents again. \n\n Do you like to be with someone who always criticizes you for what you do not do well and what you lack? If we, as responsible parents, often use the limited communication opportunities with our children to efficiently point out the areas where they need to improve, do you think they will like listening to you? Will he feel accepted by you? Can you expect him to respond positively to what you say and do when he doesn't feel accepted by you? \n\n It is one thing for us to understand the truth, but it is another thing to be able to put it into practice in our daily lives. Through the design of this course, children will have the opportunity to often hear their parents praising them and understand that they are accepted by their parents. This key foundation for repair is to restore parental influence.",
       "topics":"Topics",
       "topic1":"Healthy Self-Awareness",
       "topic2":"Listen Accurately",
@@ -42,13 +42,13 @@
       "topic12":"Creative Thinking"
     },
     {
-      "testimony1": "CCE Class Students",
+      "testimony1": "Students Sharing 1",
       "testimony1Sub": "Applying What They Learned In the Class",
       "testimony1Des": "A panel of high school students will share their learnings from the Communication & Career Exploration journey, and how it has helped prepared them for the life journey ahead.",
       "testimony1Link": "[English] CCE Class Students Sharing",
-      "testimony2": "High School Sophomore Sharing",
+      "testimony2": "Students Sharing 2",
       "testimony2Des": "[English] A high school sophomore sharing on CCE Prime program",
-      "testimony3": "High School Freshman Sharing",
+      "testimony3": "Students Sharing 3",
       "testimony3Des": "[English] High School Freshmen Talk About CCE Class",
 
       "testimony4": "Parents Sharing 1",
@@ -57,11 +57,9 @@
       "testimony5Des": "A parent of a Grade 9 student once said to us: I like it when children have the opportunity to learn about themselves & their classmates under positive encouragement. What's more interesting is that as a parent, I can understand different aspects of my children :)",
       "testimony5Des2": "[Bilingual] Parents Talk About CCE Class",
 
-      "testimony6": "Q1. What do you like the most about the class (including meeting, homework, email communication...)?",
-      "testimony6Sub": "Parents Testimony",
+      "testimony6": "Parents Sharing 3",
       "testimony6Des": "We really enjoyed every part of the class. The small group setting created a great environment where the coach encouraged the kids to think for themselves rather than just following directions. The group bonded well and learned from each other's ideas and energy.I also appreciated that parents were required to be present. This gave us valuable insight into how to communicate with our kids and better understand their developmental stage—something we wouldn't have learned elsewhere. It strengthened our family bond and led to meaningful conversations outside of class. \n\n  The classes also felt truly Spirit-led. Many times, we faced a challenge just days before the class, only to find that the lesson addressed that exact topic. It happened too often to be a coincidence, which made the experience even more impactful.",
-      "testimony7": "Q2. Parents Experiences",
-      "testimony7Sub": "Parents Testimony",
+      "testimony7": "Parents Sharing 4",
       "testimony7Des": "We noticed a significant shift in XXX, even from the first session. We initially had no expectations, knowing she had never been interested in leadership, debate, or speech-related activities. Because of this, we never encouraged her to pursue them, assuming they weren’t her calling. However, that changed during the very first class when she naturally stepped into a leadership role and demonstrated abilities we hadn’t seen before. \n\n After that session, where she became the classroom leader, even her posture changed—she carried herself with more confidence, knowing she was in this role. XXX isn’t someone who simply follows instructions; she needs to be inspired to want to make a change. CCE has done exactly that for her. \n\n We’ve seen her become more proactive about personal growth and exploring areas she never considered before, including leadership. Though she is an introvert, she has grown bolder in speaking with career professionals from various fields. Her interest in career options has expanded beyond what was previously on her radar, and she has clearly gained confidence and maturity because of this class. \n\n \"Treat people as if they were what they ought to be and help them to become what they are capable of being\" - This is what Coach Shengming had done in XXX.",
       "testimony8": "CCE Class Coach Sharing",
       "testimony8Des": "[Chinese] Why CCE"
