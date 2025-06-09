@@ -37,7 +37,7 @@
     },
     {
       "image": "/images/home/home6.jpg",
-      "title": "Our Team",
+      "title": "About Us",
       "description": "Rooted in the spirit of giving and receiving—get to know the team behind the mission.",
       "link" : "/our-team"
     },
@@ -66,15 +66,7 @@
   "homeViewMore": "View More",
   "homeViewLess": "View Less",
 
-
-  "homeAbout": "About I Fly Young CCE",
-  "homeWho": "Who are we",
-  "homeWhoDes": "We are a 501(c)(3) nonprofit organization dedicated to providing a comprehensive support system that empowers individuals to grow and thrive through every stage of their career journey.",
-  "homeWhat": "What do we do",
-  "homeWhatDes": "We build a healthy ecosystem of \"giving and receiving\" where people of all ages can build a healthy career through mentorship. ",
-  "homeHow": "How can we help",
-  "homeHowDes": "Career (re)launch (internship, interview training), career development mentorship (CCE class, office hour, focus group...)",
-
+  
   "homeJoin": "Join Us!",
   "joinTitle1": "Keep me posted!",
   "joinDes1": "Enter your email to receive updates on our activities and events!",

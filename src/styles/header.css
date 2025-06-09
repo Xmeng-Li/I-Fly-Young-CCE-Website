@@ -72,6 +72,7 @@
 .home-dropdown {
   position: relative;
   display: inline-block;
+  z-index: 30;
 }
 .home-dropdown .active {
   color: var(--Blue-500, #37ACF4);

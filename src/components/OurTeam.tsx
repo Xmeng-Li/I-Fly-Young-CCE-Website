@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/ourteam.css";
-import cloud from "../components/officeHours/Cloud.png";
+// import cloud from "../components/officeHours/Cloud.png";
 import linkedInLogo from "../../src/linkedin-logo.png";
 import partner1 from "../components/@Cloud-logo.png";
 import partner2 from "../components/Center of Navigating Life Logo.png";
@@ -51,21 +51,9 @@ const OurTeam = () => {
   return (
     <div>
       <Header />
-        <div className="team-top-part">
-          <div className="team-banner">
-            <img className="team-cloud" src={cloud} alt="cloud" />
-            <label className="team-title">{t("pageBanner")}</label>
-            <div className="banner-text">{t("bannerText")}</div>
-          </div>
-          <div className="team-right-text-container">
-            <div className="team-page-title">{t("pageTitle")}</div>
-            <div className="team-page-text">{t("pageText")}</div>
-          </div>
-        </div>
-
         {/* About CCE Section */}
-        {/* <div className="aboutUS">
-          <label className="home-section-label">{t("homeAbout")}</label>
+        <div className="aboutUS">
+          <div className="team-page-title">{t("pageBanner")}</div>
           <div className="home-three">
             <div className="home-three-info">
               <div className="home-three-titles">{t("homeWho")}</div>
@@ -80,20 +68,23 @@ const OurTeam = () => {
               <div className="home-three-text">{t("homeHowDes")}</div>
             </div>
           </div>
-        </div> */}
-
-        <div className="mentor-container">
-          {mentor.map((mentors, index) => (
-            <div key={index} 
-            className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
-              <img src={mentors.image} alt={mentors.name} className="mentor-image" />
-              <div className="mentors">
-                <h4 className="mentor-name">{mentors.name}</h4>
-                <p className="mentor-role">{mentors.role}</p>
-              </div>
-            </div>
-          ))}
         </div>
+
+        <div className="team-main-container">
+          <label className="team-section-label">{t("pageTitle")}</label>
+          <div className="mentor-container">
+            {mentor.map((mentors, index) => (
+              <div key={index} 
+              className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
+                <img src={mentors.image} alt={mentors.name} className="mentor-image" />
+                <div className="mentors">
+                  <h4 className="mentor-name">{mentors.name}</h4>
+                  <p className="mentor-role">{mentors.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>  
 
         {/* Popup for selected mentor */}
         {clickedMentor && (
