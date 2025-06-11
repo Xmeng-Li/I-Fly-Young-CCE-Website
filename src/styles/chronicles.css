@@ -208,6 +208,9 @@
     justify-content: center;
     margin-left: -10px;
   }
+  .chron-cloud {
+    margin-left: 5px;
+  }
   .chron-title {
     font-size: 24px;
   }

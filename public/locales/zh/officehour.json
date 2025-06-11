@@ -4,8 +4,11 @@
   "viewAll": "查看所有",
 
   "ohRecent": "最近",
-  "ohColleague": "主題：工作與同事",
-  "ohFaith": "主題：信仰與工作",
+  "ohColleague": "工作與同事",
+  "ohFaith": "信仰與工作",
+  "ohBoss": "工作與上司",
+  "ohDev": "個人發展",
+  "ohFocus": "焦點小組",
 
   "panelistsTitle": "問答時間講員",
   "speaker": [

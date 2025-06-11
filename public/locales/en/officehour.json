@@ -4,8 +4,11 @@
   "viewAll": "View All",
 
   "ohRecent": "Most Recent",
-  "ohColleague": "Topic: Colleagues",
-  "ohFaith": "Topic: Faith & Work",
+  "ohColleague": "Colleagues",
+  "ohFaith": "Faith & Work",
+  "ohBoss": "Supervisor",
+  "ohDev": "Self Development",
+  "ohFocus": "Focus Group",
   
   "panelistsTitle": "Office Hours Panelists",
   "speaker": [

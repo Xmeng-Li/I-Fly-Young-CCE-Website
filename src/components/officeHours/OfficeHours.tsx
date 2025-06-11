@@ -138,12 +138,15 @@ class OfficeHours extends Component<OfficeHoursProps> {
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
     const newRecording = recordings.slice(0, 1);
     
-    // Main Three Sections
+    // Main 6 Sections
     const viewAll: string = t("viewAll", { ns: "officehour" });
     const viewMoreText: string = t("viewMore", { ns: "officehour" });
-    const mostRecent = recordings.slice(1, 6);
-    const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 5);
-    const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 5);
+    const mostRecent = recordings.slice(1, 4);
+    const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 3);
+    const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 3);
+    const workAndBoss = recordings.filter((r) => r.category === "Boss").slice(0, 3);
+    const selfDev = recordings.filter((r) => r.category === "Development").slice(0, 3);
+    const focusGrp = recordings.filter((r) => r.category === "Focus").slice(0, 3);
 
     // Bottom Section 
     const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
@@ -198,17 +201,15 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Main Section */}
         <div className="main-container">
-          {/* <div className="view-all">
-            <Link to="/recording">{viewAll}</Link>
-          </div> */}
-         
           <div className="recording-card">
             {/* Left: Most Recent */}
             <div className="most-recent">
               <div className="cate-container">
                 <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
                 <div className="section-view-more">
-                  <Link to="/recording">{viewAll}</Link>
+                  <Link to="/recording" onClick={() => window.scrollTo(0, 0)}>
+                    {viewAll}
+                  </Link>
                 </div>
               </div>
 
@@ -237,7 +238,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
               <div className="cate-container">
                 <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
                 <div className="section-view-more">
-                  <Link to="/recording?filter=colleague">{viewMoreText}</Link>
+                  <Link to="/recording?filter=colleague" onClick={() => window.scrollTo(0, 0)}>
+                    {viewMoreText}
+                  </Link>
                 </div>
               </div>
 
@@ -263,10 +266,12 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
             {/* Faith & Work */}
             <div className="faith">
-            <div className="cate-container">
+              <div className="cate-container">
                 <label className="category-title">{t("ohFaith", { ns: "officehour" })}</label>
                 <div className="section-view-more">
-                  <Link to="/recording?filter=faith">{viewMoreText}</Link>
+                  <Link to="/recording?filter=faith" onClick={() => window.scrollTo(0, 0)}>
+                    {viewMoreText}
+                  </Link>
                 </div>
               </div>
 
@@ -278,6 +283,102 @@ class OfficeHours extends Component<OfficeHoursProps> {
                       <div className="oh-date-box">
                         <div className="right-month-day">{monthDay}</div>
                         <div className="right-year">{year}</div>
+                      </div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
+                      </div>
+                      <this.PlayIconRound recordingId={recording.id} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+
+          {/* 2nd Row */}
+          <div className="recording-card">
+            {/* Work & Boss */}
+            <div className="boss">
+              <div className="cate-container">
+                <label className="category-title">{t("ohBoss", { ns: "officehour" })}</label>
+                <div className="section-view-more">
+                  <Link to="/recording?filter=boss" onClick={() => window.scrollTo(0, 0)}>
+                    {viewMoreText}
+                  </Link>
+                </div>
+              </div>
+
+              <div className="main-boss">
+                {workAndBoss.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
+                        <div className="boss-month-day">{monthDay}</div>
+                        <div className="boss-year">{year}</div>
+                      </div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
+                      </div>
+                      <this.PlayIconRound recordingId={recording.id} />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Personal Development */}
+            <div className="self-dev">
+              <div className="cate-container">
+                <label className="category-title">{t("ohDev", { ns: "officehour" })}</label>
+                <div className="section-view-more">
+                  <Link to="/recording?filter=development" onClick={() => window.scrollTo(0, 0)}>
+                    {viewMoreText}
+                  </Link>
+                </div>
+              </div>
+
+              <div className="main-selfDev">
+                {selfDev.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
+                        <div className="selfDev-month-day">{monthDay}</div>
+                        <div className="selfDev-year">{year}</div>
+                      </div>
+                      <div className="oh-content">
+                        <div className="oh-title">{recording.title}</div>
+                        <div className="oh-question">{recording.question}</div>
+                      </div>
+                      <this.PlayIconRound recordingId={recording.id}  />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Focus Group */}
+            <div className="focus">
+              <div className="cate-container">
+                <label className="category-title">{t("ohFocus", { ns: "officehour" })}</label>
+                <div className="section-view-more">
+                  <Link to="/recording?filter=focusGroup" onClick={() => window.scrollTo(0, 0)}>
+                    {viewMoreText}
+                  </Link>
+                </div>
+              </div>
+
+              <div className="main-focusGrp">
+                {focusGrp.map((recording, index) => {
+                  const { monthDay, year } = this.formatDate(recording.date);
+                  return (
+                    <div className="oh-each-recording" key={index}>
+                      <div className="oh-date-box">
+                        <div className="focusGrp-month-day">{monthDay}</div>
+                        <div className="focusGrp-year">{year}</div>
                       </div>
                       <div className="oh-content">
                         <div className="oh-title">{recording.title}</div>
@@ -324,38 +425,36 @@ class OfficeHours extends Component<OfficeHoursProps> {
             </div>
             
             <div className="three-parts">
-              <div className="left-and-mid">
-                {/* Left part */}
-                <div className="left">
-                  <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
-                  <div className="left-detail">
-                    <p className="section-text">{t("text", { ns: "officehour" })}</p>
-                      {office.map((item: any, index: number) => (
-                        <div key={index} className="office-text">
-                          <span>{item.title}</span>
-                        </div>
-                      ))}
-                  </div>
-                </div>
-                {/* Middle part */}
-                <div className="mid">
-                  <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
-                  <div className="mid-detail">
-                    {meeting.map((zoomMeeting, index) => (
-                      <div className="oh-mid-part" key={index}>
-                        <div className="oh-mid-text">
-                          {Object.entries(zoomMeeting).map(([key, value]) => (
-                            <p key={key}>{key}: {value}</p>
-                          ))}
-                        </div>
-                        <button className="join-btn">
-                        <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
-                          {t("joinUs", { ns: "officehour" })}
-                        </Link>
-                        </button>
+              {/* Left part */}
+              <div className="left">
+                <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
+                <div className="left-detail">
+                  <p className="section-text">{t("text", { ns: "officehour" })}</p>
+                    {office.map((item: any, index: number) => (
+                      <div key={index} className="office-text">
+                        <span>{item.title}</span>
                       </div>
                     ))}
-                  </div>
+                </div>
+              </div>
+              {/* Middle part */}
+              <div className="mid">
+                <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
+                <div className="mid-detail">
+                  {meeting.map((zoomMeeting, index) => (
+                    <div className="oh-mid-part" key={index}>
+                      <div className="oh-mid-text">
+                        {Object.entries(zoomMeeting).map(([key, value]) => (
+                          <p key={key}>{key}: {value}</p>
+                        ))}
+                      </div>
+                      <button className="join-btn">
+                      <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
+                        {t("joinUs", { ns: "officehour" })}
+                      </Link>
+                      </button>
+                    </div>
+                  ))}
                 </div>
               </div>
               {/* Right part */}

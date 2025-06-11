@@ -375,10 +375,6 @@
     margin-left: 0px;
     margin-bottom: -20px;
   }
-  .web-cloud {
-    max-width: 360px;
-    height: auto; 
-  }
   .web-title {
     top: 44%;
     left: 50%;
@@ -387,12 +383,12 @@
   .web-text {
     position: absolute;
     top: 53%;
-    left: 10%;
+    left: 13%;
     width: 100%;
     max-width: 300px;
     text-align: center;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
   }
   .web-page-title {
     font-size: 22px; 
