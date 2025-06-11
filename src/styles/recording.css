@@ -669,23 +669,23 @@ select:focus {
     height: 50px;
   }
   .month-day {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
   }
   .year {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
   }
   .each-recording {
     padding: 18px 2px;
-    gap: 6px;
+    gap: 10px;
   }
   .title {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 24px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -696,8 +696,8 @@ select:focus {
     margin-bottom: 6px;
   }
   .question {
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 26px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
