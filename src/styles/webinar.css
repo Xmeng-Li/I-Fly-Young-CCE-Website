@@ -265,13 +265,12 @@
 .webinar-viewmore {
   display: flex;
   padding: 10px 20px;
-  color: var(--Text-Grey, #525252);
+  color: var(--Blue-600, #065D9E);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px; 
   margin-bottom: 40px;
-  /* text-decoration: none; */
 }
 
 

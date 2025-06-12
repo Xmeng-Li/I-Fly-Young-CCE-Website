@@ -43,7 +43,7 @@
     },
     {
       "image": "/images/home/home7.jpg",
-      "title": "CCE專訪",
+      "title": "職場人士專訪",
       "description": "從我們的專訪團隊(大學生組成)對專業人士的訪談中獲得寶貴的開啓。",
       "link" : "/chronicle"
     },
@@ -88,7 +88,7 @@
   "en": "[英文內容]",
   
   "class": "CCE課程",
-  "chronicle": "CCE專訪",
+  "chronicle": "職場人士專訪",
   "officeHr": "每週問答時間",
   "group": "焦點小組",
   "proj": "佳美之地計劃",

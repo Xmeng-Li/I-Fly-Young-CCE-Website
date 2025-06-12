@@ -135,7 +135,7 @@ const Project = () => {
       <div className="proj-content-container">
         {/* Overview */}
         <div className="proj-main-top">
-          <label className="proj-section-label">{mainContent[0].overview}</label>
+          {/* <label className="proj-section-label">{mainContent[0].overview}</label> */}
           <img className="proj-top-bk" src={projTopBk} alt="top background" />
           <div className="proj-top-three">
             <div className="overview-part">

@@ -13,7 +13,7 @@ i18n
   .use(LanguageDetector)
   .use(HttpApi)
   .init({
-    supportedLngs: ['en', 'zh'],
+    supportedLngs: ['en', 'zh', 'zh-CN'],
     fallbackLng: "en",
     detection: {
       order: ['htmlTag', 'cookie', 'querystring', 'localStorage', 'sessionStorage', 'navigator', 'path', 'subdomain'],

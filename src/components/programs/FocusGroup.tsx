@@ -107,9 +107,10 @@ const FocusGroup = () => {
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer">
-              {t("applyNow")}
-            </a>
+            {/* <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer"> */}
+              {/* {t("applyNow")} */}
+              Coming Soon
+            {/* </a> */}
           </button>
         </div>
         <img className="focus-top-img" src={focusTopImg} alt="topImg" />
@@ -264,9 +265,10 @@ const FocusGroup = () => {
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer">
-              {t("applyNow")}
-            </a>
+            {/* <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer"> */}
+              {/* {t("applyNow")} */}
+              Coming Soon
+            {/* </a> */}
           </button>
         </div>
       </div>

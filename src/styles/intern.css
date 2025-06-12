@@ -6,6 +6,7 @@
   align-items: center;
   font-family: "Noto Sans";
   gap: 60px;
+  margin-bottom: 30px;
 }
 .intern-left-content {
   display: flex;
@@ -132,7 +133,7 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  top: 0;
+  top: -10%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
@@ -174,15 +175,15 @@
   display: flex;
   flex-direction: row;
   align-items: top;
+  justify-content: center;
   gap: 28px;
 }
 .inter-main-container{
-  width: 100vw;
-  background: var(--bg-light-blue, #F0F8FF);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
  }
 .intern-main {
   display: flex;
@@ -256,13 +257,13 @@
   padding-bottom: 25px;
 }
 .intern-main-btm {
+  width: 100vw;
+  background: var(--bg-light-blue, #F0F8FF);
   display: flex;
   position: relative;
-  width: 105%;
-  max-width: 1296px; 
   flex-direction: column;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 60px;
   margin-bottom: 120px;
 }
 .eagleDes {
@@ -291,7 +292,7 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
@@ -302,6 +303,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .intern-three {
   width: 100%;
@@ -367,6 +369,7 @@
     padding: 35px 0px;
     align-items: center;
     gap: 24px;
+    margin-bottom: 0;
   }
   .intern-left-content {
     display: flex;
@@ -438,7 +441,7 @@
   .intern-section-label {
     font-size: 18px;
     line-height: 28px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .intern-main-mid {
     display: flex;
@@ -485,6 +488,13 @@
   }
   
   /* Main Three Part */
+  .inter-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   .intern-main {
     display: flex;
     flex-direction: column;
@@ -533,12 +543,11 @@
     height: 20px;
   }
   .intern-main-btm {
-    width: 100%;
     padding: 20px;
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .eagleDes {
     width: 100%;
@@ -718,8 +727,6 @@
     gap: 8px;
   }
   .intern-main-btm {
-    width: 100%;
-    max-width: 325px; 
     display: flex;
     flex-direction: column;
     align-items: center; 

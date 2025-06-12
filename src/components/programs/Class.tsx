@@ -155,7 +155,7 @@ const Class = () => {
       <div className="class-content-container">
         {/* About Class */}
         <div className="class-main-top">
-          <label className="class-section-label">{classContent[0].aboutClass}</label>
+          {/* <label className="class-section-label">{classContent[0].aboutClass}</label> */}
           <img className="class-top-bk" src={topBk} alt="top background" />
           <div className="class-top-three">
             <div className="about-class">
