@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
-import img1 from "./hold_flower.jpg";
-// import img2 from "./rainbow.jpg";
+import img1 from "./hiking_lady.png";
 
 
 type ArticleType = {
@@ -83,9 +82,6 @@ const ExploreRealWorld = () => {
                   {index === 2 && (
                     <img className="article-inner-img" src={img1} alt="mainImg" />
                   )}
-                  {/* {index === 5 && (
-                    <img className="article-inner-img" src={img2} alt="mainImg" />
-                  )} */}
                 </div>
               ))}
             </div>

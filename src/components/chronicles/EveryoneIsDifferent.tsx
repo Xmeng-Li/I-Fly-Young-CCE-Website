@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
-import img1 from "./notebook.jpg";
-import img2 from "./rainbow.jpg";
+import img1 from "./diff_hands.png";
+import img2 from "./lanterns.png";
 
 
 type ArticleType = {
@@ -81,7 +81,7 @@ const EveryoneIsDifferent = () => {
                   {index === 2 && (
                     <img className="article-inner-img" src={img1} alt="mainImg" />
                   )}
-                  {index === 6 && (
+                  {index === 5 && (
                     <img className="article-inner-img" src={img2} alt="mainImg" />
                   )}
                 </div>

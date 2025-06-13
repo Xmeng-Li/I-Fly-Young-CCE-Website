@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
-import img1 from "./hiking_guys.jpg";
-import img2 from "./rainbow.jpg";
+import img1 from "./hands_up_girl.png";
+import img2 from "./hands_up.png";
 
 
 type ArticleType = {

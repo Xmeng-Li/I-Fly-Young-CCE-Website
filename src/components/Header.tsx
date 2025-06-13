@@ -118,10 +118,11 @@ const Header = () => {
                   <label onClick={() => toggleLanguage('en')}
                     className={i18n.language === 'en' ? 'active-lang' : ''}>English
                   </label>
-                  {/* <label onClick={() => toggleLanguage('zh-CN')}
+                  <label onClick={() => toggleLanguage('zh-CN')}
                     className={i18n.language === 'zh-CN' ? 'active-lang' : ''}
                     >简体中文
-                  </label> */}
+                    <span style={{color: 'grey', fontSize: '12px'}}>（更新中...）</span>
+                  </label>
                   <label onClick={() => toggleLanguage('zh')}
                     className={i18n.language === 'zh' ? 'active-lang' : ''}
                     >繁體中文

@@ -121,6 +121,70 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "128",
+      "date": "06/09/2025",
+      "title": "On boundaries in the workplace",
+      "question": "Q1.What are the boundaries in the workplace? How do these boundaries come about? Q2.Shall I say No? When to say No? How to Say No?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20250609_職場上的界限MP3.mp3"
+    },
+    {
+      "id" : "127",
+      "date": "06/02/2025",
+      "title": "Challenge 1",
+      "question": "Q1.What challenges we had run into ourselves or see others struggle with?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250602_挑战a.mp3"
+    },
+    {
+      "id" : "126",
+      "date": "05/26/2025",
+      "title": "I Fly Young CCE 2024-2025 Focus Group Interview 3",
+      "question": "Q1.What insights do the testimonies reveal about how mentor and focus group help mentee to grow?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250526_焦點小組.mp3"
+    },
+    {
+      "id" : "125",
+      "date": "05/12/2025",
+      "title": "About I FLY YOUNG CCE Focus Group",
+      "question": "Q1.What is CCE Focus Goup? Q2.How is CCE Focus Group different from church small groups? Q3.What are the benefits of attending CCE Focus Group? Q4.Is CCE Focus Goup for me? (Including: 2024-5 Focus Group Interview 2)",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"
+    },
+    {
+      "id" : "124",
+      "date": "05/05/2025",
+      "title": "Breakthrough 2",
+      "question": "Q1.What breakthrough do I desire? Q2.What are the key obstacles that prevent us from breaking through? What are the tricks that can help us break through successfully?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250505_突破2MP3.mp3"
+    },
+    {
+      "id" : "123",
+      "date": "04/28/2025",
+      "title": "The company went bankrupt, the enterprise laid off employees, and there is no future in my current job... What should I do?",
+      "question": "Q1.I am going to lose my job as an electrician after working for many years because my company went bankrupt. What kind of job should I look for? Q2. I have been working as a kindergarten teacher for many years. As the policies are becoming more and more stringent, it is difficult to take care of children, and there are many kindergarten activities, I am overwhelmed and want to change jobs. What should I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250428_工作看不到未來MP3.mp3"
+    },
+    {
+      "id" : "122",
+      "date": "04/21/2025",
+      "title": "I don't want to gossip, but I also don't want to offend anyone. What should I do?",
+      "question": "Q1.My factory manager's wife always talks to me about other people. I am a child of God and cannot talk about other people's bad things with her. But I don't respond to her and she stops talking to me. What should I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20250421_不想説閒話MP3.mp3"
+    },
+    {
+      "id" : "121",
+      "date": "04/14/2025",
+      "title": "Next step: whether to continue the current work",
+      "question": "Q1.I have been praying about my current job for several years and I don’t know whether I should change it. This is my first job after graduation. God has placed me in this sales position which is totally incompatible with my personality. I feel a bit stressed and God wants to temper me. But how can I know the will of my Heavenly Father for me?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250414_是否繼續目前工作MP3.mp3"
+    },
+    {
       "id" : "120",
       "date": "04/07/2025",
       "title": "How to face and deal with failure/setback at work",

@@ -101,7 +101,7 @@
   color: var(--Text-primary, #333);
 }
 .lang-arrow {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--Text-primary, #333);
   cursor: pointer;
   margin-left: 3px;
@@ -202,7 +202,7 @@
     height: 21px;
   }
   .lang-arrow {
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 2px;
   }
   .lang-dropdown-menu {

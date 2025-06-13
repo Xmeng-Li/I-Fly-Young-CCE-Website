@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
-import img1 from "./hold_flower.jpg";
-import img2 from "./rainbow.jpg";
+import img1 from "./mountain_view.png";
+import img2 from "./leaves.png";
+import img3 from "./telescope.png";
 
 
 type ArticleType = {
@@ -85,6 +86,9 @@ const InternshipsAreOpp = () => {
                   )}
                   {index === 5 && (
                     <img className="article-inner-img" src={img2} alt="mainImg" />
+                  )}
+                  {index === 7 && (
+                    <img className="article-inner-img" src={img3} alt="mainImg" />
                   )}
                 </div>
               ))}
