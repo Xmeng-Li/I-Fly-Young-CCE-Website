@@ -94,6 +94,8 @@ const Home = () => {
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle1")}</div>
                 <div className="home-two-text">{t("joinDes1")}</div>
+                {/* <input className="home-email-input" type="text" />
+                <button className="home-join-btn">{t("joinBtn1")}</button> */}
                 <button className="home-join-btn">
                   <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
                     {t("joinBtn1")}

@@ -3,5 +3,13 @@
   "footerText2": "您将有机会给予和接受帮助，正如我们所说的那样，“给予就是接受” !",
   "contactUs": "联系我们",
   "followUs": "关注我们",
-  "aboutIfly": "关于爱飞扬"
+  "aboutIfly": "关于爱飞扬",
+
+  "fdbkTitle": "爱飞扬 沟通与职涯探索反馈",
+  "fdbkDes": "感谢您访问我们的网站！我们很想了解您对我们网站的使用体验！",
+  "wordCount": "字数统计: 0/200",
+  "cntNote": "*字数太多",
+  "userEmail": "您的邮件:",
+  "emailNote": "*邮件格式不正确",
+  "subBtn": "提交"
 }

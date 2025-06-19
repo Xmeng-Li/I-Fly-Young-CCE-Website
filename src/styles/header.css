@@ -194,9 +194,6 @@
   .nav-text {
     font-size: 16px;
   }
-  .home-dropdown-content {
-    min-width: 170px;
-  }
   .language-icon svg {
     width: 21px;
     height: 21px;
@@ -204,9 +201,6 @@
   .lang-arrow {
     font-size: 10px;
     margin-left: 2px;
-  }
-  .lang-dropdown-menu {
-    min-width: 90px;
   }
   .lang-dropdown-menu label {
     font-size: 16px;

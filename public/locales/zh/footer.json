@@ -3,5 +3,13 @@
   "footerText2": "您將有機會給予和接受幫助，正如我們常說的，「有給必然有得」!",
   "contactUs": "聯繫我們",
   "followUs": "關注我們",
-  "aboutIfly": "關於愛飛揚"
+  "aboutIfly": "關於愛飛揚",
+
+  "fdbkTitle": "愛飛揚 溝通與職涯探索回饋",
+  "fdbkDes": "感謝您造訪我們的網站！我們很想了解您對我們網站的使用體驗！",
+  "wordCount": "字數統計: 0/200",
+  "cntNote": "*字數太多",
+  "userEmail": "您的郵件:",
+  "emailNote": "*郵件格式不正確",
+  "subBtn": "提交"
 }

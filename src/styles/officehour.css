@@ -75,7 +75,7 @@
   font-size: 20px;
   font-weight: 700;
   display: flex;
-  padding: 16px 16px 16px 24px;
+  padding: 12px 12px 12px 20px;
   align-items: center;
   border: none;
   border-radius: 40px; 
@@ -360,7 +360,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .speaker-container {
   display: grid;
@@ -439,7 +439,7 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 28px; 
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .three-parts {
@@ -569,7 +569,7 @@
   font-size: 20px;
   font-weight: 700;
   display: flex;
-  padding: 16px 24px;
+  padding: 12px 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -801,7 +801,7 @@
 
 
 /* For Mobile 1*/
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   /* Top Section */
   .top-container {
     width: 420px;
@@ -925,24 +925,24 @@
     align-items: center;
     margin-bottom: 15px;
   }
+  .title-and-airplane {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
   .blue-airplane{
     display: none;
   }
-  .panelists-title {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
+  .panelists-title,
   .office-title {
     font-size: 18px;
-    margin-left: -10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .speaker-container {
     display: grid;
-    width: 375px;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 0px;
-    margin-left: 13px;
+    justify-items: center;
     margin-bottom: 30px;
   }
   .speaker-card {
@@ -970,6 +970,10 @@
   }
 
   /* Bottom Part */
+  .office-airplane {
+    flex-direction: column; 
+    align-items: center; 
+  }
   .three-parts {
     display: flex;
     flex-direction: column;
@@ -1076,7 +1080,7 @@
 
 
 /* For Mobile 2*/
-@media (max-width: 375px) {
+@media (max-width: 390px) {
     /* Top Section */
   .top-container {
     width: 380px;
@@ -1167,17 +1171,17 @@
   }
   
   /* Panelists */
-  .panelists-title {
-    font-size: 18px;
-    margin-bottom: 15px;
-    margin-left: 5px;
+  .panelists-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .speaker-container {
     display: grid;
-    width: 325px;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 0px;
-    margin-left: 13px;
     margin-bottom: 30px;
   }
   .speaker-card {
@@ -1416,10 +1420,8 @@
   }
   .speaker-container {
     display: grid;
-    width: 270px;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 0px;
-    margin-left: 13px;
     margin-bottom: 10px;
   }
   .speaker-card {

@@ -314,7 +314,7 @@
 }
 
 /* For Mobile L */
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .aboutUS {
     display: flex;
     flex-direction: column;
@@ -464,7 +464,7 @@
 }
 
 /* For Mobile L */
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .aboutUS {
     display: flex;
     flex-direction: column;

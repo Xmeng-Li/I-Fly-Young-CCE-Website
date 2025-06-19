@@ -30,6 +30,12 @@
 }
 .proj-apply-btn {
   display: flex;
+  padding: 12px;
+  color: var(--Text-white, #FFF);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
   border-radius: 40px;
   border: none;
   background: var(--Orange-500, #FF9700);
@@ -38,12 +44,6 @@
 }
 .proj-apply-btn a {
   text-decoration: none;
-  padding: 16px;
-  color: var(--Text-white, #FFF);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px; 
 }
 .proj-top-img {
   width: 648px;
@@ -136,6 +136,7 @@
 .proj-main {
   width: 100vw;
   background: var(--bg-light-blue, #F0F8FF);
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -284,7 +285,7 @@
 
 
 /* For Mobile L */
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .proj-top-part {
     display: flex;
     flex-direction: column;
@@ -306,7 +307,7 @@
     line-height: 24px; 
     text-align: center;
   }
-  .proj-apply-btn a {
+  .proj-apply-btn {
     padding: 7px 10px;
     font-size: 16px;
     line-height: 26px; 
@@ -370,7 +371,6 @@
   
   /* Main Three Part */
   .proj-main {
-    width: 100vw;
     display: flex;
     justify-content: center;
   }
@@ -474,7 +474,7 @@
 }
 
 /* For Mobile M */
-@media (max-width: 375px) {
+@media (max-width: 390px) {
   .projTitle {
     font-size: 23px;
     line-height: 28px;

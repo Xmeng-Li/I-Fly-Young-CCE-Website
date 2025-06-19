@@ -3,5 +3,13 @@
   "footerText2": "You will get the chance to both give and receive help and as we like to say, \"Giving is receiving\"!",
   "contactUs": "Contact Us",
   "followUs": "Follow Us",
-  "aboutIfly": "About I Fly Young"
+  "aboutIfly": "About I Fly Young",
+
+  "fdbkTitle": "I Fly Young CCE Feedback",
+  "fdbkDes": "Thank you for visiting us! We would love to hear from your experience with our website!",
+  "wordCount": "word count: 0/200",
+  "cntNote": "*Word count incorrect",
+  "userEmail": "Your email:",
+  "emailNote": "*Email format incorrect",
+  "subBtn": "Submit"
 }

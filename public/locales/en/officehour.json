@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "129",
+      "date": "06/16/2025",
+      "title": "Is this the path God has opened? When should we persist and when should we decisively leave?",
+      "question": "Q1.Why did I still have such a bumpy road, encounter so many setbacks, and even be illegally fired even though God had opened a path for me? Does it mean that this path is not protected by God, but I just want to think so? Q2.As a newcomer in the workplace, how should I analyze the situation correctly in an uncomfortable workplace environment? If work is a two-way choice, when should I continue to persevere and when should I decisively leave? Q3.An old sister who teaches human resources management in the church is very concerned about me. After listening to my experience, she thinks that if I can't work overtime until late at night and can't be around the boss, it's better for me to go back to school to be a teacher. I would like to ask everyone, facing a boss who doesn't respect the health of employees, has a bad temper, and is the type of boss who is self-centered, how can I obey from the bottom of my heart? Do I have to work overtime every day to prove that I am competitive in society?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250616_是神開的路嗎MP3.mp3"
+    },
+    {
       "id" : "128",
       "date": "06/09/2025",
       "title": "On boundaries in the workplace",

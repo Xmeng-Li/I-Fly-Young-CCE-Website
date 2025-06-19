@@ -123,9 +123,10 @@ const Project = () => {
           <span className="projTitle">{t("projTitle")}</span>
           <span className="projSub">{t("projSubTitle")}</span>
           <button className="proj-apply-btn"> {/* form need to be updated */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a>
+            </a> */}
+            {t("comingSoon")}
           </button>
         </div>
         <img className="proj-top-img" src={projTopImg} alt="topImg" />
@@ -214,9 +215,10 @@ const Project = () => {
           <span className="proj-btm-title">{t("projBtmTitle")}</span>
           <span className="proj-btm-text">{t("projBtmText")}</span>
           <button className="proj-apply-btn">{/* form need to be updated */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a>
+            </a> */}
+            {t("comingSoon")}
           </button>
         </div>
       </div>
