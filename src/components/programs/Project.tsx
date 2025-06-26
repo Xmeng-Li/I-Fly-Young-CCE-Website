@@ -102,7 +102,7 @@ const Project = () => {
   );
 
   const extractLink = (text: string) => {
-    const regex = /(2024-2025 CCE Focus Group|2024-2025 CCE 焦點小組)/g;
+    const regex = /(2025 CCE Focus Group|2025 CCE 焦點小組|2025 CCE 焦点小组)/g;
     return text.split(regex).map((part, index) =>
       regex.test(part) ? (
         <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)} key={index}>
@@ -212,8 +212,8 @@ const Project = () => {
       <div className="proj-bottom-part">
         <img className="proj-btm-img" src={projBtmImg} alt="btmImg" />
         <div className="proj-right-content">
-          <span className="proj-btm-title">{t("projBtmTitle")}</span>
           <span className="proj-btm-text">{t("projBtmText")}</span>
+          <span className="proj-btm-title">{t("projBtmTitle")}</span>
           <button className="proj-apply-btn">{/* form need to be updated */}
             {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}

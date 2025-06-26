@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "130",
+      "date": "06/23/2025",
+      "title": "What is more important, complete specific work or relationships?",
+      "question": "Q1.Is it more important to complete specific work or to maintain good relationships with people at work? Q2.How can Christians glorify God?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250623_工作和關係MP3.mp3"
+    },
+    {
       "id" : "129",
       "date": "06/16/2025",
       "title": "Is this the path God has opened? When should we persist and when should we decisively leave?",

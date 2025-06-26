@@ -89,7 +89,7 @@
   width: 100%;
   max-width: 400px;
   height: 100%;
-  max-height: 500px;
+  max-height: 550px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
@@ -383,6 +383,7 @@
     left: 16%;
   }
   .banner-content {
+    width: 350px;
     position: absolute;
     top: 63%;
     left: 4%; 
@@ -396,16 +397,16 @@
   }
   .home-title {
     position: relative; 
-    font-size: 29px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 36px;
-    margin-bottom: 8px; 
+    line-height: 32px;
+    margin-bottom: 5px; 
     white-space: normal;
   }
   .home-text {
     position: relative; 
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
     white-space: normal; 
   }
   .home-main{
@@ -425,8 +426,6 @@
     display: flex;
     width: 100%;
     max-width: 375px;
-    height: 100%;
-    max-height: 500px;
     margin-bottom: 30px;
   }
   .cat-title {
@@ -592,7 +591,7 @@
     line-height: 20px;
   }
   .banner-content {
-    width: 320px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -624,8 +623,6 @@
     display: flex;
     width: 100%;
     max-width: 325px;
-    height: 100%;
-    max-height: 500px;
   }
   .cat-title {
     font-size: 22px;
@@ -734,8 +731,6 @@
     display: flex;
     width: 100%;
     max-width: 270px;
-    height: 100%;
-    max-height: 500px;
   }
   .cat-title {
     font-size: 20px;

@@ -1,98 +1,98 @@
 {
-  "homeBannerTop": "I Fly Young",
-  "homeBanner": "Communication and Career Exploration (CCE)",
-  "homeBannerSub": "Welcome!",
-  "homeTopText": "Jump-start your career and get over your fear",
+  "homeBannerTop": "爱飞扬",
+  "homeBanner": "沟通与职涯探索",
+  "homeBannerSub": "欢迎!",
+  "homeTopText": "一个专为职涯需要建立的平台",
   
   "category": [
     {
       "image": "/images/home/home1.jpg",
-      "title": "Weekly Office Hour",
-      "description": "Submit your questions and gain valuable insights from experienced mentors during our weekly 30-minute panel sessions. Discover practical tips for overcoming workplace challenges and learn how to become a positive asset to your boss, colleagues, and organization.",
+      "title": "每周问答时间",
+      "description": "一群来自不同领域, 经验丰富的职场导师, 通过每周30分钟的专题讨论, 帮助您学习克服工作场所挑战的实用技巧，并学习如何成为老板、同事和公司/组织的祝福。你也可以事先电邮提交您的问题，在每周问答时间获得宝贵的解答。",
       "link" : "/office-hours"
     },
     {
       "image": "/images/home/home2.jpg",
-      "title": "Focus Group",
-      "description": "Be part of a mentor-led discussion group where you'll learn how to live out your purpose and make your work life count.",
+      "title": "焦点小组",
+      "description": "加入由导师引导的讨论小组，您将学习如何问对的问题, 发现自己的恩赐, 处理职场上的压力与人际关系，并进一步成为公司、老板和同事的祝福。",
       "link" : "/focus-group"
     },
     {
       "image": "/images/home/home3.jpg",
-      "title": "Project Transformation",
-      "description": "Become a catalyst for positive change—transform your workplace and empower others to do the same.",
+      "title": "佳美之地计划",
+      "description": "装备有负担服事职场需要的基督徒, 帮助你建立能力与信心, 使用爱飞扬沟通与职涯探索平台 (I FLY YOUNG CCE)丰富的资源, 成为身边有职场需要者随时的祝福。需参加过一年 (或两季) 以上的焦点小组才可以报名。",
       "link" : "/project"
     },
     {
       "image": "/images/home/home4.jpg",
-      "title": "CCE Class",
-      "description": "Designed for students in grades 8-12, this program teaches 12 life-changing capabilities—including listening accurately, asking thoughtful questions, and navigating failure—that support both college readiness and long-term career success.",
+      "title": "CCE课程",
+      "description": "该课程专为 8-12 年级的学生设计，教授 12 项改变人生的能力 - 包括准确倾听、提出深思熟虑的问题和应对失败 - 这些能力既有助于大学准备，也有助于长期的职业发展。",
       "link" : "/cce-class"
     },
     {
       "image": "/images/home/home5.jpg",
-      "title": "CCE Webinar",
-      "description": "Program Launch, Career Journey Exploration (various career paths including medical, investment banking, finance-technology, architecture, trading industry...)",
+      "title": "CCE网络研讨会",
+      "description": "欢迎参加我们的线上讲座，内容包括新项目发布、职涯探索（医疗、投资银行、金融科技、建筑、交易产业等）以及更多精彩主题...",
       "link" : "/webinar"
     },
     {
       "image": "/images/home/home6.jpg",
-      "title": "About Us",
-      "description": "Rooted in the spirit of giving and receiving—get to know the team behind the mission.",
+      "title": "关于我们",
+      "description": "根植于 “有給必然有得” 使命的團隊——更多认识我们的成员...",
       "link" : "/our-team"
     },
     {
       "image": "/images/home/home7.jpg",
-      "title": "CCE Chronicle",
-      "description": "Gain valuable insights from interviews conducted by our Chronicle team of college students.",
+      "title": "职场人士专访",
+      "description": "通过由我们大学生团队精心策划的专访，深入了解来自行业专家的职涯见解。",
       "link" : "/chronicle"
     },
     {
       "image": "/images/home/home8.jpg",
-      "title": "Interview Training (Eagle Wing)",
-      "description": "Build the confidence you need to excel in high-pressure job interviews.",
+      "title": "面试培训 (鹰翼计划)",
+      "description": "建立在高压求职面试中脱颖而出所需的能力与信心。",
       "link" : "/interview"
     },
     {
       "image": "/images/home/home9.jpg",
-      "title": "Internship (Soaring Eagle)",
-      "description": "Gain hands-on experience through projects valued by the industry, guided by mentorship from seasoned professionals.",
+      "title": "实习（翱鹰计划）",
+      "description": "在经验丰富的专业人士的指导下，通过行业重视的项目获得实践经验",
       "link" : "/intern"
     }
   ],
-  "homeLearnMore": "Learn More",
-  "viewMoreSub": "You've viewed 6 of 9 items",
-  "viewMoreSubExpand": "You've viewed 9 of 9 items",
-  "homeViewMore": "View More",
-  "homeViewLess": "View Less",
+  "homeLearnMore": "了解更多",
+  "viewMoreSub": "您已查看9个项目中的 6个",
+  "viewMoreSubExpand": "您已查看9个项目中的 9个",
+  "homeViewMore": "查看更多",
+  "homeViewLess": "查看更少",
 
   
-  "homeJoin": "Join Us!",
-  "joinTitle1": "Keep me posted!",
-  "joinDes1": "Enter your email to receive updates on our activities and events!",
-  "joinBtn1": "Join Email List",
-  "joinTitle2": "I want to help!",
-  "joinDes2": "Regardless of your skills or experience, you can make a lasting impact through the CCE community!",
-  "joinBtn2": "Join Volunteer",
+  "homeJoin": "加入我们!",
+  "joinTitle1": "请随时通知我!",
+  "joinDes1": "输入您的电子邮件以接收有关我们的活动的最新消息！",
+  "joinBtn1": "加入电子邮件群",
+  "joinTitle2": "我想帮忙!",
+  "joinDes2": "无论您的技能或经验如何，您都可以通过 CCE 社区产生持久的影响！",
+  "joinBtn2": "加入志愿者",
 
 
-  "homeBtmTitle": "Don't know where to start?",
-  "aboutMe" : "I'm a",
-  "role1": "High Schooler",
-  "role2": "College Student",
-  "role3": "Parent",
-  "role4": "Young/Career Professional!",
-  "role5": "Young/Career Professional!",
-  "otherResource": "More Materials",
-  "zh": "[Chinese Content]",
-  "en": "[English Content]",
+  "homeBtmTitle": "不知道从哪儿开始？",
+  "aboutMe" : "我是",
+  "role1": "高中生",
+  "role2": "大学生",
+  "role3": "家长",
+  "role4": "年轻人/职业人士!",
+  "role5": "年轻人/职业人士!",
+  "otherResource": "更多资料",
+  "zh": "[中文內容]",
+  "en": "[英文內容]",
   
-  "class": "CCE Class",
-  "chronicle": "CCE Chronicles",
-  "officeHr": "Weekly Office Hour",
-  "group": "Focus Group Program",
-  "proj": "Project Transformation Program",
-  "interview": "Interview Training Program",
-  "intern" : "Internship Program",
-  "recording": "CCE Office Hours Recording"
+  "class": "CCE课程",
+  "chronicle": "职场人士专访",
+  "officeHr": "每周问答时间",
+  "group": "焦点小组",
+  "proj": "佳美之地计划",
+  "interview": "面试培训",
+  "intern" : "实习",
+  "recording": "CCE职场问答时间录音"
 }

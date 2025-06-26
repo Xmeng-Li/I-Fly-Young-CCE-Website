@@ -1,25 +1,4 @@
 {
-  "pageBanner": "Programs",
-  "bannerText": "For college students, new graduates, young professionals and career professionals.",
-  "pageTitle": "Career Launch and Growth Programs",
-  "pageText": " From career launch to growth management, you don't need to walk alone. See the programs that have benefited thousands before you.",
-
-  "EnSection": "English Programs",
-  "Interview": "Interview Training (Eagle Wing)",
-  "InterviewText": "Gain the confidence you need to succeed in stressful job interviews.",
-  "Internship": "Internship (Soaring Eagle)",
-  "InternshipText": "Your opportunity to work on projects valued by the industry and mentored by industry professionals.",
-
-
-  "ZhSection": "Chinese Programs",
-  "FocusGroup": "Focus Group",
-  "FocusGroupText": "Join the mentor-led discussion group and learn to live out your destiny at work.",
-  "Project": "Project Transformation",
-  "ProjectText": "Be the change agent to transform your workplace into a better one, and help people transform theirs.",
-
-  "LearnMore": "Learn More",
-
-  "backToText": "Programs",
   "blueTitle": "Eagle Wing Interview Training",
   "title": "Practice Job Interviews with Experienced Professionals",
   "des": "Gain the confidence you need to succeed in stressful job interviews",
@@ -91,7 +70,7 @@
       "projBtmSub": "If you can answer all of the following questions below, this training is meant for you:",
       "projBtmLeftText": "Please describe the people with whom you have burden/would like to start a group meeting (age group, years of work experience, how do you know them...)",
       "projBtmText": "Please browse through the CCE Office Hour recordings and identify at least 3 topics that you see suitable for your group meeting/discussion. (Please write down the recording dates and topics)",
-      "projBtmRightText": "Have you attended CCE focus groups before? It would be very helpful if you've attended CCE gocus group before. If not, please also sign up for 2024-2025 CCE Focus Group."
+      "projBtmRightText": "Have you attended CCE focus groups before? It would be very helpful if you've attended CCE gocus group before. If not, please sign up for 2025 CCE Focus Group."
     }
   ],
   "projBtmTitle": "Join CCE Project Transformation",
@@ -100,35 +79,38 @@
 
 
   "focusTitle": "Focus Group",
-  "focusSubTitle": "Don't miss out! Registration for Focus Group 2025-2026 season opens 09/2025",
+  "focusSubTitle": "Don't miss out! Registration for Focus Group 2025 Fall season opens 7/4/2025 ~ 7/18/2025.",
   "focusContents": [
     {
-      "focusOverview": "Overview",
-      "overviewDes": "What is your meaning of working? Is it just a financial obligation? Or is it a dream? Do you want to know how to live out your destiny at work, and create the legacy to pass down to the generations?",
-      "focusLeft": "Purpose",
-      "focusLeftText": "No matter what your current circumstances are at work and/or in life, we sincerely invite you to join our Focus Group to re-examine the value of work and to be happy with what you have while working at what you want.",
+      "focusLeft": "Overview",
+      "focusLeftText": "Join a mentor-led discussion group where you’ll learn how to ask the right questions, discover your talents, handle workplace stress and relationships, and become a blessing to your company, boss, and colleagues.\nFree of charge, sponsored by I FLY YOUNG CCE. ",
 
       "focusMid": "Duration",
-      "focusMidText": "Focus Group 2024-2025 Season: September 2024 - June 2025",
+      "focusMidText": "Starting from 9/8, gathering once every two weeks, 5 times in total.\nSee sign up form for exact meeting date/time",
 
-      "focusRight": "Registration",
-      "focusRightText": "The meeting is sponsored by I FLY YOUNG CCE, so attendees can sign up free of charge."
+      "focusRight": "Format",
+      "focusRightText": "Biweekly 60 min online meeting\n+\n2 hour homework"
     },
     {
-      "moreInfo":"More Information",
       "topic":"Topics",
-      "topicDes":"The meeting will cover the topics like: Ask the right questions, Discover your talents, Capability and Passion, Changing career path, Time/Money Management, Workplace interpersonal relationships (setting boundaries, getting support from your boss, being a blessing to the company, boss, and colleagues).",
+      "theme1":"Theme 1",
+      "theme1Des":"• Asking right questions\n • Discovering talents\n • Career change \n • Time/money management",
+      "theme2":"Theme 2",
+      "theme2Des":"• Good work habits\n • Work Stress\n • Opportunities\n • Shine in the workplae",
+      "theme3":"Theme 3",
+      "theme3Des":"• Be blessings\n • Dissatisfactory Boss\n • Earning the trust of the boss\n • My boss doesn't valule my opinion",
+      "theme4":"Theme 4",
+      "theme4Des":"• The boss’s trust\n • Colleagues, boss, and boundaries\n • Asking questions at work\n • Christian colleagues\n • Faith and the workplace",
+
+      "moreInfo":"More Information",
       "testimonial":"Testimonials",
       "testimonialsDes":"Testimonials from the 2024 Focus Group",
       "leaders":"Focus Group Leaders",
-      "leaderDes":"Focus Group Leader Bios",
-      "group": "Groups",
-      "newGuy": "Year 1 Focus Group: for first-time participants",
-      "returnGuy": "Year 2 Focus Group: for returning participant who attended the 2023-2024 season"
+      "leaderDes":"Focus Group Leader Bios"
     }
   ],
   "focusBtmTitle": "Join Focus Group",
-  "focusBtmText": "Contact us for more questions: cce.info@iflyyoung.com",
+  "focusBtmText": "Don't miss out! Registration for Focus Group 2025 Fall season opens 7/4/2025 ~ 7/18/2025.",
 
 
 

@@ -2,25 +2,25 @@
   "homeBannerTop": "愛飛揚",
   "homeBanner": "溝通與職涯探索",
   "homeBannerSub": "歡迎!",
-  "homeTopText": "克服恐懼, 開啟全新職涯",
+  "homeTopText": "一個專爲職涯需要建立的平臺",
   
   "category": [
     {
       "image": "/images/home/home1.jpg",
       "title": "每週問答時間",
-      "description": "在我們每週 30 分鐘的小組會議中提交您的問題並從經驗豐富的導師那裡獲得寶貴的見解。發現克服工作場所挑戰的實用技巧，並學習如何成為老闆、同事和公司/組織的祝福。",
+      "description": "一群來自不同領域, 經驗豐富的職場導師, 藉由每週30分鐘的專題討論, 幫助您學習克服工作場所挑戰的實用技巧，並學習如何成為老闆、同事和公司/組織的祝福。你也可以事先電郵提交您的問題，在每週問答時間獲得寶貴的解答。",
       "link" : "/office-hours"
     },
     {
       "image": "/images/home/home2.jpg",
       "title": "焦點小組",
-      "description": "加入由導師引導的討論小組，您將學習如何實現自己的目標並讓您的工作變得有意義。",
+      "description": "加入由導師引導的討論小組，您將學習如何問對的問題, 發現自己的恩賜, 處理職場上的壓力與人際關係，並進一步成爲公司、老闆和同事的祝福。",
       "link" : "/focus-group"
     },
     {
       "image": "/images/home/home3.jpg",
       "title": "佳美之地計劃",
-      "description": "成為帶來正面影響的催化劑—轉化您的工作場所並幫助其他人也加入這個行列。",
+      "description": "裝備有負擔服事職場需要的基督徒, 幫助你建立能力與信心, 使用愛飛揚溝通與職涯探索平臺 (I FLY YOUNG CCE)豐富的資源, 成為身邊有職場需要者隨時的祝福。需參加過 一年 (或2季) 以上的焦點小組才可以報名。",
       "link" : "/project"
     },
     {
@@ -32,7 +32,7 @@
     {
       "image": "/images/home/home5.jpg",
       "title": "CCE網路研討會",
-      "description": "專案啟動，職業旅程探索（多種職涯，包括醫療，投資銀行，金融科技，建築，貿易行業...）",
+      "description": "歡迎參加我們的線上講座，內容包括新項目發佈、職涯探索（醫療、投資銀行、金融科技、建築、交易產業等）以及更多精彩主題...",
       "link" : "/webinar"
     },
     {
@@ -44,13 +44,13 @@
     {
       "image": "/images/home/home7.jpg",
       "title": "職場人士專訪",
-      "description": "從我們的專訪團隊(大學生組成)對專業人士的訪談中獲得寶貴的開啓。",
+      "description": "透過由我們大學生團隊精心進行的專訪，深入了解來自行業專家的職涯洞見。",
       "link" : "/chronicle"
     },
     {
       "image": "/images/home/home8.jpg",
       "title": "面試培訓 (鷹翼計劃)",
-      "description": "建立在高壓求職面試中脫穎而出所需的信心。",
+      "description": "建立在高壓求職面試中脫穎而出所需的能力與信心。",
       "link" : "/interview"
     },
     {

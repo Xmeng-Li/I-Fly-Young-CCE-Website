@@ -54,11 +54,17 @@ const Footer = () => {
 
         {/* Right Part */}
         <div className="footer-links">
-          <div className="link-title">{t("contactUs")}</div>
-          <div className="contact-info">
-            <MailIcon/>
-            <span>cce.info@iflyyoung.com</span>
-          </div>
+          {/* <div className="top-part"> */}
+            <div className="link-title">{t("contactUs")}</div>
+            <div className="contact-info">
+              <a className="mail-icon"
+                href="mailto:cce.info@iflyyoung.com"
+                rel="noreferrer"
+                target="_blank"
+              ><MailIcon /></a>
+              <span>cce.info@iflyyoung.com</span>
+            </div>
+          {/* </div> */}
 
           <div className="mid-part">
             <div className="link-title">{t("followUs")}</div>
@@ -95,23 +101,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* Feedback */}
-      {/* <div className="feedback-container">
-        <label className="fdbk-label">{t("fdbkTitle")}</label>
-        <div className="feedback">
-          <div className="fdbk-content">
-            <label className="input-label">{t("fdbkDes")}</label>
-            <textarea className="fdbk-input-box"></textarea>
-            <label className="word-cnt">{t("wordCount")}</label>
-          </div>
-          <div className="email-box">
-            <label className="input-label">{t("userEmail")}</label>
-            <input className="email-input-box" type="text" />
-            <button className="footer-sub-btn">{t("subBtn")}</button>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

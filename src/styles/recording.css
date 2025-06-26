@@ -469,7 +469,7 @@ select:focus {
     gap: 6px;
   }
   .title {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -484,7 +484,7 @@ select:focus {
     margin-bottom: 6px;
   }
   .question {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 16px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -519,7 +519,7 @@ select:focus {
     height: 12px;
   }
   .rhap_time {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -5px;
   }
   .rhap_progress-bar {
@@ -732,7 +732,7 @@ select:focus {
     height: 12px;
   }
   .rhap_time {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: -5px;
   }
   .rhap_progress-bar {

@@ -2,25 +2,25 @@
   "homeBannerTop": "I Fly Young",
   "homeBanner": "Communication and Career Exploration (CCE)",
   "homeBannerSub": "Welcome!",
-  "homeTopText": "Jump-start your career and get over your fear",
+  "homeTopText": "A Platform that Supports Your Life Long Career Journey",
   
   "category": [
     {
       "image": "/images/home/home1.jpg",
       "title": "Weekly Office Hour",
-      "description": "Submit your questions and gain valuable insights from experienced mentors during our weekly 30-minute panel sessions. Discover practical tips for overcoming workplace challenges and learn how to become a positive asset to your boss, colleagues, and organization.",
+      "description": "In just 30 minutes, gain practical tips from experienced mentors on overcoming workplace challenges and becoming a valuable asset to your team and organization. Submit your questions in advance and get answers during the live weekly session.",
       "link" : "/office-hours"
     },
     {
       "image": "/images/home/home2.jpg",
       "title": "Focus Group",
-      "description": "Be part of a mentor-led discussion group where you'll learn how to live out your purpose and make your work life count.",
+      "description": "Join a mentor-led discussion group where you’ll learn how to ask the right questions, discover your talents, handle workplace stress and relationships, and become a blessing to your company, boss, and colleagues.",
       "link" : "/focus-group"
     },
     {
       "image": "/images/home/home3.jpg",
       "title": "Project Transformation",
-      "description": "Become a catalyst for positive change—transform your workplace and empower others to do the same.",
+      "description": "Equipping Christians with a heart to serve workplace needs, this program helps you build the skills and confidence to become a blessing to those around you. You'll learn to use the rich resources of the I FLY YOUNG CCE platform. Participants must have completed at least one year (or two seasons) of Focus Group sessions to register.",
       "link" : "/project"
     },
     {
@@ -32,7 +32,7 @@
     {
       "image": "/images/home/home5.jpg",
       "title": "CCE Webinar",
-      "description": "Program Launch, Career Journey Exploration (various career paths including medical, investment banking, finance-technology, architecture, trading industry...)",
+      "description": "Join our webinars for new program launches, career path exploration (medical, investment banking, finance-technology, architecture, trading industry....etc.) and more.",
       "link" : "/webinar"
     },
     {
@@ -44,13 +44,13 @@
     {
       "image": "/images/home/home7.jpg",
       "title": "CCE Chronicle",
-      "description": "Gain valuable insights from interviews conducted by our Chronicle team of college students.",
+      "description": "Discover real-world career insights through interviews with industry professionals, thoughtfully conducted by our Chronicle college student team.",
       "link" : "/chronicle"
     },
     {
       "image": "/images/home/home8.jpg",
       "title": "Interview Training (Eagle Wing)",
-      "description": "Build the confidence you need to excel in high-pressure job interviews.",
+      "description": "Build the capability and confidence you need to excel in high-pressure job interviews.",
       "link" : "/interview"
     },
     {

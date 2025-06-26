@@ -71,7 +71,7 @@
   display: flex;
   color: var(--Blue-700, #0E426C);
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; 
@@ -215,7 +215,7 @@
   align-items: center;
   width: 100%;
   position: relative;
-  margin-top: 120px;
+  margin-top: 100px;
   margin-bottom: 80px;
 }
 .proj-main-sub {
@@ -224,8 +224,8 @@
   font-size: 20px;
   font-style: italic;
   font-weight: 400;
-  line-height: 28px; 
-  margin-bottom: 45px;
+  line-height: 5px; 
+  margin-bottom: 40px;
 }
 .proj-btm-bk {
   width: 100vw;
@@ -330,7 +330,7 @@
     margin-bottom: 40px;
   }
   .proj-section-label {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 20px;
   }
@@ -502,6 +502,11 @@
     font-size: 16px;
     line-height: 28px;
   }
+  .proj-section-label {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
   
   /* Main Three Part */
   .proj-main-three {
@@ -630,6 +635,11 @@
   .proj-three-text {
     font-size: 16px;
     line-height: 26px;
+  }
+  .proj-section-label {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
   }
   
   /* Main Three Part */

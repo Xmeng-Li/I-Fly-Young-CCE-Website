@@ -14,8 +14,6 @@ import focusMain from "./meeting-img.jpeg";
 
 
 type FocusContents = {
-  focusOverview: string;
-  overviewDes: string;
   focusLeft: string;
   focusLeftText: string;
   focusMid: string;
@@ -23,16 +21,21 @@ type FocusContents = {
   focusRight: string;
   focusRightText: string;
 
-  moreInfo: string;
   topic: string;
-  topicDes: string;
+  theme1: string;
+  theme1Des: string;
+  theme2: string;
+  theme2Des: string;
+  theme3: string;
+  theme3Des: string;
+  theme4: string;
+  theme4Des: string;
+
+  moreInfo: string;
   testimonial: string;
   testimonialsDes: string;
   leaders: string;
   leaderDes: string;
-  group: string;
-  newGuy: string;
-  returnGuy: string;
 }
 
 const FocusGroup = () => {
@@ -107,10 +110,9 @@ const FocusGroup = () => {
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn">
-            {/* <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer"> */}
-              {/* {t("applyNow")} */}
-              Coming Soon
-            {/* </a> */}
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUNFo5MEkzMkNOQjZHWEwxWkRQWldSNVNRMi4u" target="_blank" rel="noopener noreferrer">
+              {t("applyNow")}
+            </a>
           </button>
         </div>
         <img className="focus-top-img" src={focusTopImg} alt="topImg" />
@@ -121,15 +123,12 @@ const FocusGroup = () => {
       <div className="focus-content-container">
         {/* Overview */}
         <div className="focus-main-top">
-          <label className="focus-section-label">{focusContent[0].focusOverview}</label>
-          <div className="overview-des">{focusContent[0].overviewDes}</div>
           <img className="focus-top-bk" src={focusTopBk} alt="top background" />
           <div className="focus-top-three">
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><StarIcon /></span>
               <div className="focus-three-titles">{focusContent[0].focusLeft}</div>
               <div className="focus-three-text">{focusContent[0].focusLeftText}</div>
-
             </div>
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><PencilIcon /></span>
@@ -142,6 +141,27 @@ const FocusGroup = () => {
               <div className="focus-three-text">{focusContent[0].focusRightText}</div>
             </div>
           </div>
+          <div className="focus-top-topics">
+            <label className="focus-section-label">{focusContent[1].topic}</label>
+            <div className="focus-four-themes">
+              <div className="focus-each-topic">
+                <div className="focus-topic-titles">{focusContent[1].theme1}</div>
+                <div className="focus-topic-des">{focusContent[1].theme1Des}</div>
+              </div>
+              <div className="focus-each-topic">
+                <div className="focus-topic-titles">{focusContent[1].theme2}</div>
+                <div className="focus-topic-des">{focusContent[1].theme2Des}</div>
+              </div>
+              <div className="focus-each-topic">
+                <div className="focus-topic-titles">{focusContent[1].theme3}</div>
+                <div className="focus-topic-des">{focusContent[1].theme3Des}</div>
+              </div>
+              <div className="focus-each-topic">
+                <div className="focus-topic-titles">{focusContent[1].theme4}</div>
+                <div className="focus-topic-des">{focusContent[1].theme4Des}</div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Main */}
@@ -151,31 +171,9 @@ const FocusGroup = () => {
           
           <div className="focus-mid-main">
             <img className="focus-main-img" src={focusMain} alt="mainImg" />
-            {/* Four Items */}
+            {/* Two Items */}
             <div className="focus-main-texts">
-              <div className="item-detal-row">
-                {showDes === "topic" ? (
-                  <div className="section-des">
-                    <div className="focus-main-title" onClick={() => toggleSection("topic")}>
-                      <span className="inner-blue-title">{focusContent[1].topic}</span>
-                      <span className="main-icon-right">
-                        <XIcon />
-                      </span>
-                    </div>
-                    <div className="des-texts">
-                      {focusContent[1].topicDes}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="focus-main-title" onClick={() => toggleSection("topic")}>
-                    <span className="main-text-left">{focusContent[1].topic}</span>
-                    <span className="main-icon-right">
-                      <PlusIcon />
-                    </span>
-                  </div>
-                )}
-              </div>
-              {/* Item 2 */}
+              {/* Item 1 */}
               <div className="item-detal-row">
                 {showDes === "testimonial" ? (
                   <div className="section-des">
@@ -201,7 +199,7 @@ const FocusGroup = () => {
                 )}
               </div>
 
-              {/* Item 3 */}
+              {/* Item 2 */}
               <div className="item-detal-row">
                 {showDes === "leaders" ? (
                   <div className="section-des">
@@ -226,33 +224,6 @@ const FocusGroup = () => {
                   </div>
                 )}
               </div>
-
-              {/* Item 4 */}
-              <div className="item-detal-row">
-                {showDes === "group" ? (
-                  <div className="section-des">
-                    <div className="focus-main-title" onClick={() => toggleSection("group")}>
-                      <span className="inner-blue-title">{focusContent[1].group}</span>
-                      <span className="main-icon-right">
-                        <XIcon />
-                      </span>
-                    </div>
-                    <div className="des-texts">
-                      <ul className="group-detail">
-                        <li>{focusContent[1].newGuy}</li>
-                        <li>{focusContent[1].returnGuy}</li>
-                      </ul>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="focus-main-title" onClick={() => toggleSection("group")}>
-                    <span className="main-text-left">{focusContent[1].group}</span>
-                    <span className="main-icon-right">
-                      <PlusIcon />
-                    </span>
-                  </div>
-                )}
-              </div>
             </div>
           </div>
         </div>
@@ -265,10 +236,9 @@ const FocusGroup = () => {
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">
-            {/* <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAATzJbylUMkQ2NlNPWlNUV0pXQlE3T01UTE02N1A1Ty4u&route=shorturl" target="_blank" rel="noopener noreferrer"> */}
-              {/* {t("applyNow")} */}
-              Coming Soon
-            {/* </a> */}
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUNFo5MEkzMkNOQjZHWEwxWkRQWldSNVNRMi4u" target="_blank" rel="noopener noreferrer">
+              {t("applyNow")}
+            </a>
           </button>
         </div>
       </div>
