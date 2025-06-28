@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/ourteam.css";
-// import cloud from "../components/officeHours/Cloud.png";
 import linkedInLogo from "../../src/linkedin-logo.png";
 import partner1 from "../components/@Cloud-logo.png";
 import partner2 from "../components/Center of Navigating Life Logo.png";
@@ -116,15 +115,27 @@ const OurTeam = () => {
           <div className="partners">
             <div className="each-partner">
               <img className="partner-logo" src={partner1} alt="partner-logo" />
-              <span className="partner-name">{t("partner1")}</span>
+              <span className="partner-name">
+                <a href="https://at-cloud.biz/" target="_blank" rel="noopener noreferrer">
+                  {t("partner1")}   
+                </a>
+              </span>
             </div>
             <div className="each-partner">
               <img className="partner-logo" src={partner2} alt="partner-logo" />
-              <span className="partner-name">{t("partner2")}</span>
+              <span className="partner-name">
+                <a href="https://www.navigate-s2b.org/" target="_blank" rel="noopener noreferrer">
+                  {t("partner2")}  
+                </a>
+              </span>
             </div>
             <div className="each-partner">
               <img className="partner-logo3" src={partner3} alt="partner-logo" />
-              <span className="partner-name">{t("partner3")}</span>
+              <span className="partner-name">
+                <a href="https://www.calledtowork.org/" target="_blank" rel="noopener noreferrer">
+                  {t("partner3")}  
+                </a>
+              </span>
             </div>
           </div>
         </div>

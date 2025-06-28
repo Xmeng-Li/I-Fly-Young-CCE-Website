@@ -1,3 +1,4 @@
+
 import React, { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import i18n from "i18next";
@@ -22,7 +23,7 @@ i18n
     backend: {
       loadPath: 'locales/{{lng}}/{{ns}}.json'
     },
-    ns: ['header', 'officehour'],
+    ns: ['header', 'officehour', 'home','team', 'webinar', 'programs','class', 'chronicles', 'articles', 'footer'],
     defaultNS: 'header'
   });
 

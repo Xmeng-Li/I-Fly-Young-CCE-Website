@@ -42,7 +42,7 @@ const Project = () => {
 
   const ArrowRight = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M14 5L21 12M21 12L14 19M21 12L3 12" stroke="#3067F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M14 5L21 12M21 12L14 19M21 12L3 12" stroke="#3067F2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   );
   const StarIcon = () => (
@@ -123,10 +123,9 @@ const Project = () => {
           <span className="projTitle">{t("projTitle")}</span>
           <span className="projSub">{t("projSubTitle")}</span>
           <button className="proj-apply-btn"> {/* form need to be updated */}
-            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a> */}
-            {t("comingSoon")}
+            </a>
           </button>
         </div>
         <img className="proj-top-img" src={projTopImg} alt="topImg" />
@@ -136,7 +135,6 @@ const Project = () => {
       <div className="proj-content-container">
         {/* Overview */}
         <div className="proj-main-top">
-          {/* <label className="proj-section-label">{mainContent[0].overview}</label> */}
           <img className="proj-top-bk" src={projTopBk} alt="top background" />
           <div className="proj-top-three">
             <div className="overview-part">
@@ -215,10 +213,9 @@ const Project = () => {
           <span className="proj-btm-text">{t("projBtmText")}</span>
           <span className="proj-btm-title">{t("projBtmTitle")}</span>
           <button className="proj-apply-btn">{/* form need to be updated */}
-            {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdpSAC9LCf8O73iJss12DqnA3AHWjdhZQ9QFA7qfkGPlA8OoQ/viewform" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a> */}
-            {t("comingSoon")}
+            </a>
           </button>
         </div>
       </div>

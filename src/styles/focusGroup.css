@@ -37,10 +37,10 @@
   background: var(--Orange-500, #FF9700);
   justify-content: center;
   align-items: center;
-  padding: 16px;
 }
 .focus-apply-btn a {
   text-decoration: none;
+  padding: 12px;
   color: var(--Text-white, #FFF);
   font-size: 20px;
   font-style: normal;
@@ -316,11 +316,12 @@
     line-height: 28px;
   }
   .focusSub {
+    max-width: 380px;
     font-size: 16px;
     line-height: 24px; 
     text-align: center;
   }
-  .focus-apply-btn {
+  .focus-apply-btn a {
     padding: 7px 10px;
     font-size: 16px;
     line-height: 26px; 

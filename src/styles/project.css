@@ -1,9 +1,10 @@
 .proj-top-part {
   display: flex;
-  padding: 60px 0px 30px 60px;
+  padding: 60px 0px 30px 0px;
   justify-content: space-between;
   align-items: center;
   font-family: "Noto Sans";
+  gap: 60px;
 }
 .proj-left-content {
   display: flex;
@@ -30,12 +31,6 @@
 }
 .proj-apply-btn {
   display: flex;
-  padding: 12px;
-  color: var(--Text-white, #FFF);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
   border-radius: 40px;
   border: none;
   background: var(--Orange-500, #FF9700);
@@ -44,6 +39,12 @@
 }
 .proj-apply-btn a {
   text-decoration: none;
+  padding: 12px;
+  color: var(--Text-white, #FFF);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
 }
 .proj-top-img {
   width: 648px;
@@ -303,11 +304,12 @@
     line-height: 28px;
   }
   .projSub {
+    max-width: 380px;
     font-size: 16px;
     line-height: 24px; 
     text-align: center;
   }
-  .proj-apply-btn {
+  .proj-apply-btn a {
     padding: 7px 10px;
     font-size: 16px;
     line-height: 26px; 
