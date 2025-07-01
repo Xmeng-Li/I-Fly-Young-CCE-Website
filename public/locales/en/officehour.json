@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "131",
+      "date": "06/30/2025",
+      "title": "I Fly Young CCE 2024-2025 Focus Group Interview 4",
+      "question": "Q1. What is CCE Focus Goup? What's the biggest impact on me? Who should attend?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250630_焦點小組_訪談4MP3.mp3"
+    },
+    {
       "id" : "130",
       "date": "06/23/2025",
       "title": "What is more important, complete specific work or relationships?",
@@ -163,7 +171,7 @@
     {
       "id" : "125",
       "date": "05/12/2025",
-      "title": "About I FLY YOUNG CCE Focus Group",
+      "title": "I Fly Young CCE 2024-2025 Focus Group Interview 2",
       "question": "Q1.What is CCE Focus Goup? Q2.How is CCE Focus Group different from church small groups? Q3.What are the benefits of attending CCE Focus Group? Q4.Is CCE Focus Goup for me? (Including: 2024-5 Focus Group Interview 2)",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"

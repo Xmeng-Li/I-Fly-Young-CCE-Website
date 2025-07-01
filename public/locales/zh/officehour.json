@@ -43,7 +43,7 @@
       "image": "/images/mentors/TaChangFu.png"
     }
   ],
-  "OfficeTitle": "溝通與職涯探索時間",
+  "OfficeTitle": "CCE 職場問答時間",
   "leftTitle": "會議流程",
   "text": "得益於職場導師的智慧",
   "detail": [
@@ -54,16 +54,16 @@
       "title": "(30分鐘) 職場問答"
     }
   ],
-  "midTitle": "Zoom會議",
+  "midTitle": "Zoom 會議",
   "zoomMeeting": [
     {
-      "會議ID": "841 0068 2160",
+      "會議 ID": "841 0068 2160",
       "密碼": "042263"
     }
   ],
   "joinUs": "加入會議",
 
-  "rightTitle": "Zoom會議",
+  "rightTitle": "Zoom 會議",
   "meetingTime" : [
     {
       "type": "夏令時間",
@@ -96,7 +96,7 @@
   ],
   "officeHours": "問答時間",
   "allRecordings": "所有錄音",
-  "filter": "過濾器",
+  "filter": "篩選",
   "sort": "排序",
   "timeSort" : {
     "recent" : "最近",
@@ -116,6 +116,14 @@
   },
   "viewMore": "查看更多",
   "recordings": [
+    {
+      "id" : "131",
+      "date": "06/30/2025",
+      "title": "愛飛揚 溝通與探索 2024-2025焦點小組 訪談4",
+      "question": "Q1. CCE 焦點小組是什麽 ? 對我最大的影響是什麽? 適合誰參加?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250630_焦點小組_訪談4MP3.mp3"
+    },
     {
       "id" : "130",
       "date": "06/23/2025",
@@ -151,7 +159,7 @@
     {
       "id" : "126",
       "date": "05/26/2025",
-      "title": "愛飛揚 溝通與探索 2024-2025 焦點小組 訪談3",
+      "title": "愛飛揚 溝通與探索 2024-2025焦點小組 訪談3",
       "question": "Q1.訪談見証啟示了學員是如何從導師和小組中得到幫助的？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250526_焦點小組.mp3"
@@ -159,7 +167,7 @@
     {
       "id" : "125",
       "date": "05/12/2025",
-      "title": "關於愛飛揚 溝通與職涯探索 焦點小組",
+      "title": "愛飛揚 溝通與探索 2024-2025焦點小組 訪談2",
       "question": "Q1.CCE焦點小組是什麽? Q2.CCE焦點小組和教會小組有什麽不同? Q3.參加CCE焦點小組有什麽好處? Q4.CCE焦點小組適合我嗎? (包括: 2024-5 焦點小組 訪談2)",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"
@@ -207,7 +215,7 @@
     {
       "id" : "119",
       "date": "03/31/2025",
-      "title": "愛飛揚 溝通與探索 2024-2025 焦點小組訪談1",
+      "title": "愛飛揚 溝通與探索 2024-2025焦點小組 訪談1",
       "question": "Q1.CCE 焦點小組是什麽 ? 可以幫助我什麽? ",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250331_焦點小組訪談MP3.mp3"

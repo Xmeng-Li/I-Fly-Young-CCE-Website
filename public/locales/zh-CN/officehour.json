@@ -1,125 +1,133 @@
 {
-  "banner" : "Communications & Career Exploration (CCE) Office Hours",
-  "playNow": "Play Now",
-  "viewAll": "View All",
+  "banner" : "沟通与职涯探索\n职场问答时间",
+  "playNow": "播放录音",
+  "viewAll": "查看全部",
 
-  "ohRecent": "Most Recent",
-  "ohColleague": "Colleagues",
-  "ohFaith": "Faith & Work",
-  "ohBoss": "Supervisor",
-  "ohDev": "Self Development",
-  "ohFocus": "Focus Group",
+  "ohRecent": "最近",
+  "ohColleague": "工作与同事",
+  "ohFaith": "信仰与工作",
+  "ohBoss": "工作与上司",
+  "ohDev": "个人发展",
+  "ohFocus": "焦点小组",
   
-  "panelistsTitle": "Office Hours Panelists",
+  "panelistsTitle": "问答时间讲员",
   "speaker": [
     {
       "name": "Shengming Shan",
-      "role": "CEO / SWR Technology\nFounder / I FLY YOUNG CCE",
+      "role": "SWR Technology 首席执行官\n爱飞扬沟通与职涯探索创始人",
       "image": "/images/mentors/ShengmingShan.png"
     },
     {
       "name": "Irene Yuan",
-      "role": "CEO / RELinkage\nFounder / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
+      "role": "RELinkage 首席执行官\nVoltraware 创始人",
       "image": "/images/mentors/IreneYuan.png"
     },
     {
       "name": "Nina Tsai",
-      "role": "Data Science Department Leader / Google",
+      "role": "数据科学部门负责人 / 谷歌",
       "image": "/images/mentors/NinaTsai.png"
     },
     {
       "name": "Rong Yue",
-      "role": "Principal R&D Engineer / Siemens",
+      "role": "首席研发工程师 / 西门子",
       "image": "/images/mentors/RongYue.png"
     },
     {
       "name": "Weixu Meng",
-      "role": "Associate Research Fellow (Scientific Director)",
+      "role": "副研究员（科学主任）",
       "image": "/images/mentors/WeixuMeng.png"
     },
     {
       "name": "Ta-Chang Fu",
-      "role": "The Dedicated Hard Drive R&D Department Mechanical Manager / Western Digital",
+      "role": "数据中心专用硬碟机研发部技术主管 / Western Digital",
       "image": "/images/mentors/TaChangFu.png"
     }
   ],
   
-  "OfficeTitle": "CCE Office Hour",
-  "leftTitle": "Office Hour",
-  "text": "Tune in to wisdom from CCE Mentors",
+  "OfficeTitle": "CCE 职场问答时间",
+  "leftTitle": "会议流程",
+  "text": "聆听 CCE 导师的智慧",
   "detail": [
     {
-      "title": "(30 min) Wait Upon the Lord"
+      "title": "（30分钟）等候神"
     },
     {
-      "title": "(30 min) Workplace Q&A"
+      "title": "（30 分钟）职场问答"
     }
   ],
 
-  "midTitle": "Zoom Meeting",
+  "midTitle": "Zoom 会议",
   "zoomMeeting": [
     {
-      "Meeting ID": "841 0068 2160",
-      "Passcode": "042263"
+      "会议 ID": "841 0068 2160",
+      "密码": "042263"
     }
   ],
-  "joinUs": "Join Meeting",
+  "joinUs": "加入会议",
 
 
-  "rightTitle": "Zoom Meeting",
+  "rightTitle": "Zoom 会议",
   "meetingTime" : [
     {
-      "type": "Daylight Saving Time",
+      "type": "夏令时间",
       "dates": "3/9/2025 ~ 11/2/2025",
       "times": [
         {
-          "region": "U.S. Pacific Time Monday",
+          "region": "美西时间周一晚上",
           "time": "8:30PM - 9:30PM"
         },
         {
-          "region": "Beijing/Taiwan Tuesday",
+          "region": "北京/台湾时间 周二中午",
           "time": "11:30AM - 12:30PM"
         }
       ]
     },
     {
-      "type": "Standard Time",
+      "type": "冬令时间",
       "dates": "11/4/2024 ~ 3/8/2025",
       "times": [
         {
-          "region": "U.S. Pacific Time Monday",
+          "region": "美西时间周一晚上",
           "time": "8:00PM - 9:00PM"
         },
         {
-          "region": "Beijing/Taiwan Tuesday",
+          "region": "北京/台湾时间 周二中午",
           "time": "12:00PM - 1:00PM"
         }
       ]
     }
   ],
 
-  "officeHours": "Office Hours",
-  "allRecordings": "All Recordings",
-  "filter": "Filter",
-  "sort": "Sort",
+  "officeHours": "问答时间",
+  "allRecordings": "所有录音",
+  "filter": "筛选",
+  "sort": "排序",
   "timeSort" : {
-    "recent" : "Most Recent",
-    "oldest" : "Oldest"
+    "recent" : "最近",
+    "oldest" : "最早"
   },
-  "year": "Year",
-  "years": "All Year",
+  "year": "年份",
+  "years": "所有年份",
   
-  "topic": "Topic",
+  "topic": "主题",
   "categories": {
-    "allTopic": "All Topics",
-    "boss": "Supervisor",
-    "colleague": "Colleagues",
-    "faith": "Faith & Work",
-    "development": "Self Development",
-    "focusGroup": "Focus Group"
+    "allTopic": "所有主题",
+    "boss": "工作与上司",
+    "colleague": "工作与同事",
+    "faith": "信仰与工作",
+    "development": "个人发展",
+    "focusGroup": "焦点小组"
   },
-  "viewMore": "View More",
+  "viewMore": "查看更多",
   "recordings": [
+    {
+      "id" : "131",
+      "date": "06/30/2025",
+      "title": "爱飞扬 沟通与探索 2024-2025焦点小组 访谈4",
+      "question": "Q1. CCE焦点小组是什么？对我影响最大的是什么？适合谁参加？",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20250630_焦點小組_訪談4MP3.mp3"
+    },
     {
       "id" : "130",
       "date": "06/23/2025",
@@ -155,7 +163,7 @@
     {
       "id" : "126",
       "date": "05/26/2025",
-      "title": "爱飞扬 沟通与探索 2024-2025 焦点小组 访谈3",
+      "title": "爱飞扬 沟通与探索 2024-2025焦点小组 访谈3",
       "question": "Q1.访谈见证启示了学员是如何从导师和小组中得到帮助的？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250526_焦點小組.mp3"
@@ -163,7 +171,7 @@
     {
       "id" : "125",
       "date": "05/12/2025",
-      "title": "关于爱飞扬沟通与职涯探索焦点小组",
+      "title": "爱飞扬 沟通与探索 2024-2025焦点小组 访谈2",
       "question": "Q1.CCE小组焦点是什么？ Q2.CCE焦点小组和教会小组有什么不同？ Q3.参加CCE焦点小组有什么好处？ Q4.CCE小组焦点适合我吗？ （包括：2024-5焦点小组访谈2）",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"
@@ -211,8 +219,8 @@
     {
       "id" : "119",
       "date": "03/31/2025",
-      "title": "I Fly Young CCE 2024-2025 Focus Group Interview 1",
-      "question": "Q1. What is CCE Focus Goup? How can it help me?",
+      "title": "爱飞扬 沟通与探索 2024-2025焦点小组 访谈1",
+      "question": "Q1. CCE 焦点小组是什么？它能帮我什么？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250331_焦點小組訪談MP3.mp3"
     },
