@@ -18,6 +18,8 @@ type projContents = {
   overview: string;
   projLeft: string;
   projLeftText: string;
+  projMidTop: string;
+  projMidTextTop: string;
   projMid: string;
   projMidText: string;
   projRight: string;
@@ -144,6 +146,8 @@ const Project = () => {
             </div>
             <div className="overview-part">
               <span className="proj-top-three-icons"><PencilIcon /></span>
+              <div className="proj-three-titles">{mainContent[0].projMidTop}</div>
+              <div className="proj-three-text-leader">{mainContent[0].projMidTextTop}</div>
               <div className="proj-three-titles">{mainContent[0].projMid}</div>
               <div className="proj-three-text">{mainContent[0].projMidText}</div>
             </div>
@@ -188,15 +192,15 @@ const Project = () => {
           <label className="proj-main-sub">{mainContent[2].projBtmSub}</label>
           <img className="proj-btm-bk" src={projBtmBk} alt="btm background" />
           <div className="proj-top-three">
-            <div className="overview-part">
+            <div className="suitMe-part">
               <span className="proj-btm-icon-lt"><NumOneIcon /></span>
               <div className="proj-three-text">{mainContent[2].projBtmLeftText}</div>
             </div>
-            <div className="overview-part">
+            <div className="suitMe-part">
               <span className="proj-btm-icons"><NumTwoIcon /></span>
               <div className="proj-three-text">{mainContent[2].projBtmText}</div>
             </div>
-            <div className="overview-part">
+            <div className="suitMe-part">
               <span className="proj-btm-icons"><NumThreeIcon /></span>
               <div className="proj-three-text">
                 {extractLink(mainContent[2].projBtmRightText)}

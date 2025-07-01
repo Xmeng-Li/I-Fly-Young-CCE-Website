@@ -1,224 +1,221 @@
 {
-  "pageBanner": "About Us",
-  "bannerText": "Overcome the barrier, to jump-start your career",
-  "pageTitle": "Meet our mentors",
-  "pageText": "Click on mentors below to see their bios",
+  "pageBanner": "关于我们",
+  "pageTitle": "认识我们的导师",
 
 
-  "homeAbout": "About I Fly Young CCE",
-  "homeWho": "Who are we",
-  "homeWhoDes": "We are a 501(c)(3) nonprofit organization dedicated to providing a comprehensive support system that empowers individuals to grow and thrive through every stage of their career journey.",
-  "homeWhat": "What do we do",
-  "homeWhatDes": "We build a healthy ecosystem of \"giving and receiving\" where people of all ages can build a healthy career through mentorship. ",
-  "homeHow": "How can we help",
-  "homeHowDes": "Career (re)launch (internship, interview training), career development mentorship (CCE class, office hour, focus group...)",
+  "homeWho": "“我们是谁",
+  "homeWhoDes": "我们是一家美国国税局认可的可免税 501(c)(3) 非营利组织，致力于提供全面的职涯成长支持系统，帮助个人在职业生涯的每个阶段成长和发展。",
+  "homeWhat": "我们做什么",
+  "homeWhatDes": "我们建立了一个健康的“给予和接受”的生态系统，各个年龄段的人都可以通过指导建立健康的职业生涯。",
+  "homeHow": "我们提供什么帮助",
+  "homeHowDes": "职业（重新）启动（实习、面试培训）、职业发展指导（CCE 课程、问答时间、焦点小组……）",
   
 
   "mentors": [
     {
       "name": "Shengming Shan",
-      "role": "CEO / SWR Technology, Founder / I FLY YOUNG CCE",
-      "bio": "Mr. Shengming Shan, Founder & CEO of SWR Technology, Founder of I FLY YOUNG CCE, Founder of Creative Chinese, Board Director of Daniel Christian Academy, Engineering Director of Qualcomm, MSEE Stony Brook University, NY, USA, 30 years of technical development and management in semiconductor and communication industry.",
+      "role": "SWR Technology 首席执行官,\n爱飞扬沟通与职涯探索创始人",
+      "bio": "Mr. Shengming Shan, SWR Technology 创始人兼CEO，I FLY YOUNG CCE创始人，创意中文创始人，但以理基督教学院董事，高通公司工程总监，美国纽约州立大学石溪分校电气工程硕士，30年半导体及通讯行业技术开发与管理经验。",
       "image": "/images/mentors/ShengmingShan.png",
       "linkedIn": "https://www.linkedin.com/in/shengming-shan-071a2b2/"
     },
     {
       "name": "Dr. Daniel Ding",
-      "role": "Machine Learning in Software & Hardware / Samsung",
-      "bio": "For the past decade, Dr. Daniel Ding is a tech lead and passionate AI practitioner in the crossfire of cutting edge software and hardware design. From microprocessors to SaaS, he contributed to and led projects that impact the design, analysis and optimization of high-end computing systemss. Inspired by the 2020 global pandemic and educators around the world, Daniel has found a new passion to give back to the community and prepare the young generation for the future job market. Daniel received his PhD degree in ECE at the University of Texas at Austin and has authored/co-authored more than 50 peer-reviewed publications, including best paper awards and the highly prestigious ACM SIGDA Best PhD Dissertation Award in 2011.",
+      "role": "软件和硬件中的机器学习 / 三星",
+      "bio": "在过去的十年里, Dr. Daniel Ding 是一位技术领袖，也是一位充满热情的 AI 从业者，在尖端软件和硬件设计领域深耕细作。从微处理器到软件即服务 (SaaS)，他参与并领导的项目影响着高端计算系统的设计、分析和优化。受 2020 年全球疫情和全球教育工作者的启发，Daniel 找到了回馈社会、帮助年轻一代为未来就业市场做好准备的新热情。Daniel 在德克萨斯大学奥斯汀分校获得电子与计算机工程博士学位，并撰写/合作撰写了 50 多篇同行评审出版物，其中包括最佳论文奖和 2011 年享有盛誉的 ACM SIGDA 最佳博士论文奖。",
       "image": "/images/mentors/DanielDing.png",
       "linkedIn": "https://www.linkedin.com/in/duoding/"
     },
     {
       "name": "Nina Tsai",
-      "role": "Data Science Department Leader / Google",
-      "bio": "Nina Tsai is a data science and analytics leader with over 20 years of experience driving business impact at companies like Google, Meta, eBay, Safeway, and startups. Passionate about mentoring, she is committed to giving back to the community.",
+      "role": "数据科学部门负责人 / 谷歌",
+      "bio": "Nina Tsai 是一位数据科学和分析领域的领导者，拥有 20 多年在 Google、Meta、eBay、Safeway 等公司以及初创公司推动业务影响力的经验。她热衷于指导他人，并致力于回馈社会。",
       "image": "/images/mentors/NinaTsai.png",
       "linkedIn": "https://www.linkedin.com/in/nina-tsai/"
     },
     {
       "name": "Dr. Steve Xi",
-      "role": "Machine Learning & Fraud Detection / Facebook",
-      "bio": "Dr. Xi has extensive experience in machine learning, AI infra and system design. He received his PhD degree in Computer Science at the University of California, Riverside. He has been working in the industry for 10+ years, with domain knowledge in fraud/risk detection and ads integrity. He is now a tech lead in the business integrity team at Facebook. Before Facebook, he worked at Google for 7 years, building large scale ads policy review systems to classify Google search ads, display ads, mobile ads etc. Steve mentored many junior engineers and interns during his career, he has a passion and enjoys to see young professionals growing. He is also glad to share his work experience and life experience with mentees.",
+      "role": "机器学习和欺诈检测 / 脸书",
+      "bio": "Dr. Xi 在机器学习、人工智能基础设施和系统设计方面拥有丰富的经验。他拥有加州大学河滨分校计算机科学博士学位。他已在行业中工作十余年，在欺诈/风险检测和广告完整性领域拥有深厚的知识。他目前是 Facebook 商业完整性团队的技术主管。在加入 Facebook 之前，他曾在谷歌工作七年，构建了大规模广告政策审查系统，用于对谷歌搜索广告、展示广告、移动广告等进行分类。Steve 在其职业生涯中指导过许多初级工程师和实习生，他充满热情，乐于见证年轻的专业人​​士成长。他也乐于与学员分享自己的工作和生活经验。",
       "image": "/images/mentors/SteveXi.png",
       "linkedIn": "https://www.linkedin.com/in/0509148/"
     },
     {
       "name": "Dr. Donald Cheng",
-      "role": "Electronics & Optics / Amazon",
-      "bio": "Dr. Cheng is a Sr. Hardware Engineer in Amazon Lab126 with eight years of industry experience working on laser, LED and consumer electronics. He has a PhD in Electrical and Computer Engineering from the University of Illinois at Urbana Champaign. Dr. Cheng receives guidance from many great mentors in his career. In the spirit of giving back, he has been mentoring young people to explore their passion and develop positive attitudes toward work and life. Outside of work he enjoys spending time with his family as well as outdoor activities.",
+      "role": "电子与光学 / 亚马逊",
+      "bio": "Dr. Cheng 是亚马逊 Lab126 的高级硬件工程师，拥有八年激光、LED 和消费电子产品行业经验。他拥有伊利诺伊大学香槟分校电气与计算机工程博士学位。程博士在职业生涯中得到了许多优秀导师的指导。本着回馈社会的精神，他一直致力于指导年轻人探索自己的热情所在，培养积极的工作和生活态度。工作之余，他喜欢陪伴家人，也喜欢户外活动。",
       "image": "/images/mentors/DonaldCheng.png",
       "linkedIn": "https://www.linkedin.com/in/donaldkcheng/"
     },
     {
       "name": "Kedi Mei",
-      "role": "Civil & Transportation Engineering / BKF Engineers",
-      "bio": "Kedi Mei has 16+ years of experience in the Traffic Engineering field. She is currently a senior project engineer at BKF Engineers. She has managed numerous public transportation projects, as well as private development projects within the bay area and southern California. Some of the projects include BART extension in Fremont, VTA light rail extension in San Jose, Facebook campus, Gerald Desmond Bridge in Long Beach, and various highway improvement projects. Kedi is passionate to provide support by sharing her experiences to young engineers. She was one of the mentors in BKF Engineers’ Women in Engineering Resource Group. Outside of work, she is one of the spiritual parents at Young Adult Fellowship at her home church. She treasures her relationship with the young generation and enjoys sharing her life experiences to them.",
+      "role": "土木与交通工程 / BKF 工程师",
+      "bio": "Kedi Mei 在交通工程领域拥有超过 16 年的经验。她目前是 BKF Engineers 的高级项目工程师。她管理过湾区和南加州的众多公共交通项目以及私人开发项目。这些项目包括弗里蒙特湾区捷运 (BART) 延伸线、圣何塞弗吉尼亚交通管理局 (VTA) 轻轨延伸线、Facebook 园区、长滩杰拉尔德·德斯蒙德大桥以及各种公路改造项目。Kedi 热衷于通过分享自己的经验来为年轻工程师提供支持。她曾是 BKF Engineers 女性工程资源小组的导师之一。工作之余，她是其所在教会青年团契的属灵导师之一。她珍惜与年轻一代的关系，并乐于与他们分享自己的人生经历。",
       "image": "/images/mentors/KediMei.png",
       "linkedIn": "https://www.linkedin.com/in/kedi-mei-37479b110/"
     },
     {
       "name": "Dr. Kun Zan",
-      "role": "Machine Learning & Data Science / Expedia",
-      "bio": "Dr. Zan is a Sr. Manager of Data Science at Expedia Group. He is leading the Marketplace Optimization team working on pricing and monetization problems of the travel platform. Prior to the management role, he worked on a variety of machine learning and data science problems in the vacation rental marketplace, such as pricing optimization and revenue management, ranking system, marketing and sales. He got the PhD in Operations Research from the University of Texas at Austin.",
+      "role": "机器学习与数据科学 / Expedia",
+      "bio": "Dr. Zan 是 Expedia 集团数据科学高级经理。他领导市场优化团队，致力于解决旅游平台的定价和盈利问题。在担任管理职位之前，他曾致力于度假租赁市场中的各种机器学习和数据科学问题，例如定价优化和收益管理、排名系统、市场营销和销售。他拥有德克萨斯大学奥斯汀分校的运筹学博士学位。",
       "image": "/images/mentors/KunZan.png",
       "linkedIn": "https://www.linkedin.com/in/kun-z-a4656917/"
     },
     {
       "name": "Liju Huang",
-      "role": "UX & Visual Design / Enterprise Software",
-      "bio": "Liju Huang was a Sr. Visual Media Designer on an Enterprise Learning Organization of a human resources management software and services industry for 25+ years. Liju has been the lead designer in the areas of user interface and interaction design for many micro-learning templates, websites, menus, and learning management systems. Liju's expertise is to combine user experience, brand, business and functional requirements with concise visual design to different products, services and platforms.",
+      "role": "用户体验与视觉设计 / 企业软件",
+      "bio": "Liju Huang 曾在一家人力资源管理软件和服务行业的企业学习组织担任高级视觉媒体设计师，任职逾25年。Liju 曾担任用户界面和交互设计领域的首席设计师，参与设计了众多微学习模板、网站、菜单和学习管理系统。Liju 的专长是将用户体验、品牌、业务和功能需求与简洁的视觉设计相结合，应用于不同的产品、服务和平台。",
       "image": "/images/mentors/LijuHuang.png",
       "linkedIn": "https://www.linkedin.com/in/liju-huang-13524657/"
     },
     {
       "name": "Timothy Ma",
-      "role": "Principal Tech BD and Product Management",
-      "bio": "Timothy has 10+ years of industry experience in technical sales, business development, and product management focus on machine learning and cloud computing. He led multiple product developments, executions, and launches ranging from $10M to $100M run rates. Timothy is passionate about learning and building new products and a believer in giving back to the community. On a personal note, Timothy is a happy father and a family man who still tries to be better in both. He is also a big fan of college football and loves skiing and scuba diving.",
+      "role": "首席技术业务拓展和产品管理",
+      "bio": "Timothy 在技术销售、业务拓展和产品管理方面拥有 10 多年的行业经验，专注于机器学习和云计算。他领导了多个产品的开发、执行和发布，运营规模从 1000 万美元到 1 亿美元不等。Timothy 热衷于学习和开发新产品，并坚信回馈社会。就个人而言，Timothy 是一位快乐的父亲和顾家的好男人，并且仍在努力在这两方面做得更好。他也是大学橄榄球的忠实粉丝，热爱滑雪和水肺潜水。",
       "image": "/images/mentors/TimothyMa.png",
       "linkedIn": "https://www.linkedin.com/in/timothy-ma-6759b138/"
     },
     {
       "name": "Selena Shan",
-      "role": "Principal / I Fly Young Chinese School",
-      "bio": "Ms. Selena Shan is the Founder of I Fly Young and serves as the Pastor of FRCC. She is also the 46th President of the American National Chinese Christian School (ANCCS). Ms. Shan holds a Master's degree in Applied Mathematics and Statistics from SUNY Stony Brook, New York, as well as a Master's degree in Business Administration (MBA) from National Taipei University, Taiwan. Additionally, Ms. Shan has been awarded a Certificate in Christian Counseling by the Christian Leadership Institute in California. She is also a credentialed Early Childhood Teacher and Site Supervisor.",
+      "role": "爱飞扬中文学校校长",
+      "bio": "Ms. Selena Shan 是爱飞扬的创始人，并担任FRCC的牧师。她也是美国国立华人基督教学校（ANCCS）第46任校长。单女士拥有纽约州立大学石溪分校应用数学与统计学硕士学位，以及台湾国立台北大学工商管理硕士学位（MBA）。此外，单女士还获得了加州基督教领袖学院颁发的基督教辅导证书。她也是一名持有执照的幼儿教师和现场督导。",
       "image": "/images/mentors/SelenaShan.png"
     },
     {
       "name": "Linda Lee",
-      "role": "Corporate Debt Financing / Banking",
-      "bio": "Linda has over two decades experience in the financial services industry including branch operation, wealth management, and technology lending. Through her broad experiences, Linda has managed to fund over $600 million dollars loan transactions to companies in various industries including a $100 million syndication loan to a multi-billion eCommerce company as the Lead Agent. Currently Linda is the Director of a premium commercial bank with the exclusive focus on the United States and Greater China markets. Linda received her MBA from Santa Clara University with focus on Finance and Marketing.",
+      "role": "企业债务融资 / 银行业务",
+      "bio": "Linda 在金融服务行业拥有超过二十年的经验，涵盖分支机构运营、财富管理和科技贷款。凭借丰富的经验，Linda 已成功为各行各业的公司提供超过 6 亿美元的贷款，其中包括作为牵头代理，为一家价值数十亿美元的电商公司提供 1 亿美元的银团贷款。目前，Linda 是一家高端商业银行的董事，专注于美国和大中华区市场。Linda 拥有圣克拉拉大学 MBA 学位，主修金融和市场营销。",
       "image": "/images/mentors/LindaLee.png",
       "linkedIn": "https://www.linkedin.com/in/linda-lee-2b876a3/"
     },
     {
       "name": "John Chueng",
-      "role": "Network Testing & Automation / Intel",
-      "bio": "John has been in the network test industry for 15+ years, with primary focus on enterprise and data center network infrastructure tests. He has worked in Cisco Systems for 11 years where he has been doing software testing in switches, routers and POC (customer proof of concept) testing for the various chassis based platforms including Nexus and Catalyst platforms. John then worked at a startup company Barefoot Networks, where he tested cutting edge programmable data plane switches, as well as mentoring teammates with his all rounded networking expertise. Barefoot was then acquired by Intel in 2019. John has been passionate about automation to help on test coverage and improve efficiency on the test process.",
+      "role": "网络测试与自动化 / 英特尔",
+      "bio": "John 拥有超过 15 年的网络测试经验，主要专注于企业和数据中心网络基础设施测试。他曾在思科系统公司工作 11 年，负责交换机、路由器的软件测试，以及 Nexus 和 Catalyst 等各种机箱平台的 POC（客户概念验证）测试。之后，John 加入初创公司 Barefoot Networks，负责测试尖端的可编程数据平面交换机，并运用其全面的网络专业知识指导团队成员。Barefoot 于 2019 年被英特尔收购。John 一直致力于自动化测试，希望借此提高测试覆盖率和测试效率。",
       "image": "/images/mentors/JohnCheung.png",
       "linkedIn": "https://www.linkedin.com/in/john-c-928b3443/"
     },
     {
       "name": "Bindu Therthala",
-      "role": "Embedded Software Architecture / Wireless Technology",
-      "bio": "Bindu Therthala has 25 years of experience in Software engineering and management across all stages of growth from small startups to large public companies. She is currently the Director of Software Engineering at ON Semiconductors through the acquisition of Wi-Fi technology leader Quantenna communications. Bindu is passionate about technology and values being part of purpose-driven teams. She has been a key contributor at Packet Engines/Alcatel, Mesh Networks/Motorola, Tropos Networks/ABB Wireless, Meru Networks/Fortinet, and Atheros Communications/Qualcomm. She enjoys reading, traveling, volunteering and Zen meditation.",
+      "role": "嵌入式软件架构 / 无线技术",
+      "bio": "Bindu Therthala 拥有25年软件工程和管理经验，涵盖从小型初创公司到大型上市公司的各个发展阶段。她目前担任安森美半导体的软件工程总监，此前该公司收购了Wi-Fi技术领导者Quantenna Communications。Bindu对技术充满热情，并重视成为目标驱动型团队的一员。她曾在Packet Engines/Alcatel、Mesh Networks/Motorola、Tropos Networks/ABB Wireless、Meru Networks/Fortinet以及Atheros Communications/Qualcomm等公司担任重要贡献者。她热爱阅读、旅行、志愿服务和禅修。",
       "image": "/images/mentors/Bindu.png",
       "linkedIn": "https://www.linkedin.com/in/bindutherthala/"
     },
     {
       "name": "Woojin Kim",
-      "role": "Entrepreneur / E-Commerce",
-      "bio": "3x DTC Serial Entrepreneur Ex-CEO Caseology (Exited) - CPG Brand bootstrapped from $0 to $144M GMV (5 Years). Top 10 Amazon Seller - 9 Figures Sold on Amazon. Consulted 2 DTC Brands from $10M to $30M (1 Exited)",
+      "role": "企业家 / 电子商务",
+      "bio": "3x DTC 连续创业家前执行长案例分析（已销售盈利） - CPG 品牌引导 GMV 从 0 美元到 1.44 亿美元（5 年） 亚马逊前 10 名卖家 - 亚马逊上销售的 9 个数字咨询了 2 个 DTC 品牌，从 1000 万美元到 3000 万美元（1 个已出售）",
       "image": "/images/mentors/WoojinKim.png",
       "linkedIn": "https://www.linkedin.com/in/wjkim17/"
     },
     {
       "name": "Dr. Jack Chen",
-      "role": "Oncology Research & Development / Pfizer Inc",
-      "bio": "Jack is a R&D Scientist with 15+ years of cancer research and oncology drug discovery experience. He is currently a research group leader mentoring PhD and non-PhD scientists for developing breakthrough cancer immunotherapies that may change patient life. Prior to Pfizer, he received his PhD degree at Johns Hopkins University and worked at Eli Lilly and OncoMed pharmaceuticals. His expertise includes R&D pipeline leadership, targeted & immunotherapy discovery, and precision medicine for patient- tailoring strategy.",
+      "role": "肿瘤学研究与开发 / 辉瑞公司",
+      "bio": "Jack 是一位拥有超过15年癌症研究和肿瘤药物研发经验的研发科学家。他目前担任研究小组组长，指导博士和非博士科学家开发可能改变患者命运的突破性癌症免疫疗法。加入辉瑞之前，他在约翰·霍普金斯大学获得博士学位，并曾在礼来公司和OncoMed制药公司工作。他的专长包括领导研发管线、发现靶向和免疫疗法，以及制定患者定制化治疗策略的精准医疗。",
       "image": "/images/mentors/JackChen.png",
       "linkedIn": "https://www.linkedin.com/in/jack-sh-chen-5846511a/"
     },
     {
       "name": "Irene Yuan",
-      "role": "CEO / RELinkage\nFounder / Voltraware, EVP and board director of Jiabiqi Co., Ltd.",
-      "bio": "Ms. Irene Yuan is the CEO of RELinkage Consulting. She is the founder of Voltraware, an IC design company, and has served as the Executive Vice President for JPC Co., Ltd. She holds a Master's degree in Technology Innovation Management from National Chengchi University and is a part-time lecturer at Shih Hsin University. With nearly 40 years of experience in the information technology industry, she specializes in business management, business development, corporate restructuring, and fundraising.",
+      "role": "RELinkage 首席执行官, \n Voltraware 创始人",
+      "bio": "Ms. Irene Yuan 是 RELinkage 的首席执行官, Voltraware 的创始人, 曾任捷成科技股份有限公司执行副总经理。她拥有国立政治大学科技创新管理硕士学位，现为世新大学兼职讲师。她在资讯科技行业拥有近40年的经验，擅长企业管理、业务拓展、企业重组及融资。",
       "image": "/images/mentors/IreneYuan.png",
       "linkedIn": "https://www.linkedin.com/in/irene-yuan-1043323b/"
     },
     {
       "name": "Marcus White",
-      "role": "Design Strategist / Booz Allen Hamilton",
+      "role": "设计策略师 / Booz Allen Hamilton",
       "bio": "",
       "image": "/images/mentors/MarcusWhite.png",
       "linkedIn": "https://www.linkedin.com/in/marcuswhite7802/"
     },
     {
       "name": "Weixu Meng",
-      "role": "Associate Research Fellow (Scientific Director)",
-      "bio": "Weixu earned her MD and PhD in China. She is a dedicated scientist with a deep faith in God, passionate about both science and people. Committed to continuous growth, she embraces lifelong learning in all the roles she carries—as a child of God, a mother, a wife, a friend, an employee, etc.",
+      "role": "副研究员（科学主任）",
+      "bio": "Weixu 在中国获得医学博士和哲学博士学位。她是一位敬业的科学家，对上帝有着坚定的信仰，对科学和人文都充满热情。她致力于持续成长，在她所扮演的所有角色中——作为上帝的孩子、母亲、妻子、朋友、员工等等——都秉持终身学习的理念。",
       "image": "/images/mentors/WeixuMeng.png",
       "linkedIn": "https://www.linkedin.com/in/weixu-meng-55960213/"
     },
     {
       "name": "Rong Yue",
-      "role": "Principal R&D Engineer / Siemens",
-      "bio": "Dr. Rong Yue, Rd principal engineer at Siemens.Ph.D in mathematics and Master in computer science from Purdue University, with over 30+ years experience in software r&d development",
+      "role": "首席研发工程师 / 西门子",
+      "bio": "Dr. Rong Yue, 西门子研发首席工程师。普渡大学数学博士和计算机科学硕士，拥有30多年软件研发经验。",
       "image": "/images/mentors/RongYue.png",
       "linkedIn": "https://www.linkedin.com/in/rong-yue-515b6523/"
     },
     {
       "name": "Sheana Chen",
-      "role": "General Counsel & Vice President / Diodes Inc",
-      "bio": "Sheana Chen is a senior legal executive with over 20 years of experience in international commercial transactions and supply chain, M&A, IP strategies, cross-border dispute resolution, ethics and compliance, enterprise risk management as well as ESG (environmental, social and governance).\nAs a forward-thinking international lawyer, Sheana is passionate about the intersection between law and technology. She brings innovative solutions to help companies solve complex legal and business challenges. Sheana has extensive experience in the semiconductor industry. She leads a global legal team to counsel business units, R&D, sales, manufacturing and support entities, while managing ethics and compliance. Sheana currently serves as the General Counsel, Vice President of Diodes Incorporated. Prior to Joining Diodes Incorporated, Sheana was the Vice President, Assistance General Counsel with Texas Instruments.\nSheana also serves as the Policy Advisor, Chair of the Oversight Committee, and a board member of the Chinese Institute of Engineers/USA-DFW Chapter (CIE). She leads a CIE mentoring group and is also a mentor at Te Ohaka - the Cetre for Growth and Innovation (startup incubation). Sheana is a dual qualified English Solicitor and Barrister and a qualified New York State Attorney. Sheana was a Partner at Baker & McKenzie and has worked in Dallas, Taipei, Shanghai, Singapore and London. Sheana holds a Master's degree in International Commercial Law from the University of London and a LL. B Honors degree from the University of Manchester. She also has a Postgraduate Degree in Professional Legal Skills from the Inns of Court School of Law in the U.K. Sheana has completed the Harvard Business School Executive Education program, and the INSEAD Women Leading Global Change Program in France and is a Fellow with the International Women's Forum.",
+      "role": "总法律顾问兼副总裁 / Diodes Inc",
+      "bio": "Sheana Chen 是一位高级法律主管，在国际商业交易和供应链、并购、知识产权战略、跨境争议解决、道德与合规、企业风险管理以及 ESG（环境、社会和治理）方面拥有 20 多年的经验。\n作为一名具有前瞻性思维的国际律师，Sheana 对法律与技术的融合充满热情。她提供创新的解决方案，帮助公司解决复杂的法律和商业挑战。Sheana 在半导体行业拥有丰富的经验。她领导一个全球法律团队，为业务部门、研发、销售、制造和支持实体提供咨询，同时管理道德与合规性。Sheana 目前担任 Diodes Incorporated 的总法律顾问兼副总裁。加入 Diodes Incorporated 之前，Sheana 曾担任德州仪器的副总裁兼助理总法律顾问。\nSheana 还担任政策顾问、监督委员会主席以及中国工程师协会/美国-DFW 分会 (CIE) 的董事会成员。她领导着一个 CIE 指导小组，也是 Te Ohaka（增长与创新中心，初创企业孵化器）的导师。Sheana 拥有英国律师和大律师双重资格，并且是一名合格的纽约州检察官。Sheana 曾是贝克·麦坚时律师事务所的合伙人，曾在达拉斯、台北、上海、新加坡和伦敦工作。Sheana 拥有伦敦大学国际商法硕士学位和曼彻斯特大学法学学士荣誉学位。她还拥有英国律师学院法学院专业法律技能研究生学位。Sheana 完成了哈佛商学院高管教育课程和法国 INSEAD 女性领导全球变革项目，并且是国际妇女论坛的研究员。",
       "image": "/images/mentors/SheanaChen.png",
       "linkedIn": "https://www.linkedin.com/in/sheanachen/"
     },
     {
       "name": "Dr. Star Gao",
-      "role": "Management consultant for international agricultural organizations/expert in bioinformatics genetics and breeding",
-      "bio": "With over 21 years of experience in agriculture and technology innovation, Star is a seasoned expert in translating scientific advancements into practical applications. As a project management leader and strategist, she has worked with global organizations to drive innovation in genetic breeding and bioinformatics. Holding a PhD in Agriculture and an MBA, Star, blends technical expertise with business acumen to deliver impactful solutions.\n Beyond her professional career, Star is deeply committed to coaching and mentorship, particularly in integrating faith and work. A certified XCC coach, she has been a believer for over two decades and actively serves in local ministry by leading prayer groups and weekly fellowship meals, organizing large-scale community events, and mentoring young professionals and families. With a passion for leadership development, she serves as a coach at CalledToWork and vice executive director at Cloud Marketplace Ministry, equipping others to thrive in their careers and spiritual journeys.\n Known for a warm and engaging approach, Star enjoys fostering connections through professional development events, hospitality, gourmet cooking, dance, and travel. Whether guiding professionals in career growth, supporting families in faith-based development, or leading agricultural innovation, she brings a holistic perspective to coaching—bridging science, leadership, and spiritual purpose.",
+      "role": "国际农业组织管理顾问 / 生物信息遗传育种专家",
+      "bio": "Star 在农业和技术创新领域拥有超过 21 年的经验，是一位将科学进步转化为实际应用的资深专家。作为项目管理领导者和战略家，她曾与全球组织合作，推动基因育种和生物信息学领域的创新。Star 拥有农业博士学位和工商管理硕士学位，将技术专长与商业敏锐度相结合，提供卓有成效的解决方案。\n 除了职业生涯之外，Star 还致力于指导和辅导，尤其注重将信仰与工作相结合。作为一名获得 XCC 认证的教练，她拥有超过二十年的信仰，并积极参与当地事工，包括领导祷告小组和每周的团契聚餐、组织大型社区活动以及指导年轻的专业人​​士和家庭。她对领导力发展充满热情，目前担任 CalledToWork 的教练和 Cloud Marketplace Ministry 的副执行董事，致力于帮助他人在职业和精神旅程中蓬勃发展。\n Star 以热情友好而闻名，她喜欢通过专业发展活动、招待、美食烹饪、舞蹈和旅行来建立联系。无论是指导专业人士的职业发展、支持家庭的信仰发展，还是引领农业创新，她都为教练带来了整体视角——连接科学、领导力和精神目标。",
       "image": "/images/mentors/StarGao.png",
       "linkedIn": "https://www.linkedin.com/in/star-yanxin-gao-a72ba03b/"
     },
     {
       "name": "Ta-Chang Fu",
-      "role": "The Dedicated Hard Drive R&D Department Mechanical Manager / Western Digital",
-      "bio": "Dr. Ta-Chang Fu, a Senior Manager of enterprise hard disk drive development engineering in Western Digital. He earned his Ph.D degree in mechanical engineering at UC Berkeley, and has 27 years experiences of hard disk drive research and development",
+      "role": "数据中心专用硬碟机研发部技术主管 / Western Digital",
+      "bio": "Dr. Ta-Chang Fu, 西部数据企业级硬盘开发工程高级经理，加州大学伯克利分校机械工程博士学位，拥有27年硬盘研发经验。",
       "image": "/images/mentors/TaChangFu.png",
       "linkedIn": "https://www.linkedin.com/in/ta-chang-fu-635b75182/"
     },
     {
       "name": "Gloria Li",
-      "role": "Licensed Marriage and Family Therapist / allcove Palo Alto",
-      "bio": "Gloria has worked in mental health field for 20+ years.  Her passion is jn reading, writing and building connections and understanding for the marginalized people. Working in county agencies for youth services since 2017.",
+      "role": "加州认证婚姻家庭咨询师 / allcove Palo Alto",
+      "bio": "Gloria 在心理健康领域工作了20多年。她热爱阅读、写作，并为边缘群体建立联系和理解。自2017年以来，她在县级机构从事青少年服务工作。",
       "image": "/images/mentors/GloriaLi.png"
     },
     {
       "name": "Brian Lee",
-      "role": "Research Scientist / Gilead Sciences",
-      "bio": "Brian has 15+ years of experience with upstream bioprocessing and process development in the bio pharmaceutical industry. He is passionate about science and technology as well as introducing STEM education to young children through summer camps to spark curiosity and promote sense of wonder.",
+      "role": "研究科学家/吉利德科学",
+      "bio": "Brian 在生物制药行业拥有超过15年的上游生物加工和工艺开发经验。他热爱科学技术，并致力于通过夏令营向幼儿推广STEM教育，以激发他们的好奇心和探索精神。",
       "image": "/images/mentors/BrianLee.png",
       "linkedIn": "https://www.linkedin.com/in/brian-lee-a02a0a104/"
     },
     {
       "name": "George Shan",
-      "role": "Seasoned HR professional",
-      "bio": "George obtained degrees in Business Management and an MBA from Wuhan University and Fudan University in China. Over the past 2+ decades, George has worked in HR field across various industries, including consumer electronics, software development, telecommunications, and renewable energy. George is well-versed in the full spectrum of HR strategy, operations and processes.",
+      "role": "经验丰富的人力资源专业人士",
+      "bio": "George 拥有武汉大学和复旦大学工商管理硕士学位和工商管理硕士学位。过去二十多年来，George在消费电子、软件开发、电信和可再生能源等多个行业的人力资源领域工作。George精通人力资源战略、运营和流程的各个方面。",
       "image": "/images/mentors/GeorgeShan.png",
       "linkedIn": "https://www.linkedin.com/in/george-c-shan-85a1b620/"
     },
     {
       "name": "Tevin Tseng",
-      "role": "Senior Director of Technology Development / Sandisk Technology",
-      "bio": "Tevin Tseng has dedicated over 20 years to advancing NAND flash memory technology. As a leader of global design teams, he drives the development and production of cutting-edge memory solutions, contributing significantly to the company's revenue growth.",
+      "role": "技术开发高级总监 / Sandisk Technology",
+      "bio": "Tevin Tseng 二十余年来，他一直致力于推动 NAND 闪存技术的进步。作为全球设计团队的领导者，他推动着尖端存储器解决方案的开发和生产，为公司的收入增长做出了重大贡献。",
       "image": "/images/mentors/TevinTseng.png",
       "linkedIn": "https://www.linkedin.com/in/tai-yuan-tseng-96a607a9/"
     },
     {
       "name": "Dan He",
-      "role": "Senior UX Researcher",
-      "bio": "Dan brings over a decade of expertise in user experience research, specializing in both B2B and B2C digital products. Her distinguished career includes roles at industry leaders such as Meta, Expedia, Charles Schwab, and Visa. Committed to leveraging her skills for social good, Dan also collaborates with non-profit organizations to enhance their understanding of user needs.",
+      "role": "高级用户体验研究员",
+      "bio": "Dan Dan 在用户体验研究领域拥有十多年的专业经验，专注于 B2B 和 B2C 数字产品。她曾在 Meta、Expedia、嘉信理财和 Visa 等行业领军企业任职，成就斐然。Dan 致力于运用自身技能造福社会，并与非营利组织合作，增进他们对用户需求的理解。",
       "image": "/images/mentors/DanHe.png"
     },
     {
       "name": "Emily Bai",
-      "role": "UX/UI / Product Design / Non-profit & Finance & Healthcare",
-      "bio": "Hi there!\nI am a researcher and designer who is in the middle where science meets art! I’m really passionate about creating designs that bridge the gap between functionality and aesthetic appeal in digital products.\nI graduated from the University of Texas at Austin with a Nutrition major and Interior Design minor, and I finished my UX/UI bootcamp program at Springboard. From my unique past roles, I’ve strengthened my adaptability as a medical assistant, my organizational skills for the team as a laboratory manager, and my creativity as a video content creator. I am excited to bring my artsy and science-y background into different fields and apply them along with design principles! Recently, I have had the opportunity to develop product notification templates and product configuration pages, focusing on user-centric design principles to enhance usability and streamline workflows. Additionally, I had the opportunity to conduct user research and brainstorm the redesign of Compassion's intranet to bring forth a new website that not only demonstrates the brand's new identity and design but also brings in modifications of the layout of content that meet the needs of users. ",
+      "role": "用户体验 / 用户界面 / 产品设计 / 非营利、金融和医疗保健",
+      "bio": "你好！\n我是一名研究员和设计师，致力于将科学与艺术完美结合！我热衷于创造能够弥合数字产品功能性与美学之间差距的设计。\n我毕业于德克萨斯大学奥斯汀分校，主修营养学，辅修室内设计，并在Springboard完成了UX/UI训练营课程。过去独特的工作经历，让我提升了作为医疗助理的适应能力，作为实验室经理的团队组织能力，以及作为视频内容创作者的创造力。我很高兴能将我的艺术和科学背景运用到不同的领域，并与设计原则一起运用！最近，我有幸开发了产品通知模板和产品配置页面，并专注于以用户为中心的设计原则，以提升可用性并简化工作流程。此外，我还有机会进行用户调研，并为Compassion内部网的重新设计集思广益，打造一个全新的网站，它不仅展现了品牌的新形象和新设计，还对内容布局进行了修改，以满足用户的需求。",
       "image": "/images/mentors/EmilyBai.png",
       "linkedIn": "https://www.linkedin.com/in/emilybai0302/"
     },
     {
       "name": "Emma Li",
-      "role": "Web Developer and Graphic Designer",
-      "bio": "Emma earned her Master's degrees in Fine Arts and Computer & Information Technology. With over 5 years of experience in graphic design, she combines creativity with technical expertise, specializing in digital and print design.",
+      "role": "网页开发人员和平面设计师",
+      "bio": "Emma 拥有美术和计算机与信息技术双硕士学位。她拥有5年以上的平面设计经验，将创造力与技术专业知识相结合，专攻数字和印刷品设计。",
       "image": "/images/mentors/EmmaLi.png",
       "linkedIn": "https://www.linkedin.com/in/emma-x-l-44ba9a1a9/?trk=opento_sprofile_details"
     }
   ],
 
-  "partnerTitle": "Partnering Pages",
-  "partner1": "@Cloud",
-  "partner2": "Center of Navigating Life",
-  "partner3": "Called to Work"
+  "partnerTitle": "合作页面",
+  "partner1": "云端职场福音中心",
+  "partner2": "领航人生启发中心",
+  "partner3": "职场使命"
 }

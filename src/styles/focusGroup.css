@@ -84,7 +84,7 @@
   width: 100vw;
   height: auto;
   position: absolute;
-  top: -20%;
+  top: -10%;
   left: 50%;
   transform: translateX(-50%); 
   z-index: -1;
@@ -128,15 +128,6 @@
   font-weight: 400;
   line-height: 32px; 
   white-space: pre-line;
-}
-.focus-btm-bk {
-  width: 100vw;
-  height: auto;
-  position: absolute;
-  top: 130%;
-  left: 50%;
-  transform: translateX(-50%); 
-  z-index: -1;
 }
 .focus-top-topics {
   width: 100%;
@@ -457,9 +448,6 @@
   .main-icon-right svg {
     width: 20px;
     height: 20px;
-  }
-  .focus-btm-bk {
-    display: none;
   }
 
   /* Bottom Part  */

@@ -2,7 +2,7 @@
   "blueTitle": "Eagle Wing Interview Training",
   "title": "Practice Job Interviews with Experienced Professionals",
   "des": "Gain the confidence you need to succeed in stressful job interviews",
-  "applyNow": "Apply Now",
+  "applyNow": "立即申请",
   "comingSoon": "即将推出",
 
   "contents": [
@@ -43,37 +43,39 @@
 
 
 
-  "projTitle": "Beautiful Land Initiative",
-  "projSubTitle": "Are you ready to transform?",
+  "projTitle": "佳美之地计划",
+  "projSubTitle": "不要错过！2025-2026年度佳美之地计划报名开放时间为 7/4/2025 ~ 7/31/2025",
   "projContents": [
     {
-      "overview": "Overview",
-      "projLeft": "Purpose",
-      "projLeftText": "Equip “Christians who have the burden to serve in the workplace” to transform your workplace into a beautiful place.",
+      "overview": "概述",
+      "projLeft": "主旨",
+      "projLeftText": "装备有负担服事职场需要的基督徒，帮助你建立能力与信心，使用爱飞扬沟通与职涯探索平台（I FLY YOUNG CCE）丰富的资源，成为身边有职场需要者随时的祝福，需参加过一年（或两季）以上的焦点小组才可以报名。",
 
-      "projMid": "Duration",
-      "projMidText": "September 2024 - June 2025",
+      "projMidTop": "负责人",
+      "projMidTextTop": "Shengming/ CCE团队",
+      "projMid": "周期",
+      "projMidText": "2025年9月 - 2026年6月",
 
-      "projRight": "Format",
-      "projRightText": "60 minute online meeting monthly\n+\n8 hours / month operation"
+      "projRight": "形式",
+      "projRightText": "每月一次60分钟线上会议（北京时间第二周周六 7:00-8:00AM）\n+\n每月8小时以上的实际操作"
     },
     {
-      "projMainTitle": "Expected Outcome",
-      "projMainTop": "Help you learn to use CCE's resources. Within one year, start a Beautiful Land Initiative group among your colleagues/friends. Everyone submits at least one testimony about workplace ministry.",
-      "projMainMid": "By attending the Beautiful Land Initiative training, you will learn how to use the CCE weekly office hour material to start a new series of recurring meeting with your friends/colleagues at/known through work.",
-      "projMainBtm": "The material provides practical and biblical guidance to help people address workplace challenges. Therefore, it is suitable for use in leading group discussion among Christians, as well as Seekers.",
-      "ohRecording": "CCE Office Hours Recording"
+      "projMainTitle": "预期成果",
+      "projMainTop": "熟悉并知道如何使用 CCE的资源,建立带领职场小组聚会以及一对一陪谈的能力与信心,每个人至少提交一份有关职场服事的见证。",
+      "projMainMid": "透过参加佳美之地计划培训，您将学习如何使用 CCE职场问答时间的材料, 借着资源引介, 一对一陪谈，或是规划并开始一个新的(不)定期聚会, 来祝福在工作上遇见挑战的朋友/同事。",
+      "projMainBtm": "这些材料提供了实用且符合圣经原则的指导，帮助人们应对工作场所的挑战。因此，它适合使用于基督徒或是慕道友之间的小组讨论。",
+      "ohRecording": "CCE职场问答时间的录音"
     },
     {
-      "projBtmTitle": "Does this training suit me?",
-      "projBtmSub": "If you can answer all of the following questions below, this training is meant for you:",
-      "projBtmLeftText": "Please describe the people with whom you have burden/would like to start a group meeting (age group, years of work experience, how do you know them...)",
-      "projBtmText": "Please browse through the CCE Office Hour recordings and identify at least 3 topics that you see suitable for your group meeting/discussion. (Please write down the recording dates and topics)",
-      "projBtmRightText": "Have you attended CCE focus groups before? It would be very helpful if you've attended CCE gocus group before. If not, please sign up for 2025 CCE 焦点小组."
+      "projBtmTitle": "这个培训适合我吗？",
+      "projBtmSub": "如果您能回答以下所有问题，则本训练适合您",
+      "projBtmLeftText": "请描述您想/有负担与哪些人开始一个新的定期聚会（年龄层、工作经验年资、您是如何认识他们的......）",
+      "projBtmText": "请浏览 CCE职场问答时间的录音并选定至少3个您认为适合小组会议/讨论的主题。 （请写下录音日期和主题）",
+      "projBtmRightText": "您以前参加过 CCE焦点小组吗？如果您之前参加过 CCE焦点小组，将会非常有帮助。如果没有，请报名参加 2025 CCE 焦点小组。"
     }
   ],
-  "projBtmTitle": "Join CCE Beautiful Land Initiative",
-  "projBtmText": "Contact us for more questions: cce.info@iflyyoung.com",
+  "projBtmTitle": "加入CCE佳美之地计划",
+  "projBtmText": "有任何问题，请电邮: cce.info@iflyyoung.com",
 
 
 

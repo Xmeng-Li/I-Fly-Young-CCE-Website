@@ -7,8 +7,7 @@ import "../../styles/focusGroup.css";
 
 import focusTopImg from "./focusTop.png";
 import focusBtmImg from "./focusBtm.png";
-import focusTopBk from "./bg_top.png";
-import focusBtmBk from "./bg_bottom.png";
+import focusBg from "./focus_bg.png";
 import focusMain from "./meeting-img.jpeg";
 
 
@@ -123,7 +122,7 @@ const FocusGroup = () => {
       <div className="focus-content-container">
         {/* Overview */}
         <div className="focus-main-top">
-          <img className="focus-top-bk" src={focusTopBk} alt="top background" />
+          <img className="focus-top-bk" src={focusBg} alt="top background" />
           <div className="focus-top-three">
             <div className="focus-three-parts">
               <span className="focus-top-three-icons"><StarIcon /></span>
@@ -166,9 +165,7 @@ const FocusGroup = () => {
 
         {/* Main */}
         <div className="focus-main">
-          <label className="focus-section-label">{focusContent[1].moreInfo}</label>
-          <img className="focus-btm-bk" src={focusBtmBk} alt="btm background" />
-          
+          <label className="focus-section-label">{focusContent[1].moreInfo}</label>          
           <div className="focus-mid-main">
             <img className="focus-main-img" src={focusMain} alt="mainImg" />
             {/* Two Items */}

@@ -96,10 +96,10 @@
 .overview-part {
   display: flex;
   width: 400px;
-  height: 330px;
-  padding: 32px 12px;
+  height: 380px;
+  padding: 20px 12px;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.40);
   box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.09);
@@ -116,7 +116,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 200%; 
+  line-height: 28px; 
 }
 .proj-three-text {
   color: var(--Text-primary, #333);
@@ -124,13 +124,36 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 200%; 
+  line-height: 30px; 
   white-space: pre-line;
+}
+.proj-three-text-leader {
+  color: var(--Text-primary, #333);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  white-space: pre-line;
+  margin-bottom: 30px;
 }
 .proj-three-text a {
   color: var(--Text-link, #3067F2) !important;
   display: inline; 
   font-weight: inherit; 
+}
+.suitMe-part {
+  display: flex;
+  width: 400px;
+  height: 260px;
+  padding: 20px 12px;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.40);
+  box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.09);
+  z-index: 100;
+  align-items: center;
 }
 
 /* Main Mid*/
@@ -217,7 +240,7 @@
   width: 100%;
   position: relative;
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .proj-main-sub {
   color: var(--Neutral-Black, #333);
@@ -340,7 +363,7 @@
     width: 100vw;
     height: auto;
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translateX(-50%); 
     z-index: -1;
@@ -358,9 +381,9 @@
     flex-direction: column;
     justify-content: center;
     width: 375px;
-    height: 260px;
+    height: 380px;
     padding: 12px;
-    gap: 12px;
+    gap: 10px;
   }
   .proj-three-titles {
     font-size: 20px;
@@ -369,6 +392,14 @@
   .proj-three-text {
     font-size: 18px;
     line-height: 28px;
+  }
+  .suitMe-part {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 230px;
+    padding: 12px;
+    gap: 5px;
   }
   
   /* Main Three Part */
@@ -390,14 +421,14 @@
   }
   .proj-main-three-text {
     width: 100%;
-    height: 254px;
+    height: 280px;
     padding: 12px;
     font-size: 18px;
     line-height: 28px;
   }
   .proj-main-btm-text {
     width: 100%;
-    height: 254px;
+    height: 280px;
     padding: 0px;
     font-size: 18px;
     line-height: 28px;
@@ -492,7 +523,7 @@
     flex-direction: column;
     justify-content: center;
     width: 325px;
-    height: 260px;
+    height: 380px;
     padding: 12px;
     gap: 10px;
   }
@@ -509,6 +540,15 @@
     line-height: 24px;
     margin-bottom: 10px;
   }
+  .suitMe-part {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 230px;
+    padding: 12px;
+    gap: 5px;
+  }
+  
   
   /* Main Three Part */
   .proj-main-three {
@@ -521,14 +561,14 @@
   }
   .proj-main-three-text {
     width: 100%;
-    height: 240px;
+    height: 260px;
     padding: 12px;
     font-size: 16px;
     line-height: 28px;
   }
   .proj-main-btm-text {
     width: 100%;
-    height: 240px;
+    height: 260px;
     padding: 0px;
     font-size: 16px;
     line-height: 28px;
@@ -617,7 +657,7 @@
     width: 100vw;
     height: auto;
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 50%;
     transform: translateX(-50%); 
     z-index: -1;
@@ -626,7 +666,7 @@
   /* Main Part */
   .overview-part {
     width: 275px;
-    height: 260px;
+    height: 400px;
     padding: 12px;
     gap: 10px;
   }
@@ -643,6 +683,14 @@
     line-height: 24px;
     margin-bottom: 8px;
   }
+  .suitMe-part {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 250px;
+    padding: 12px;
+    gap: 5px;
+  }
   
   /* Main Three Part */
   .proj-main-three {
@@ -655,14 +703,14 @@
   }
   .proj-main-three-text {
     width: 100%;
-    height: 240px;
+    height: 300px;
     padding: 12px;
     font-size: 16px;
     line-height: 28px;
   }
   .proj-main-btm-text {
     width: 100%;
-    height: 240px;
+    height: 300px;
     padding: 0px;
     font-size: 16px;
     line-height: 28px;
