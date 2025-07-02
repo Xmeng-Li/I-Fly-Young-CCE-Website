@@ -42,7 +42,7 @@ const Header = () => {
   const location = useLocation();
   const programPaths = [
     "/focus-group",
-    "/project",
+    "/beautiful-land-initiative",
     "/interview",
     "/intern",
     "/cce-class",
@@ -88,7 +88,7 @@ const Header = () => {
                   <NavLink to="/focus-group" onClick={closeDropdown}>
                     {t("focus_group")}
                   </NavLink>
-                  <NavLink to="/project" onClick={closeDropdown}>
+                  <NavLink to="/beautiful-land-initiative" onClick={closeDropdown}>
                     {t("proj")}
                   </NavLink>
                   <NavLink to="/interview" onClick={closeDropdown}>

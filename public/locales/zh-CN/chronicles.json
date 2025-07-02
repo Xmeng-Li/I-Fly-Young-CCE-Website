@@ -1,131 +1,131 @@
 {
-  "pageBanner": "Chronicles",
-  "bannerText": "Don't know what you need? Maybe a quick read!",
-  "pageTitle": "Articles",
-  "pageText": "Gain valuable insights from interviews conducted by our Chronicle team of college students.",
+  "pageBanner": "职场人士专访",
+  "bannerText": "不知道需要什么？也许是快速阅读!",
+  "pageTitle": "文章",
+  "pageText": "从我们的大学生专访团队进行的访谈中获得宝贵的见解。",
 
-  "filter": "Filter",
+  "filter": "筛选",
 
-  "sort": "Sort",
+  "sort": "排序",
   "timeSort" : {
-    "recent" : "Most Recent",
-    "oldest" : "Oldest"
+    "recent" : "最近",
+    "oldest" : "最早"
   },
-  "year": "Year",
-  "years": "All Year",
+  "year": "年份",
+  "years": "所有年份",
   
-  "readMore": "Read More",
+  "readMore": "阅读更多",
   "articles": [
     {
       "image": "/images/chronicles/notebook.jpg",
-      "title": "Everyone Is Different",
+      "title": "每个人都是不同的",
       "date": "08/29/2022",
-      "description": "Everyone has different approaches, personalities, concerns, and worries.",
+      "description": "每个人都有不同的方法、个性、关注点和担忧。",
       "link" : "/everyone-is-different"
     },
     {
       "image": "/images/chronicles/bridge.jpg",
-      "title": "Go Ahead And Ask",
+      "title": "继续问吧",
       "date": "06/24/2022",
-      "description": "You'll be surprised at what you get if you just ask.",
+      "description": "只要你问一下，你就会对你得到的答案感到惊讶。",
       "link" : "/go-ahead-and-ask"
     },
     {
       "image": "/images/chronicles/hold_flower.jpg",
-      "title": "If You Want to Fail, Fail Early",
+      "title": "如果你想失败，那就早点失败",
       "date": "04/08/2022",
-      "description": "If we need to pivot to a different solution then so be it. If you're not taking risks, you're also not going to innovate.",
+      "description": "如果我们需要转向其他解决方案，那就这样吧。如果你不承担风险，你也就无法创新。",
       "link" : "/fail-early"
     },
     {
       "image": "/images/chronicles/caps.jpg",
-      "title": "Remind Yourself Your Initial Motivation",
+      "title": "提醒自己最初的动机",
       "date": "01/14/2022",
-      "description": "Regardless of how many kinds of challenges happen down the road, you can remind yourself - your initial motivation.",
+      "description": "无论未来遇到多少挑战，你都可以提醒自己——你最初的动力。",
       "link" : "/remind-yourself"
     },
     {
       "image": "/images/chronicles/sunset.jpg",
-      "title": "Become the Strongest Person",
+      "title": "成为最强的人",
       "date": "11/26/2021",
-      "description": "When you empower other people and allow them to empower you, you become the strongest person.",
+      "description": "当你赋予他人权力并允许他们赋予你权力时，你就会成为最强大的人。",
       "link" : "/strongest-person"
     },
     {
       "image": "/images/chronicles/sitting_man.jpg",
-      "title": "Communication Is Key",
+      "title": "沟通是关键",
       "date": "09/17/2021",
-      "description": "Education is necessary to learn the technical points, but soft skills are vital to your success.",
+      "description": "教育对于学习技术要点是必要的，但软技能对于您的成功至关重要。",
       "link" : "/communication-is-key"
     },
     {
       "image": "/images/chronicles/flowers.jpg",
-      "title": "Certification Helps",
+      "title": "认证有帮助",
       "date": "08/13/2021",
-      "description": "Certification helps for concrete skills, and also helps for landing your first or second job.",
+      "description": "认证有助于获得具体的技能，也有助于获得第一份或第二份工作。",
       "link" : "/certification-helps"
     },
     {
       "image": "/images/chronicles/happy.jpg",
-      "title": "The Biggest Happiness",
+      "title": "最大的幸福",
       "date": "05/27/2021",
-      "description": "It is when you get to help others in a way where you would have never thought you could help.",
+      "description": "当你以一种你从未想过的方式帮助别人时。",
       "link" : "/biggest-happiness"
     },
     {
       "image": "/images/chronicles/paperAirplane.jpg",
-      "title": "Do Something You Like",
+      "title": "做你喜欢的事",
       "date": "04/16/2021",
-      "description": "As your career extends, the pay isn't going to be the major motivation, but really the fulfillment.",
+      "description": "随着职业生涯的延长，薪水不再是主要的动力，而是真正的成就感。",
       "link" : "/do-something-you-like"
     },
     {
       "image": "/images/chronicles/sticky_notes.jpg",
-      "title": "You Can Do This",
+      "title": "你能做到",
       "date": "03/12/2021",
-      "description": "Sometimes we have to have that person in our life that says you can do this and encourages us.",
+      "description": "有时，我们的生活中需要有那么一个人告诉我们，你可以做到，并鼓励我们。",
       "link" : "/you-can-do-this"
     },
     {
       "image": "/images/chronicles/psychology.jpg",
-      "title": "Psychology is my Calling",
+      "title": "心理学是我的使命",
       "date": "02/19/2021",
-      "description": "Psychology remains a popular program and can help students to discover more about themselves and how to be happier.",
+      "description": "心理学仍然是一门受欢迎的课程，可以帮助学生更多地了解自己以及如何变得更快乐。",
       "link" : "/psychology"
     },
     {
       "image": "/images/chronicles/people.jpg",
-      "title": "Internships are Opportunities",
+      "title": "实习是机会",
       "date": "01/30/2021",
-      "description": "Expose yourself to actual classes and do hands-on learning before you can decide whether that's something that you want to go for.",
+      "description": "先接触实际课程并进行实践学习，然后才能决定这是否是您想要做的事情。",
       "link" : "/internships-are-opp"
     },
     {
       "image": "/images/chronicles/mountain.jpg",
-      "title": "Explore the Real World",
+      "title": "探索现实世界",
       "date": "01/15/2021",
-      "description": "Study hard to build a solid foundation of knowledge and good habits of learning. Exercising regularly is also important.",
+      "description": "努力学习，打下扎实的知识基础，养成良好的学习习惯。规律的锻炼也很重要。",
       "link" : "/explore-real-world"
     },
     {
       "image": "/images/chronicles/technology.jpg",
-      "title": "Good Technology is for Helping People",
+      "title": "好的技术是为了帮助人们",
       "date": "12/25/2020",
-      "description": "Not only do we need to understand the technology, but also how this technology is useful for our potential clients.",
+      "description": "我们不仅需要了解这项技术，还需要了解这项技术如何对我们的潜在客户有用。",
       "link" : "/good-tech"
     },
     {
       "image": "/images/chronicles/typing_lady.jpg",
-      "title": "Constant Exposure Leads to Right Direction",
+      "title": "持续的接触引领我们走向正确的方向",
       "date": "11/20/2020",
-      "description": "\"I am glad that constant exposure to the inspiration of research helped to overcome my doubt and pointed me in the direction I should go.\"",
+      "description": "“我很高兴，不断接触研究的灵感帮助我克服了疑虑并为我指明了前进的方向。”",
       "link" : "/const-exposure"
     },
     {
       "image": "/images/chronicles/macbook.jpg",
-      "title": "Stem Students ≠ \"Nerds\"",
+      "title": "STEM 学生 ≠ “书呆子”",
       "date": "10/30/2020",
-      "description": "Life is VERY hard to predict. You just have to follow your passion, become your best self, and when opportunities knock, be ready.",
+      "description": "人生真的很难预测。你只需要追随你的热情，成为最好的自己，当机会来临时，做好准备。",
       "link" : "/stem-not-nerds"
     }
   ]

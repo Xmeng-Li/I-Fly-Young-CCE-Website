@@ -4,7 +4,7 @@
   "pageTitle": "文章",
   "pageText": "從我們的大學生專訪團隊進行的訪談中獲得寶貴的見解。",
 
-  "filter": "過濾器",
+  "filter": "篩選",
 
   "sort": "排序",
   "timeSort" : {
@@ -118,12 +118,12 @@
       "image": "/images/chronicles/typing_lady.jpg",
       "title": "持續的接觸引領我們走向正確的方向",
       "date": "11/20/2020",
-      "description": "\"我很高興，不斷接觸研究的靈感幫助我克服了疑慮，並為我指明了應該前進的方向。\"",
+      "description": "“我很高興，不斷接觸研究的靈感幫助我克服了疑慮，並為我指明了應該前進的方向。”",
       "link" : "/const-exposure"
     },
     {
       "image": "/images/chronicles/macbook.jpg",
-      "title": "STEM 學生 ≠ \"書呆子\"",
+      "title": "STEM 學生 ≠ “書呆子”",
       "date": "10/30/2020",
       "description": "生活真的很難預測。你只需要追隨你的熱情，成為最好的自己，當機會來臨時，做好準備。",
       "link" : "/stem-not-nerds"

@@ -38,7 +38,7 @@
 
   "backToWebinar" : "研討會",
   "pastWebinar": "過去的研討會",
-  "filter": "過濾器",
+  "filter": "篩選",
   
   "sort": "排序",
   "timeSort" : {
@@ -106,7 +106,7 @@
     },
     {
       "image": "/images/webinars/12052020.jpg",
-      "title": "作為貿易業的軟體工程師",
+      "title": "作為交易行業的軟體工程師",
       "date": "12/05/2020",
       "description": "Howard Shan 分享了他進入交易行業的經歷和歷程。",
       "videoLink" : "https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD"
@@ -129,14 +129,14 @@
       "image": "/images/webinars/10172020.jpg",
       "title": "為你的未來做好準備",
       "date": "10/17/2020",
-      "description": "Daniel Chen 談論他如何為自己的未來做準備，以及你也可以如何做。",
+      "description": "Daniel Chen 談論他如何為自己的未來做準備，以及你可以如何做。",
       "videoLink" : "https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ"
     },
     {
       "image": "/images/webinars/09272020.jpg",
       "title": "生活指南",
       "date": "09/27/2020",
-      "description": "CCE 學生小組談論 12 種改變生活的能力。"
+      "description": "CCE 學生小組談論12種改變生活的能力。"
     },
     {
       "image": "/images/webinars/09192020.png",

@@ -1,7 +1,7 @@
 {
-  "pageBanner": "Webinar",
-  "bannerText": "Feeling lost? Gain some knowledge with no cost!",
-  "pageTitle": "Webinar Series + Past Webinars",
+  "pageBanner": "研讨会",
+  "bannerText": "感觉迷茫？免费获取知识！",
+  "pageTitle": "研讨会系列 + 往期研讨会",
 
   "sectionTitle": "Webinar Series",
   "leftTitle": "Zoom Meeting",
@@ -36,140 +36,140 @@
     }
   ],
 
-  "backToWebinar" : "Webinar",
-  "pastWebinar": "Past Webinars",
-  "filter": "Filter",
+  "backToWebinar" : "研讨会",
+  "pastWebinar": "往期研讨会",
+  "filter": "筛选",
   
-  "sort": "Sort",
+  "sort": "排序",
   "timeSort" : {
-    "recent" : "Most Recent",
-    "oldest" : "Oldest"
+    "recent" : "最近",
+    "oldest" : "最早"
   },
-  "year": "Year",
-  "years": "All Year",
+  "year": "年份",
+  "years": "所有年份",
   
-  "viewMore": "View All Videos",
-  "watchNow": "Watch Videos",
+  "viewMore": "查看所有视频",
+  "watchNow": "观看视频",
   "webinar": [
     {
       "image": "/images/webinars/11202021.png",
-      "title": "2022 Soaring Eagle Internship",
+      "title": "2022 翱翔的雄鹰实习",
       "date": "11/20/2021",
-      "description": "Mentors @ CCE talk about internship and mock interview opportunities.",
+      "description": "CCE的导师谈论实习和模拟面试机会。",
       "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq"
     },
     {
       "image": "/images/webinars/07312021.png",
-      "title": "Intern Graduation Showcase",
+      "title": "实习生毕业展示",
       "date": "07/31/2021",
-      "description": "Learn what some of our interns have accomplished.",
+      "description": "了解我们的一些实习生所取得的成就。",
       "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3"
     },
     {
       "image": "/images/webinars/06262021.png",
-      "title": "College Education Exploration",
+      "title": "大学教育探索",
       "date": "06/26/2021",
-      "description": "Listen to four families talk about each of their different education journeys.",
+      "description": "听四个家庭讲述各自不同的教育历程。",
       "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
     },
     {
       "image": "/images/webinars/06052021.png",
-      "title": "Good Skills to Succession",
+      "title": "继承良好的技能",
       "date": "06/05/2021",
-      "description": "Panelists from IFY CCE Prime talk about skills that lead to success."
+      "description": "来自 IFY CCE Prime 的小组成员讨论了获得成功的技能。"
     },
     {
       "image": "/images/webinars/02202021.png",
-      "title": "Walk with Others",
+      "title": "与他人同行",
       "date": "02/20/2021",
-      "description": "Dr. Paul Petrus talks about the transition from college to professional life."
+      "description": "Dr. Paul Petrus 谈论从大学生活到职场生活的转变。"
     },
     {
       "image": "/images/webinars/01302021.png",
-      "title": "Your Career and You",
+      "title": "你的事业和你",
       "date": "01/30/2021",
-      "description": "David Su talks about his experience in the wireless semiconductor industry."
+      "description": "David Su 讲述了他在无线半导体行业的经历。"
     },
     {
       "image": "/images/webinars/01162021.png",
-      "title": "Journey Through Tech",
+      "title": "科技之旅",
       "date": "01/16/2021",
-      "description": "Bindu Therthala talks about her journey through tech startups.",
+      "description": "Bindu Therthala 讲述了她在科技初创公司的经历。",
       "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVSUOm1kdCsqAVCbgC61i82S"
     },
     {
       "image": "/images/webinars/12192020.jpg",
-      "title": "Soaring Eagle Internship",
+      "title": "翱翔的雄鹰实习",
       "date": "12/19/2020",
-      "description": "Panelist of mentors @ CCE talk about internship opportunities.",
+      "description": "CCE导师小组成员谈论实习机会",
       "videoLink" : "https://www.youtube.com/watch?v=9cRmugn6KzI&list=PLQTND4OzgUVTstlw8R1CpBm8TRT63Qnh5"
     },
     {
       "image": "/images/webinars/12052020.jpg",
-      "title": "Trading Industry as SWE",
+      "title": "作为交易行业的软件工程师",
       "date": "12/05/2020",
-      "description": "Howard Shan shares his experiences and journey into the trading industry.",
+      "description": "Howard Shan 分享他进入交易行业的经历和历程。",
       "videoLink" : "https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD"
     },
     {
       "image": "/images/webinars/11212020.jpg",
-      "title": "Successful Interview & Onboarding",
+      "title": "成功的面试和入职",
       "date": "11/21/2020",
-      "description": "Dr. Chen Chen talks about how to be successful in interviews and onboarding process.",
+      "description": "Dr. Chen Chen 讨论如何在面试和入职过程中取得成功。",
       "videoLink" : "https://www.youtube.com/watch?v=y5lN9vMWwRs&list=PLQTND4OzgUVQc9yZ1vwJXdRK3VManDkOa"
     },
     {
       "image": "/images/webinars/10312020.jpg",
-      "title": "Passion in High School",
+      "title": "高中时期的热情",
       "date": "10/31/2020",
-      "description": "Rachel Chen shares how she found her passion in high school.",
+      "description": "Rachel Chen 分享她如何在高中时发现自己的热情。",
       "videoLink" : "https://www.youtube.com/watch?v=s9eTus06NDY&list=PLQTND4OzgUVTcv10Rc9SZtBhB-iaJeU8n"
     },
     {
       "image": "/images/webinars/10172020.jpg",
-      "title": "Preparing for Your Future",
+      "title": "为你的未来做好准备",
       "date": "10/17/2020",
-      "description": "Daniel Chen talks about how he prepared for his future and how you can too.",
+      "description": "Daniel Chen 谈论他如何为自己的未来做准备，以及你可以怎样做",
       "videoLink" : "https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ"
     },
     {
       "image": "/images/webinars/09272020.jpg",
-      "title": "Guide for Life",
+      "title": "生活指南",
       "date": "09/27/2020",
-      "description": "Panel of CCE students talk about the 12 life-changing capabilities."
+      "description": "CCE 学生小组谈论12种改变生活的能力。"
     },
     {
       "image": "/images/webinars/09192020.png",
-      "title": "Venture Capital Careers",
+      "title": "风险投资行业",
       "date": "09/19/2020",
-      "description": "Timothy Chen speaks about software engineering and the venture capital career.",
+      "description": "Timothy Chen 谈论软件工程和风险投资事业。",
       "videoLink" : "https://www.youtube.com/watch?v=-kB2zxsj5Zo&list=PLQTND4OzgUVRgM2YQWtSRlftF3QDBTHTk"
     },
     {
       "image": "/images/webinars/09052020.jpg",
-      "title": "Architectural Career",
+      "title": "建筑行业",
       "date": "09/05/2020",
-      "description": "Jocelyn Chiou talks about her life and how she went about exploring architecture.",
+      "description": "Jocelyn Chiou 谈论她的生活以及她如何探索建筑。",
       "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
     },
     {
       "image": "/images/webinars/08222020.jpg",
-      "title": "Finance-Technology Career",
+      "title": "金融科技行业",
       "date": "08/22/2020",
-      "description": "David Liu speaks about his life and having a finance-technology career."
+      "description": "David Liu 谈论他的生活和金融科技职业生涯。"
     },
     {
       "image": "/images/webinars/08012020.jpg",
-      "title": "Investment Banking Career",
+      "title": "投资银行业",
       "date": "08/01/2020",
-      "description": "Gloria Su talks about her path to becoming an investment banker.",
+      "description": "Gloria Su 讲述她成为投资银行家的历程。",
       "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
     },
     {
       "image": "/images/webinars/07182020.jpg",
-      "title": "Medical Career",
+      "title": "医疗行业",
       "date": "07/18/2020",
-      "description": "Judy Shan talks about her life and path towards medical school.",
+      "description": "Judy Shan 谈论她的生活和进入医学院的历程。",
       "videoLink" : "https://www.youtube.com/watch?v=uJDAUQW2EiY&list=PLQTND4OzgUVTZ3WaMNCu9ncUEuM4-TNVF"
     }
   ]

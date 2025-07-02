@@ -51,7 +51,7 @@ function App() {
           <Route path="/interview" element={<Interview />} />
           <Route path="/intern" element={<Intern />} />
           <Route path="/focus-group" element={<FocusGroup />} />
-          <Route path="/project" element={<Project />} />
+          <Route path="/beautiful-land-initiative" element={<Project />} />
           <Route path="/chronicle" element={<Chronicle />} />
           <Route path="/cce-class" element={<Class />} />
 

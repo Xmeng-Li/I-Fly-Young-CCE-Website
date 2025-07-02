@@ -210,7 +210,7 @@ const Home = () => {
                       <Link to="/office-hours" onClick={() => window.scrollTo(0, 0)}>
                         {t("officeHr")}
                       </Link>
-                      <Link to="/project" onClick={() => window.scrollTo(0, 0)}>
+                      <Link to="/beautiful-land-initiative" onClick={() => window.scrollTo(0, 0)}>
                         {t("proj")}
                       </Link>
                       <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)}>

@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="footer-texts">
           <div>{t("footerText1")}</div>
           <div>{t("footerText2")}</div>
-          <div>© 2020 I FLY YOUNG CCE</div>
+          <div>© 2020 - 2025 I FLY YOUNG CCE</div>
         </div>
 
         {/* Right Part */}
