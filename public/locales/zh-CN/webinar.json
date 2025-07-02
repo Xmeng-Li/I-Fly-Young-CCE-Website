@@ -1,5 +1,5 @@
 {
-  "pageBanner": "研讨会",
+  "pageBanner": "网络研讨会",
   "bannerText": "感觉迷茫？免费获取知识！",
   "pageTitle": "研讨会系列 + 往期研讨会",
 
@@ -36,7 +36,7 @@
     }
   ],
 
-  "backToWebinar" : "研讨会",
+  "backToWebinar" : "网络研讨会",
   "pastWebinar": "往期研讨会",
   "filter": "筛选",
   

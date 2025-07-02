@@ -1,5 +1,5 @@
 {
-  "pageBanner": "研討會",
+  "pageBanner": "網路研討會",
   "bannerText": "感到失落嗎？免費獲得一些知識！",
   "pageTitle": "研討會系列 + 過去的研討會",
 
@@ -36,7 +36,7 @@
     }
   ],
 
-  "backToWebinar" : "研討會",
+  "backToWebinar" : "網路研討會",
   "pastWebinar": "過去的研討會",
   "filter": "篩選",
   

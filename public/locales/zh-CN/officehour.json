@@ -77,7 +77,7 @@
           "time": "8:30PM - 9:30PM"
         },
         {
-          "region": "北京/台湾时间 周二中午",
+          "region": "北京/台湾时间周二中午",
           "time": "11:30AM - 12:30PM"
         }
       ]
@@ -91,7 +91,7 @@
           "time": "8:00PM - 9:00PM"
         },
         {
-          "region": "北京/台湾时间 周二中午",
+          "region": "北京/台湾时间周二中午",
           "time": "12:00PM - 1:00PM"
         }
       ]
@@ -235,8 +235,8 @@
     {
       "id" : "117",
       "date": "03/17/2025",
-      "title": " Why is my work performance not improving?",
-      "question": "Q1. My work performance has never improved. How can I judge whether it is my own fault or whether it is a trial given to me by God, allowing me to learn lessons through this waiting process? ",
+      "title": " 为什么我的工作没有起色？",
+      "question": "Q1.我的工作一直没有起色, 怎么判断是我自身的原因, 还是上帝给我的试炼, 让我透过这个等待的过程学习功课呢？ <案例> 我是单亲有两个女儿，平时除了工作时间以外就是照顾小女儿，就是信仰的事。我每天早上参加线上晨更，加上晨更、晚上的祷告会、儿童主日学、操练信息，都有参与服事，线下有小羊的服事。因此平日里有不少的时间是花在信仰上面。 但我发现最近工作中常常事情做不完，想把业绩做好，却常常力不从心的感觉。目前面临资金紧缺出现周转的问题。我思考了好几次，之前我也想过这个问题，虽然每次危机都度过去了，但是业绩上不去仍然成为我们难以逾越的问题，这次又面临业绩不佳资金周转的难题了，也是我工作中最无能为力的一次，所以我在思考工作与服事我是不是没有平衡好？还是主给我的考验？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20250317_工作没有起色MP3.mp3"
     },
@@ -267,8 +267,8 @@
     {
       "id" : "113",
       "date": "02/17/2025",
-      "title": "What should I do if I see injustice at workplace?",
-      "question": "Q1. My boss has lowered my salary for a long time and I feel aggrieved. What should I do? Q2. I have seen and experienced political struggle and persecution from superiors, rank-and-file, and subordinates in the company. In addition to praying, should I face it directly, point it out, and persist? What should I do?",
+      "title": "看见工作上的不公义，我该怎么办？",
+      "question": "Q1. 老板长期压低我的工资，让我觉得很委屈, 我该怎么办？ Q2. 看见, 经历公司里的上,平,下级的政治斗争与迫害, 除了祷告, 是否应直接面对、指出、坚持、我该怎么办？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20250217_工作上的不公義.mp3"
     },
@@ -307,8 +307,8 @@
     {
       "id" : "108",
       "date": "01/13/2025",
-      "title": "Two bosses have different opinions, what should I do?",
-      "question": "Q1.I have two bosses (authorities) and their opinions conflict. Who should I listen to? Q2. Whose needs should I meet? What can I do?",
+      "title": "两个老板意见不同, 我该怎么办?",
+      "question": "Q1.我有两个老板（主管），他们的意见互相冲突。我该听谁的？Q2：我应该满足谁的需求？我能做什么？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20250113_兩個老闆MP3.mp3"
     },
@@ -323,8 +323,8 @@
     {
       "id" : "106",
       "date": "12/16/2024",
-      "title": "How to face the boss...",
-      "question": "Q1. Should I talk to my boss about a salary increase? how to talk about it? Q2. How to face the impossible task assigned by the boss?",
+      "title": "怎么面对老板...",
+      "question": "Q1.该不该跟老板谈加薪？怎么谈？Q2.老板布置的不可能完成的任务，该如何面对？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20241216_面對老闆MP3.mp3"
     },
@@ -355,8 +355,8 @@
     {
       "id" : "102",
       "date": "11/18/2024",
-      "title": "How to lead a team",
-      "question": "Q1: I have no management responsibilities, should I be concerned about this issue? Q2: As a (junior, middle, senior) manager of a company/unit, how should I lead my team? Q3: As the person in charge of the company, how should I lead the team?",
+      "title": "如何带领一个团队",
+      "question": "Q1: 我没有管理职责，应该关注这个问题吗？问题2：作为公司/单位的（初级、中级、高级）管理人员，我应该如何带领我的团队？问题3：作为公司的负责人，我应该如何带领团队？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20241118_如何帶領團隊MP3.mp3"
     },

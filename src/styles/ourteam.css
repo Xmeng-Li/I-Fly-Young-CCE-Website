@@ -279,8 +279,8 @@
   width: 140px;
   height: 171px;
 }
-.partner-name {
-  color: var(--Text-primary, #333);
+.partner-name a {
+  color: var(--Blue-600, #065D9E);
   text-align: center;
   font-size: 24px;
   font-style: normal;

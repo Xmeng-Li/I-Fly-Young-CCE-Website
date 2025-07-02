@@ -214,7 +214,7 @@
     font-size: 20px;
   }
   .texts-and-links {
-    font-size: 14px;
+    font-size: 16px;
     align-items: center;
     text-align: center;
   }
@@ -241,6 +241,10 @@
   .logos {
     justify-content: center;
     width: 100%;
+  }
+  .iflyyoung a {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
