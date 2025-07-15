@@ -306,59 +306,61 @@ const Intern = () => {
         </div>
 
         <div className="intern-main-btm">
-          <label className="intern-section-label">{internContent[3].eagleTitle}</label>
-          <div className="intern-mid swap-on-mobile">
-            {/* Two Items */}
-            <div className="intern-main-texts">
-              <div className="eagleDes">{internContent[3].eagleDes}</div>
-              <div className="intern-detail-row">
-                {showDes === "catOne" ? (
-                  <div className="intern-section-des">
+          <div className="intern-btm-eagle">
+            <label className="intern-section-label">{internContent[3].eagleTitle}</label>
+            <div className="intern-eagle-part swap-on-mobile">
+              {/* Two Items */}
+              <div className="intern-eagle-texts">
+                <div className="eagleDes">{internContent[3].eagleDes}</div>
+                <div className="intern-eagle-row">
+                  {showDes === "catOne" ? (
+                    <div className="intern-section-des">
+                      <div className="intern-main-title" onClick={() => toggleSection("catOne")}>
+                        <span className="blue-text-left">{internContent[3].catOne}</span>
+                        <span className="intern-icon-right">
+                          <XIcon />
+                        </span>
+                      </div>
+                      <div className="intern-des-sub">{internContent[3].catOneSub}</div>
+                      <div className="intern-des-texts">{internContent[3].catOneDes}</div>
+                    </div>
+                  ) : (
                     <div className="intern-main-title" onClick={() => toggleSection("catOne")}>
-                      <span className="blue-text-left">{internContent[3].catOne}</span>
+                      <span className="intern-text-left">{internContent[3].catOne}</span>
                       <span className="intern-icon-right">
-                        <XIcon />
+                        <PlusIcon />
                       </span>
                     </div>
-                    <div className="intern-des-sub">{internContent[3].catOneSub}</div>
-                    <div className="intern-des-texts">{internContent[3].catOneDes}</div>
-                  </div>
-                ) : (
-                  <div className="intern-main-title" onClick={() => toggleSection("catOne")}>
-                    <span className="intern-text-left">{internContent[3].catOne}</span>
-                    <span className="intern-icon-right">
-                      <PlusIcon />
-                    </span>
-                  </div>
-                )}
-              </div>
+                  )}
+                </div>
 
-              {/* Item 2 */}
-              <div className="intern-detail-row">
-                {showDes === "catTwo" ? (
-                  <div className="intern-section-des">
+                {/* Item 2 */}
+                <div className="intern-eagle-row">
+                  {showDes === "catTwo" ? (
+                    <div className="intern-section-des">
+                      <div className="intern-main-title" onClick={() => toggleSection("catTwo")}>
+                        <span className="blue-text-left">{internContent[3].catTwo}</span>
+                        <span className="intern-icon-right">
+                          <XIcon />
+                        </span>
+                      </div>
+                      <div className="intern-des-sub">{internContent[3].catTwoSub}</div>
+                      <div className="intern-des-texts">{internContent[3].catTwoDes}</div>
+                    </div>
+                  ) : (
                     <div className="intern-main-title" onClick={() => toggleSection("catTwo")}>
-                      <span className="blue-text-left">{internContent[3].catTwo}</span>
+                      <span className="intern-text-left">{internContent[3].catTwo}</span>
                       <span className="intern-icon-right">
-                        <XIcon />
+                        <PlusIcon />
                       </span>
                     </div>
-                    <div className="intern-des-sub">{internContent[3].catTwoSub}</div>
-                    <div className="intern-des-texts">{internContent[3].catTwoDes}</div>
-                  </div>
-                ) : (
-                  <div className="intern-main-title" onClick={() => toggleSection("catTwo")}>
-                    <span className="intern-text-left">{internContent[3].catTwo}</span>
-                    <span className="intern-icon-right">
-                      <PlusIcon />
-                    </span>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
+              <img className="intern-main-img" src={internMain2} alt="mainImg" />
             </div>
-            <img className="intern-main-img" src={internMain2} alt="mainImg" />
+            <img className="intern-btm-bk" src={internBtmBk} alt="btm background" />
           </div>
-          <img className="intern-btm-bk" src={internBtmBk} alt="btm background" />
         </div>
 
 

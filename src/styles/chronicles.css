@@ -33,12 +33,11 @@
   font-size: 32px;
   font-weight: 700;
   line-height: 40px;
-  margin-bottom: 12px;
 }
 .chron-text {
   position: absolute;
-  top: 57%;
-  left: 18%;
+  top: 55%;
+  left: 15%;
   width: 100%;
   max-width: 373px;
   color: var(--Blue-500, #37ACF4);
@@ -46,7 +45,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 32px;
 }
 .chron-right-text-container {
   display: flex;
@@ -197,6 +196,196 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
+}
+
+
+
+/* Responsive design */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .chron-top-part {
+    width: 100%;
+    padding: 15px 0px;
+    gap: 60px;
+  }
+  .chron-cloud {
+    width: 100%; 
+    max-width: 500px;
+    height: auto;
+  }
+  .chron-title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 370px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+
+
+@media (min-width: 431px) and (max-width: 480px) {
+  .chron-top-part {
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  .chron-title {
+    font-size: 24px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .chron-right-text-container {
+    width: 375px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: -40px;
+  }
+  .chron-page-title {
+    font-size: 24px; 
+    line-height: 30px;
+  }
+  .chron-page-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  .chron-mobile-filter {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+  }
+   .chron-filter-icon-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .chron-filter-icon {
+    display: flex;
+  }
+  .chron-close-filter-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+  }
+  .chron-filter-container { 
+    display: none;           
+  }
+  .chron-filter-container.show {
+    display: flex;
+    width: 90%; 
+    max-width: 375px; 
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0 auto 30px auto; 
+  }
+  .chron-each-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  select { 
+    padding: 8px 16px;
+    align-items: flex-start;
+  }
+  .chron-filter-label {
+    display: flex;
+    font-size: 14px;
+    line-height: 10px;
+  }
+  .chron-label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .chron-filter-text{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .chron-sort-dropdown,
+  .chron-year-dropdown {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  /* Article List */
+  .chron-and-pagination {
+    width: 90%;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto 30px auto; 
+  }
+  .chron-container {
+    width: 100%;
+    max-width: 375px;
+    grid-template-columns: repeat(1, 1fr);  
+    justify-content: center;
+    gap: 10px;
+  }
+  .article-card {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  .read-btn {
+    font-size: 14px;
+    padding: 7px 10px;
+  }
+
+  /* Pagination */
+  .pagination {
+    gap: 8px;
+  }
+  .page {
+    font-size: 14px;
+    line-height: 18px; 
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .page-active {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    gap: 6px;
+  }
 }
 
 

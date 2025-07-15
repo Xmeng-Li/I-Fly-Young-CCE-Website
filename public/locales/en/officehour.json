@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "132",
+      "date": "07/07/2025",
+      "title": "I Fly Young CCE 2024-2025 Beautiful Land Initiative Interview 1",
+      "question": "Q1. What is Beautiful Land Initiative? How does it work? Q2.What have you learned from our monthly meetings? Q3.What have you learned from small group meetings? Q4.What have you learned from your outreach efforts? Q5.What have you failed? Q6.What have you succeeded?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250707_2024-5佳美之地計劃訪談1MP3.mp3"
+    },
+    {
       "id" : "131",
       "date": "06/30/2025",
       "title": "I Fly Young CCE 2024-2025 Focus Group Interview 4",
