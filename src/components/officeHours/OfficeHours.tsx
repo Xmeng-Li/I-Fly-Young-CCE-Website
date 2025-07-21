@@ -201,194 +201,199 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Main Section */}
         <div className="main-container">
-          <div className="recording-card">
-            {/* Left: Most Recent */}
-            <div className="most-recent">
-              <div className="cate-container">
-                <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording" onClick={() => window.scrollTo(0, 0)}>
-                    {viewAll}
-                  </Link>
-                </div>
+          {/* Left: Most Recent */}
+          <div className="most-recent">
+            <div className="cate-container">
+              <label className="category-title">{t("ohRecent", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording" onClick={() => window.scrollTo(0, 0)}>
+                  {viewAll}
+                </Link>
               </div>
+            </div>
 
-              <div className="main-left">
-                {mostRecent.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="left-month-day">{monthDay}</div>
-                        <div className="left-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
+            <div className="main-left">
+              {mostRecent.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="left-month-day">{monthDay}</div>
+                      <div className="left-year">{year}</div>
+                    </div>
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>
                       < this.PlayIconRound recordingId={recording.id} />
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Work & Colleague */}
-            <div className="colleagues">
-              <div className="cate-container">
-                <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording?filter=colleague" onClick={() => window.scrollTo(0, 0)}>
-                    {viewMoreText}
-                  </Link>
-                </div>
-              </div>
-
-              <div className="main-mid">
-                {workAndColleagues.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="mid-month-day">{monthDay}</div>
-                        <div className="mid-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
-                      <this.PlayIconRound recordingId={recording.id}  />
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-
-            {/* Faith & Work */}
-            <div className="faith">
-              <div className="cate-container">
-                <label className="category-title">{t("ohFaith", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording?filter=faith" onClick={() => window.scrollTo(0, 0)}>
-                    {viewMoreText}
-                  </Link>
-                </div>
-              </div>
-
-              <div className="main-right">
-                {faithAndWork.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="right-month-day">{monthDay}</div>
-                        <div className="right-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
-                      <this.PlayIconRound recordingId={recording.id} />
-                    </div>
-                  );
-                })}
-              </div>
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
 
-          {/* 2nd Row */}
-          <div className="recording-card">
-            {/* Work & Boss */}
-            <div className="boss">
-              <div className="cate-container">
-                <label className="category-title">{t("ohBoss", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording?filter=boss" onClick={() => window.scrollTo(0, 0)}>
-                    {viewMoreText}
-                  </Link>
-                </div>
-              </div>
-
-              <div className="main-boss">
-                {workAndBoss.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="boss-month-day">{monthDay}</div>
-                        <div className="boss-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
-                      <this.PlayIconRound recordingId={recording.id} />
-                    </div>
-                  );
-                })}
+          {/* Work & Colleague */}
+          <div className="colleagues">
+            <div className="cate-container">
+              <label className="category-title">{t("ohColleague", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording?filter=colleague" onClick={() => window.scrollTo(0, 0)}>
+                  {viewMoreText}
+                </Link>
               </div>
             </div>
 
-            {/* Personal Development */}
-            <div className="self-dev">
-              <div className="cate-container">
-                <label className="category-title">{t("ohDev", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording?filter=development" onClick={() => window.scrollTo(0, 0)}>
-                    {viewMoreText}
-                  </Link>
-                </div>
-              </div>
-
-              <div className="main-selfDev">
-                {selfDev.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="selfDev-month-day">{monthDay}</div>
-                        <div className="selfDev-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
-                      <this.PlayIconRound recordingId={recording.id}  />
+            <div className="main-mid">
+              {workAndColleagues.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="mid-month-day">{monthDay}</div>
+                      <div className="mid-year">{year}</div>
                     </div>
-                  );
-                })}
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>< this.PlayIconRound recordingId={recording.id}/></span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Faith & Work */}
+          <div className="faith">
+            <div className="cate-container">
+              <label className="category-title">{t("ohFaith", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording?filter=faith" onClick={() => window.scrollTo(0, 0)}>
+                  {viewMoreText}
+                </Link>
               </div>
             </div>
 
-            {/* Focus Group */}
-            <div className="focus">
-              <div className="cate-container">
-                <label className="category-title">{t("ohFocus", { ns: "officehour" })}</label>
-                <div className="section-view-more">
-                  <Link to="/recording?filter=focusGroup" onClick={() => window.scrollTo(0, 0)}>
-                    {viewMoreText}
-                  </Link>
-                </div>
-              </div>
-
-              <div className="main-focusGrp">
-                {focusGrp.map((recording, index) => {
-                  const { monthDay, year } = this.formatDate(recording.date);
-                  return (
-                    <div className="oh-each-recording" key={index}>
-                      <div className="oh-date-box">
-                        <div className="focusGrp-month-day">{monthDay}</div>
-                        <div className="focusGrp-year">{year}</div>
-                      </div>
-                      <div className="oh-content">
-                        <div className="oh-title">{recording.title}</div>
-                        <div className="oh-question">{recording.question}</div>
-                      </div>
-                      <this.PlayIconRound recordingId={recording.id} />
+            <div className="main-right">
+              {faithAndWork.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="right-month-day">{monthDay}</div>
+                      <div className="right-year">{year}</div>
                     </div>
-                  );
-                })}
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>
+                      < this.PlayIconRound recordingId={recording.id} />
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        
+          {/* Work & Boss */}
+          <div className="boss">
+            <div className="cate-container">
+              <label className="category-title">{t("ohBoss", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording?filter=boss" onClick={() => window.scrollTo(0, 0)}>
+                  {viewMoreText}
+                </Link>
               </div>
+            </div>
+
+            <div className="main-boss">
+              {workAndBoss.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="boss-month-day">{monthDay}</div>
+                      <div className="boss-year">{year}</div>
+                    </div>
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>
+                      < this.PlayIconRound recordingId={recording.id} />
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Personal Development */}
+          <div className="self-dev">
+            <div className="cate-container">
+              <label className="category-title">{t("ohDev", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording?filter=development" onClick={() => window.scrollTo(0, 0)}>
+                  {viewMoreText}
+                </Link>
+              </div>
+            </div>
+
+            <div className="main-selfDev">
+              {selfDev.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="selfDev-month-day">{monthDay}</div>
+                      <div className="selfDev-year">{year}</div>
+                    </div>
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>
+                      < this.PlayIconRound recordingId={recording.id} />
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Focus Group */}
+          <div className="focus">
+            <div className="cate-container">
+              <label className="category-title">{t("ohFocus", { ns: "officehour" })}</label>
+              <div className="section-view-more">
+                <Link to="/recording?filter=focusGroup" onClick={() => window.scrollTo(0, 0)}>
+                  {viewMoreText}
+                </Link>
+              </div>
+            </div>
+
+            <div className="main-focusGrp">
+              {focusGrp.map((recording, index) => {
+                const { monthDay, year } = this.formatDate(recording.date);
+                return (
+                  <div className="oh-each-recording" key={index}>
+                    <div className="oh-date-box">
+                      <div className="focusGrp-month-day">{monthDay}</div>
+                      <div className="focusGrp-year">{year}</div>
+                    </div>
+                    <div className="oh-content">
+                      <div className="oh-title">{recording.title}</div>
+                      <div className="oh-question">{recording.question}</div>
+                    </div>
+                    <span>
+                      < this.PlayIconRound recordingId={recording.id} />
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -400,7 +405,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
             <h5 className="panelists-title">{t("panelistsTitle", { ns: "officehour" })}</h5>
             <img className="blue-airplane" src={blueAirplane} alt="airplane" />
           </div>
-          
           <div className="speaker-container">
             {panelists.map((panelist, index) => (
               <div key={index} className="speaker-card">

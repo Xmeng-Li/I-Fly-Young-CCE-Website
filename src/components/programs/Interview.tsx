@@ -172,8 +172,8 @@ const Interview = () => {
 
         {/* Why CCE */}
         <div className="main-btm">
+          <img className="btm-bk" src={btmBk} alt="btm background"/>
           <label className="section-label">{mainContent[2].whyCCE}</label>
-          <img className="btm-bk" src={btmBk} alt="btm background" />
           <div className="top-three">
             <div className="apply-part">
               <img className="btm-icon-lt" src={airPlane} alt="airplane" />

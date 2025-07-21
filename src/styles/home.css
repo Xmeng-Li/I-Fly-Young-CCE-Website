@@ -1,5 +1,6 @@
 .home-top-part {
   font-family: "Noto Sans";
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -79,10 +80,12 @@
 }
 .home-container {
   display: grid;
-  width: 1345px;
+  width: 100%;
+  max-width: 1345px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   margin-bottom: 20px;
+  column-gap: 45px;
 }
 .cat-card {
   display: flex;
@@ -215,6 +218,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 60px;
 }
 .home-two-info {
   display: flex;
@@ -264,7 +268,8 @@
 }
 .home-btm-container {
   display: flex;
-  width: 1295px;
+  width: 100%;
+  max-width: 1295px;
   padding: 40px;
   flex-direction: column;
   align-items: center;
@@ -273,6 +278,7 @@
   margin-bottom: 40px;
 }
 .home-btm-row {
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 100px;
@@ -283,7 +289,8 @@
 .home-each-card {
   position: relative;
   display: flex;
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   height: 287px;
   padding: 12px;
   flex-direction: column;
@@ -350,6 +357,48 @@
   line-height: normal;
 }
 
+
+
+/* Responsive design */
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .home-top-part {
+    gap: 10px;
+  }
+  .home-cloud {
+    display: none;
+  }
+  .home-container {
+    column-gap: 20px;
+  }
+  .home-join-two {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .home-two-info {
+    display: flex;
+    width: 620px;
+    height: auto;
+  }
+  .home-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .home-btm-row {
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
 
 
 /* For Large Mobile */
@@ -422,7 +471,7 @@
     width: 375px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    margin-bottom: 20px;
+    row-gap: 10px;
   }
   .cat-card {
     display: flex;
@@ -653,7 +702,7 @@
     width: 375px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    margin-bottom: 20px;
+    row-gap: 10px;
   }
   .cat-card {
     display: flex;
@@ -850,7 +899,6 @@
     width: 325px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    margin-bottom: 20px;
   }
   .cat-card {
     display: flex;
@@ -958,7 +1006,6 @@
   .home-container {
     display: grid;
     width: 270px;
-    margin-bottom: 20px;
   }
   .cat-card {
     display: flex;

@@ -92,6 +92,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 }
 .overview-part {
   display: flex;
@@ -230,7 +231,6 @@
   line-height: 200%; 
 }
 
-
 /* Main Bottom */
 .proj-main-btm {
   display: flex;
@@ -305,6 +305,65 @@
 .proj-btm-icons svg {
   width: 50px;
   height: 50px;
+}
+
+
+/* Responsive design */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .proj-top-part {
+    gap: 30px;
+  }
+  .proj-top-img {
+  width: 50%;
+  height: 50%;
+  }
+  .proj-top-three {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: auto;
+  }
+  .overview-part {
+    display: flex;
+    width: 400px;
+    height: auto;
+  }
+  .proj-main-three {
+    max-width: 85%;
+  }
+  .proj-main-three-img {
+    width: 50%;
+    object-fit: cover;
+    height: auto;
+  }
+  .proj-top-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .suitMe-part {
+    display: flex;
+    width: 400px;
+    height: auto;
+  }
+  .proj-btm-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .proj-btm-img {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 /* For Large Mobile */

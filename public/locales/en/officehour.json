@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "133",
+      "date": "07/14/2025",
+      "title": "How to deal with conflicts of interest with colleagues",
+      "question": "Q1. What if I don't fight for benefits in the workplace and my colleagues take away my resources? Q2. Because I enter the workplace and there is a competitive relationship, I will be very defensive and alert to my colleagues around me, and I will maintain a good state on the surface. But I will be very competitive for benefits. If I don't fight for benefits, how can I deal with the problem of colleagues taking away my resources or bullying me?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20250714_處理與同事的利益衝突MP3.mp3"
+    },
+    {
       "id" : "132",
       "date": "07/07/2025",
       "title": "I Fly Young CCE 2024-2025 Beautiful Land Initiative Interview 1",

@@ -397,7 +397,7 @@
     margin-bottom: 60px;
   }
   .class-main-two {
-    max-width: 90%;
+    max-width: 85%;
   }
   .class-main-img {
     width: 50%;
@@ -474,7 +474,7 @@
   .class-top-img {
     width: 400px;
     height: auto;
-    margin-left: 15px;
+    margin-left: 25px;
   }
   .class-main-top {
     width: 100%;
@@ -728,7 +728,7 @@
   .class-top-img {
     width: 400px;
     height: auto;
-    margin-left: 15px;
+    margin-left: 25px;
   }
   .class-main-top {
     width: 100%;
@@ -955,9 +955,8 @@
     width: 320px;
   }
   .class-top-img {
-    width: 360px;
+    width: 350px;
     height: auto;
-    margin-left: 15px;
   }
   .about-class {
     display: flex;
@@ -1130,7 +1129,7 @@
     width: 270px;
   }
   .class-top-img {
-    width: 300px;
+    width: 295px;
     height: auto;
     margin-left: 15px;
   }
