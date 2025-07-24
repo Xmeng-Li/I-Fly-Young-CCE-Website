@@ -71,10 +71,10 @@
 .video-container {
   display: grid;
   width: 100%;
+  max-width: 1345px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  gap: 50px;
-  margin-bottom: -40px;
+  column-gap: 45px;
 }
 .video-card {
   display: flex;
@@ -148,7 +148,36 @@
 
 
 /* Responsive design */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .video-container {
+    column-gap: 20px;
+  }
+}
 
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .video-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    column-gap: 20px;
+  }
+  .video-card {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+  }
+  .video-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+}
 
 @media (min-width: 431px) and (max-width: 480px) {
   .video-filter-icon-and-label {
@@ -248,7 +277,7 @@
   .video-card {
     display: flex;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     gap: 10px;
   }
   .watch-now-btn {
@@ -373,7 +402,7 @@
   .video-card {
     display: flex;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     gap: 10px;
   }
   .watch-now-btn {
@@ -454,7 +483,7 @@
   .video-card {
     display: flex;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     gap: 10px;
   }
   .watch-now-btn {
@@ -464,7 +493,7 @@
 }
 
 /* For Mobile */
-@media (max-width: 325px) {
+@media (max-width: 320px) {
   .video-page-title-and-icon {
     display: flex;
     flex: row;
@@ -504,8 +533,6 @@
   .video-card {
     display: flex;
     max-width: 100%;
-    margin-bottom: 30px;
-    gap: 10px;
   }
   .watch-now-btn {
     font-size: 14px;

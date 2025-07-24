@@ -117,6 +117,14 @@
   "viewMore": "查看更多",
   "recordings": [
     {
+      "id" : "134",
+      "date": "07/21/2025",
+      "title": "如何克服恐懼並在大型專業會議上自信發言？",
+      "question": "Q1. 為什麼我們會感到害怕？Q2. 我該如何克服恐懼？",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250721_克服恐惧.mp3"
+    },
+    {
       "id" : "133",
       "date": "07/14/2025",
       "title": "如何處理與同事的利益衝突",

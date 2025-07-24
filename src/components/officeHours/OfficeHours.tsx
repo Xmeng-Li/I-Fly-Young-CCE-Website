@@ -184,9 +184,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 <h3 className="new-audio-title">{recording.title}</h3>
                 <p className="new-audio-date">{recording.date}</p>
                 <p className="new-audio-question">{recording.question}</p>
-                
-                <button 
-                  className="oh-play-now-btn"
+                <button className="oh-play-now-btn"
                   onClick={() => this.props.navigate(`/recording?play=${recording.id}`)}
                   >
                   {t("playNow", { ns: "officehour" })}

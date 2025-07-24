@@ -254,13 +254,13 @@
 }
 .class-expanded-texts {
   width: 100%;
+  max-width: 680px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .class-detail-row {
   width: 100%;
-  max-width: 680px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -365,8 +365,8 @@
     gap: 30px;
   }
   .class-top-img {
-  width: 50%;
-  height: 50%;
+    width: 50%;
+    height: 50%;
   }
   /* Main Part */
   .class-top-bk {
@@ -441,6 +441,106 @@
     width: 50%;
     height: 50%;
   }
+}
+
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .class-top-part {
+    gap: 30px;
+  }
+  .class-top-img {
+    width: 50%;
+    height: 50%;
+  }
+  .class-top-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .class-top-three {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .about-class {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 850px;
+    height: 280px;
+    gap: 5px;
+  }
+  .class-main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .class-main-two  {
+    max-width: 85%;
+    gap: 40px;
+  }
+  .class-main-detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .class-main-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .class-main-texts,
+  .class-topic-texts {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .swap-on-mobile {
+    flex-direction: column-reverse;
+    transition: all 0.3s ease;
+  }
+  .class-btm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .class-main-btm-img {
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .class-expanded-texts {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .class-btm-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .class-btm-img {
+    width: 50%;
+    height: 50%;
+  }
+
 }
 
 

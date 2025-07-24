@@ -51,7 +51,7 @@ class Chronicles extends Component<ChronProp, ChronState> {
   }
 
   getItemsPerPage = (): number => {
-    return window.innerWidth <= 768 ? 6 : 9;
+    return window.innerWidth <= 1024 ? 6 : 9;
   };
 
   // Update article per page on small window size

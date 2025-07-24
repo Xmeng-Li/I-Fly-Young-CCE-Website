@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "134",
+      "date": "07/21/2025",
+      "title": "How to overcome fear and speak with confidence in large professional meetings? ",
+      "question": "Q1. Why do we feel intimidated? Q2. What can I do to overcome fear? ",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250721_克服恐惧.mp3"
+    },
+    {
       "id" : "133",
       "date": "07/14/2025",
       "title": "How to deal with conflicts of interest with colleagues",

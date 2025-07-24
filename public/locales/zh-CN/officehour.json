@@ -121,6 +121,14 @@
   "viewMore": "查看更多",
   "recordings": [
     {
+      "id" : "134",
+      "date": "07/21/2025",
+      "title": "如何在职场大型会议上不胆怯地大方发言？",
+      "question": "Q1. 为什么会胆怯？Q2. 我该如何克服恐惧？",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250721_克服恐惧.mp3"
+    },
+    {
       "id" : "133",
       "date": "07/14/2025",
       "title": "如何处理与同事的利益冲突",
