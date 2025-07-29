@@ -194,13 +194,69 @@
  /* Responsive design */
 /* For Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .authors-box {
+    text-align: center;
+  }
   .responder-box {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .article-inner-img {
+    height: auto;
+    object-fit: cover;
+  }
+  .iframe-video {
+    height: 300px;
+  }
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .article-backTo {
+    margin-top: 18px;
+    margin-bottom: 5px;
+  }
+  .art-card {
+    padding: 20px;
+    gap: 10px;
+  }
+  .art-title {
+    font-size: 28px;
+  }
+  .authors-box {
+    text-align: center;
+  }
+  .responder-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .resp-left {
+    width: 265px;
+  }
+  .resp-image,
+  .resp-square-image {
+    margin-top: -30px;
+    margin-bottom: 8px;
+  }
+  .resp-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -25px;
+  }
+  .article-inner-img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 8px 0;
+  }
+  .iframe-video {
+    height: 250px;
+  }
+  .backTo-btn-box {
+    margin-bottom: 30px;
+  }
+}
 
 @media (min-width: 431px) and (max-width: 480px) {
  .article-backTo {
@@ -208,8 +264,8 @@
   margin-bottom: 5px;
   }
   .art-card {
-  padding: 20px;
-  gap: 10px;
+    padding: 20px;
+    gap: 10px;
   }
   .art-title {
     font-size: 28px;
@@ -283,7 +339,7 @@
     line-height: 27px; 
   }
   .article-inner-img {
-    height: 210px;
+    height: 240px;
     object-fit: cover;
     border-radius: 8px;
     margin: 8px 0;
@@ -292,7 +348,7 @@
     height: 200px;
   }
   .backTo-btn-box {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
   }
   .art-btm-btn a {
     font-size: 14px;

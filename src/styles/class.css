@@ -517,7 +517,7 @@
   }
   .class-main-btm-img {
     width: 95%;
-    height: 400px;
+    height: 450px;
     object-fit: cover;
   }
   .class-expanded-texts {
@@ -540,9 +540,164 @@
     width: 50%;
     height: 50%;
   }
-
 }
 
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .class-top-part {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0px;
+    align-items: center;
+    gap: 24px;
+  }
+  .class-left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .class-apply-btn a {
+    padding: 10px;
+  }
+  .class-top-img {
+    width: 420px;
+    height: auto;
+    margin-left: 25px;
+  }
+  .class-top-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .class-top-three {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  .about-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 330px;
+    padding: 12px;
+    gap: 12px;
+  }
+  .class-three-icons svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  /* Main Two Part */
+  .class-main {
+    width: 100vw;
+    background: var(--bg-light-blue, #F0F8FF);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .class-main-two {
+    width: 100%;
+    max-width: 420px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 12px;
+  }
+  .class-main-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .class-main-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .class-main-texts,
+  .class-topic-texts {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  .class-lsts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+  .class-main-btm {
+    width: 100%;
+    max-width: 420px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .class-btm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .class-main-btm-img {
+    width: 420px;
+    height: 280px;
+  }
+  .class-detail-row {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .class-main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .class-btm-bk {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: -1;
+  }
+  .swap-on-mobile {
+    flex-direction: column-reverse;
+    transition: all 0.3s ease;
+  }
+  /* Bottom Part  */
+  .class-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+  }
+  .class-btm-img {
+    width: 400px;
+    height: auto;
+  }
+}
 
 @media (min-width: 431px) and (max-width: 480px) {
   .class-top-part {
@@ -719,7 +874,7 @@
   }
   .class-main-btm-img {
     width: 375px;
-    height: auto;
+    height: 280px;
   }
   .class-detail-row {
     width: 375px;
@@ -783,7 +938,7 @@
     align-items: center;
     padding: 40px;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .class-btm-img {
     width: 400px;
@@ -973,7 +1128,7 @@
   }
   .class-main-btm-img {
     width: 375px;
-    height: auto;
+    height: 280px;
   }
   .class-detail-row {
     width: 375px;
@@ -1162,7 +1317,7 @@
   }
   .class-main-btm-img {
     width: 325px;
-    height: auto;
+    height: 240px;
   }
   .class-detail-row {
     width: 325px;
@@ -1302,7 +1457,7 @@
   }
   .class-main-btm-img {
     width: 275px;
-    height: auto;
+    height: 200px;
   }
   .class-main-title {
     width: 100%;

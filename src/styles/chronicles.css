@@ -264,6 +264,10 @@
     text-align: center;
     gap: 12px;
   }
+  select { 
+    width: 180px;
+    padding: 8px 16px;
+  }
   .chron-container {
     display: grid;
     width: 100%;
@@ -276,7 +280,6 @@
     width: 100%;
     max-width: 450px;
     height: 100%;
-    align-items: center;
     gap: 20px;
   }
   .article-image {
@@ -284,8 +287,110 @@
     max-width: 450px;
     height: auto;
   }
+}
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .chron-top-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .chron-text {
+    position: absolute;
+    top: 56%;
+    left: 12%;
+    width: 100%;
+  }
+  .chron-right-text-container {
+    width: 420px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
+  .chron-mobile-filter {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+  }
+   .chron-filter-icon-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .chron-filter-icon {
+    display: flex;
+  }
+  .chron-close-filter-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+  }
+  .chron-filter-container { 
+    display: none;           
+  }
+  .chron-filter-container.show {
+    display: flex;
+    width: 420px; 
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0 auto 30px auto; 
+  }
+  .chron-each-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  select { 
+    padding: 8px 16px;
+    align-items: flex-start;
+  }
+  .chron-filter-label {
+    display: flex;
+    font-size: 16px;
+    line-height: 10px;
+  }
 
+  /* Article List */
+  .chron-and-pagination {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto 30px auto; 
+  }
+  .chron-container {
+    display: grid;
+    width: 100%;
+    max-width: 420px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .article-card {
+    display: flex;
+    width: 100%;
+    max-width: 420px;
+    height: 100%;
+  }
+  .article-image {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+  }
 }
 
 @media (min-width: 431px) and (max-width: 480px) {
