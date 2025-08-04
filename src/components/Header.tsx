@@ -8,7 +8,7 @@ const Header = () => {
   const { t, i18n } = useTranslation();
   
   const [, setIsChinese] = useState(false);
-  const [menuOpen, setMenuOpen, ] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [langMenuOpen, setLangMenuOpen] = useState(false);
 
@@ -22,6 +22,7 @@ const Header = () => {
     i18n.changeLanguage(langCode);
     setIsChinese(langCode !== 'en');
     setLangMenuOpen(false);
+    setMenuOpen(false);
   };
 
   const handleDropdown = () => {
@@ -116,7 +117,8 @@ const Header = () => {
               {langMenuOpen && (
                 <div className="lang-dropdown-menu">
                   <label onClick={() => toggleLanguage('en')}
-                    className={i18n.language === 'en' ? 'active-lang' : ''}>English
+                    className={i18n.language === 'en' ? 'active-lang' : ''}
+                    >English
                   </label>
                   <label onClick={() => toggleLanguage('zh')}
                     className={i18n.language === 'zh' ? 'active-lang' : ''}
@@ -125,7 +127,6 @@ const Header = () => {
                   <label onClick={() => toggleLanguage('zh-CN')}
                     className={i18n.language === 'zh-CN' ? 'active-lang' : ''}
                     >简体中文
-                    <span style={{color: 'grey', fontSize: '12px'}}>（更新中...）</span>
                   </label>
                 </div>
               )}

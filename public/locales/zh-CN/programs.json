@@ -1,45 +1,45 @@
 {
-  "blueTitle": "Eagle Wing Interview Training",
-  "title": "Practice Job Interviews with Experienced Professionals",
-  "des": "Gain the confidence you need to succeed in stressful job interviews",
+  "blueTitle": "(鹰翼计划) 面试培训",
+  "title": "与经验丰富的专业人士进行模拟工作面试",
+  "des": "建立所需的信心, 以致在工作面试中可以脱颖而出",
   "applyNow": "立即申请",
   "comingSoon": "即将推出",
 
   "contents": [
     {
-      "apply": "Why apply?",
-      "left": "Gain confidence by practicing in a safe environment",
-      "leftText": "Start getting interviews by practicing in a group with people who are just like you or practice by yourself.",
+      "apply": "为什么要申请？",
+      "left": "在安全的环境中练习来获得信心",
+      "leftText": "与类似需要的人一起, 或自己进行面试练习",
 
-      "mid": "Get over fear of speaking during interviews",
-      "midText": "Gain confidence to face your prospective new employer.",
+      "mid": "克服面试时说话的恐惧",
+      "midText": "建立面对未来新雇主的信心",
 
-      "right": "Practice your interview skills with experienced professionals",
-      "rightText": "Get feedback on your interviews from top professionals in the industry."
+      "right": "与经验丰富的专业人士一进行模拟工作面试",
+      "rightText": "从行业顶尖专业人士获取面试回馈"
     },
     {
-      "who":"Who We Are",
-      "whoText":"I FLY YOUNG CCE is a nonprofit organization that provides opportunities for students and young professions to develop skills and experience needed to successfully enter the workforce. We are committed to providing access to careers that will empower them with the skills necessary for success in today's world. ",
-      "problem":"The Problem",
-      "proSubTitle":"People are afraid of job interviews",
-      "problemText":"The fear of the unknown is what makes us feel like we're walking on eggshells. We don't know what to expect, which can make it hard to prepare for them in advance. And that means you could easily end up stumbling over your words and looking unprepared when you finally do get called into an interview room. ",
-      "solution":"The Solution",
-      "solSubTitle":"Practice makes perfect",
-      "solutionText":"CCE will help you gain confidence by practicing with experienced professionals who have been through countless job interviews already and can teach you how to deal with any situation that comes your way during a typical interview process. "
+      "who":"关于我们",
+      "whoText":"爱飞扬 沟通与职涯探索 是一个非营利组织，为学生和年轻专业人士提供培养成功进入劳动力市场所需的技能和经验的机会。我们致力于为他们提供职业机会，使他们具备在当今世界取得成功所需的技能。",
+      "problem":"问题",
+      "proSubTitle":"人们害怕工作面试",
+      "problemText":"对未知的恐惧让我们感觉如履薄冰。我们不知道会发生什么，这使得我们很难提前做好准备。这意味着当你最终被叫进面试室时，你很容易结结巴巴，看起来毫无准备。",
+      "solution":"解决方案",
+      "solSubTitle":"熟能生巧",
+      "solutionText":"CCE 将透过与已经经历过无数工作面试的经验丰富的专业人士一起练习来帮助您获得信心，并可以教您如何处理在典型面试过程中遇到的任何情况。"
     },
     {
-      "whyCCE": "Why CCE?",
-      "lt": "Work with industry professional mentors",
-      "ltText": "Get an insider's perspective on what it takes to be successful and get real hands-on training from someone who knows how things really work!",
+      "whyCCE": "为什么选择CCE?",
+      "lt": "与业界专业导师合作",
+      "ltText": "从内部人士的角度了解成功的秘诀，并从有实务经验的业界人学习并得着第一手经验！",
 
-      "md": "Improve your interview skills",
-      "mdText": "Prepare yourself before an interview, learn how to avoid common pitfalls, and ace your next one.",
+      "md": "提升你的面试技巧",
+      "mdText": "在面试前做好准备，了解如何避免常见陷阱，并在下一次面试中取得好成绩。",
 
-      "rt": "Join the CCE community",
-      "rtText": "We believe in an ecosystem of giving and receiving, we want you to be a part of our community where your gifts can bless many and you can also be greatly blessed."
+      "rt": "加入 CCE 社群",
+      "rtText": "我们相信 “凡有给的, 必有给他的”, 这样一个 “有给有得” 的生态系统. 我们邀请您成为我们的一员，在这里您的恩赐可以成为许多人的祝福, 也能大大蒙受祝福。"
     }
   ],
-  "btmText": "Join CCE for job interview practice group sessions and 1:1 sessions",
+  "btmText": "参加 CCE 面试练习小组课程和 1:1 课程",
 
 
 
@@ -115,17 +115,17 @@
 
 
 
-  "internBlueTitle": "Soaring Eagle",
-  "internTitle": "Internship Program for all students & young professionals",
-  "internSubTitle": "Do you want to work on projects valued by the industry and mentored by industry professionals?",
+  "internBlueTitle": "翱鹰计划",
+  "internTitle": "提供给学生和年轻专业人士的实习计划",
+  "internSubTitle": "您是否想参与受业界重视并由业界专业人士指导的专案？",
   "internContents": [
     {
-      "infoOne": "Flying like an eagle",
-      "infoOneDes": "Eagles prefer soaring to flapping. The energy needed to maintain soaring or gliding flight is perhaps a 1/20 or less the power needed for flapping.",
-      "infoTwo": "To Soar, you have to first leave the ground",
-      "infoTwoDes": "You might find it frustrating after flapping so hard and still going nowhere...",
-      "infoThree": "To Soar, you need to know how to leverage air currents",
-      "infoThreeDes": "General advice helps. However, you might benefit from more specific advice related/personalized to your circumstances."
+      "infoOne": "如鹰展翅翱翔",
+      "infoOneDes": "鹰喜欢翱翔而不是扇动翅膀。维持翱翔或滑翔飞行所需的能量大概是拍打翅膀所需能量的 1/20 或更少。",
+      "infoTwo": "要翱翔，你必须先离开地面",
+      "infoTwoDes": "你可能会觉得很沮丧...已经很努力了, 却仍毫无进展",
+      "infoThree": "要翱翔，你需要知道如何利用气流",
+      "infoThreeDes": "虽然一般性的建议会对你有所帮助, 为你个人量身打造的具体建议果效更大。"
     },
     {
       "topFourTitle": "Why do we, I FLY YOUNG CCE, help you leave the ground and learn to soar?",
@@ -135,35 +135,35 @@
       "topFourText4": "We want you to be inspired and continue the culture of giving to those after you"
     },
     {
-      "prog":"Internship Program",
-      "internPurpose":"Internship Program Purpose",
-      "internPurpDes":"\"How did you find your internships?\" \"How did you overcome the catch-22 of needing prior experience, even for your first job?\" These are the most commonly asked questions by frustrated job seekers, and we design the CCE internship program to address this exact problem.",
-      "how":"How to qualify?",
-      "howDes":"We value \"determination\" more than \"experience\". As long as you meet the requirements (see each position for details), can demonstrate the eagerness to learn and commitment to quality deliverables, we will give you a chance.",
-      "internWho":"Who is this for?",
-      "internWhoDes":"Whether you are looking for a first internship, or exploring career options that better fit your talents, you are all welcome to apply.",
-      "timeline": "Timeline",
-      "appOpen": "Application open: 12/17/2022",
-      "period": "Selection Period: 01/08 - 01/14/2023",
-      "offer": "Offer Notification/Doc Signing: 01/15 - 01/20/2023",
-      "durationIntern": "Project Execution (3-6 months): 01/28 - 07/08/2023"
+      "prog":"实习计划",
+      "internPurpose":"实习计划目的",
+      "internPurpDes":"“你是如何找到实习机会的？ ” “你是如何克服即使是第一份工作也需要有工作经验这一困境的？ ” 这些都是沮丧的求职者最常问的问题，我们设计了 CCE 实习计划来解决这个确切的问题。",
+      "how":"如何获得资格？",
+      "howDes":"相较于“经验”，我们更看重“决心”。只要您符合要求（详情请参阅每个职位），能够表现出学习的热情和对高品质交付成果的承诺，我们就会给您一个机会。",
+      "internWho":"适合人群",
+      "internWhoDes":"无论您是在寻找第一个实习机会，还是在探索更适合您才能的职业选择，我们都欢迎您申请。",
+      "timeline": "时间轴",
+      "appOpen": "开放申请: 12/17/2022",
+      "period": "评选期间: 01/08 - 01/14/2023",
+      "offer": "录取通知/文件签署: 01/15 - 01/20/2023",
+      "durationIntern": "专案执行（3-6个月）: 01/28 - 07/08/2023"
     },
     {
-      "eagleTitle": "Soaring Eagle Winter 2022 Focus Areas",
-      "eagleDes": "Here are the focus areas we are accepting applicants for CCE Internship in this coming season. We expect more programs in the future to cover broader areas of expertise.",
-      "catOne": "AWS Cloud Computing Associate Intern",
-      "catOneSub": "Cloud",
-      "catOneDes": "Launch your cloud career with AWS cloud computing associate internship to develop technical skills and domain knowledge through industry-recognized certification and proven learning curriculum, experiment with real-world, on-the-job experience through automated hands-on projects and exposure to a wide variety of cloud career paths and gain invaluable insights into career planning and trajectory from experienced industry leaders. This internship also help you build interview readiness skills, a professional portfolio, and your personal brand to stand out at every step of the hiring process with cloud computing companies. AWS Cloud internship is offered by CCE and is not associated with Amazon.",
-      "catTwo": "Oncology Drug Discovery Intern",
-      "catTwoSub": "Biotech/Pharma",
-      "catTwoDes": "The program is designed for those who are interested in drug R&D in biotech and pharmaceutical industries for their future career. The ideal candidates are current graduate students in biology related majors. This is a good opportunity to learn the basic knowledge of how to identify and discover new therapeutics via in vitro and in vivo validation in a highly matrix cross-functional team before moving into clinical trials."
+      "eagleTitle": "翱鹰 2022 年冬季重点领域",
+      "eagleDes": "以下是我们在即将到来的季节接受 CCE 实习申请者的重点领域。我们期望未来会有更多的专案涵盖更广泛的专业领域。",
+      "catOne": "AWS云端运算助理实习生",
+      "catOneSub": "云端",
+      "catOneDes": "透过 AWS 云端运算助理实习开启您的云端职业生涯，透过业界认可的认证和成熟的学习课程培养技术技能和领域知识，透过自动化实践专案和接触各种云端职业道路来体验真实的在职经验，并从经验丰富的行业领袖那里获得有关职业规划和发展轨迹的宝贵见解。这次实习还可以帮助您建立面试准备技能、专业作品集和个人品牌，以便在云端运算公司的招募过程的每一步中脱颖而出。 AWS 云端实习由 CCE 提供，与亚马逊无关。",
+      "catTwo": "肿瘤药物研发实习生",
+      "catTwoSub": "生物技术/制药",
+      "catTwoDes": "该计画专为那些对未来职业发展有兴趣在生物技术和制药行业进行药物研发的人士而设计。理想的候选人是目前生物学相关专业的研究生。这是一个很好的机会，可以在进入临床试验之前，在高度矩阵跨职能团队中学习如何透过体外和体内验证来识别和发现新疗法的基本知识。"
     },
     {
-      "internWhy": "Why apply?",
-      "internBtm1": "Gain valuable working experience on projects valued by the industries",
-      "internBtm2": "Learn from and mentored by industry professional",
-      "internBtm3": "Join CCE's healthy ecosystem of growing through giving and receiving"
+      "internWhy": "为什么要申请？",
+      "internBtm1": "获得业界重视的专案的宝贵工作经验",
+      "internBtm2": "向行业专业人士学习并接受他们的指导",
+      "internBtm3": "加入 CCE 的健康生态系统，透过给予和接受不断成长"
     }
   ],
-  "internBtmTitle": "Join CCE Internship (Soaring Eagle) programs & launch your career here! "
+  "internBtmTitle": "加入 CCE 实习（翱鹰）计划并在这里开启您的职业生涯！"
 }

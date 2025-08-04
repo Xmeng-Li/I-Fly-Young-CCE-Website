@@ -34,7 +34,7 @@
     },
     {
       "name": "Weixu Meng",
-      "role": "副研究员（科学主任）",
+      "role": "副研究员（科研主任）",
       "image": "/images/mentors/WeixuMeng.png"
     },
     {
@@ -46,13 +46,13 @@
   
   "OfficeTitle": "CCE 职场问答时间",
   "leftTitle": "会议流程",
-  "text": "聆听 CCE 导师的智慧",
+  "text": "聆听职场导师的智慧",
   "detail": [
     {
       "title": "（30分钟）等候神"
     },
     {
-      "title": "（30 分钟）职场问答"
+      "title": "（30分钟）职场问答"
     }
   ],
 
@@ -120,6 +120,14 @@
   },
   "viewMore": "查看更多",
   "recordings": [
+    {
+      "id" : "135",
+      "date": "07/28/2025",
+      "title": "如何处理职场中的竞争关系，如果有人把自己当做假想敌怎么办？",
+      "question": "Q1. 职场中的竞争关系：冲突还是催化剂？Q2. 如何解除不必要的张力？",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250728_竞争关系.mp3"
+    },
     {
       "id" : "134",
       "date": "07/21/2025",
@@ -196,7 +204,7 @@
       "id" : "125",
       "date": "05/12/2025",
       "title": "爱飞扬 沟通与探索 2024-2025焦点小组 访谈2",
-      "question": "Q1.CCE小组焦点是什么？ Q2.CCE焦点小组和教会小组有什么不同？ Q3.参加CCE焦点小组有什么好处？ Q4.CCE小组焦点适合我吗？ （包括：2024-5焦点小组访谈2）",
+      "question": "Q1.CCE小组焦点是什么？ Q2.CCE焦点小组和教会小组有什么不同？ Q3.参加CCE焦点小组有什么好处？ Q4.CCE小组焦点适合我吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"
     },
@@ -235,8 +243,8 @@
     {
       "id" : "120",
       "date": "04/07/2025",
-      "title": "How to face and deal with failure/setback at work",
-      "question": "Q1.How should I see failure/setbacks at work? Q2. What do I gain from failure/frustration at work?",
+      "title": "如何面对和处理工作中的失败/挫折",
+      "question": "Q1. 我应该如何看待工作中的失败/挫折？Q2. 我能从工作中的失败/挫折中得到什么？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250407_面對處理失敗MP3.mp3"
     },
@@ -251,8 +259,8 @@
     {
       "id" : "118",
       "date": "03/24/2025",
-      "title": "Which job is more stable?",
-      "question": "Q1. I am in my 40s and want to change jobs. I want to find a company that is suitable for me and is relatively stable. What should I do?",
+      "title": "哪份工作更稳定？",
+      "question": "Q1. 40多岁的我想换工作, 想找一个适合我, 也比较稳定的公司, 该怎么做? <案例> 从事母婴门市销售十几年，现40多岁的我想换工作，又因养老政策的改革，想找一个，会买养老保险，比较稳定的公司，面临的有三个选择，家纺门市销售，女性日用品销售，生活用品类销售，不知道怎么选择，哪个适合我，也不知道哪个公司比较稳定。",
       "category": "Development",
       "audioUrl": "/audio/CCE20250324_哪一份工作比較穩定MP3.mp3"
     },
@@ -267,24 +275,24 @@
     {
       "id" : "116",
       "date": "03/10/2025",
-      "title": " I work hard but haven't been able to find a suitable job",
-      "question": "Q1. Do I need to change the job/position I am looking for? Q2. What else can I do?",
+      "title": "我很努力，但一直找不到合适的工作",
+      "question": "Q1. 我需要更换我正在寻找的工作/职位吗？Q2. 我还能做什么？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250310_找到合適的工作MP3.mp3"
     },
     {
       "id" : "115",
       "date": "03/03/2025",
-      "title": "How to prepare for a job interview?",
-      "question": "Q1. What preparations should I do before the interview? Are there any special reminders for people at different career stages (newcomers in the workplace, changing employers in the same industry, or changing careers)? Q2. What are the mistakes to avoid and tips to master during interviews?",
+      "title": "如何准备面试？",
+      "question": "Q1. 面试前应该做哪些准备？对于不同职业阶段（职场新人、同行业换雇主、转行）的人，有什么特别的提醒吗？Q2. 面试时应该避免哪些错误，以及应该掌握哪些技巧？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250303_預備工作面試MP3.mp3"
     },
     {
       "id" : "114",
       "date": "02/24/2025",
-      "title": "What should I do about the struggles of career development, starting a family, and caring for my parents?",
-      "question": "My parents are now older and really want me to move back to my hometown. Firstly, to be closer to them and be able to take care of them (although they are currently healthy and can take care of themselves). Secondly, they still hope that I can get married (but this is not the life I want). ",
+      "title": "关于职涯发展, 建立家庭, 照顾父母的挣扎, 我该怎么办?",
+      "question": "父母现在年纪大了，很想我能搬回老家，一是离他们近点儿，能照顾上他们（虽然他们目前都很健康，生活能自理）二是还是希望我能结婚（但这个不是我想要的生活），还有一个原因是我这几年在外地也没赚钱，老家毕竟是个大城市，机会多，所以他们和我说了这个话题。我现在不知道该怎么决定，心里迷惘。我不是想要推卸照顾父母的责任，但目前他们一切都好。而且回来后找什么样的工作，我也没信心。不过我现在做的生意也不是很稳定，包括回来后住哪里。我的挣扎也许在于，这一切不是我想要的生活，但在自己该承担的责任之间，该如何选择？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250224_職涯_家庭_照顧父母MP3.mp3"
     },
@@ -299,32 +307,32 @@
     {
       "id" : "112",
       "date": "02/10/2025",
-      "title": "Meeting patron(s) for your career",
-      "question": "Q1. Is there a so-called patron in the workplace? How do I tell if someone is helping me or taking advantage of me? Q2. Is it reasonable to sign a part-time contract for a part-time job recommended by a friend? Is this too much? ",
+      "title": "遇见职场中的贵人",
+      "question": "Q1. 职场中有所谓的「贵人」吗？如何判断一个人是在帮助我还是在利用我？ Q2. 朋友推荐的兼职，也要签订兼职合同，这是合理的吗，这种要求过分吗？ ",
       "category": "Development",
       "audioUrl": "/audio/CCE20250210_遇見職場中的貴人.mp3"
     },
     {
       "id" : "111",
       "date": "02/03/2025",
-      "title": "Growing Your Network",
-      "question": "Q1. Do I need to expand my network? Why? How to do it? Q2. A lot of unknown people asked to connect with me on my LinkedIn, what should I do with them?",
+      "title": "拓展你的人脉",
+      "question": "Q1. 我需要拓展我的人脉吗？为什么？怎么做？Q2. 很多陌生人在我的领英上要求与我联系，我该如何处理？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250203_人際網絡.mp3"
     },
     {
       "id" : "110",
       "date": "01/27/2025",
-      "title": "How do you know if you are on the right track?",
-      "question": "As you enter your sixth year of work, do you still feel like you are dependent on others? Example Q&A",
+      "title": "怎么知道自己是不是在对的跑道上？",
+      "question": "工作要迈向第六年，感觉还是依附在别人？没法完全独立，独立保险经纪人这工作到底是我擅长的吗？案例问答: Q1: 哪些部分是你无法独立操作的？A1: 仔细想想，其实好像没有哪部份不能独立操作，但是会怕客人问我税务问题（我没有税务背景）我无法回答，再加上经验不够多，会紧张怕表现不好，如何开发自己的市场也是挑战。Q2: 你的主管有何回馈？ (1)哪些方面你超越了他/她的预期？ (2)哪些方面你没有达到他/她的期望？A(1)服务客户细心，做事可靠，会察言观色，主动完成交待任务。A(2)太在意，怕犯错，以至于不敢放手做、想太多，很多事情都会先问他（老板），但老板觉得，有些事我自己决定就好，但我摸不着他的界线。他希望我能制作视频，但是我的产出效能很差，花的时间不成比例。Q3: 你的同事有何回馈？ (1)哪些方面你超越了他/她的预期？ (2)哪些方面你没有达到他/她的期望？A(1) 口调清楚，专业型象佳，亲和力强，讨人喜欢. A(2) 各家保险公司产品细节部份可再加强. Q4: 你自己检视有何发现？ (1)哪些方面你超越了你的预期？ (2)哪些方面不如你的期望？A(1)花很多时间精力在工作上，老板要求的会立即完成，没要求的也会想要怎么去做会更好.A(2)当自己努力没受到肯定或结果不如预期时，硬知识常常记完又忘，很沮丧，虽然信主但还是会内耗，没自信，觉得自己好像处处不如人。老二哲学，相当优秀的副手，却不想当领袖。",
       "category": "Development",
       "audioUrl": "/audio/CCE20250127_是不是在對的跑道.mp3"
     },
     {
       "id" : "109",
       "date": "01/20/2025",
-      "title": "I haven't found a starting point that will allow me to move towards my ideal job. Should I give up?",
-      "question": "Q1. Shall I pursue a film or show director's job? Q2.  Does qualities of my coworker matter? Q3. Shall I keep looking for opportunities to pursue my dream job? Or shall I pick a job that covers my cost of living & paying off debt?",
+      "title": "还没找到一个起步点, 让我向理想的工作迈进, 我该放弃吗?",
+      "question": "Q1. 我喜欢艺术，有一些创作天赋，想做导演或策展人，但这两个职位都需要资源和人脉，如果要进艺术行业或影视行业，我会面临着例如：入行机会少、工作强度大、价值观和工作职责有冲突等问题，对我来说，这是不是一条合乎神心意的道路，如果是，我该怎么逻辑闭合地去行动？有哪些重点是我需要把握的？ Q2. 我在实习时看到了一些人格优秀、学识渊博的同事，我非常欣赏他们，也想成为那样的人，我想如果能留在实习的公司，继续和优秀的人共事，自己或许也会变成这样的人，这种职涯规划的逻辑是正确的吗？ Q3. 目前我还在找全职工作，因为这几年的求学和实习，我累积了一些债务，父亲给我联系了一份工作, 它和我想在一二线城市从事艺术工作的职业规划没有关系，入职时间是年后，如果我在年前，还没找到可以cover 生活成本和债务的工作，就要做一个决定( 参加三四月份的春招, 或回去工作).我想请老师们帮我分析一下这两条路各自的利弊，或者还有别的路可以走，但因为负债，我可能已经在思考上陷入了盲区，我还是希望能做一个有利于长期规划的短期内的决定。",
       "category": "Development",
       "audioUrl": "/audio/CCE20250120_向理想的工作邁進MP3.mp3"
     },
@@ -339,8 +347,8 @@
     {
       "id" : "107",
       "date": "01/06/2025",
-      "title": "Key elements for effective job hunting",
-      "question": "Q1. How to identify a job opportunity which is truly good fit for me? Q2. How to equip myself for new job opportunities? Q3.What specific qualities are evaluated by hiring managers? Q4.How do I handle disappointment?",
+      "title": "有效求职的关键要素",
+      "question": "Q1. 如何识别真正适合我的工作机会？Q2. 如何为新的工作机会做好准备？Q3. 招聘经理会评估哪些具体素质？Q4. 我该如何应对失望？",
       "category": "Development",
       "audioUrl": "/audio/CCE20250106_寻找新工作MP3.mp3"
     },
@@ -348,31 +356,31 @@
       "id" : "106",
       "date": "12/16/2024",
       "title": "怎么面对老板...",
-      "question": "Q1.该不该跟老板谈加薪？怎么谈？Q2.老板布置的不可能完成的任务，该如何面对？",
+      "question": "Q1.该不该跟老板谈加薪？怎么谈？Q2.该如何面对老板布置的不可能完成的任务？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20241216_面對老闆MP3.mp3"
     },
     {
       "id" : "105",
       "date": "12/09/2024",
-      "title": "Seeking first to understand then be understood",
-      "question": "How to deal with the discrepancies between boss's evaluation and self evaluation? How to respond manager's feedback?",
+      "title": "寻求被理解以前, 先竭力去理解",
+      "question": "如何处理老板评价与自我评价的差异？如何回应上司的反馈？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20241209_尋求被理解MP3.mp3"
     },
     {
       "id" : "104",
       "date": "12/02/2024",
-      "title": "Retirement Financial Planning",
-      "question": "Q1: How should I plan and prepare for my financial needs after retirement from work? Q2: My career plan is to continue my current stable job and retire within 5-10 years. But my family feels that our pension planning and savings are not enough, and they want me to accept newer challenges. Do I need to change to a job with better pay?",
+      "title": "退休理财规划",
+      "question": "Q1. 退休后我应该如何规划和准备我的财务需求？Q2. 我的职业规划是继续目前稳定的工作，并在5-10年内退休。但我的家人觉得我们的养老金规划和储蓄不够，他们希望我接受新的挑战。我需要换一份薪水更高的工作吗？",
       "category": "Development",
       "audioUrl": "/audio/CCE20241202_退休財務規劃MP3.mp3"
     }, 
     {
       "id" : "103",
       "date": "11/25/2024",
-      "title": "How to respond to the boss's emotions",
-      "question": "The leader at work is emotionally unstable and often handles problems by swearing and getting angry (without directly telling her what she thinks). Although sometimes I know what she thinks, in this state, I don't want to I can satisfy her requests in this way at any time, because it consumes a lot of my strength to deal with her emotions every time. What should I do? Can I pursue other job opportunities?",
+      "title": "如何应对老板的情绪",
+      "question": "工作中的领导情绪不稳定，经常通过骂脏话和发脾气（不直接告诉她自己的想法）来处理问题。虽然有时我知道她的想法，但在这种状态下，我不想随时以这种方式满足她的要求，因为每次处理她的情绪都会耗费我很多精力。我该怎么办？我可以寻求其他工作机会吗？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20241125_回應領導的情緒MP3.mp3"
     },
@@ -380,446 +388,446 @@
       "id" : "102",
       "date": "11/18/2024",
       "title": "如何带领一个团队",
-      "question": "Q1: 我没有管理职责，应该关注这个问题吗？问题2：作为公司/单位的（初级、中级、高级）管理人员，我应该如何带领我的团队？问题3：作为公司的负责人，我应该如何带领团队？",
+      "question": "Q1: 我没有管理职责，应该关注这个问题吗？Q2：作为公司/单位的（初级、中级、高级）管理人员，我应该如何带领我的团队？Q3：作为公司的负责人，我应该如何带领团队？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20241118_如何帶領團隊MP3.mp3"
     },
     {
       "id" : "101",
       "date": "11/11/2024",
-      "title": "Achieving set goals",
-      "question": "Q1: I often fail to achieve the goals set by my boss or myself. Why? What should I do?",
+      "title": "实现既定目标",
+      "question": "Q1. 我经常无法实现老板或自己设定的目标。为什么？我该怎么办？",
       "category": "Development",
       "audioUrl": "/audio/CCE20241111_達成設定目標MP3.mp3"
     },
     {
       "id" : "100",
       "date": "11/04/2024",
-      "title": "Which path should I continue to develop? A new major? Or the original major?",
-      "question": "Q1: My undergraduate and first master's degrees were in design, and I worked for a while after graduation. Later, my family felt that the IT major was developing well and had many job opportunities, so they suggested that I study for a second master's degree in computer science. Although I graduated successfully, I don't like programming very much. When I was applying for a job, I found that employment was not as good as I imagined. Now I am very confused and hesitate to go all out to find a design-related position?",
+      "title": "我应该继续往哪条路发展？是新的专业？还是原来的专业？",
+      "question": "Q1: 我本科和一硕是设计专业，毕业后工作了一段时间，后来家人觉得IT专业发展好，就业机会多，建议我又读了计算机相关的二硕。虽然顺利毕业了，但自己对编程并不是很喜欢，求职时发现就业也没想象中那么好，现在很迷茫，犹豫要不要全力以赴回去找设计相关的岗位?",
       "category": "Development",
       "audioUrl": "/audio/CCE20241104_朝哪條路發展MP3.mp3"
     },
     {
       "id" : "99",
       "date": "10/28/2024",
-      "title": "How to handle conflicts with colleagues",
-      "question": "Q1: My colleague is very articulate, likes to steal the limelight, and even likes to take credit for everything I do. My boss can’t do anything to him and asks me to be patient. What should I do? Q2: I will compromise in the moment because I am afraid that my colleagues will be angry, but I will feel useless afterwards. What should I do? Q3: I will make a habit of choosing a plan that is more acceptable to my colleagues to avoid conflicts. Is this right? What should I do?",
+      "title": "如何处理与同事的冲突",
+      "question": "Q1：我的同事口齿伶俐，喜欢抢风头，甚至喜欢把我做的事都揽在自己身上，老板拿他没办法，让我忍忍,我该怎么办？Q2：我会因为害怕同事生气而暂时妥协，但事后又会觉得自己很窝囊，我该怎么办？Q3：我会习惯选择同事比较容易接受的方案来避免冲突，这样对吗? 我该怎么办?",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20241028_如何處理和同事間的衝突.mp3"
     },
     {
       "id" : "98",
       "date": "10/21/2024",
-      "title": "How to prepare for and make career adjustments",
-      "question": "Q1: I currently work as an accountant, but I am more talented and interested in beauty and cosmetics. How should I prepare myself and make career adjustments? Q2: I am currently working as a frontline staff member and am only responsible for my own professional projects, but I am interested in taking up a management position. How should I prepare myself and make career adjustments?",
+      "title": "如何预备并进行职涯调整",
+      "question": "Q1: 我现在担任会计工作, 但是我对于美容美妆更有天赋与兴趣, 我该如何预备我自己并进行职涯调整?  Q2: 我现在担任一线工作人员，只负责自己的专业项目，但是我对于担任管理职有兴趣, 我该如何预备我自己并进行职涯调整?",
       "category": "Development",
       "audioUrl": "/audio/CCE20241021_如何預備並進行職涯調整.mp3"
     },
     {
       "id" : "97",
       "date": "10/14/2024",
-      "title": "As the head of a department, what should I do?",
-      "question": "Q1: I am the head of the company's human resources department. One of the company's indicators was not achieved and was attributed to the human resources department. I analyzed the reasons and proposed a solution. To solve the problem, we must reform. The company asked me to produce a data analysis report. I made a complete analysis report, but it was never approved and the problem was never solved. Since I can't solve these problems, the company's senior management has been putting pressure on me. What should I do?",
+      "title": "作为部门主管，我该怎么办？",
+      "question": "Q1. 我是公司人力资源部门的主管。公司一项指标没有完成，责任在人力资源部门。我分析了原因，并提出了解决方案。要解决这个问题，必须改革。公司要求我提交一份数据分析报告。我做了完整的分析报告，但从未被批准，问题也一直没有得到解决。由于我无法解决这些问题，公司高层一直在向我施压。我该怎么办？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20241014_部門的負責人該怎麽辦.mp3"
     },
     {
       "id" : "96",
       "date": "10/07/2024",
-      "title": "How to build a relationship with my boss?",
-      "question": "Q1: I have recently been transferred from an engineer to a project leader, and I am still learning the new role. The new boss has a marketing background, and I cannot feel comfortable communicating with her. How can I build a relationship with my boss?",
+      "title": "如何与老板建立关系？",
+      "question": "Q1. 我最近从工程师调任为项目负责人，仍在学习新的角色。新老板有市场营销背景，我和她沟通不太顺畅。我该如何与老板建立关系？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20241007_建立與老闆的關係.mp3"
     },
     {
       "id" : "95",
       "date": "09/30/2024",
-      "title": "What should I do if I am wronged at work?",
-      "question": "Q1: My colleague's one-sided statement made my boss think it was my fault, what should I do?",
+      "title": "工作中受到委屈怎么办？",
+      "question": "Q1. 同事的片面之词让老板觉得是我的错，我该怎么办？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240930_職場上被冤枉MP3.mp3"
     },
     {
       "id" : "94",
       "date": "09/23/2024",
-      "title": "Interaction with colleagues at work",
-      "question": "Q1: How to help my colleague who holds a negative view on others' intent?",
+      "title": "工作中与同事的互动",
+      "question": "Q1. 如何帮助那些对他人的意图持负面看法的同事？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240923_職場中與人的互動MP3.mp3"
     },
     {
       "id" : "93",
       "date": "09/16/2024",
-      "title": "Seeking Guidance II",
-      "question": "Q1: If I have received God's promise, but they have not been fulfilled, how should we continue to pray or respond? Q2: How Christians can preach the gospel in the workplace?",
+      "title": "寻求引导 2",
+      "question": "Q1. 如果我已经得到神的应许，但尚未成就，我应该如何继续祷告或回应？Q2. 基督徒如何在职场传福音？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240916_尋求引導2MP3.mp3"
     },
     {
       "id" : "92",
       "date": "09/09/2024",
-      "title": "Seeking Guidance I",
-      "question": "Q1: How to seek God’s will in the workplace ? Q2: How can I confirm that what I am doing is from God’s will?",
+      "title": "寻求引导 1",
+      "question": "Q1: 职场中如何寻求神的心意？Q2. 如何确认我所作的事是出于神的心意？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240909_尋求引導MP3.mp3"
     },
     {
       "id" : "91",
       "date": "09/02/2024",
-      "title": "Submit to a boss who is not easy to obey",
-      "question": "The Bible teaches that you must obey your boss, both gentle and perverse.\nQ1: What are the reasons that prevent you from obeying your boss? Q2: How to overcome these obstacles? Q3: If my boss often asks me to do things that are within the scope of his responsibilities, I feel a little unfair and I also feel that my boss has not shouldered the responsibilities he should bear. How to respond? Do you want to obey blindly?",
+      "title": "顺服一个不容易服从的老板",
+      "question": "圣经教导你必须服从你的老板，无论温柔的还是乖僻的。\nQ1: 拦阻顺服老板的原因有哪些？ Q2: 如何克服这些拦阻？ Q3: 如果上司常常要我做他职责范围的事情，我觉得有些不平，也觉得上司没有承担他该承担的责任。该如何回应？要一味的顺服吗？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240902_順服老闆MP3.mp3"
     },
     {
       "id" : "90",
       "date": "08/26/2024",
-      "title": "Managing disobedient subordinates",
-      "question": "Q1: How to manage subordinates who are disobedient and do not follow instructions? Q2: I have reported to my supervisor that I would like to remove the disobedient subordinate from his current position. Is this correct? ",
+      "title": "管理不服从的下属",
+      "question": "Q1：如何管理不服从命令、不听指令的下属？Q2: 我已经和我的主管报告，想将不顺服的下属调离现职，这样的做法对不对? 我刚入职这家公司担任组长，他是下属组员（他入职公司时间较长），我安排他事情都不弄、拖沓，最后不了了之，老是说领导安排了其它事情，要做领导的事情。",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240826_不順服的下屬MP3.mp3"
     },
     {
       "id" : "89",
       "date": "08/19/2024",
-      "title": "Dealing with negative emotions in the workplace",
-      "question": "Q1: Where do negative emotions (anxiety, fear, worry, fear, tension, stress...) come from in the workplace? Q2: How to deal with negative emotions in the workplace?",
+      "title": "如何处理职场中的负面情绪",
+      "question": "Q1：职场中的负面情绪（焦虑、恐惧、担忧、紧张、压力……）从何而来？Q2：如何处理职场中的负面情绪？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240819_職場負面情緒MP3.mp3"
     },
     {
       "id" : "88",
       "date": "08/12/2024",
-      "title": "Career Advancement",
-      "question": "Q1: What is the purpose and meaning of career advancement? Q2: Many people hope to be promoted, which can bring about salary increases, realization of self-worth, and breakthroughs in abilities. But is it too egotistical and selfish to want to be promoted for your own benefit?",
+      "title": "职业晋升",
+      "question": "Q1：职业晋升的目的和意义是什么？Q2：很多人都希望升职，这可以带来加薪、自我价值的实现和能力的突破。但是，为了自身利益而追求升职，是否太过自私自利了？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240812_職場晉升MP3.mp3"
     },
     {
       "id" : "87",
       "date": "08/05/2024",
-      "title": "I Fly Young CCE Focus Group Interview V",
-      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "title": "爱飞扬 沟通与探索 焦点小组 访谈5",
+      "question": "Q1.（学员）您如何得知爱飞扬沟通与探索平台的焦点小组？Q2.（学员）参加这个焦点小组对您最大的影响是什么？Q3.（学员）怎样的人最能因参加这样的焦点小组得益？（您会建议谁参加这样的焦点小组）Q4.（导师）您在学员身上看到的恩赐是什么？Q5.（导师）您会建议参加这些方面持续投资在自己身上吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240805_FocusGroupInterview_Weixu.mp3"
     },
     {
       "id" : "86",
       "date": "07/29/2024",
-      "title": "Prepare yourself for future opportunities in the workplace",
-      "question": "Q1. How to expand the breadth of your exposure within the current scope of responsibilities? Q2. How to prepare yourself so that you can accept the promotion of your responsibilities and roles and take on more and greater responsibilities in the future?",
+      "title": "为未来的职场机遇做好准备",
+      "question": "Q1. 如何在当前职责范围内拓展你的视野？Q2. 如何做好准备，以便在未来接受职责和角色的提升，并承担更多更大的责任？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240729_職場擴張與提升.mp3"
     },
     {
       "id" : "85",
       "date": "07/22/2024",
-      "title": "Questions to ask about work",
-      "question": "Q1: Why work? What is the purpose of work? What is the meaning of work? What is the value of work?",
+      "title": "关于工作的问题",
+      "question": "Q1：为什么要工作？工作的目的是什么？工作的意义是什么？工作的价值是什么？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240722_關於工作的問題MP3.mp3"
     },
     {
       "id" : "84",
       "date": "07/15/2024",
-      "title": "Die to oneself in the workplace",
-      "question": "How to die to oneself in the workplace?",
+      "title": "在职场中向己死",
+      "question": "如何在职场中向己死？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240715_職場中向己死MP3.mp3"
     },
     {
       "id" : "83",
       "date": "07/08/2024",
-      "title": "20240705 Innerlife Conference Marketplace Workshop Q&A",
-      "question": "How to find rest in the busy work?",
+      "title": "20240705 内在生活享宴 职场工作坊 问题回应",
+      "question": "如何在忙碌的工作中得享安息？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240708_忙碌中享安息MP3.mp3"
     },
     {
       "id" : "82",
       "date": "07/01/2024",
-      "title": "I Fly Young CCE Focus Group Interview IV",
-      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "title": "爱飞扬 沟通与探索 焦点小组 访谈4",
+      "question": "Q1.（学员）您如何得知爱飞扬沟通与探索平台的焦点小组？Q2.（学员）参加这个焦点小组对您最大的影响是什么？Q3.（学员）怎样的人最能因参加这样的焦点小组得益？（您会建议谁参加这样的焦点小组）Q4.（导师）您在学员身上看到的恩赐是什么？Q5.（导师）您会建议参加这些方面持续投资在自己身上吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240701_焦點小組訪談4MP3.mp3"
     },
     {
       "id" : "81",
       "date": "06/24/2024",
-      "title": "How to deal with a critical boss? How to become a manager who develops subordinates?",
-      "question": "1.(As an employee) How do you deal with a boss who tends to criticize and judge others? My boss is quite sensitive. Sometimes he will jump to conclusions based on a certain fragment of an event and he is very confident in his judgment. Sometimes I feel wronged or feel judged. How should I deal with it when faced with judgment? 2. (As an employee) In the sharing session on 5/27, I mentioned the trust relationship with the boss. Whether the boss can make others trust him and be willing to communicate requires certain qualities, but my boss is completely opposite to these qualities. The boss feels insecure and distrustful. Sometimes I really don’t want to talk to him much, and he won’t change in a short period of time. How do I respond when I feel disrespected, not listened to, criticized, and the boss is the only one speaking? 3. (As a supervisor) At the 5/27 gathering, it was mentioned that as a supervisor, one often faces a problem, which is dissatisfaction with the work of subordinates. When you are dissatisfied with the work of your subordinates, what are some ways to deal with it that are more likely to help them?",
+      "title": "如何面对批评论断的老板? 如何成为造就下属的主管?",
+      "question": "Q1. (作为员工) 如何面对容易批评论断他人的老板？ 我的老板较敏感，有时候会从一件事情的某个片段快速下结论，且非常自信于自己的判断，有时我会觉得比较冤枉或感受到论断，当面对论断的时候如何面对？Q2. (作为员工) 5/27聚会的分享，当中提到对老板的信任关系，老板是否能让他人产生信任和愿意交流，需要有一些特质，但我的老板完全和这些特质相反，我对老板有不安全感和不信任感，有时的确不想多和老板说话，而老板也不会短时间内改变。当我感到不被尊重、不被倾听、被指责否定，和只有老板单方面说话的时候，该如何回应？Q3. (作为主管) 5/27聚会提到，作为上司，常常会面对一个问题，就是不满意下属的工作，当对下属的工作不满意时，有哪些处理方式，比较能造就到对方？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240624_面對批評論斷的老板MP3.mp3"
     },
     {
       "id" : "80",
       "date": "06/17/2024",
-      "title": "I Fly Young CCE Focus Group Interview III",
-      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group?  Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "title": "爱飞扬 沟通与探索 焦点小组 访谈3",
+      "question": "Q1.（学员）您如何得知爱飞扬沟通与探索平台的焦点小组？Q2.（学员）参加这个焦点小组对您最大的影响是什么？Q3.（学员）怎样的人最能因参加这样的焦点小组得益？（您会建议谁参加这样的焦点小组）Q4.（导师）您在学员身上看到的恩赐是什么？Q5.（导师）您会建议参加这些方面持续投资在自己身上吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240617_焦點小組訪談3MP3.mp3"
     },
     {
       "id" : "79",
       "date": "06/10/2024",
-      "title": "My mission and my goals",
-      "question": "Q1: I prayed and asked God, what is my mission, but I have never quite understood it, so that I do not have a clear goal. What should I do? Q2: What is my mission? How did I know/discover my mission? Q3: What are my goals? How do I set my goals?",
+      "title": "我的使命和我的目标",
+      "question": "Q1: 我祷告求问神, 我的使命是什么，但却一直不大明白，以至于我并有没一个明确的目标, 我该怎么办?  Q2: 我的使命是什么? 我怎么认识/发现了我的使命? Q3: 我的目标是什么? 我是如何订定我的目标?",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240610_使命和目標MP3.mp3"
     },
     {
       "id" : "78",
       "date": "06/03/2024",
-      "title": "Colleagues who sow discord",
-      "question": "Q1: What should you do if you encounter a colleague who likes to gossip ? It has caused discord between the team?",
+      "title": "搬弄是非的同事",
+      "question": "Q1: 如果遇到喜欢讲闲话的同事，该怎么办？这是否造成了团队之间的不和？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240603_搬弄是非的同事MP3.mp3"
     },
     {
       "id" : "77",
       "date": "05/27/2024",
-      "title": "My employees don't initiate conversations with me, why?",
-      "question": "Q1: What kind of people do I like to talk to? Q2: What kind of boss do I like to talk to? Q3: My employees don't initiate conversations with me, why?",
+      "title": "我的员工不主动跟我说话，为什么？",
+      "question": "Q1：我喜欢和什么样的人说话？Q2：我喜欢和什么样的老板说话？Q3：我的员工不主动跟我说话，为什么？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240527_員工不主動和我説話MP3.mp3"
     },
     {
       "id" : "76",
       "date": "05/20/2024",
-      "title": "What if my boss at work is also my authority at church...",
-      "question": "Q1: What are the (expected) benefits? Q2: What are the (expected) challenges? Q3: How should I respond if my boss at work invites me to attend his church?",
+      "title": "如果我工作的上老板也是我所属教会的权柄...",
+      "question": "Q1: (应该)有哪些益处? Q2: (应该)有哪些挑战? Q3: 我工作的上老板邀请我加入他所属的教会,我该如何回应?",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240520_老闆和教會權柄MP3.mp3"
     },
     {
       "id" : "75",
       "date": "05/13/2024",
-      "title": "I Fly Young CCE Focus Group Interview II",
-      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "title": "爱飞扬 沟通与探索 焦点小组 访谈2",
+      "question": "Q1.（学员）您如何得知爱飞扬沟通与探索平台的焦点小组？Q2.（学员）参加这个焦点小组对您最大的影响是什么？Q3.（学员）怎样的人最能因参加这样的焦点小组得益？（您会建议谁参加这样的焦点小组）Q4.（导师）您在学员身上看到的恩赐是什么？Q5.（导师）您会建议参加这些方面持续投资在自己身上吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240513_焦點小組訪談2 MP3.mp3"
     },
     {
       "id" : "74",
       "date": "05/06/2024",
-      "title": "I Fly Young CCE Focus Group Interview I",
-      "question": "Q1: How do you learn about the I Fly Young CCE Focus Goup? Q2: What's the biggest impact to you as result of attending the CCE focus group? Q3: Who might benefit the most from attending the CCE focus group? (aka who would you recommend to sign up for CCE focus group) Q4: What are the talents you see in the mentee? Q5: How do you recommend the mentee to keep investing in himself/herself?",
+      "title": "爱飞扬 沟通与探索 焦点小组 访谈1",
+      "question": "Q1.（学员）您如何得知爱飞扬沟通与探索平台的焦点小组？Q2.（学员）参加这个焦点小组对您最大的影响是什么？Q3.（学员）怎样的人最能因参加这样的焦点小组得益？（您会建议谁参加这样的焦点小组）Q4.（导师）您在学员身上看到的恩赐是什么？Q5.（导师）您会建议参加这些方面持续投资在自己身上吗？",
       "category": "Focus",
       "audioUrl": "/audio/CCE20240506_焦點小組訪談1MP3.mp3"
     },
     {
       "id" : "73",
       "date": "04/29/2024",
-      "title": "Looking for jobs II",
-      "question": "Q1: The mentality you should have when looking for a job. Q2: What you should work on to land a job",
+      "title": "找工作 2",
+      "question": "Q1：找工作该有的心态 Q2：找工作，该做的准备",
       "category": "Development",
       "audioUrl": "/audio/CCE20240429_找工作2MP3.mp3"
     },
     {
       "id" : "72",
       "date": "04/22/2024",
-      "title": "Challenging Work Environment",
-      "question": "Q1. The company requires intensive overtime work from time to time, how should I deal with it? Q2. Due to workplace bullying, I was forced to resign. How can I prepare myself for my next job and avoid encountering the same work environment?",
+      "title": "充满挑战的工作环境",
+      "question": "Q1：公司不时要求我高强度加班，我该如何应对？Q2：由于职场欺凌，我被迫辞职，我该如何为下一份工作做好准备，避免再次遭遇同样的工作环境？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240422_挑戰的工作環境.mp3"
     },
     {
       "id" : "71",
       "date": "04/15/2024",
-      "title": "Looking for jobs I",
-      "question": "Q1: I have been out of work for more than 1 year. How can I find the next job? Q2: I was recently laid off. How should I prepare myself to land the next job?",
+      "title": "找工作 1",
+      "question": "Q1：我已经失业一年多了。我该如何找到下一份工作？Q2：我最近被裁员了, 我应该如何预备自己，找到下一份工作？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240415_找工作MP3.mp3"
     },
     {
       "id" : "70",
       "date": "04/08/2024",
-      "title": "Performance at Work",
-      "question": "Q1: What to do if my performance at work is not as expected? Q2: Should Christians have better performance at work?",
+      "title": "工作绩效",
+      "question": "Q1：如果我的工作表现不如预期，该怎么办？Q2：基督徒应该在工作中表现得更好吗？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240408_工作績效MP3.mp3"
     },
     {
       "id" : "69",
       "date": "04/01/2024",
-      "title": "Am I suitable to be a supervisor? What kind of supervisor?",
-      "question": "Q1. What's the difference between a Technical Leader and a Team/People manager? Q2. Am I suitable to be a supervisor? What kind of supervisor?",
+      "title": "我适合做主管吗？适合做哪种主管？",
+      "question": "Q1. 技术主管和部门/人事经理有什么区别？Q2. 我适合做主管吗？适合做哪种主管？",
       "category": "Development",
       "audioUrl": "/audio/CCE20240401_擔任主管MP3.mp3"
     },
     {
       "id" : "68",
       "date": "03/25/2024",
-      "title": "Work overtime and Obedience",
-      "question": "Q1: My boss keeps asking me to work overtime (which is not part of my job). Do I need to obey him all the time? Q2: How to communicate wisely with my boss?",
+      "title": "加班与顺服",
+      "question": "Q1：老板总是要求我加班（属于我的本职工作），我需要一直服从他吗？Q2：如何与老板进行明智的沟通？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240325加班與順服.mp3"
     },
     {
       "id" : "67",
       "date": "03/18/2024",
-      "title": "How to deal with small groups in the company?",
-      "question": "Q1: Why are there small groups in the company? Q2: Shall I participate at these small group(s)?",
+      "title": "如何面对公司内的小团体？",
+      "question": "Q1: 公司内为什么会有小团体? Q2: 我该参与公司的小团体吗? ",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240318公司内的小團體.mp3"
     },
     {
       "id" : "66",
       "date": "03/11/2024",
-      "title": "Management: Leading loners or subject matter expert(s)",
-      "question": "Q1: How to lead a team (or person) who has no less, or even more subject matter expertise than me? Q2: How to lead/help a loner, or a person who has strong opinions?",
+      "title": "管理: 带领专业知识丰富或者「独行侠」类型的同事",
+      "question": "Q1. 如何带领、或者帮助专业知识与我不相上下、甚至超越我的个人或团队？ Q2. 如何带领、帮助很有主见、或者「独行侠」类型的个人？ ",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240311_管理MP3.mp3"
     },
     {
       "id" : "65",
       "date": "03/04/2024",
-      "title": "Dealing with colleague(s) having animosity against me",
-      "question": "Q1: I can feel one colleague's clear animosity against me, and I constantly run into challenges communicating with him. What are the possible reasons? Q2: How should I adjust myself, or what actions could I take, so I can get the task going?",
+      "title": "如何回应对我怀有敌意的同事",
+      "question": "Q1. 明显感觉组里某位同事对我怀有敌意，我与他沟通常碰钉子, 可能的原因是什么？Q2. 我该如何调整自己、或采取什么行动，以便让工作顺利进行？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240304_懷有敵意的同事MP3.mp3"
     },
     {
       "id" : "64",
       "date": "02/26/2024",
-      "title": "An assignment that is beyond my expertise",
-      "question": "Q1. My boss give me an assignment that is not beyond my expertise. It really stressed me out. What is my boss thinking? Q2. Shall I accept such assignment? What should I consider? How should I respond?",
+      "title": "上司交办我不熟悉领域的项目",
+      "question": "Q1. 上司交给我一项任务，任务不是我所熟悉的领域，让我觉得困难重重, 压力很大，我的上司到底在想什么？ Q2. 我是否要接受这个任务，我该考虑什么？该如何回应？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240226_上司交辦我不熟悉領域的項目.mp3"
     },
     {
       "id" : "63",
       "date": "02/19/2024",
-      "title": "Working with (overconfident, talkative) people",
-      "question": "Q1: How to work with or react to someone that is overly confident? Q2: How to conduct effective communication with talkative people (who tends to share excessive amount of information or dominate the conversation)?",
+      "title": "与(过度自信 或 喜欢长篇大论的)人共事",
+      "question": "Q1: 如何回应过度自信的人, 或与这样的人共事? Q2: 如何与喜欢长篇大论(分享过多资讯、喋喋不休)的人有效沟通?",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240219_與過度自信喜歡長篇大論的人共事.mp3"
     },
     {
       "id" : "62",
       "date": "02/05/2024",
-      "title": "Should I care about everything that my boss cares about?",
-      "question": "Q1. Should I be close to the coworker who has tension with my boss? Q2. Should I care about everything that my boss cares abour? Or what should I care about?",
+      "title": "所有老板在乎(关心)的, 我都需要在乎(关心)吗?",
+      "question": "Q1. 如果同事和老板之间存在某些张力，我适合和这位同事走得太近吗? Q2. 所有老板在乎(关心)的事中, 我都需要在乎(关心)吗? 哪些我需要在乎(关心)? ",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240205_關心老闆在乎的哪些事.mp3"
     },
     {
       "id" : "61",
       "date": "01/29/2024",
-      "title": "How to be with my boss",
-      "question": "Q1: Can I treat my boss as my friend? Q2: What's the boundary when dealing with my boss?",
+      "title": "如何与我的老板相处",
+      "question": "Q1：我可以把老板当朋友吗？Q2：与老板相处的界限是什么？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240129_與老闆相處.mp3"
     },
     {
       "id" : "60",
       "date": "01/22/2024",
-      "title": "Favor at Workplace",
-      "question": "Q1: What is favor? What favor have I received at workplace?  Q2: Shall I seek favor? How to seek favor at workplace?",
+      "title": "职场恩宠",
+      "question": "Q1：什么是恩宠？我在职场上得到过什么恩宠？Q2：我应该寻求恩宠吗？如何在职场上寻求恩宠？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20240122_職場恩寵.mp3"
     },
     {
       "id" : "59",
       "date": "01/15/2024",
-      "title": "Managing employee's expectations on task assignments",
-      "question": "Q1: One of my team members are selective about his task assignment. He likes certain task assignments that are beneficial to his performance or growth, and shows discontents for other assignments (that might not look that shiny). What can I do?   Q2: Among all task assignments from my manager, I like those assignments that can help my performance or growth. Can I share my preferences? If so, how?",
+      "title": "管理员工对任务分配的期望",
+      "question": "Q1：我的一位团队成员对任务分配很挑剔。他喜欢某些对他的绩效或成长有益的任务，而对其他任务（可能看起来不那么光鲜）则表示不满，我该怎么办？Q2：在经理分配的所有任务中，我喜欢那些能帮助我提高绩效或成长的任务，我可以表达我的偏好吗？该如何表达？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20240115_對工作内容的期待MP3.mp3"
     },
     {
       "id" : "58",
       "date": "01/08/2024",
-      "title": "How to manage expectations from colleagues",
-      "question": "Q1: My colleague(s) would share his(her) negative opinions about our boss and other colleagues. What can I do? Q2: My colleague, who referred me to my current employer and also a sister in Christ, expects me to give her heads up for all company business I am involved. She is not my supervisor. What can I do?",
+      "title": "如何处理同事的期望",
+      "question": "Q1: 我的同事会和我分享他(她)对公司老板和其他同事的负面看法，但我不同意，我可以做什么? Q2: 介绍我进公司的同事(也是主内家人) 期待我在公司的业务上凡事要先知会她。她并不是我的主管，我该怎么办?",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20240108_職場服事MP3.mp3"
     },
     {
       "id" : "57",
       "date": "12/18/2023",
-      "title": "Serving at Marketplace",
-      "question": "Q1: What is serving at marketplace? Q2: What are the challenges of serving at marketplace? What are the tips? What to avoid?",
+      "title": "职场服事",
+      "question": "Q1: 什么是职场服事? Q2: 职场服事的挑战是什么? 有什么诀窍? 有什么应当避免的?",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231218_職場服事MP3.mp3"
     },
     {
       "id" : "56",
       "date": "12/11/2023",
-      "title": "Breakthrough",
-      "question": "Q1. What breakthrough do I expect to see at workplace? Q2. What are the barriers for breakthrough at workplace? What are the tips?",
+      "title": "突破",
+      "question": "Q1. 我期望在职场上看到什么突破？Q2. 职场上突破的障碍是什么？有什么秘诀？",
       "category": "Development",
       "audioUrl": "/audio/CCE20231211_突破MP3.mp3"
     },
     {
       "id" : "55",
       "date": "12/04/2023",
-      "title": "Interpersonal Relationship and Communication at workplace",
-      "question": "Q1. Do I have healthy interpersonal relationship at workplace? Q2. What are the principles/tips for interpersonal relationship and communication at workplace? What are the taboos that you should avoid?",
+      "title": "职场人际关系与沟通",
+      "question": "Q1. 我的职场人际关系健康吗？Q2. 职场人际关系与沟通的原则/技巧是什么？有哪些禁忌？",
       "category": "Development",
       "audioUrl": "/audio/CCE20231204_職場人際關係MP3.mp3"
     },
     {
       "id" : "54",
       "date": "11/27/2023",
-      "title": "Thanksgiving",
-      "question": "Q1: What/Who am I most thankful for in my career journey? Q2: What am I most thankful for my boss/colleague/subordinate? How have I expressed my appreciation?",
+      "title": "感恩",
+      "question": "Q1：在我的职业生涯中，我最感谢什么/谁？Q2：我最感谢我的老板/同事/下属的什么？我是如何表达我的感谢的？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231127_職場感恩MP3.mp3"
     },
     {
       "id" : "53",
       "date": "11/20/2023",
-      "title": "How to respond in the workplace?",
-      "question": "Q1: How shall I respond when I feel hurt in the workplace? Q2: How shall I perceive and respond when I was impacted by other's sins at workplace? Q3: How shall I perceive and respond when I was impacted by other's sins at a Christian based workplace?",
+      "title": "如何在职场中回应?",
+      "question": "Q1: 职场中被人伤害，该如何回应? Q2: 在职场中被他人的罪所影响时，如何面对和回应职场中他人的罪? Q3: 在基督徒群体的职场中被他人的罪所影响时，如何面对和回应？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231120_面對人的罪MP3.mp3"
     },
     {
       "id" : "52",
       "date": "11/13/2023",
-      "title": "Find balance between work, family, and faith",
-      "question": "Q1: How do marketplace professionals find a balance between work, family and the time to seek spiritual growth/spend time with God? Q2: What are the special challenges for career women to find such a balance? What can be done?",
+      "title": "在工作、家庭和信仰之间找到平衡",
+      "question": "Q1：职场人士如何在工作、家庭和寻求灵命成长/与神相处的时间之间找到平衡？Q2：职业女性在寻找这种平衡时面临哪些特殊挑战？可以做些什么？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231113_平衡工作家庭和屬靈追求MP3.mp3"
     },
     {
       "id" : "51",
       "date": "11/06/2023",
-      "title": "Live out love",
-      "question": "Q1: Is it possible to live out Love at workplace? There is no right or wrong in family training, but in the company, we need to focus on positive results and conduct assessments. Although we can all use love and tolerance, it still feels a bit difficult to practice. We often favor one over the other and cannot achieve a balance. Do the teachers and speakers have any good testimonies or experiences to share?Q2: Why do we want to live out love at workplace?",
+      "title": "活出爱",
+      "question": "Q1: 爱在职场行得通吗? 家里操练不讲对错，但公司里讲究积效，要做考核，虽然都可以用爱包含，但操练起来还是感觉有些难度，往往厚此薄彼，做不到平衡。请问老师讲员们有没有好的见证或经验可以分享？ Q2: 为什么要将爱行在职场？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231106_將愛行在職場MP3.mp3"
     },
     {
       "id" : "50",
       "date": "10/30/2023",
-      "title": "Work, Faith, and Life",
-      "question": "Q1: I feel like I was living a double life: I live one life in my church and services during the weekend, and another life at my work Monday through Friday. What should I do? Q2:  I had a really comfortable work/life balance before my promotion. Now I felt a lot of stress at my work and started to wonder if I should have sought promotion in the first place. What did I miss? What can I do?",
+      "title": "工作、信仰与生活",
+      "question": "Q1：我感觉自己过着双重生活：周末在教堂参加礼拜，过着一种生活；周一到周五在工作，过着另一种生活。我该怎么办？Q2：升职前，我的工作和生活平衡得很好。现在，我感到工作压力很大，开始怀疑自己当初是否应该争取升职。我做错了什么？我该怎么办？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231030_工作_信仰與生活MP3.mp3"
     },
     {
       "id" : "49",
       "date": "10/23/2023",
-      "title": "How to handle changes in the workplace",
-      "question": "Q1: There is constant reorg in my company, what should I do? Q2: My company is starting to layoff, what should I do? Q3: My boss is leaving, and there are expected changes in the organization and my work, what should I do?",
+      "title": "如何应对职场变化",
+      "question": "Q1：公司不断重组，我该怎么办？Q2：公司开始裁员，我该怎么办？Q3：老板要离职了，公司和我的工作预计都会有变动，我该怎么办？",
       "category": "Development",
       "audioUrl": "/audio/CCE20231023_處理職場上的變動MP3.mp3"
     },
     {
       "id" : "48",
       "date": "10/16/2023",
-      "title": "Relationships and conflicts in the workplace",
-      "question": "Q1: What should I do when facing challenges in interpersonal relationships at work? Q2: My values at work are different from those of my colleagues and leaders, and I cannot fit into any team. What should I do?",
+      "title": "职场人际关系与冲突",
+      "question": "Q1：工作中人际关系遇到挑战时，我该怎么办？Q2：我的工作价值观与同事、领导的价值观不同，我无法融入任何团队，我该怎么办？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20231016_人際關係與價值觀MP3.mp3"
     },
     {
       "id" : "47",
       "date": "10/09/2023",
-      "title": "How to handle failures in the workplace",
+      "title": "如何处理职场上的挫败?",
       "question": "",
       "category": "Development",
       "audioUrl": "/audio/CCE20231009_職場上的挫敗MP3.mp3"
@@ -827,55 +835,55 @@
     {
       "id" : "46",
       "date": "10/02/2023",
-      "title": "Denying oneself",
-      "question": "Is 'self-denial' applicable in the workplace? How to apply it?",
+      "title": "舍己",
+      "question": "“舍己”在职场上适用吗? 如何应用?",
       "category": "Faith",
       "audioUrl": "/audio/CCE20231002_捨己MP3.mp3"
     },
     {
       "id" : "45",
       "date": "09/25/2023",
-      "title": "Talents and expertise",
-      "question": "Q1. What is the difference between talent and expertise? What is my talent? What is my expertise? Q2. How can I use/develop my talent/expertise in my family/workplace/service?",
+      "title": "天赋与专长",
+      "question": "Q1. 天赋和专长有什么区别？我的天赋是什么？我的专长是什么？Q2. 我如何在家庭/工作场所/服事领域运用/发展我的天赋/专长？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230925_天賦與專長MP3.mp3"
     },
     {
       "id" : "44",
       "date": "09/18/2023",
-      "title": "My boss doesn’t help; a good manager",
-      "question": "Q1: What should I do if I have a problem and my supervisor is unwilling to help me solve it? Q2: What qualities does a good manager need to have, and how can I cultivate these qualities at work?",
+      "title": "我的老板不帮忙；一个好的管理者",
+      "question": "Q1：如果我遇到问题，而我的主管不愿意帮我解决，我该怎么办？Q2：一个好的管理者需要具备哪些品质？我该如何在工作中培养这些品质？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230918_管理者的素質MP3.mp3"
     },
     {
       "id" : "43",
       "date": "09/11/2023",
-      "title": "Communicating with people of strong personality",
-      "question": "Q1. What are the characteristics of a strong person? Q2. How should I communicate with a strong colleague or boss?",
+      "title": "与强势的人沟通",
+      "question": "Q1. 一个较为强势的人会有哪些表现？ Q2. 我该如何与强势的同事或上司沟通？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20230911_與強勢的人溝通MP3.mp3"
     },
     {
       "id" : "42",
       "date": "08/28/2023",
-      "title": "Good qualities",
-      "question": "Q1. What good qualities do influential people have in the workplace? Q2. How can I cultivate these good qualities in my life?",
+      "title": "优秀品质",
+      "question": "Q1. 职场上有影响力的人有哪些优秀品质？Q2. 我该如何在生活中培养这些优秀品质？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230828_培養影響力的特質MP3.mp3"
     },
     {
       "id" : "41",
       "date": "08/21/2023",
-      "title": "Increase influence",
-      "question": "Q1. How can I improve my influence in my workplace? Q2. How can I make my faith have an impact in the workplace?",
+      "title": "提升影响力",
+      "question": "Q1. 如何提升自己在职场的影响力？Q2. 如何让我的信仰在职场中发挥影响力？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230821_信仰與影響力MP3.mp3"
     },
     {
       "id" : "40",
       "date": "08/14/2023",
-      "title": "Which role suits me the best: Individual Contributor, Tech Lead, Manager?",
+      "title": "最适合我的角色是什么？一线员工？技术主管？经理？",
       "question": "",
       "category": "Development",
       "audioUrl": "/audio/CCE20230814_角色MP3.mp3"
@@ -883,95 +891,95 @@
     {
       "id" : "39",
       "date": "08/07/2023",
-      "title": "Unfair bosses and proper communication",
-      "question": "Q1: Character: Obedience: If you feel that your boss is unfair, how should you obey him? Q2: Communication: If your work results and performance do not satisfy your superiors, how should you face and respond?",
+      "title": "不公平的老板与正确的沟通",
+      "question": "Q1：如果你觉得你的老板不公平，你应该如何服从他？Q2：沟通：如果你的工作成果和绩效不能让你的上司满意，你应该如何面对和应对？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230807_品格_溝通MP3.mp3"
     },
     {
       "id" : "38",
       "date": "07/31/2023",
-      "title": "Balancing faith, failure, and new beginnings",
-      "question": "Q1: I agree that faith should be lived in the workplace, but the fact is that I am so overwhelmed by work that I have no ability to consider faith issues. How can I break through? Q2: The real estate design industry is becoming increasingly sluggish. I am almost 40 years old and still a front-line worker. I have no direction for the future and I don’t know where to go if I change industries. Now I am just muddling through. What should I do? Q3: As an ordinary employee, sometimes I fail to achieve the goals that my superiors ask me to do. I feel like a failure, but I am powerless. What should I do?",
+      "title": "平衡信仰、失败和新起点",
+      "question": "Q1: 我认同信仰要活在职场中，但是事实是我被工作压榨到没有能力考虑信仰问题，如何突破? Q2: 从事地产设计行业越发不景气，年龄快40岁仍然是一线工作人员，对未来没有方向，换行业不知道方向。现在只是在混日子。我该怎么办? Q3: 身为普通员工，有时完不成上级让你做的目标，感觉很失败，而又无能为力, 我该怎么办?",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230731_無力感_失敗感MP3.mp3"
     },
     {
       "id" : "37",
       "date": "07/24/2023",
-      "title": "Colleagues, Boss, and Boundary",
-      "question": "Q1: Should I help my coworkers on personal matters that are not work related? What are the boundaries? Q2: Should I help my boss on personal matters that are not work related? What are the boundaries? Q3: I have been helping my boss on personal matters (not work related) for a while, but I don’t want to do it anymore. What should I do?",
+      "title": "同事、老板和界限",
+      "question": "Q1：我应该在与工作无关的私人事务上帮助同事吗？界限是什么？Q2：我应该在与工作无关的私人事务上帮助老板吗？界限是什么？Q3：我已经在私人事务（与工作无关）上帮助老板一段时间了，但我不想再这样做了。我该怎么办？",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20230724私人事務_同事_老闆和界限MP3.mp3"
     },
     {
       "id" : "36",
       "date": "07/17/2023",
-      "title": "Opportunities, challenges, and boundaries in workplace with Christians",
-      "question": "We are colleagues and brother/sisters in Christ. As a colleague at the same level, am I suitable to listen to my colleagues' doubts and tensions at work and help them? How can I grasp this relationship of being both a brother/sister in Christ and a colleague at work? What is the boundary?",
+      "title": "基督徒在职场中的机遇、挑战和界限",
+      "question": "我们是同事，也是主内弟兄姐妹，作为同级别的同事，我是否适合倾听同事在工作中的疑虑和压力并帮助他们？我该如何把握这种既是主内弟兄姐妹又是工作中的同事的关系？界限在哪里？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230717_基督徒同事MP3.mp3"
     },
     {
       "id" : "35",
       "date": "07/10/2023",
-      "title": "Complaint",
-      "question": "Q1. Why do we complain about our work? Q2. Is there anything we can do?",
+      "title": "抱怨",
+      "question": "Q1. 我们为何会对工作有抱怨？ Q2. 我们能做些什么吗？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230710_抱怨MP3.mp3"
     },
     {
       "id" : "34",
       "date": "07/03/2023",
-      "title": "To do or not to do",
-      "question": "Q1. Should I accept the opportunity to tutor? Q2. Opportunities and boundaries",
+      "title": "做还是不做",
+      "question": "Q1. 我应该接受家教的机会吗？Q2. 机会与界限",   
       "category": "Development",
       "audioUrl": "/audio/CCE20230703_1做还是不做2机会与界限.mp3"
     },
     {
       "id" : "33",
       "date": "06/12/2023",
-      "title": "Asking questions",
-      "question": "Q1. Does your boss ask difficult questions? What are those questions? How can you best answer them? Q2. What are the important questions to ask (my boss/coworkers/myself?) at work?",
+      "title": "提问",
+      "question": "Q1. 你的老板会问一些难以回答的问题吗？这些问题是什么？你该如何更好地回答这些问题？Q2. 在工作中，哪些重要问题值得问（我的老板/同事/我自己）？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230612_提問mp3.mp3"
     },
     {
       "id" : "32",
       "date": "06/05/2023",
-      "title": "All about opportunities",
-      "question": "We all need opportunities, and many people are looking for opportunities: 1. What is an opportunity? 2. How to find an opportunity? 3. What good opportunities are there for me?",
+      "title": "关于机会",
+      "question": "我们都需要机会，许多人都在寻找机会：1. 机会是什么？2. 如何寻找机会？3.我看见了什么好机会？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230605_尋找機會mp3.mp3"
     },
     {
       "id" : "31",
       "date": "05/29/2023",
-      "title": "How to prepare for your next job?",
-      "question": "Q1. What is your next job? Q2. How do you prepare for your next job?",
+      "title": "如何为下一份工作做准备？",
+      "question": "Q1. 你的下一份工作是什么？Q2. 如何为下一份工作做准备？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230529_1下一個工作2做準備mp3.mp3"
     },
     {
       "id" : "30",
       "date": "05/15/2023",
-      "title": "How to handle my high expectations and be a peacemaker at work?",
-      "question": "Q1. I have a strong sense of responsibility and high expectations for my work. Therefore, I am willing to stay up late to ensure the quality of my work. Is this a problem? Is there anything else I should consider or do? Q2. How can I be a good peacemaker among my colleagues (in the workplace)?",
+      "title": "如何在工作中应对我的高期望并成为和事佬？",
+      "question": "Q1：我对工作有很强的责任感和很高的期望。因此，我愿意熬夜以确保工作质量。这有问题吗？我还应该考虑或做些什么吗？Q2：我如何在同事之间（在工作场所）成为和事佬？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230515_1責任感與高期望2和平之子mp3.mp3"
     },
     {
       "id" : "29",
       "date": "05/08/2023",
-      "title": "Stress at work",
-      "question": "What’s the main source of stress at work? How can I deal with it?",
+      "title": "工作压力",
+      "question": "工作压力主要来自哪儿？我该如何应对？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230508_壓力的來源與應對.mp3"
     },
     {
       "id" : "28",
       "date": "04/24/2023",
-      "title": "How my faith can positively impact my work?",
+      "title": "我的信仰如何对我的工作产生积极影响？",
       "question": "",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230424_信仰在職場上的幫助.mp3"
@@ -979,31 +987,31 @@
     {
       "id" : "27",
       "date": "04/17/2023",
-      "title": "How to bless a difficult boss",
-      "question": "Q1. How to bless an unlovable boss? Last time I shared that bitterness is a factor that hinders blessing bosses, and the torrent of time is in God's hands. If a Christian boss reveals his own pride, has big mood swings, is often angry, has a strong personality, is prone to criticizing and judging others, and often feels disrespected, judged, and misunderstood in the process of getting along with him, how can I not be bitter and bless my boss better? Can you share more details on how to overcome your bitterness and these negative feelings and continue to love an unlovable person? Q2. How to be a (easily) lovable boss? Q3. Should the debts owed from normal operations be recovered? How to recover them in accordance with God's will? The desire to collect debts is very urgent. Doesn't it glorify God?",
+      "title": "如何祝福不可爱(不容易爱)的老板?",
+      "question": "Q1.如何祝福不可爱(不容易爱)的老板? 上次分享到苦毒是拦阻祝福老板的因素，时间的洪流在神的手中。请问如果一个基督徒老板流露出自身的骄傲，情绪波动大，常带着怒气，个性很强势，容易批评论断别人，在相处过程中常常感受到不被尊重和被论断与误解的时候，如何不产生苦毒更好的祝福老板？请问在这一块上能否有更详细的分享如何胜过自己的苦毒和这些消极的感受而去继续爱一个不可爱的人？Q2.如何做一個可(容易)爱的老板？Q3.正常经营的欠款是否要追回？怎么追回才是符合神心意？追债的心很迫切，是不是不荣耀神了？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230417_祝福不容易愛的老板_應收賬款.mp3"
     },
     {
       "id" : "26",
       "date": "04/10/2023",
-      "title": "Blessing your boss VS. Following your boss",
-      "question": "Q1. Please explain the 'want to be ahead of the boss, but work behind the boss' mentioned on 3/27. Can you give an actual example? Q2. Same as above, if you find a problem in a certain business, can you raise it to the boss? Or make directional suggestions? Q3. In the workplace, how to set the sales price and profit ratio is in God's will? Q4. Is there any difference between 'blessing the boss' and 'obeying the boss' in the workplace? Does this view apply to the authority of the church?",
+      "title": "祝福你的雇主 VS. 追随你的雇主",
+      "question": "Q1. 请解释一下3/27提到的 “想在老板前面，做在老板后面”，能否举一个实际案例？ Q2.同上, 如果在某一项业务中，发现了存在的问题，可否向老板提出？ 或者提出方向性建议？ Q3.职场中，销售价格与利润比例怎么设定是在 神的心意中？ Q4.职场上“祝福老板” 和 “顺服老板” 有什么不同吗？这样的观点适用于教会的权柄吗?",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230410_銷售價格_祝福老闆和順服老闆的不同.mp3"
     },
     {
       "id" : "25",
       "date": "04/03/2023",
-      "title": "My boss doesn't value or listen to me, what should I do?",
-      "question": "My boss doesn't value my opinions. 1. He never asks for my opinions before making decisions. What should I do? 2. He asks for my opinions but still insists on his own way of doing things. What should I do?",
+      "title": "我的老板不重视我，也不听我的意见，我该怎么办？",
+      "question": "我的老板不重视我的意见。1. 他做决定之前从不征求我的意见。我该怎么办？2. 他征求我的意见，但仍然坚持自己的做事方式。我该怎么办？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230403_我的老闆不重視我的意見.mp3"
     },
     {
       "id" : "24",
       "date": "03/27/2023",
-      "title": "What do I want, what do I need, and how do I get what I need from my boss?",
+      "title": "我想要什么，我需要什么，以及如何从我的老板那里得到我需要的东西？",
       "question": "",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230327_從我的老闆得到什麽.mp3"
@@ -1011,23 +1019,23 @@
     {
       "id" : "23",
       "date": "03/20/2023",
-      "title": "Stress and Happiness at work",
-      "question": "Q1. My work makes me very stressed, what should I do? Q2. What is the secret to being happy at work?",
+      "title": "工作中的压力与快乐",
+      "question": "Q1. 我的工作让我压力很大，我该怎么办？Q2. 保持工作快乐的秘诀是什么？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230320_喜樂抗壓_r1.mp3"
     },
     {
       "id" : "22",
       "date": "03/13/2023",
-      "title": "Interacting with Christians at work",
-      "question": "Q1. All my colleagues are Christians. They come from different churches and some from the same church. How do I deal with the sinfulness of other Christian colleagues at work and the conflicts and tensions between them? (For example, pride, competition, laziness, small groups, flattering the powerful and bullying the weak, inconsistency between what I say and what I do, inconsistent interpretation of the truth, etc.)",
+      "title": "与基督徒同事相处",
+      "question": "Q1. 同事全部是基督徒，大家来自不同的教会，也有来自相同的教会，如何面对工作中其他基督徒同事的罪性和彼此间的冲突和张力？（例如骄傲，争竞，懒惰，小团体，捧高踩低，所说的和所行的不一致，对真理的解读不一致等）。",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20230313_同事是基督徒_r1.mp3"
     },
     {
       "id" : "21",
       "date": "03/06/2023",
-      "title": "How to prepare myself for the generative-AI world to come?",
+      "title": "如何为即将到来的生成式人工智能世界做好准备？",
       "question": "",
       "category": "Development",
       "audioUrl": "/audio/CCE20230306_在“生成式人工智能”時代預備自己_r1.mp3"
@@ -1035,47 +1043,47 @@
     {
       "id" : "20",
       "date": "02/27/2023",
-      "title": "Do I shine in the workplace?",
-      "question": "Q1. Am I shining in the workplace? How do I shine? Why can I shine? Q2. What (attitude, cognition, mentality, habit, or other) may limit God's blessing on me? Or the blessing that could have flown through me to others?",
+      "title": "我在职场上发光吗？",
+      "question": "Q1. 我在职场上发光吗？我是如何发光的？为什么我能发光？ Q2.回顾一下，究竟是什么 (态度,认知, 心态, 习惯, 或其他) 可能限制了神在我身上的祝福？ 或是要透过我流到别人身上的祝福？",
       "category": "Faith",
       "audioUrl": "/audio/CCE20230227_1發光2是什麽攔阻了祝福_r1.mp3"
     },
     {
       "id" : "19",
       "date": "02/21/2023",
-      "title": "I have no passion for my work right now, what should I do?",
-      "question": "Q1. I have no passion for my current job, what should I do? Q2. My boss doesn’t like me, what should I do? Q3. I am afraid to talk to my boss and always try to keep a distance from him. Is this right? What should I do? 4. If I have no passion for my job or my boss doesn’t like me, can I still wish my boss well?",
+      "title": "我现在对工作没有热情，该怎么办？",
+      "question": "Q1：我对目前的工作没有热情，该怎么办？Q2：我的老板不喜欢我，该怎么办？Q3：我害怕和老板说话，总是试图和他保持距离，这样对吗？我该怎么办？Q4：如果我对工作没有热情，或者老板不喜欢我，我还能祝福老板吗？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230221_1沒有熱情2老闆不喜歡我3祝福老闆_r1.mp3"
     },
     {
       "id" : "18",
       "date": "01/16/2023",
-      "title": "Should I help? What are some good habits and bad habits?",
-      "question": "Q1. Someone asked me for a favor, should I help? Q2. At the start of a new year, let us reflect on what good habits in the workplace to keep? What bad habits to adjust and be rid of?",
+      "title": "我应该帮忙吗？有哪些好习惯和坏习惯？",
+      "question": "Q1. 有人请我帮忙，我应该帮忙吗？Q2. 新年伊始，让我们思想一下，在职场上有哪些好习惯需要保持？哪些坏习惯需要调整和改掉？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230116_1有人請托2調整習慣1.mp3"
     },
     {
       "id" : "17",
       "date": "01/09/2023",
-      "title": "How to have positive impact in the workplace",
-      "question": "Amid economic turmoil and the pandemic, how can we have a positive impact in the workplace?",
+      "title": "如何在职场上发挥积极作用",
+      "question": "在经济动荡和疫情期间，我们如何才能在职场上发挥积极作用？",
       "category": "Development",
       "audioUrl": "/audio/CCE20230109_正面影響力.mp3"
     },
     {
       "id" : "16",
       "date": "12/12/2022",
-      "title": "What to do in a recession, or when I am laid off?",
-      "question": "Q1.The economy is bad, what should I do? Q2. I was laid off, what should I do?",
+      "title": "经济衰退或被解雇时该怎么办？",
+      "question": "Q1. 经济不景气，我该怎么办？Q2. 我被解雇了，我该怎么办？",
       "category": "Development",
       "audioUrl": "/audio/CCE20221212_經濟不景氣_被裁員.mp3"
     },
     {
       "id" : "15",
       "date": "12/05/2022",
-      "title": "My boss is not satisfied with my work",
+      "title": "我的老板对我的工作不满意",
       "question": "",
       "category": "Boss",
       "audioUrl": "/audio/CCE20221205_老闆對我的工作不滿意.mp3"
@@ -1083,15 +1091,15 @@
     {
       "id" : "14",
       "date": "11/28/2022",
-      "title": "Ability VS. Interest",
-      "question": "1.Seven Mountains 2. Dialogue between Abilities and Interests",
+      "title": "能力 VS 兴趣",
+      "question": "1.七山 2.能力与兴趣的对话",
       "category": "Development",
       "audioUrl": "/audio/CCE20221128_1七山2興趣和能力的對談.mp3"
     },
     {
       "id" : "13",
       "date": "10/24/2022",
-      "title": "Good habits in the workplace",
+      "title": "职场上的好习惯",
       "question": "",
       "category": "Development",
       "audioUrl": "/audio/CCE20221024_工作的好習慣.mp3"
@@ -1099,15 +1107,15 @@
     {
       "id" : "12",
       "date": "10/17/2022",
-      "title": "(Re) building trust between you and your boss?",
-      "question": "Q1. How to build trust with your boss? Q2. How to rebuild trust with your boss?",
+      "title": "（重新）建立你和老板之间的信任？",
+      "question": "Q1. 如何与你的老板建立信任？Q2. 如何重建与你的老板之间的信任？",
       "category": "Boss",
       "audioUrl": "/audio/CCE20221017_建立和老闆之間的信任.mp3"
     },
     {
       "id" : "11",
       "date": "10/10/2022",
-      "title": "How to become a blessing to bosses and employers?",
+      "title": "如何做一个理想的员工，成为公司和老板的祝福？",
       "question": "",
       "category": "Faith",
       "audioUrl": "/audio/CCE20221010_理想的員工.mp3"
@@ -1115,7 +1123,7 @@
     {
       "id" : "10",
       "date": "10/03/2022",
-      "title": "How Christians bless coworkers, bosses and employers",
+      "title": "基督徒如何在职场成为同事、主管、公司的祝福？",
       "question": "",
       "category": "Faith",
       "audioUrl": "/audio/CCE20221003_成為公司的祝福.mp3"
@@ -1123,7 +1131,7 @@
     {
       "id" : "9",
       "date": "09/26/2022",
-      "title": "Time management: principles and tips",
+      "title": "时间管理的原则和技巧",
       "question": "",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220926_時間管理的概念和技巧.mp3"
@@ -1131,23 +1139,23 @@
     {
       "id" : "8",
       "date": "09/12/2022",
-      "title": "Is it time to change direction?",
-      "question": "Q1.Is it time to change my career path? Q2. Passion and direction in my career Q3. Do you like it? Is it important?",
+      "title": "是时候改变方向了吗？",
+      "question": "Q1. 是时候改变职业道路了吗？Q2. 工作的热情和方向 Q3. 喜不喜欢？重不重要？",
       "category": "Development",
       "audioUrl": "/audio/CCE20220912_1換跑道2熱情與方向3喜歡和重要.mp3"
     },
     {
       "id" : "7",
       "date": "09/05/2022",
-      "title": "Talent discovery journey V",
-      "question": "1. Discovering talents 2. Seeing favor at work 3. Highlight moments in the workplace",
+      "title": "发现恩赐 5",
+      "question": "1.天赋的发掘 2.职场上得恩宠 3.职场高光时刻",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220905_突破思考的限制1天賦2恩寵3高光時刻.mp3"
     },
     {
       "id" : "6",
       "date": "08/29/2022",
-      "title": "Breaking through the limits of thoughts",
+      "title": "突破思维的局限",
       "question": "",
       "category": "Development",
       "audioUrl": "/audio/CCE20220829_突破思考的限制.mp3"
@@ -1155,48 +1163,48 @@
     {
       "id" : "5",
       "date": "08/22/2022",
-      "title": "Talent discovery journey IV",
-      "question": "1. Gift 2. Ability to ask questions 3. Learn new skills",
+      "title": "发现恩赐 4",
+      "question": "1.恩赐 2.问问题的能力 3.学新技能",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220822_1恩賜2問問題的能力3學新技能.mp3"
     },
     {
       "id" : "4",
       "date": "08/15/2022",
-      "title": "Talent discovery journey III",
-      "question": "1. Gift 2. Medical aesthetics sales 3. Asking right questions",
+      "title": "发现恩赐 3",
+      "question": "1.恩赐 2.医美销售 3.问对问题",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220815_1恩賜2醫美銷售3問對問題.mp3"
     },
     {
       "id" : "3",
       "date": "08/08/2022",
-      "title": "Talent discovery journey II",
-      "question": "1. Gift 2. Resignation 3. Bad words 4. Performance evaluation",
+      "title": "发现恩赐 2",
+      "question": "1.恩赐 2.离职 3.说坏话 4.工作评等",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220808_1恩賜2離職3說壞話4工作評等.mp3"
     },
     {
       "id": "2",
       "date": "08/01/2022",
-      "title": "Talent discovery journey I",
-      "question": "1. Discovering gifts 2. Time management",
+      "title": "发现恩赐 1",
+      "question": "1. 发现恩赐 2. 时间管理",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220801_1發現恩賜2時間管理.mp3"
     },
     {
       "id": "1",
       "date": "07/25/2022",
-      "title": "Starting and transitioning",
-      "question": "1. About establishing workplace fellowship. 2. Entrepreneurship and job transition.",
+      "title": "创业与转型",
+      "question": "1. 关于建立职场友谊 2. 创业与职业转型",
       "category": "Development",
       "audioUrl": "/audio/CCE20220725_1建立职场团契2創業和工作轉換.mp3"
     },
     {
       "id": "00",
       "date": "07/11/2022",
-      "title": "Asking right questions",
-      "question": "Seeking guidance at work (changing jobs? careers? or attitudes?)",
+      "title": "问对的问题",
+      "question": "寻求工作上的的带领（换工作？换跑道？换态度?)",
       "category": "Faith",
       "audioUrl": "/audio/CCE20220711_尋求工作上的的帶領.mp3"
     }

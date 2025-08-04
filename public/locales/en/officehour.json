@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "135",
+      "date": "07/28/2025",
+      "title": "How should you deal with workplace competition, especially when someone treats you as a rival or imaginary opponent?",
+      "question": "Q1. Workplace Competition: Conflict or Catalyst? Q2. How can I disarm unnecessary tension?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250728_竞争关系.mp3"
+    },
+    {
       "id" : "134",
       "date": "07/21/2025",
       "title": "How to overcome fear and speak with confidence in large professional meetings? ",
@@ -196,7 +204,7 @@
       "id" : "125",
       "date": "05/12/2025",
       "title": "I Fly Young CCE 2024-2025 Focus Group Interview 2",
-      "question": "Q1.What is CCE Focus Goup? Q2.How is CCE Focus Group different from church small groups? Q3.What are the benefits of attending CCE Focus Group? Q4.Is CCE Focus Goup for me? (Including: 2024-5 Focus Group Interview 2)",
+      "question": "Q1.What is CCE Focus Goup? Q2.How is CCE Focus Group different from church small groups? Q3.What are the benefits of attending CCE Focus Group? Q4.Is CCE Focus Goup for me?",
       "category": "Focus",
       "audioUrl": "/audio/CCE20250512_焦點小組20250509TMP3.mp3"
     },
@@ -843,7 +851,7 @@
     {
       "id" : "44",
       "date": "09/18/2023",
-      "title": "My boss doesn’t help; a good manager",
+      "title": "My boss doesn’t help; A good manager",
       "question": "Q1: What should I do if I have a problem and my supervisor is unwilling to help me solve it? Q2: What qualities does a good manager need to have, and how can I cultivate these qualities at work?",
       "category": "Boss",
       "audioUrl": "/audio/CCE20230918_管理者的素質MP3.mp3"
