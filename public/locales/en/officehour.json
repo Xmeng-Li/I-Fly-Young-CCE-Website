@@ -121,6 +121,22 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "137",
+      "date": "08/11/2025",
+      "title": "The right mindset, expectations and the best approach to find a job",
+      "question": "Q1. Why can't I find a job I like? What's wrong with my job search? How can I adjust? Q2. I have four expectations for my ideal job: 1) The work is what I like and am good at; 2) The salary is enough for me to live a normal life in the local area; 3) A work environment that is equal, respectful, inclusive and friendly; 4) Jobs with room for career development. Are these reasonable? If not, how can I adjust them? ",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250811_找工作的心態期待MP3.mp3"
+    },
+    {
+      "id" : "136",
+      "date": "08/04/2025",
+      "title": "How to motivate team without control over rewards?",
+      "question": "Q1. What are the intrisic motivators at workplace? Q2. How can we help employees develop a sense of ownership?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20250804_调动员工积极性.mp3"
+    },
+    {
       "id" : "135",
       "date": "07/28/2025",
       "title": "How should you deal with workplace competition, especially when someone treats you as a rival or imaginary opponent?",

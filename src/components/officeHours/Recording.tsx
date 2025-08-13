@@ -32,6 +32,28 @@ type RecordingState = {
 class recording extends Component<RecordingProp, RecordingState> {
   selectRef = React.createRef<HTMLSelectElement>();
 
+  // GA play handler
+  private onAnyAudioPlay = (ev: Event) => {
+  const el = ev.target as HTMLAudioElement;
+  if (!el || el.tagName !== "AUDIO") return;
+
+  const src = el.currentSrc || el.src || "";
+  const file = decodeURIComponent(
+    (src.split("/").pop() || "").split("?")[0]
+  );
+  const isLocalhost =
+    typeof window !== "undefined" && window.location.hostname === "localhost";
+
+  if ((window as any).gtag) {
+    (window as any).gtag("event", "recording_play", {
+      recording_id: file, 
+      audio_url: decodeURIComponent(src),
+      dev_mode: isLocalhost
+    });
+  }
+};
+
+
   componentDidMount() {
     // Handle body color
     document.body.style.backgroundColor = "#F0F8FF";
@@ -52,10 +74,15 @@ class recording extends Component<RecordingProp, RecordingState> {
     if (play) {
       this.showPlayerById(play);
     }
+
+    // track audio play on this page
+    document.addEventListener("play", this.onAnyAudioPlay, true);
   }
   
   componentWillUnmount() {
     document.body.style.backgroundColor = "";
+
+    document.removeEventListener("play", this.onAnyAudioPlay, true);
   }
 
   getFilteredRecordings = (): Recording[] => {
