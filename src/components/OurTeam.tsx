@@ -6,8 +6,8 @@ import Footer from "./Footer";
 import "../styles/ourteam.css";
 import linkedInLogo from "../../src/linkedin-logo.png";
 import partner1 from "../components/@Cloud-logo.png";
-import partner2 from "../components/Center of Navigating Life Logo.png";
-import partner3 from "../components/CTW Logo.png";
+import partner2 from "../components/center-of-navigating-life-logo.png";
+import partner3 from "../components/CTW-Logo.png";
 
 type Mentor = {
   name: string;
@@ -16,12 +16,21 @@ type Mentor = {
   image: string;
   linkedIn: string;
 };
+type TechTeam = {
+  name: string;
+  role: string;
+  bio: string;
+  image: string;
+  linkedIn: string;
+};
+
 
 const OurTeam = () => {
 
   const { t } = useTranslation("team");
   const mentor: Mentor[] = t("mentors", { ns: "team", returnObjects: true });
   const [clickedMentor, setClickedMentor] = useState<Mentor | null>(null);
+  const techTeam: TechTeam[] = t("techTeam", { ns: "team", returnObjects: true });
 
   // Handle Popup
   const handleMentorPopup = (mentor: Mentor) => {
@@ -73,6 +82,19 @@ const OurTeam = () => {
           <label className="team-section-label">{t("pageTitle")}</label>
           <div className="mentor-container">
             {mentor.map((mentors, index) => (
+              <div key={index} 
+              className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
+                <img src={mentors.image} alt={mentors.name} className="mentor-image" />
+                <div className="mentors">
+                  <h4 className="mentor-name">{mentors.name}</h4>
+                  <p className="mentor-role">{mentors.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <label className="team-section-label">{t("techTeamTitle")}</label>
+          <div className="techTeam-container">
+            {techTeam.map((mentors, index) => (
               <div key={index} 
               className="mentor-card" onClick={() => handleMentorPopup(mentors)}>
                 <img src={mentors.image} alt={mentors.name} className="mentor-image" />

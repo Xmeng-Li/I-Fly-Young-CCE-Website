@@ -1,6 +1,7 @@
 {
   "pageBanner": "關於我們",
   "pageTitle": "認識我們的導師",
+  "techTeamTitle": "CCE 技術團隊",
 
 
   "homeWho": "我們是誰",
@@ -191,7 +192,9 @@
       "bio": "Tevin Tseng 20 多年來一直致力於推進 NAND 快閃記憶體技術。作為全球設計團隊的領導者，他推動尖端記憶體解決方案的開發和生產，為公司的收入成長做出了重大貢獻。",
       "image": "/images/mentors/TevinTseng.png",
       "linkedIn": "https://www.linkedin.com/in/tai-yuan-tseng-96a607a9/"
-    },
+    }
+  ],
+  "techTeam": [
     {
       "name": "Dan He",
       "role": "高級使用者體驗研究員",
@@ -208,11 +211,11 @@
     {
       "name": "Emma Li",
       "role": "網頁開發者和平面設計師",
-      "bio": "Emma 獲得了美術和電腦與資訊科技雙碩士學位。她擁有5年以上的平面設計經驗, 將創造力與技術專業知識相結合, 專門從事數位和印刷品設計。",
+      "bio": "Emma 獲得了美術和電腦與資訊科技雙碩士學位。她擁有5年以上的平面設計經驗, 將創造力與技術專業知識相結合, 專門從事數位、印刷設計和網頁開發。",
       "image": "/images/mentors/EmmaLi.png",
       "linkedIn": "https://www.linkedin.com/in/emma-x-l-44ba9a1a9/?trk=opento_sprofile_details"
     }
-  ],
+  ], 
 
   "partnerTitle": "合作頁面",
   "partner1": "雲端職場福音中心",

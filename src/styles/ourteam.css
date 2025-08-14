@@ -15,7 +15,7 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 32px;
   margin-bottom: 40px;
 }
 .home-three {
@@ -78,9 +78,18 @@
   width: 100%;
   padding: 60px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-content: center;
+  justify-items: center;
   gap: 60px;
-  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.techTeam-container {
+  font-family: "Noto Sans";
+  display: grid;
+  width: 100%;
+  padding: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 60px;
 }
 .mentor-card {
   display: flex;
@@ -246,11 +255,12 @@
   width: 100%;
   padding: 10px 0px 60px 0px;
   gap: 40px;
+  margin-top: 10px;
 }
 .partner-title {
   color: var(--Blue-700, #0E426C);
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; 
@@ -360,8 +370,8 @@
     padding: 20px 12px;
     gap: 12px;
   }
-
-  .mentor-container {
+  .mentor-container,
+  .techTeam-container {
     width: 100%;
     padding: 20px;
     gap: 20px;
@@ -444,12 +454,11 @@
   }
   .team-page-title {
     font-size: 24px; 
-    line-height: 30px;
+    line-height: 28px;
   }
   .team-section-label {
     font-size: 24px;
     line-height: 24px; 
-    margin-bottom: 20px;
   }
   .home-three {
     width: 100%;
@@ -482,7 +491,8 @@
     line-height: 28px; 
   }
 
-  .mentor-container {
+  .mentor-container,
+  .techTeam-container {
     width: 100%;
     padding: 20px;
     gap: 20px;
@@ -554,7 +564,7 @@
     gap: 20px;
   }
   .partner-title {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px; 
   }
   .partners {
@@ -604,7 +614,7 @@
   .team-section-label {
     font-size: 24px;
     line-height: 24px; 
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .home-three {
     width: 100%;
@@ -636,8 +646,8 @@
     font-size: 18px;
     line-height: 28px; 
   }
-
-  .mentor-container {
+  .mentor-container,
+  .techTeam-container {
     width: 100%;
     padding: 20px;
     gap: 20px;
@@ -709,7 +719,7 @@
     gap: 20px;
   }
   .partner-title {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px; 
   }
   .partners {
@@ -758,6 +768,7 @@
   .team-section-label {
     font-size: 20px;
     line-height: 24px; 
+    margin-bottom: 0px;
   }
   .home-three {
     width: 100%;
@@ -775,7 +786,8 @@
     height: 250px;
     padding: 12px;
   }
-  .mentor-container {
+  .mentor-container,
+  .techTeam-container {
     width: 325px;
     padding: 20px;
     gap: 20px;
@@ -790,6 +802,10 @@
   }
   .mentor-info {
     margin-bottom: 5px;
+  }
+  .partner-title {
+    font-size: 20px; 
+    line-height: 24px;
   }
   .each-partner {
     display: flex;
@@ -832,7 +848,8 @@
     font-size: 16px;
     line-height: 22px; 
   }
-  .mentor-container {
+  .mentor-container,
+  .techTeam-container {
     width: 270px;
     padding: 20px;
     gap: 20px;
