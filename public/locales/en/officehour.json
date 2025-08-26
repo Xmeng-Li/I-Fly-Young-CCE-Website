@@ -121,6 +121,22 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "139",
+      "date": "08/25/2025",
+      "title": "I behave like two completely different people at work and off work",
+      "question": "Q1. At work, I'm as alert and assertive as a fighter jet entering a battlefield, defending myself from my colleagues. But in real life, I'm relaxed and vulnerable. It's like two completely different people. Why? How can I achieve a balance? Q2. Are my work and life attitudes and habits the same? Do I bring my attitudes and habits from life into work, or do I bring my attitudes and habits from work into life?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20250825_工作與生活判若兩人MP3.mp3"
+    },
+    {
+      "id" : "138",
+      "date": "08/18/2025",
+      "title": "How do you make important decisions in your career and life?",
+      "question": "Q1. What to consider when making important decisions in your career and life? Q2. Should I abandon the thesis I've been working on for four years in graduate school? Or should I pursue a technician certification instead? Q3. I plan to get married next year and then write a thesis or obtain a relevant work license. How can I achieve a balance?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250818_職涯生活的重大決定MP3.mp3"
+    },
+    {
       "id" : "137",
       "date": "08/11/2025",
       "title": "The right mindset, expectations and the best approach to find a job",

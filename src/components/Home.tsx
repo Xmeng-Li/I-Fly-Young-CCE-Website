@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom'; 
+import axios from 'axios';
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/home.css";
@@ -37,6 +38,23 @@ const Home = () => {
       </g>
     </svg>
   );
+
+  // handle email subscription
+  const[email,setEmail] =  useState("");
+  
+  const handleSubscribe = async () => {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      alert('Please enter a valid email.\n请输入有效邮箱');
+      return;
+    }
+    try {
+      await axios.post('/api/subscribe', { email });
+      alert('Thank you! Your email has been submitted.\n谢谢！您的邮箱已提交');
+      setEmail('');
+    } catch (error) {
+      alert('There was an error. Please try again later.\n出现错误，请稍后重试。');
+    }
+  };
 
   return (
     <div>
@@ -94,13 +112,24 @@ const Home = () => {
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle1")}</div>
                 <div className="home-two-text">{t("joinDes1")}</div>
-                {/* <input className="home-email-input" type="text" />
-                <button className="home-join-btn">{t("joinBtn1")}</button> */}
-                <button className="home-join-btn">
-                  <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
-                    {t("joinBtn1")}
-                  </a>
-                </button>
+                <div className="home-email-containter">
+                  <input 
+                    className="home-email-input" 
+                    type="email" 
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  <button className="home-submit-btn"
+                      onClick={handleSubscribe}>
+                      {t("submitBtn")}
+                  </button>
+
+                  {/* <button className="home-join-btn">
+                    <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
+                      {t("joinBtn1")}
+                    </a>
+                  </button> */}
+                </div>
               </div>
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle2")}</div>
