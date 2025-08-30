@@ -1,4 +1,1 @@
-In the project directory:
-
-npm install
-npm run dev
+I Fly Young CCE (Communication and Career Exploration)
