@@ -1,0 +1,132 @@
+{
+  "pageBanner": "职场人士专访",
+  "bannerText": "不知道需要什么？也许是快速阅读!",
+  "pageTitle": "文章",
+  "pageText": "从我们的大学生专访团队进行的访谈中获得宝贵的见解。",
+
+  "filter": "筛选",
+
+  "sort": "排序",
+  "timeSort" : {
+    "recent" : "最近",
+    "oldest" : "最早"
+  },
+  "year": "年份",
+  "years": "所有年份",
+  
+  "readMore": "阅读更多",
+  "articles": [
+    {
+      "image": "/images/chronicles/notebook.jpg",
+      "title": "每个人都不一样",
+      "date": "08/29/2022",
+      "description": "每个人都有不同的方法、个性、关注点和担忧。",
+      "link" : "/everyone-is-different"
+    },
+    {
+      "image": "/images/chronicles/bridge.jpg",
+      "title": "继续问吧",
+      "date": "06/24/2022",
+      "description": "只要你问一下，你就会对你得到的答案感到惊讶。",
+      "link" : "/go-ahead-and-ask"
+    },
+    {
+      "image": "/images/chronicles/hold_flower.jpg",
+      "title": "如果你想失败，那就早点失败",
+      "date": "04/08/2022",
+      "description": "如果我们需要转向其他解决方案，那就这样吧。如果你不承担风险，你也就无法创新。",
+      "link" : "/fail-early"
+    },
+    {
+      "image": "/images/chronicles/caps.jpg",
+      "title": "提醒自己最初的动机",
+      "date": "01/14/2022",
+      "description": "无论未来遇到多少挑战，你都可以提醒自己——你最初的动力。",
+      "link" : "/remind-yourself"
+    },
+    {
+      "image": "/images/chronicles/sunset.jpg",
+      "title": "成为最强的人",
+      "date": "11/26/2021",
+      "description": "当你赋予他人权力并允许他们赋予你权力时，你就会成为最强大的人。",
+      "link" : "/strongest-person"
+    },
+    {
+      "image": "/images/chronicles/sitting_man.jpg",
+      "title": "沟通是关键",
+      "date": "09/17/2021",
+      "description": "教育对于学习技术要点是必要的，但软技能对于您的成功至关重要。",
+      "link" : "/communication-is-key"
+    },
+    {
+      "image": "/images/chronicles/flowers.jpg",
+      "title": "认证有帮助",
+      "date": "08/13/2021",
+      "description": "认证有助于获得具体的技能，也有助于获得第一份或第二份工作。",
+      "link" : "/certification-helps"
+    },
+    {
+      "image": "/images/chronicles/happy.jpg",
+      "title": "最大的幸福",
+      "date": "05/27/2021",
+      "description": "当你以一种你从未想过的方式帮助别人时。",
+      "link" : "/biggest-happiness"
+    },
+    {
+      "image": "/images/chronicles/paperAirplane.jpg",
+      "title": "做你喜欢的事",
+      "date": "04/16/2021",
+      "description": "随着职业生涯的延长，薪水不再是主要的动力，而是真正的成就感。",
+      "link" : "/do-something-you-like"
+    },
+    {
+      "image": "/images/chronicles/sticky_notes.jpg",
+      "title": "你能做到",
+      "date": "03/12/2021",
+      "description": "有时，我们的生活中需要有那么一个人告诉我们，你可以做到，并鼓励我们。",
+      "link" : "/you-can-do-this"
+    },
+    {
+      "image": "/images/chronicles/psychology.jpg",
+      "title": "心理学是我的使命",
+      "date": "02/19/2021",
+      "description": "心理学仍然是一门受欢迎的课程，可以帮助学生更多地了解自己以及如何变得更快乐。",
+      "link" : "/psychology"
+    },
+    {
+      "image": "/images/chronicles/people.jpg",
+      "title": "实习是机会",
+      "date": "01/30/2021",
+      "description": "先接触实际课程并进行实践学习，然后才能决定这是否是您想要做的事情。",
+      "link" : "/internships-are-opp"
+    },
+    {
+      "image": "/images/chronicles/mountain.jpg",
+      "title": "探索现实世界",
+      "date": "01/15/2021",
+      "description": "努力学习，打下扎实的知识基础，养成良好的学习习惯。规律的锻炼也很重要。",
+      "link" : "/explore-real-world"
+    },
+    {
+      "image": "/images/chronicles/technology.jpg",
+      "title": "好的技术是为了帮助人们",
+      "date": "12/25/2020",
+      "description": "我们不仅需要了解这项技术，还需要了解这项技术如何对我们的潜在客户有用。",
+      "link" : "/good-tech"
+    },
+    {
+      "image": "/images/chronicles/typing_lady.jpg",
+      "title": "持续的接触引领我们走向正确的方向",
+      "date": "11/20/2020",
+      "description": "“我很高兴，不断接触研究的灵感帮助我克服了疑虑并为我指明了前进的方向。”",
+      "link" : "/const-exposure"
+    },
+    {
+      "image": "/images/chronicles/macbook.jpg",
+      "title": "STEM 学生 ≠ “书呆子”",
+      "date": "10/30/2020",
+      "description": "人生真的很难预测。你只需要追随你的热情，成为最好的自己，当机会来临时，做好准备。",
+      "link" : "/stem-not-nerds"
+    }
+  ]
+}

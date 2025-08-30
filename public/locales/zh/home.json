@@ -1,0 +1,99 @@
+{
+  "homeBannerTop": "愛飛揚",
+  "homeBanner": "溝通與職涯探索",
+  "homeBannerSub": "歡迎!",
+  "homeTopText": "一個專爲職涯需要建立的平臺",
+  
+  "category": [
+    {
+      "image": "/images/home/home1.jpg",
+      "title": "每週問答時間",
+      "description": "一群來自不同領域, 經驗豐富的職場導師, 藉由每週30分鐘的專題討論, 幫助您學習克服工作場所挑戰的實用技巧，並學習如何成為老闆、同事和公司/組織的祝福。你也可以事先電郵提交您的問題，在每週問答時間獲得寶貴的解答。",
+      "link" : "/office-hours"
+    },
+    {
+      "image": "/images/home/home2.jpg",
+      "title": "焦點小組",
+      "description": "加入由導師引導的討論小組，您將學習如何問對的問題, 發現自己的恩賜, 處理職場上的壓力與人際關係，並進一步成爲公司、老闆和同事的祝福。",
+      "link" : "/focus-group"
+    },
+    {
+      "image": "/images/home/home3.jpg",
+      "title": "佳美之地計劃",
+      "description": "裝備有負擔服事職場需要的基督徒, 幫助你建立能力與信心, 使用愛飛揚溝通與職涯探索平臺 (I FLY YOUNG CCE)豐富的資源, 成為身邊有職場需要者隨時的祝福。需參加過 一年 (或2季) 以上的焦點小組才可以報名。",
+      "link" : "/beautiful-land-initiative"
+    },
+    {
+      "image": "/images/home/home4.jpg",
+      "title": "CCE課程",
+      "description": "該課程專為 8-12 年級的學生設計，教授 12 項改變人生的能力 - 包括準確傾聽、提出深思熟慮的問題和應對失敗 - 這些能力既有助於申請大學準備，也有助於長期的職涯發展。",
+      "link" : "/cce-class"
+    },
+    {
+      "image": "/images/home/home5.jpg",
+      "title": "CCE網路研討會",
+      "description": "歡迎參加我們的線上講座，內容包括新項目發佈、職涯探索（醫療、投資銀行、金融科技、建築、交易產業等）以及更多精彩主題...",
+      "link" : "/webinar"
+    },
+    {
+      "image": "/images/home/home6.jpg",
+      "title": "關於我們",
+      "description": "這是一個相信 “有給必然有得” 使命的團隊。更多認識我們的成員...",
+      "link" : "/our-team"
+    },
+    {
+      "image": "/images/home/home7.jpg",
+      "title": "職場人士專訪",
+      "description": "透過由我們大學生團隊精心進行的專訪，深入了解來自行業專家的職涯洞見。",
+      "link" : "/chronicle"
+    },
+    {
+      "image": "/images/home/home8.jpg",
+      "title": "面試培訓 (鷹翼計劃)",
+      "description": "建立在高壓求職面試中脫穎而出所需的能力與信心。",
+      "link" : "/interview"
+    },
+    {
+      "image": "/images/home/home9.jpg",
+      "title": "實習（翱鷹計劃）",
+      "description": "在經驗豐富的專業人士的指導下，透過執行業界重視的專案獲得實務經驗。",
+      "link" : "/intern"
+    }
+  ],
+  "homeLearnMore": "了解更多",
+  "viewMoreSub": "您已查看9個項目中的6個",
+  "viewMoreSubExpand": "您已查看9個項目中的9個",
+  "homeViewMore": "查看更多",
+  "homeViewLess": "查看更少",
+
+  
+  "homeJoin": "加入我們!",
+  "joinTitle1": "請隨時通知我!",
+  "joinDes1": "輸入您的電子郵件以接收有關我們活動的最新消息!",
+  "joinBtn1": "加入電子郵件群",
+  "submitBtn": "提交",
+  "joinTitle2": "我想幫忙！",
+  "joinDes2": "無論您的技能或經驗如何，您都可以透過 CCE 社群對這個社會產生持久的影響！",
+  "joinBtn2": "成爲義工",
+
+
+  "homeBtmTitle": "不知道從哪裡開始？",
+  "aboutMe" : "我是",
+  "role1": "高中生",
+  "role2": "大學生",
+  "role3": "家長",
+  "role4": "年輕人/專業人士!",
+  "role5": "年輕人/專業人士!",
+  "otherResource": "更多資訊",
+  "zh": "[中文內容]",
+  "en": "[英文內容]",
+  
+  "class": "CCE課程",
+  "chronicle": "職場人士專訪",
+  "officeHr": "每週問答時間",
+  "group": "焦點小組",
+  "proj": "佳美之地計劃",
+  "interview": "面試培訓",
+  "intern" : "實習",
+  "recording": "CCE職場問答時間錄音"
+}

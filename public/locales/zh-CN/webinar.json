@@ -1,0 +1,176 @@
+{
+  "pageBanner": "网络研讨会",
+  "bannerText": "感觉迷茫？免费获取知识！",
+  "pageTitle": "研讨会系列 + 往期研讨会",
+
+  "sectionTitle": "Webinar Series",
+  "leftTitle": "Zoom Meeting",
+  "meeting": [
+    {
+      "date": "3/31/2024 Sunday",
+      "time": "5:00PM - 6:60PM",
+      "region": "(U.S. Pacific Time)"
+    },
+
+    {
+      "date": "4/1/2024 Monday",
+      "time": "8:00AM - 9:00AM",
+      "region": "(Beijing/Taiwan Time)"
+    }
+  ],
+  "joinUs": "Join Us",
+  
+  "rightTitle": "12 Capabilities for Life",
+  "content": [
+    {
+      "about" : "Ask us about",
+      "one": "1. CCE Prime + College Fun classes",
+      "two": "2. Application of 12 capabilities",
+      "three": "3. Career Exploration"
+    },
+    {
+      "speakers" : "Panelists",
+      "one": "1. Bethany Lane (11th grade)",
+      "two": "2. Chris Chen (10th grade)",
+      "three": "3. Emmanuel Chiang (9th grade)"
+    }
+  ],
+
+  "backToWebinar" : "网络研讨会",
+  "pastWebinar": "往期研讨会",
+  "filter": "筛选",
+  
+  "sort": "排序",
+  "timeSort" : {
+    "recent" : "最近",
+    "oldest" : "最早"
+  },
+  "year": "年份",
+  "years": "所有年份",
+  
+  "viewMore": "查看所有视频",
+  "watchNow": "观看视频",
+  "webinar": [
+    {
+      "image": "/images/webinars/11202021.png",
+      "title": "2022 翱翔的雄鹰实习",
+      "date": "11/20/2021",
+      "description": "CCE的导师谈论实习和模拟面试机会。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT1LufIwCpH19SNskQbMaFq"
+    },
+    {
+      "image": "/images/webinars/07312021.png",
+      "title": "实习生毕业展示",
+      "date": "07/31/2021",
+      "description": "了解我们的一些实习生所取得的成就。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVT_i3KuWUDJkynFB6mZGVc3"
+    },
+    {
+      "image": "/images/webinars/06262021.png",
+      "title": "大学教育探索",
+      "date": "06/26/2021",
+      "description": "听四个家庭讲述各自不同的教育历程。",
+      "videoLink" : "https://www.youtube.com/watch?v=nld2OCYk6LQ&list=PLQTND4OzgUVTl_oSkP66cGQMq8sBmIxH1"
+    },
+    {
+      "image": "/images/webinars/06052021.png",
+      "title": "继承良好的技能",
+      "date": "06/05/2021",
+      "description": "来自 IFY CCE Prime 的小组成员讨论了获得成功的技能。"
+    },
+    {
+      "image": "/images/webinars/02202021.png",
+      "title": "与他人同行",
+      "date": "02/20/2021",
+      "description": "Dr. Paul Petrus 谈论从大学生活到职场生活的转变。"
+    },
+    {
+      "image": "/images/webinars/01302021.png",
+      "title": "你的事业和你",
+      "date": "01/30/2021",
+      "description": "David Su 讲述了他在无线半导体行业的经历。"
+    },
+    {
+      "image": "/images/webinars/01162021.png",
+      "title": "科技之旅",
+      "date": "01/16/2021",
+      "description": "Bindu Therthala 讲述了她在科技初创公司的经历。",
+      "videoLink" : "https://www.youtube.com/playlist?list=PLQTND4OzgUVSUOm1kdCsqAVCbgC61i82S"
+    },
+    {
+      "image": "/images/webinars/12192020.jpg",
+      "title": "翱翔的雄鹰实习",
+      "date": "12/19/2020",
+      "description": "CCE导师小组成员谈论实习机会",
+      "videoLink" : "https://www.youtube.com/watch?v=9cRmugn6KzI&list=PLQTND4OzgUVTstlw8R1CpBm8TRT63Qnh5"
+    },
+    {
+      "image": "/images/webinars/12052020.jpg",
+      "title": "作为交易行业的软件工程师",
+      "date": "12/05/2020",
+      "description": "Howard Shan 分享他进入交易行业的经历和历程。",
+      "videoLink" : "https://www.youtube.com/watch?v=lbnMNX-gDoA&list=PLQTND4OzgUVSkVZu4hnLF3nkCjViezqzD"
+    },
+    {
+      "image": "/images/webinars/11212020.jpg",
+      "title": "成功的面试和入职",
+      "date": "11/21/2020",
+      "description": "Dr. Chen Chen 讨论如何在面试和入职过程中取得成功。",
+      "videoLink" : "https://www.youtube.com/watch?v=y5lN9vMWwRs&list=PLQTND4OzgUVQc9yZ1vwJXdRK3VManDkOa"
+    },
+    {
+      "image": "/images/webinars/10312020.jpg",
+      "title": "高中时期的热情",
+      "date": "10/31/2020",
+      "description": "Rachel Chen 分享她如何在高中时发现自己的热情。",
+      "videoLink" : "https://www.youtube.com/watch?v=s9eTus06NDY&list=PLQTND4OzgUVTcv10Rc9SZtBhB-iaJeU8n"
+    },
+    {
+      "image": "/images/webinars/10172020.jpg",
+      "title": "为你的未来做好准备",
+      "date": "10/17/2020",
+      "description": "Daniel Chen 谈论他如何为自己的未来做准备，以及你可以怎样做",
+      "videoLink" : "https://www.youtube.com/watch?v=bzDvBVACCBE&list=PLQTND4OzgUVTsct1Z8ZdMbYetiS1wH9FJ"
+    },
+    {
+      "image": "/images/webinars/09272020.jpg",
+      "title": "生活指南",
+      "date": "09/27/2020",
+      "description": "CCE 学生小组谈论12种改变生活的能力。"
+    },
+    {
+      "image": "/images/webinars/09192020.png",
+      "title": "风险投资行业",
+      "date": "09/19/2020",
+      "description": "Timothy Chen 谈论软件工程和风险投资事业。",
+      "videoLink" : "https://www.youtube.com/watch?v=-kB2zxsj5Zo&list=PLQTND4OzgUVRgM2YQWtSRlftF3QDBTHTk"
+    },
+    {
+      "image": "/images/webinars/09052020.jpg",
+      "title": "建筑行业",
+      "date": "09/05/2020",
+      "description": "Jocelyn Chiou 谈论她的生活以及她如何探索建筑。",
+      "videoLink" : "https://www.youtube.com/watch?v=MI1CzfXg4xU&list=PLQTND4OzgUVSpUb4yHwKYQX8cEA2XteRi"
+    },
+    {
+      "image": "/images/webinars/08222020.jpg",
+      "title": "金融科技行业",
+      "date": "08/22/2020",
+      "description": "David Liu 谈论他的生活和金融科技职业生涯。"
+    },
+    {
+      "image": "/images/webinars/08012020.jpg",
+      "title": "投资银行业",
+      "date": "08/01/2020",
+      "description": "Gloria Su 讲述她成为投资银行家的历程。",
+      "videoLink" : "https://www.youtube.com/watch?v=gxRx2d6uKHg&list=PLQTND4OzgUVQTMC503XJzL1LNFc8b8Rt5"
+    },
+    {
+      "image": "/images/webinars/07182020.jpg",
+      "title": "医疗行业",
+      "date": "07/18/2020",
+      "description": "Judy Shan 谈论她的生活和进入医学院的历程。",
+      "videoLink" : "https://www.youtube.com/watch?v=uJDAUQW2EiY&list=PLQTND4OzgUVTZ3WaMNCu9ncUEuM4-TNVF"
+    }
+  ]
+}
