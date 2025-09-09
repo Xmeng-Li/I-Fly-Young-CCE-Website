@@ -26,6 +26,7 @@ type RecordingState = {
   sortOrder: string;
   selectedYear: string;
   showFilterMenu: boolean;
+  searchQuery: string; 
 };
 
 
@@ -86,31 +87,46 @@ class recording extends Component<RecordingProp, RecordingState> {
   }
 
   getFilteredRecordings = (): Recording[] => {
-    const { selectedTopic, selectedYear, sortOrder } = this.state;
+    const { selectedTopic, selectedYear, sortOrder, searchQuery } = this.state;
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", { ns: "officehour", returnObjects: true }) as Recording[];
   
+    const topicMap: Record<string, string | null> = {
+      allTopic: null,
+      boss: "Boss",
+      colleague: "Colleague",
+      faith: "Faith",
+      development: "Development",
+      focusGroup: "Focus",
+    };
     // Apply topic filter
-    const topicFiltered = selectedTopic === "allTopic"
-      ? recordings
-      : recordings.filter((recording) => recording.category === selectedTopic);
+    const topicFiltered = topicMap[selectedTopic] == null
+        ? recordings
+        : recordings.filter((r) => r.category === topicMap[selectedTopic]);
   
     // Apply year filter
     const yearFiltered = selectedYear === "all"
       ? topicFiltered
-      : topicFiltered.filter((recording) => new Date(recording.date).getFullYear().toString() === selectedYear);
+      : topicFiltered.filter(
+          (r) => new Date(r.date).getFullYear().toString() === selectedYear
+        );
   
-    // Apply sorting
-    const sorted = [...yearFiltered].sort((a, b) => {
-      if (sortOrder === "recent") {
-        return new Date(b.date).getTime() - new Date(a.date).getTime();
-      } else {
-        return new Date(a.date).getTime() - new Date(b.date).getTime();
-      }
+    // Search bar
+    const normalize = (s: string) => (s || "").toLowerCase().trim();
+    const searched = yearFiltered.filter((r) => {
+      if (!searchQuery) return true;
+      const q = normalize(searchQuery);
+      return normalize(r.title).includes(q) || normalize(r.question).includes(q);
     });
-    return sorted;
+
+    // Apply sorting
+    return [...searched].sort((a, b) => {
+      const dateA = new Date(a.date).getTime();
+      const dateB = new Date(b.date).getTime();
+      return sortOrder === "recent" ? dateB - dateA : dateA - dateB;
+    });
   };
-  
+
 
   showPlayerById = (recordingId: string) => {
     const recordings = this.getFilteredRecordings();
@@ -152,6 +168,7 @@ class recording extends Component<RecordingProp, RecordingState> {
       sortOrder: "recent",
       selectedYear: "all",
       showFilterMenu: false, 
+      searchQuery: "",
     };
     this.toggleFilterMenu = this.toggleFilterMenu.bind(this);
   }
@@ -192,8 +209,26 @@ class recording extends Component<RecordingProp, RecordingState> {
       showFilterMenu: !prevState.showFilterMenu, 
     }));
   };
-  
-  
+
+  // Handle search bar
+  private normalize = (s: string) => (s || "").toLowerCase().trim();
+
+  private matchSearch  = (r: Recording, query: string) => {
+    if (!query) return true;
+    const nQuery = this.normalize(query);
+    return this.normalize(r.title).includes(nQuery) ||
+            this.normalize(r.question).includes(nQuery);
+  };
+
+  private searchTimer: number | undefined;
+
+  private handleSearchChange = (value: string) => {
+    if (this.searchTimer) window.clearTimeout(this.searchTimer);
+    this.searchTimer = window.setTimeout(() => {
+      this.setState({ searchQuery: value, currentPage: 0 });
+    }, 200);
+  };
+
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
@@ -374,52 +409,17 @@ class recording extends Component<RecordingProp, RecordingState> {
       )
     }
     
-    const { currentPage, itemsPerPage, selectedYear, selectedTopic} = this.state;
+    const { currentPage, itemsPerPage, selectedTopic} = this.state;
 
-    // Filter SyStem
-    // By Topic
-    const filterTopic = selectedTopic === "allTopic" 
-    ? recordings : recordings.filter((recording) => {
-      switch (selectedTopic) {
-        case "boss":
-          return recording.category === "Boss";
-        case "colleague":
-          return recording.category === "Colleague";
-        case "faith":
-          return recording.category === "Faith";
-        case "development":
-          return recording.category === "Development";
-        case "focusGroup":
-          return recording.category === "Focus";
-        default:
-          return true;
-      }
-    });
     const categories = t("categories", { ns: "officehour", returnObjects: true }) as Record<string, string>;
-
-    // BY Year
-    const filterYear = selectedYear === "all" 
-    ? filterTopic : filterTopic.filter((recording) =>
-        new Date(recording.date).getFullYear().toString() === this.state.selectedYear
-      );
-
-    // Chronological
-    const sortedRecording = [...filterYear].sort((a, b) => {
-      if (this.state.sortOrder === "recent") {
-        // descending order 
-        return new Date(b.date).getTime() - new Date(a.date).getTime(); 
-      } else {
-        // ascending order 
-        return new Date(a.date).getTime() - new Date(b.date).getTime(); 
-      }
-    });
 
     const { showFilterMenu } = this.state;
   
     // Pagination
+    const filtered = this.getFilteredRecordings();
     const offset = currentPage * itemsPerPage;
-    const paginatedAudio = sortedRecording.slice(offset, offset + itemsPerPage);
-    const pageCnt = Math.ceil(sortedRecording.length / itemsPerPage);
+    const paginatedAudio = filtered.slice(offset, offset + itemsPerPage);
+    const pageCnt = Math.ceil(filtered.length / itemsPerPage);
 
     return (
       <div className="recording-page">
@@ -456,7 +456,7 @@ class recording extends Component<RecordingProp, RecordingState> {
             <label className="label">{t("sort", { ns: "officehour" })}</label>
             <select
               value={this.state.sortOrder}
-              onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0 })
+              onChange={(e) => this.setState({ sortOrder: e.target.value, currentPage: 0, visiblePlayerIndex: null })
               } className="sort-dropdown"
             >
               <option value="recent" className="filter-text">{t("timeSort.recent", { ns: "officehour" })}</option>
@@ -492,7 +492,8 @@ class recording extends Component<RecordingProp, RecordingState> {
             <select
               ref={this.selectRef}
               value={selectedTopic}
-              onChange={(e) => this.setState({ selectedTopic: e.target.value,currentPage: 0 })
+              onChange={(e) => this.setState({ 
+                selectedTopic: e.target.value,currentPage: 0, visiblePlayerIndex: null })
               } className="topic-dropdown"
             >
               {Object.keys(categories).map((key) => (
@@ -501,6 +502,17 @@ class recording extends Component<RecordingProp, RecordingState> {
                 </option>
               ))}
             </select>
+          </div>
+
+          {/* Search bar */}
+          <div className="each-filter">
+            <label className="label">{t("search", { ns: "officehour" })}</label>
+            <input
+              className="audio-search"
+              type="text"
+              defaultValue={this.state.searchQuery}
+              onChange={(e) => this.handleSearchChange(e.target.value)}  
+            />
           </div>
         </div>
 

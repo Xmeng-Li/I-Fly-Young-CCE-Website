@@ -41,6 +41,20 @@
   flex-direction: column;
 }
 
+.audio-search {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 2px solid #ccc;
+}
+.audio-search:focus {
+  border: 2px solid var(--stroke-orange, #FF9700);
+  outline: none; 
+}
 select { 
   display: flex;
   flex-direction: column;
@@ -340,7 +354,7 @@ select:focus {
   color: var(--Text-orange, #7C300B);;
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 992px) and (max-width: 1024px){
   select { 
     width: 180px;
     padding: 8px 16px;
@@ -350,6 +364,174 @@ select:focus {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+  }
+  .audio-search {
+    width: 180px;
+    padding: 5px 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .audio-search {
+    width: 180px;
+    padding: 5px 16px;
+  }
+  .close-filter-btn {
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+  }
+  .page-title-and-icon {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }
+  .pageTitle {
+    line-height: 20px;
+    margin-top: 25px;
+  }
+  .left-arrow svg{
+    width: 24px;
+    height: 24px;
+  }
+  .backTo-text {
+    display: none;
+  }
+  .filter-container { 
+    display: none;
+  }
+  .filter-container.show {
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .filter-icon-and-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .filter-icon {
+    display: flex;
+  }
+  .each-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .filter-label {
+    display: flex;
+    color: var(--Text-Grey, #525252);
+    font-weight: 400;
+    line-height: 10px;
+  }
+
+  .recording-container {
+    padding: 5px 15px 15px 15px;
+  }
+  .play-now-btn {
+    display: none;
+  }
+  .play-icon-round-btn {
+    display: inline-block; 
+  }
+  .each-recording {
+    padding: 18px 2px;
+    gap: 15px;
+  }
+  .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .title.full {
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 15px;
+  }
+  .question {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  .question.full {
+    max-width: 100%;
+    word-wrap: break-word; 
+    white-space: normal;
+  }
+  /* Player */
+  .player-container {
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+  }
+  .player {
+    height: 45px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 30px;
+  }
+  .close-player-btn {
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+  }
+  .rhap_time {
+    font-size: 14px;
+  }
+  .rhap_progress-bar {
+    width: 120%;
+    height: 3px;
+  }
+  .rhap_progress-filled {
+    height: 120%; 
+    height: 3px;
+  }
+  .rhap_progress-indicator {
+    width: 10px;
+    height: 10px;
+  }
+  .rhap_volume-bar {
+    height: 3px;
+  }
+  .rhap_volume-indicator {
+    height: 10px; 
+    width: 10px; 
+  }
+  .rhap_play-pause-button,
+  .rhap_forward-button,
+  .rhap_rewind-button,
+  .rhap_volume-button {
+    width: 16px; 
+    height: 16px;
+    margin-left: -5px;
+  }
+  .rhap_volume-button svg {
+    width: 16px; 
+    height: 16px;
+  }
+
+  /* Pagination */
+  .pagination {
+    gap: 8px;
+  }
+  .page-active {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    gap: 6px;
   }
 }
 
@@ -566,6 +748,10 @@ select:focus {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+  }
+  .audio-search {
+    padding: 5px 16px;
+    font-size: 14px;
   }
   select { 
     padding: 8px 16px;
