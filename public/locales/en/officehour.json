@@ -121,6 +121,14 @@
   "viewMore": "View More",
   "recordings": [
     {
+      "id" : "140",
+      "date": "09/08/2025",
+      "title": "Christians in the Workplace",
+      "question": "Q1. The Role of Christians in the Workplace. Q2. How can Christians preach the gospel to their colleagues, superiors, and subordinates? Q3. How should Christians respond to and deal with corporate/office politics?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250908_基督徒在職場MP3.mp3"
+    },
+    {
       "id" : "139",
       "date": "08/25/2025",
       "title": "I behave like two completely different people at work and off work",
