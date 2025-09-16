@@ -34,6 +34,11 @@
       "devTitle": "Development",
       "devStep1": "Front-end development",
       "devStep2": "Customized features"
+    },
+    {
+      "btmTitle": "Let’s Connect!",
+      "btmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
+      "caseBtmBtn": "Contact Us"
     }
   ]
 }

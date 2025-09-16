@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/cceCase.css";
 
 import topImg from "./mockUp.png";
+import logo from "./Logo-white-font.png";
 import timelineImg from "./timeline.png";
 import oldSite from "./old-site.png";
 import fontImg from "./font-color.png";
@@ -42,6 +44,10 @@ type Content = {
   devTitle: string;
   devStep1: string;
   devStep2: string;
+
+  btmTitle: string;
+  btmTexts: string;
+  caseBtmBtn: string;
 }
 
 const CceCase = () => {
@@ -78,6 +84,16 @@ const CceCase = () => {
     </g>
   </svg>
   );
+  const LeftArrow = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <mask id="mask0_440_2232" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+      <rect width="20" height="20" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_440_2232)">
+      <path d="M9.00016 9.99996L12.2502 13.25C12.4029 13.4027 12.4793 13.5972 12.4793 13.8333C12.4793 14.0694 12.4029 14.2638 12.2502 14.4166C12.0974 14.5694 11.9029 14.6458 11.6668 14.6458C11.4307 14.6458 11.2363 14.5694 11.0835 14.4166L7.25016 10.5833C7.16683 10.5 7.1078 10.4097 7.07308 10.3125C7.03836 10.2152 7.021 10.1111 7.021 9.99996C7.021 9.88885 7.03836 9.78468 7.07308 9.68746C7.1078 9.59024 7.16683 9.49996 7.25016 9.41663L11.0835 5.58329C11.2363 5.43051 11.4307 5.35413 11.6668 5.35413C11.9029 5.35413 12.0974 5.43051 12.2502 5.58329C12.4029 5.73607 12.4793 5.93051 12.4793 6.16663C12.4793 6.40274 12.4029 6.59718 12.2502 6.74996L9.00016 9.99996Z" fill="#525252"/>
+    </g>
+  </svg>
+  );
 
 
   useEffect(() => {
@@ -91,83 +107,99 @@ const CceCase = () => {
   return (
     <div>
       <Header />
-      <div className="cceCase-top-part">
-        <div className="cceCase-left-content">
-          <span className="cceCase-sub">{t("caseSub")}</span>
-          <span className="cceCase-title">{t("caseTitle")}</span>
+      <div className="cceCase-top">
+        <div className="cceCase-backTo">
+          <Link to="/chronicle" className="left-arrow">
+            <LeftArrow />
+          </Link>
+          <label className="cceCase-backTo-text">{t("backToSol")}</label>
         </div>
-        <img className="case-mockUp" src={topImg} alt="mockup" />
+        <div className="cceCase-banner">
+          <div className="cceCase-left-content">
+            <span className="cceCase-sub">{t("caseSub")}</span>
+            <span className="cceCase-title">{t("caseTitle")}</span>
+            <img className="case-logo" src={logo} alt="logo" />
+          </div>
+          <img className="case-mockUp" src={topImg} alt="mockup" />
+        </div>
       </div>
 
-      {/* Main Part */}
-      <div className="content-container">
-        {/* Our Work */}
-        <div className="case-top">
-          <label className="section-label">{caseContent[0].works}</label>
-          <div className="top-three">
-            <div className="work-part">
-              <span className="top-three-icons"><GearIcon /></span>
-              <div className="work-text">{caseContent[0].leftText}</div>
-            </div>
-            <div className="work-part">
-              <span className="top-three-icons"><FaceIcon /></span>
-              <div className="work-text">{caseContent[0].midText}</div>
-            </div>
-            <div className="work-part">
-              <span className="top-three-icons"><ThumbsIcon /></span>
-              <div className="work-text">{caseContent[0].rightText}</div>
-            </div>
+      {/* Our Work */}
+      <div className="case-top-three">
+        <label className="case-section-label">{caseContent[0].works}</label>
+        <div className="work-three">
+          <div className="work-part">
+            <span className="top-three-icons"><GearIcon /></span>
+            <div className="work-text">{caseContent[0].leftText}</div>
+          </div>
+          <div className="work-part">
+            <span className="top-three-icons"><FaceIcon /></span>
+            <div className="work-text">{caseContent[0].midText}</div>
+          </div>
+          <div className="work-part">
+            <span className="top-three-icons"><ThumbsIcon /></span>
+            <div className="work-text">{caseContent[0].rightText}</div>
           </div>
         </div>
+      </div>
 
-        {/* Main */}
-        <div className="cceCase-main">
-          <div className="timeline-wrap">
-             <label className="section-label">{caseContent[1].timeline}</label>
+      {/* Main */}
+      <div className="cceCase-main">
+        <div className="timeline-wrap">
+          <div className="timeline">
+            <label className="case-section-label">{caseContent[1].timeline}</label>
             <img className="time-img" src={timelineImg} alt="timeline" />
-            <div className="process-texts">
-              <div className="process-titles">{caseContent[1].stratTitle}</div>
-              <ul className="case-process-lst">
-                <li>{caseContent[1].stratStep1}</li>
-                <li>{caseContent[1].stratStep2}</li>
-                <li>{caseContent[1].stratStep3}</li>
-                <li>{caseContent[1].stratStep4}</li>
-              </ul>
-              <div className="process-titles">{caseContent[1].desTitle}</div>
-              <ul className="case-process-lst">
-                <li>{caseContent[1].desStep1}</li>
-                <li>{caseContent[1].desStep2}</li>
-                <li>{caseContent[1].desStep3}</li>
-                <li>{caseContent[1].desStep4}</li>
-              </ul>
-              <div className="process-titles">{caseContent[1].uxTitle}</div>
-              <ul className="case-process-lst">
-                <li>{caseContent[1].uxStep1}</li>
-                <li>{caseContent[1].uxStep2}</li>
-                <li>{caseContent[1].uxStep3}</li>
-              </ul>
-              <div className="process-titles">{caseContent[1].devTitle}</div>
-              <ul className="case-process-lst">
-                <li>{caseContent[1].devStep1}</li>
-                <li>{caseContent[1].devStep2}</li>
-              </ul>
-            </div>
-            <div className="process-imgs">
-              <div className="proc-top">
-                <img className="proc-img" src={oldSite} alt="oldSite" />
-                <img className="proc-img" src={fontImg} alt="fontImg" />
-              </div>
-              <div className="proc-btm">
-                <img className="proc-img" src={report} alt="report" />
-                <img className="proc-img" src={newSite} alt="newSite" />
-              </div>
-            </div>
+            <span className="case-notes">{caseContent[1].notes}</span>
           </div>
+          <div className="process-texts">
+            <div className="process-titles">{caseContent[1].stratTitle}</div>
+            <ul className="case-process-lst">
+              <li>{caseContent[1].stratStep1}</li>
+              <li>{caseContent[1].stratStep2}</li>
+              <li>{caseContent[1].stratStep3}</li>
+              <li>{caseContent[1].stratStep4}</li>
+            </ul>
+            <div className="process-titles">{caseContent[1].desTitle}</div>
+            <ul className="case-process-lst">
+              <li>{caseContent[1].desStep1}</li>
+              <li>{caseContent[1].desStep2}</li>
+              <li>{caseContent[1].desStep3}</li>
+              <li>{caseContent[1].desStep4}</li>
+            </ul>
+            <div className="process-titles">{caseContent[1].uxTitle}</div>
+            <ul className="case-process-lst">
+              <li>{caseContent[1].uxStep1}</li>
+              <li>{caseContent[1].uxStep2}</li>
+              <li>{caseContent[1].uxStep3}</li>
+            </ul>
+            <div className="process-titles">{caseContent[1].devTitle}</div>
+            <ul className="case-process-lst">
+              <li>{caseContent[1].devStep1}</li>
+              <li>{caseContent[1].devStep2}</li>
+            </ul>
+          </div>
+        </div>
+        <div className="process-imgs">
+          <img className="proc-img" src={oldSite} alt="oldSite" />
+          <img className="proc-img" src={fontImg} alt="fontImg" />
+          <img className="proc-img" src={report} alt="report" />
+          <img className="proc-img" src={newSite} alt="newSite" />
         </div>
       </div>
 
       {/* Bottom Part */}
-      
+      <div className="cceCase-btm">
+        <div className="cceCase-btm-detail">
+          <label className="cceCase-btm-title">{caseContent[2].btmTitle}
+          </label>
+          <div className="cceCase-btm-texts">{caseContent[2].btmTexts}</div>
+          <button className="cceCase-btm-btn">
+            <a href="https://forms.cloud.microsoft/Pages/DesignPageV2.aspx?subpage=design&FormId=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAApSLa8JUOUlLTU9JS1U0TzBFNVAwQlFNTlpSVThGQS4u&Token=8acc61a875824515b60f1ca83447b16c" target="_blank" rel="noopener noreferrer">
+            {caseContent[2].caseBtmBtn}
+            </a>
+          </button>
+        </div>
+      </div>
       <Footer />
     </div>
   ); 
