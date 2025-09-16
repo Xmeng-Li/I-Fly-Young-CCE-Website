@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "141",
+      "date": "09/15/2025",
+      "title": "Career and Life Planning: When is it time to change career paths?",
+      "question": "Q1. I am 56 years old and want to retire early to pursue life and ministry, but my wife disagrees. What should I do? Q2. I can retire early. I want to because I have no room for advancement and not much to do. Retirement would allow me to return to my family, spend time with my children and elderly parents, and find part-time work to evangelize (which is not possible with my current job). My wife disagrees because the income would be less than a typical retirement income (but it's already substantial). My current focus is on pursuing life and also doing some ministry. I don't know what God means. What should I do?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20250915_換賽道和退休MP3.mp3"
+    },
+    {
       "id" : "140",
       "date": "09/08/2025",
       "title": "Christians in the Workplace",
