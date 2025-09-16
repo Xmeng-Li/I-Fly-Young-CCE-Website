@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import os, csv, re
+import os, csv, re, requests
 from datetime import datetime
 
 app = Flask(__name__)
@@ -9,6 +9,7 @@ CORS(app)
 CSV_DIR = os.environ.get("SUBSCRIBE_DIR", "email-list")
 CSV_PATH = os.path.join(CSV_DIR, "subscribers.csv")
 
+HCAPTCHA_SECRET = (os.environ.get("HCAPTCHA_SECRET") or "").strip()
 
 email_re = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
@@ -18,7 +19,6 @@ def ensure_csv():
         with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(["Timestamp", "Email"])
-
 
 def email_exists(email: str) -> bool:
     target = (email or "").strip().lower()
@@ -31,17 +31,14 @@ def email_exists(email: str) -> bool:
         for row in reader:
             if not row:
                 continue
-
             if first and any("email" in (c or "").strip().lower() for c in row):
                 first = False
                 continue
             first = False
-            candidate = (row[-1] or "").strip().lower()   
+            candidate = (row[-1] or "").strip().lower()
             if candidate == target:
                 return True
     return False
-
-
 
 @app.route("/")
 def root():
@@ -53,16 +50,42 @@ def subscribe():
 
     data = request.get_json(force=True, silent=True) or {}
     email = (data.get("email") or "").strip()
+    token = (data.get("hcaptchaToken") or "").strip() 
 
+    # Basic input checks
     if not email or not email_re.match(email):
         return jsonify({"error": "Invalid email"}), 400
+
+    # hCaptcha server-side verification
+    if not HCAPTCHA_SECRET:
+        return jsonify({"error": "Server misconfigured"}), 500
+
+    if not token:
+        return jsonify({"error": "Missing hCaptcha token"}), 400
+
+    try:
+        verify_resp = requests.post(
+            "https://hcaptcha.com/siteverify",
+            data={
+                "secret": HCAPTCHA_SECRET,
+                "response": token,
+            },
+            timeout=6,
+        )
+        vr = verify_resp.json()
+    except Exception:
+        app.logger.exception("hCaptcha verification request failed")
+        return jsonify({"error": "Captcha verification failed"}), 502
+
+    if not vr.get("success"):
+        return jsonify({"error": "Captcha failed"}), 400
 
     if email_exists(email):
         return jsonify({"message": "Already subscribed", "email": email}), 200
 
     record = [
         datetime.utcnow().isoformat(timespec="seconds") + "Z",
-        email
+        email,
     ]
 
     try:

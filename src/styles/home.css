@@ -225,10 +225,10 @@
 .home-two-info {
   display: flex;
   width: 620px;
-  height: 260px;
+  height: 280px;
   padding: 28px 24px;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.40);
   box-shadow: 0px 1px 20px 3px rgba(0, 0, 0, 0.09);
@@ -269,12 +269,24 @@
   text-decoration: none;
 }
 .home-email-containter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  gap: 5px;
+}
+.home-input-btn {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  justify-content: center; 
+  gap: 10px;
+  flex-wrap: wrap;
 }
 .home-email-input {
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   border: 2.5px solid #FF9700;
   border-radius: 40px;
   font-size: 16px;
@@ -294,6 +306,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
+}
+.home-hcaptcha iframe {
+  transform: scale(0.85);  
 }
 
 .home-btm-container {
@@ -502,13 +517,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
   }
   .home-two-info {
     display: flex;
     width: 620px;
     height: auto;
+    padding: 28px 20px;
   }
+  .home-input-btn {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 10px;
+  }
+
+  
   .home-bk {
     width: 100vw;
     height: auto;
@@ -643,7 +668,7 @@
     flex-direction: column;
     justify-content: center;
     width: 420px;
-    height: 220px;
+    height: 280px;
     padding: 20px;
     gap: 18px;
   }
@@ -655,15 +680,25 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .home-join-btn {
+  .home-email-input {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px; 
+  }
+  .home-join-btn,
+  .home-submit-btn {
     display: flex;
     padding: 10px 16px;
     justify-content: center;
+    font-size: 18px;
+    line-height: 24px;
   }
   .home-join-btn a {
     font-size: 18px;
     line-height: 24px;
   }
+
+
   .home-btm-container {
     display: flex;
     width: 420px;
@@ -868,7 +903,7 @@
     flex-direction: column;
     justify-content: center;
     width: 375px;
-    height: 220px;
+    height: 330px;
     padding: 20px;
     gap: 18px;
   }
@@ -880,7 +915,12 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .home-join-btn {
+  .home-email-input {
+    width: 100%;
+    padding: 10px; 
+  }
+  .home-join-btn,
+  .home-submit-btn {
     display: flex;
     padding: 10px 16px;
     justify-content: center;
@@ -888,6 +928,8 @@
     border-radius: 40px;
     background: var(--Orange-500, #FF9700);
     border: none;
+    font-size: 18px;
+    line-height: 24px;
   }
   .home-join-btn a {
     font-size: 18px;
@@ -1098,7 +1140,7 @@
     flex-direction: column;
     justify-content: center;
     width: 375px;
-    height: 220px;
+    height: 330px;
     padding: 20px;
     gap: 18px;
   }
@@ -1110,7 +1152,12 @@
     font-size: 18px;
     line-height: 24px;
   }
-  .home-join-btn {
+  .home-email-input {
+    width: 100%;
+    padding: 10px; 
+  }
+  .home-join-btn,
+  .home-submit-btn {
     display: flex;
     padding: 10px 16px;
     justify-content: center;
@@ -1118,6 +1165,8 @@
     border-radius: 40px;
     background: var(--Orange-500, #FF9700);
     border: none;
+    font-size: 18px;
+    line-height: 24px;
   }
   .home-join-btn a {
     font-size: 18px;
@@ -1248,16 +1297,15 @@
     line-height: 24px; 
     margin-bottom: 20px;
   }
-
   .home-two-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 325px;
-    height: 240px;
     padding: 20px;
     gap: 12px;
   }
+
   .home-btm-container {
     display: flex;
     width: 325px;
@@ -1376,7 +1424,7 @@
     flex-direction: column;
     justify-content: center;
     width: 270px;
-    height: 210px;
+    height: 320px;
     padding: 20px;
     gap: 10px;
   }
@@ -1388,12 +1436,15 @@
     font-size: 16px;
     line-height: 22px;
   }
-  .home-join-btn {
-    display: flex;
-    padding: 8px 15px;
-    justify-content: center;
-    align-items: center;
+  .home-email-input {
+    width: 90%;
+    padding: 5px 10px; 
   }
+  .home-submit-btn {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .home-join-btn a {
     font-size: 16px;
     line-height: 24px;
