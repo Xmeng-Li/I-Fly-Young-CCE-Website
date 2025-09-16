@@ -1,0 +1,39 @@
+{
+  "backToSol" : "Digital Solutions",
+  "caseSub": "Cast Study",
+  "caseTitle": "Website Redesign",
+
+  "contents": [
+    {
+      "works": "Our Work",
+      "leftText": "Reimagined and launched an end-to-end redesigned site in 6 months.",
+      "midText": "Improved site structure, usability, and mobile responsiveness",
+      "rightText": "Created a platform now used by 1,000+ of trainees and coaches"
+    },
+    {
+      "timeline": "Timeline",
+      "notes": "Estimated timeline may vary based on different project ",
+
+      "stratTitle": "Discovery & Strategy",
+      "stratStep1": "Stakeholder interview",
+      "stratStep2": "Competitive analysis",
+      "stratStep3": "Project Scoping & Timeline Planning",
+      "stratStep4": "Ideation",
+
+      "desTitle": "Design",
+      "desStep1": "Wireframes, low to high-fidelity screen",
+      "desStep2": "Moodboard",
+      "desStep3": "UI style guideline + Design System",
+      "desStep4": "Iteration based on user feedback",
+
+      "uxTitle": "UX Research",
+      "uxStep1": "User interview",
+      "uxStep2": "Usability testing",
+      "uxStep3": "Testing result",
+
+      "devTitle": "Development",
+      "devStep1": "Front-end development",
+      "devStep2": "Customized features"
+    }
+  ]
+}

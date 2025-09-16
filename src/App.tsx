@@ -15,6 +15,8 @@ import Project from "./components/programs/Project";
 import FocusGroup from "./components/programs/FocusGroup";
 import Chronicle from "./components/chronicles/Chronicles";
 import Class from "./components/programs/Class";
+import CceCase from "./components/digitalSol/CceCaseStudy";
+
 
 // Chronicle Contents
 import EveryoneIsDifferent from "./components/chronicles/EveryoneIsDifferent";
@@ -54,6 +56,8 @@ function App() {
           <Route path="/beautiful-land-initiative" element={<Project />} />
           <Route path="/chronicle" element={<Chronicle />} />
           <Route path="/cce-class" element={<Class />} />
+
+          <Route path="/cce-case-study" element={<CceCase />} />
 
           <Route path="/everyone-is-different" element={<EveryoneIsDifferent />}/>
           <Route path="/go-ahead-and-ask" element={<GoAheadAndAsk />}/>

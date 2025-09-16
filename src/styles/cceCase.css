@@ -1,0 +1,32 @@
+.cceCase-top-part {
+
+}
+.cceCase-left-content {
+
+}
+.cceCase-sub {
+
+}
+.cceCase-title {
+
+}
+.case-mockUp {
+  width: 490px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+
+
+
+.time-img {
+  width: 540px;
+  height: 430px;
+}
+
+.proc-img {
+  width: 590px;
+  height: 380px;
+  border-radius: 4px;
+  box-shadow: 3px 4px 14px 1px rgba(99, 99, 99, 0.09);
+}
