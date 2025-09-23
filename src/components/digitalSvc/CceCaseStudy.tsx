@@ -202,7 +202,7 @@ const CceCase = () => {
           <label className="cceCase-btm-title">
             {t("svcBtmTitle")}
           </label>
-          <span className="blue-circle"><Circle /></span>
+          <span className="case-blue-circle"><Circle /></span>
         </div>
         <div className="cceCase-btm-texts">{t("svcBtmTexts")}</div>
         <button className="cceCase-btm-btn">

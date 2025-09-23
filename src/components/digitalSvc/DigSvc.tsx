@@ -5,6 +5,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/digSvc.css";
 
+import svcTopBk from "./mockup-bk.png";
 import topImg from "./mockUp.png";
 import illus1 from "./svcImg1.png";
 import illus2 from "./svcImg2.png";
@@ -107,6 +108,7 @@ const DigSvc = () => {
   );
 
   // 6 icons
+  
   const CAP_ICONS = [
     (
       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -269,7 +271,7 @@ const DigSvc = () => {
         </div>
         <div className="mockup-bk">
           <img className="svc-mockUp" src={topImg} alt="mockup" />
-          <span className="banner-circle"></span>
+          <img className="banner-circle" src={svcTopBk} alt="circle" />
         </div>
       </div>
 
@@ -279,24 +281,30 @@ const DigSvc = () => {
         <label className="svc-section-label">{svcContent[0].svc}</label>
         <div className="svc-three">
           <div className="each-svc">
-            <span className="svc-icon-one"><NumOneIcon /></span>
-            <div className="svc-title-one">{svcContent[0].svcLTitle}</div>
-            <div className="svc-work-text">{svcContent[0].svcLText}</div>
+            <div className="svc-text-wrap">
+              <span className="svc-icon-one"><NumOneIcon /></span>
+              <div className="svc-title-one">{svcContent[0].svcLTitle}</div>
+              <div className="svc-work-text">{svcContent[0].svcLText}</div>
+            </div>
             <img className="svc-work-img" src={illus1} alt="illustration1" />
           </div>
           <div className="each-svc">
-            <span className="svc-three-icons"><NumTwoIcon /></span>
-            <div className="svc-work-title">{svcContent[0].svcMTitle}</div>
-            <div
-              className="svc-work-text"
-              dangerouslySetInnerHTML={{ __html: svcContent[0].svcMText}}
-            />
+            <div className="svc-text-wrap">
+              <span className="svc-three-icons"><NumTwoIcon /></span>
+              <div className="svc-work-title">{svcContent[0].svcMTitle}</div>
+              <div
+                className="svc-work-text"
+                dangerouslySetInnerHTML={{ __html: svcContent[0].svcMText}}
+              />
+            </div>
             <img className="svc-work-img" src={illus2} alt="illustration2" />
           </div>
           <div className="each-svc">
-            <span className="svc-three-icons"><NumThreeIcon /></span>
-            <div className="svc-work-title">{svcContent[0].svcRTitle}</div>
-            <div className="svc-work-text">{svcContent[0].svcRText}</div>
+            <div className="svc-text-wrap">
+              <span className="svc-three-icons"><NumThreeIcon /></span>
+              <div className="svc-work-title">{svcContent[0].svcRTitle}</div>
+              <div className="svc-work-text">{svcContent[0].svcRText}</div>
+            </div>
             <img className="svc-work-illus" src={illus3} alt="illustration3" />
           </div>
         </div>
