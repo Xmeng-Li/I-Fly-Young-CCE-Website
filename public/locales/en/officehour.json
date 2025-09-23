@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "142",
+      "date": "09/22/2025",
+      "title": "How to work with such kind of leader?",
+      "question": "Q1. What I can't stand most is weakness or incompetence in leaders? Q2. My leader has weak external coordination skills and often pushes our team to do other teams' work, causing our own projects to be repeatedly delayed and even requiring overtime to catch up. How should I work with such a leader?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20250922_與領導共事MP3.mp3"
+    },
+    {
       "id" : "141",
       "date": "09/15/2025",
       "title": "Career and Life Planning: When is it time to change career paths?",
