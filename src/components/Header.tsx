@@ -110,6 +110,10 @@ const Header = () => {
                 </div>
               )}
             </div>
+            <NavLink to="/digital-service" onClick={() => setMenuOpen(false)}>
+              {t("digital_sol")}
+            </NavLink>
+            
             <div className="lang-dropdown">
               <div className="language-icon" onClick={handleLangMenu}>
                 <LangIcon /><span className="lang-arrow">▼</span>

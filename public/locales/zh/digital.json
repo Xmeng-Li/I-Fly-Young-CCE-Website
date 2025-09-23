@@ -1,0 +1,113 @@
+{
+  "svcTitle":"數位服務",
+  "svcSub":"-CCE 技術團隊-",
+  "svcBlueSub": "真實體驗，真人，真影響力。",
+  "svcText": "我們是 CCE 技術團隊，一個由非營利組織 I Fly Young CCE 創建的敏捷數字團隊。如果您有興趣與我們合作，請隨時填寫這張簡短的表格！",
+  "svcBtn": "讓我們聯絡!",
+  "svcContents": [
+    {
+      "svc": "我們的服務",
+      "svcLTitle": "使用者體驗諮詢與審核",
+      "svcLText": "我們提供專業的使用者體驗諮詢，並提供全面的審核，以協助提高可用性、可近性和使用者參與度。",
+      "svcMTitle": "基於使用者體驗、使用者介面 + \n建構器的解決方案",
+      "svcMText": "我們提供使用者體驗/使用者介面諮詢和客製化設計，使用<strong>網站和應用程式建構器</strong>，例如 Wix 或Webflow，提供經濟高效、可立即上線的解決方案。",
+      "svcRTitle": "UXUI \n客製化數位呈現",
+      "svcRText": "我們提供端到端的 UX/UI 諮詢、設計以及完全客製化的網頁或行動開發，以滿足您特定的業務需求和技術要求。"
+    }
+  ],
+
+  "svcCap": "我們的能力",
+  "svcCapSub": "我們也可以依照您的特定需求客製我們的分項服務",
+  "svcCapCon": [
+    {
+      "capTitle": "UX/UI 網頁設計開發",
+      "capText": "我們設計和建立響應迅速、用戶友好的網站，與您的品牌保持一致並推動業務成果。"
+    },
+    {
+      "capTitle": "行動應用設計與開發",
+      "capText": "我們創造直覺的、行動優先的應用程式設計，優先考慮跨平台的使用者體驗和功能。"
+    },
+    {
+      "capTitle": "品牌與標誌",
+      "capText": "我們開發整合的品牌系統—包括標誌、色彩和字體—以視覺方式傳達您的使命和價值觀。"
+    },
+    {
+      "capTitle": "使用者體驗諮詢與策略",
+      "capText": "我們評估您現有的數位體驗，並提供切實可行的建議，以提升可用性、可訪問性和參與度。"
+    },
+    {
+      "capTitle": "內容生成",
+      "capText": "我們創建超越標準AI生成的定製圖像和視頻，提供客製化、精良且與您的品牌相符的內容。"
+    },
+    {
+      "capTitle": "不確定您需要什麼？",
+      "capText": "來聯絡我們！我們隨時為您提供所需的建議！"
+    }
+  ],
+  "whyPickUs": "為什麼要與我們合作？",
+  "whyPicTitle": "優質實惠",
+  "whyPickText": "以經濟實惠的價格提供高品質的工作",
+
+  "svcAppr": "我們的方法",
+  "svcApprT1": "量身訂製",
+  "svcApprText1": "認真傾聽您的業務需求",
+  "svcApprT2": "流程透明",
+  "svcApprText2": "透明的協作與清楚的交付成果",
+
+  "pastProjs": "特色項目",
+  "pastCase": [
+    {
+    "pastCaseCo": "I Fly Young CCE",
+    "pastCaseTitle": "網站重新設計",
+    "pastCaseTag1": "非營利組織",
+    "pastCaseTag2": "B2C",
+    "pastCaseTag3": "網站重新設計",
+    "pastCaseTag4": "響應式網站"
+    }
+  ],
+  "scvMsn": "我們的使命",
+  "scvMsnText1": "我們是一個非營利的勞動力發展項目，旨在彌合小型企業日益增長的數位化需求與新興專業人士和轉型進入科技行業的人士有限的現實機會之間的差距。",
+  "scvMsnText2": "1. 提供組織專業、經濟實惠的技術解決方案。\n 2. 為轉型進入科技業的新興人才提供實務經驗。",
+  
+  
+  "backToSol" : "數位服務",
+  "caseSub": "案例研究",
+  "caseTitle": "網站重新設計",
+
+  "contents": [
+    {
+    "works": "我們的工作",
+    "leftText": "在<strong>6個月</strong>內重新構想並推出了一個端到端重新設計的網站。",
+    "midText": "改進了網站結構、可用性和行動回應能力",
+    "rightText": "創建了一個目前由<strong>1,000多名</strong>學員和教練使用的平台"
+    },
+    {
+    "timeline": "時間軸",
+    "notes": "預期時間軸可能會因項目不同而有所不同",
+
+    "stratTitle": "發現與策略",
+    "stratStep1": "利害關係人訪談",
+    "stratStep2": "競爭力分析",
+    "stratStep3": "專案範圍界定與時間軸規劃",
+    "stratStep4": "構思",
+
+    "desTitle": "設計",
+    "desStep1": "線框圖，從低保真到高保真螢幕",
+    "desStep2": "情緒板",
+    "desStep3": "UI 風格指南 + 設計系統",
+    "desStep4": "根據使用者回饋進行迭代",
+
+    "uxTitle": "使用者體驗研究",
+    "uxStep1": "使用者訪談",
+    "uxStep2": "可用性測試",
+    "uxStep3": "測試結果",
+
+    "devTitle": "開發",
+    "devStep1": "前端開發",
+    "devStep2": "客製化功能"
+    }
+  ],
+  "svcBtmTitle": "讓我們聯絡吧!",
+  "svcBtmTexts": "有什麼想法嗎？\n 請點擊下方按鈕填​​寫一份簡短的問卷，讓我們一起建立一些有意義的東西。\n 我們的團隊成員將很快回覆您！\n\n 或您也可以透過電子郵件聯絡我們：ccetech@iflyyoung.com",
+  "caseBtmBtn": "聯絡我們"
+}
