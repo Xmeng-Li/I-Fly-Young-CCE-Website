@@ -1,0 +1,113 @@
+{
+  "svcTitle":"数字服务",
+  "svcSub":"-CCE 技术团队-",
+  "svcBlueSub": "真实体验，真人，真影响力。",
+  "svcText": "我们是 CCE 技术团队，一个由非营利组织 I Fly Young CCE 创建的敏捷数字团队。如果您有兴趣与我们合作，请随时填写这张简短的表格！",
+  "svcBtn": "让我们联系!",
+  "svcContents": [
+    {
+      "svc": "我们的服务",
+      "svcLTitle": "用户体验咨询与审核",
+      "svcLText": "我们提供专业的用户体验咨询，并提供全面的审核，以帮助提高可用性、可访问性和用户参与度。",
+      "svcMTitle": "基于用户体验、用户界面 + \n构建器的解决方案",
+      "svcMText": "我们提供用户体验/用户界面咨询和定制设计，使用<strong>网站和应用构建器</strong>，例如 Wix 或Webflow，提供经济高效、可立即上线的解决方案。",
+      "svcRTitle": "UXUI \n定制数字呈现",
+      "svcRText": "我们提供端到端的 UX/UI 咨询、设计以及完全定制的网页或移动开发，以满足您特定的业务需求和技术要求。"
+    }
+  ],
+
+  "svcCap": "我们的能力",
+  "svcCapSub": "我们还可以根据您的具体需求定制我们的分项服务",
+  "svcCapCon": [
+    {
+      "capTitle": "UX/UI 网页设计与开发",
+      "capText": "我们设计和构建响应迅速、用户友好的网站，与您的品牌保持一致并推动业务成果。"
+    },
+    {
+      "capTitle": "移动应用设计与开发",
+      "capText": "我们创建直观的、移动优先的应用设计，优先考虑跨平台的用户体验和功能。"
+    },
+    {
+      "capTitle": "品牌与标识",
+      "capText": "我们开发整合的品牌系统——包括标识、色彩和字体——以视觉方式传达您的使命和价值观。"
+    },
+    {
+      "capTitle": "用户体验咨询与策略",
+      "capText": "我们评估您现有的数字体验，并提供切实可行的建议，以提升可用性、可访问性和参与度。"
+    },
+    {
+      "capTitle": "内容生成",
+      "capText": "我们创建超越标准AI生成的定制图像和视频，提供定制化、精良且与您的品牌相符的内容。"
+    },
+    {
+      "capTitle": "不确定您需要什么？",
+      "capText": "来联系我们！我们随时为您提供所需的建议！"
+    }
+  ],
+  "whyPickUs": "为什么与我们合作？",
+  "whyPicTitle": "无与伦比的价值",
+  "whyPickText": "以经济实惠的价格提供高质量的工作",
+
+  "svcAppr": "我们的方法",
+  "svcApprT1": "个性化解决方案",
+  "svcApprText1": "认真倾听您的业务需求",
+  "svcApprT2": "透明的流程",
+  "svcApprText2": "透明的协作和清晰的交付成果",
+
+  "pastProjs": "特色项目",
+  "pastCase": [
+    {
+    "pastCaseCo": "I Fly Young CCE",
+    "pastCaseTitle": "网站重新设计",
+    "pastCaseTag1": "非营利组织",
+    "pastCaseTag2": "B2C",
+    "pastCaseTag3": "网站重新设计",
+    "pastCaseTag4": "响应式网站"
+    }
+  ],
+  "scvMsn": "我们的使命",
+  "scvMsnText1": "我们是一个非营利性的劳动力发展项目，旨在弥合小型企业日益增长的数字化需求与新兴专业人士和转型进入科技行业的人士有限的现实机会之间的差距。",
+  "scvMsnText2": "1. 为组织提供专业、经济实惠的技术解决方案。 \n 2. 为转型进入科技行业的新兴人才提供实践经验。",
+  
+  
+  "backToSol" : "数字服务",
+  "caseSub": "案例研究",
+  "caseTitle": "网站重新设计",
+
+  "contents": [
+    {
+    "works": "我们的工作",
+    "leftText": "在 <strong>6个月</strong>内重新构想并推出了一个端到端重新设计的网站。",
+    "midText": "改进了网站结构、可用性和移动响应能力",
+    "rightText": "创建了一个目前被<strong>1,000 多名</strong>学员和教练使用的平台"
+    },
+    {
+    "timeline": "时间线",
+    "notes": "预计时间线可能因项目不同而有所不同",
+
+    "stratTitle": "发现与策略",
+    "stratStep1": "利益相关者访谈",
+    "stratStep2": "竞争力分析",
+    "stratStep3": "项目范围界定和时间线规划",
+    "stratStep4": "构思",
+
+    "desTitle": "设计",
+    "desStep1": "线框图，从低保真到高保真屏幕",
+    "desStep2": "情绪板",
+    "desStep3": "UI 风格指南 + 设计系统",
+    "desStep4": "根据用户反馈进行迭代",
+
+    "uxTitle": "用户体验调研",
+    "uxStep1": "用户访谈",
+    "uxStep2": "可用性测试",
+    "uxStep3": "测试结果",
+
+    "devTitle": "开发",
+    "devStep1": "前端开发",
+    "devStep2": "定制功能"
+    }
+  ],
+  "svcBtmTitle": "让我们联系吧！",
+  "svcBtmTexts": "有什么想法吗？\n 请点击下方按钮填写一份简短的调查问卷，让我们一起构建一些有意义的东西。\n 我们的团队成员将很快回复您！\n\n 或者您也可以通过电子邮件联系我们：ccetech@iflyyoung.com",
+  "caseBtmBtn": "联系我们"
+}

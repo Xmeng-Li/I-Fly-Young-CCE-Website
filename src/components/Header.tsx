@@ -110,7 +110,7 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <NavLink to="/cce-case-study" onClick={() => setMenuOpen(false)}>
+            <NavLink to="/digital-service" onClick={() => setMenuOpen(false)}>
               {t("digital_sol")}
             </NavLink>
             

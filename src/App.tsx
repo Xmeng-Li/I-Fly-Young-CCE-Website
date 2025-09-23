@@ -15,7 +15,8 @@ import Project from "./components/programs/Project";
 import FocusGroup from "./components/programs/FocusGroup";
 import Chronicle from "./components/chronicles/Chronicles";
 import Class from "./components/programs/Class";
-import CceCase from "./components/digitalSol/CceCaseStudy";
+import DigSvc from "./components/digitalSvc/DigSvc";
+import CceCase from "./components/digitalSvc/CceCaseStudy";
 
 
 // Chronicle Contents
@@ -57,6 +58,7 @@ function App() {
           <Route path="/chronicle" element={<Chronicle />} />
           <Route path="/cce-class" element={<Class />} />
 
+          <Route path="/digital-service" element={<DigSvc />} />
           <Route path="/cce-case-study" element={<CceCase />} />
 
           <Route path="/everyone-is-different" element={<EveryoneIsDifferent />}/>

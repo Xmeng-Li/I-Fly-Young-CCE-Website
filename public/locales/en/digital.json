@@ -1,14 +1,84 @@
 {
-  "backToSol" : "Digital Solutions",
+  "svcTitle":"Digital Service",
+  "svcSub":"-CCE Tech Team-",
+  "svcBlueSub": "Real experience. Real people. Real impact.",
+  "svcText": "We are the CCE Tech Team, an agile digital team created through the nonprofit I Fly Young CCE. If you’re interested in partnering with us, feel free to fill out this short form!",
+  "svcBtn": "Let’s Connect!",
+  "svcContents": [
+    {
+      "svc": "Our Service",
+      "svcLTitle": "UX Consulting & Audit",
+      "svcLText": "We provide expert UX consultation and deliver comprehensive audits to help improve usability, accessibility, and user engagement.",
+      "svcMTitle": "UXUI + \nBuilder-Based Solution",
+      "svcMText": "We provide UX/UI consultation and tailored design using <strong>website and app builders</strong> like Wix or Webflow, delivering cost-effective, launch-ready solutions.",
+      "svcRTitle": "UXUI \nCustom Digital Presence",
+      "svcRText": "We deliver end-to-end UX/UI consultation, design, and fully customized web or mobile development to meet your specific business needs and technical requirements."
+    }
+  ],
+
+  "svcCap": "Our Capability",
+  "svcCapSub": "we can also tailor our itemized service to your specific needs",
+  "svcCapCon": [
+    {
+      "capTitle": "UX/UI Web Design & Development",
+      "capText": "We design and build responsive, user-friendly websites that align with your brand and drive business results."
+    },
+    {
+      "capTitle": "Mobile App Design & Development",
+      "capText": "We create intuitive, mobile-first app designs that prioritize user experience and functionality across platforms."
+    },
+    {
+      "capTitle": "Branding & Identity",
+      "capText": "We develop cohesive brand systems—including logos, colors, and typography—that visually communicate your mission and values."
+    },
+    {
+      "capTitle": "UX Consulting & Strategy",
+      "capText": "We evaluate your existing digital experience and provide actionable insights to improve usability, accessibility, and engagement."
+    },
+    {
+      "capTitle": "Content Generation",
+      "capText": "We create tailored images and videos that go beyond standard AI generation, delivering content that’s customized, polished, and aligned with your brand."
+    },
+    {
+      "capTitle": "Not sure what you need?",
+      "capText": "Come talk to us! We’re here to advice the need that you’re looking for!"
+    }
+  ],
+  "whyPickUs": "Why work with us?",
+  "whyPicTitle": "Unmatched Value",
+  "whyPickText": "High-quality work at budget-friendly rates",
+
+  "svcAppr": "Our Approach",
+  "svcApprT1": "Personalized Solutions",
+  "svcApprText1": "Listening carefully to your business needs",
+  "svcApprT2": "Transparent Process",
+  "svcApprText2": "Transparent collaboration and clear deliverables",
+
+  "pastProjs": "Featured Projects",
+  "pastCase": [
+    {
+      "pastCaseCo": "I Fly Young CCE",
+      "pastCaseTitle": "Website Redesign",
+      "pastCaseTag1": "Nonprofit",
+      "pastCaseTag2": "B2C",
+      "pastCaseTag3": "Website Redesign",
+      "pastCaseTag4": "Responsive Website"
+    }
+  ],
+  "scvMsn": "Our Mission",
+  "scvMsnText1": "We are a nonprofit workforce development program that bridges the gap between the growing digital needs of small businesses and the limited real-world opportunities for emerging professionals and those transitioning into the tech industry.",
+  "scvMsnText2": "1. To deliver professional, budget-friendly tech solutions to organizations. \n 2. And to provide hands-on experience for emerging talent transitioning into the tech industry.",
+
+
+  "backToSol" : "Digital Service",
   "caseSub": "Cast Study",
   "caseTitle": "Website Redesign",
-
   "contents": [
     {
       "works": "Our Work",
-      "leftText": "Reimagined and launched an end-to-end redesigned site in 6 months.",
+      "leftText": "Reimagined and launched an end-to-end redesigned site in <strong>6 months</strong>.",
       "midText": "Improved site structure, usability, and mobile responsiveness",
-      "rightText": "Created a platform now used by 1,000+ of trainees and coaches"
+      "rightText": "Created a platform now used by<strong> 1,000+ </strong>of trainees and coaches"
     },
     {
       "timeline": "Timeline",
@@ -34,11 +104,10 @@
       "devTitle": "Development",
       "devStep1": "Front-end development",
       "devStep2": "Customized features"
-    },
-    {
-      "btmTitle": "Let’s Connect!",
-      "btmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
-      "caseBtmBtn": "Contact Us"
     }
-  ]
+  ],
+
+  "svcBtmTitle": "Let’s Connect!",
+  "svcBtmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
+  "caseBtmBtn": "Contact Us"
 }
