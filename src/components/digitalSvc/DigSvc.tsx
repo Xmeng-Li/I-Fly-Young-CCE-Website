@@ -327,7 +327,7 @@ const DigSvc = () => {
                 {index === capContent.length -1 && (
                   <button className="cap-btn">
                     <a href="mailto:ccetech@iflyyoung.com" target="_blank" rel="noopener noreferrer">
-                      {t("caseBtmBtn")}
+                      {t("svcContact")}
                     </a>
                   </button>
                 )}
