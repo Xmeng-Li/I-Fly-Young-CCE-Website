@@ -3,7 +3,7 @@
   "svcSub":"-CCE 技术团队-",
   "svcBlueSub": "真实体验，真人，真影响力。",
   "svcText": "我们是 CCE 技术团队，一个由非营利组织 I Fly Young CCE 创建的敏捷数字团队。如果您有兴趣与我们合作，请随时填写这张简短的表格！",
-  "svcBtn": "让我们联系!",
+  "svcBtn": "让我们一起努力!",
   "svcContents": [
     {
       "svc": "我们的服务",
@@ -109,5 +109,5 @@
   ],
   "svcBtmTitle": "让我们联系吧!",
   "svcBtmTexts": "有什么想法吗？\n 请点击下方按钮填写一份简短的调查问卷，让我们一起构建一些有意义的东西。\n 我们的团队成员将很快回复您！\n\n 或者您也可以通过电子邮件联系我们：ccetech@iflyyoung.com",
-  "caseBtmBtn": "联系我们"
+  "caseBtmBtn": "让我们一起努力!"
 }

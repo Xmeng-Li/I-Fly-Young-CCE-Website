@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "143",
+      "date": "09/29/2025",
+      "title": "Can I express my true feelings during an interview or at work?",
+      "question": "Q1. What shall I do? Q2. If it happens again, how should I respond?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20250929_表達真實感受MP3.mp3"
+    },
+    {
       "id" : "142",
       "date": "09/22/2025",
       "title": "How to work with such kind of leader?",
