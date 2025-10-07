@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "144",
+      "date": "10/06/2025",
+      "title": "How to turn a layoff into a life upgrade？",
+      "question": "Q1. When change feels out of our control, how do we find direction again? Q2. How do you build new skills, sustain your confidence, and find meaning in the process of starting over?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20251006_在AI浪潮中.mp3"
+    },
+    {
       "id" : "143",
       "date": "09/29/2025",
       "title": "Can I express my true feelings during an interview or at work?",
