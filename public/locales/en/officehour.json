@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "145",
+      "date": "10/13/2025",
+      "title": "A job that I truly believe in and am willing to actively invest my time and energy in",
+      "question": "Q1. I want to do something I truly believe in and am willing to invest my time and energy in. Even when I'm not working, I subconsciously care about things related to my work. Is this possible? If so, how can I find or cultivate such a job?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20251013_愿積極投入的工作MP3.mp3"
+    },
+    {
       "id" : "144",
       "date": "10/06/2025",
       "title": "How to turn a layoff into a life upgrade？",
