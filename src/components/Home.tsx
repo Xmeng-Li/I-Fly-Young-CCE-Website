@@ -1,6 +1,8 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom'; 
+import axios from 'axios';
+import HCaptcha from "@hcaptcha/react-hcaptcha";
 import Header from "./Header";
 import Footer from "./Footer";
 import "../styles/home.css";
@@ -37,6 +39,38 @@ const Home = () => {
       </g>
     </svg>
   );
+
+  // handle email subscription
+  const [email, setEmail] = useState("");
+  const [hcaptchaToken, setHcaptchaToken] = useState<string | null>(null);
+  const hcaptchaRef = useRef<HCaptcha>(null);
+  const siteKey = process.env.REACT_APP_HCAPTCHA_SITE_KEY || "";
+
+  const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+  const handleSubscribe = async () => {
+    if (!isEmailValid) {
+      alert("Please enter a valid email.\n请输入有效邮箱");
+      return;
+    }
+    if (!hcaptchaToken) {
+      alert("Please check the hCaptcha box.\n请先完成验证码。");
+      return;
+    }
+    try {
+      await axios.post("/api/subscribe", { email, hcaptchaToken }); 
+      alert("Thank you! Your email has been submitted.\n谢谢！您的邮箱已提交");
+      setEmail("");
+    } catch (error) {
+      alert("There was an error. Please try again later.\n出现错误，请稍后重试。");
+    } finally {
+      // reset hCaptcha after each attempt
+      try {
+        hcaptchaRef.current?.resetCaptcha();
+      } catch {}
+      setHcaptchaToken(null);
+    }
+  };
 
   return (
     <div>
@@ -95,11 +129,41 @@ const Home = () => {
                 <div className="home-two-titles">{t("joinTitle1")}</div>
                 <div className="home-two-text">{t("joinDes1")}</div>
                 <div className="home-email-containter">
-                  <button className="home-join-btn">
-                    <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
-                      {t("joinBtn1")}
-                    </a>
-                  </button>
+                  <div className="home-input-btn">
+                    <input 
+                      className="home-email-input" 
+                      type="email" 
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                    />
+                    <button className="home-submit-btn"
+                      onClick={handleSubscribe}
+                      disabled={!isEmailValid || !siteKey}
+                      aria-disabled={!isEmailValid || !siteKey}
+                      title={
+                        !siteKey
+                          ? "Missing REACT_APP_HCAPTCHA_SITE_KEY"
+                          : !isEmailValid
+                          ? "Enter a valid email"
+                          : !hcaptchaToken
+                          ? "Complete hCaptcha"
+                          : ""
+                      }
+                    >
+                      {t("submitBtn")}
+                    </button>
+                  </div>
+                  
+                  {/* hCaptcha Checkbox */}
+                  <div className="home-hcaptcha">
+                    <HCaptcha
+                      ref={hcaptchaRef}
+                      sitekey={siteKey}
+                      onVerify={(token) => setHcaptchaToken(token)}   
+                      onExpire={() => setHcaptchaToken(null)}         
+                      onError={() => setHcaptchaToken(null)}        
+                    />
+                  </div>
                 </div>
               </div>
               <div className="home-two-info">

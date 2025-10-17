@@ -1,0 +1,7 @@
+PassengerEnabled on
+PassengerAppEnv production
+
+PassengerEnvVar HCAPTCHA_SECRET ES_876ac83e282e432f91279b046f3b72f7
+PassengerEnvVar SUBSCRIBE_DIR /home/USER/private/email-list
+
+Options -Indexes
