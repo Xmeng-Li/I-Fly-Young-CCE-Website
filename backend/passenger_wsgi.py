@@ -1,4 +1,6 @@
 import os, sys
-sys.path.insert(0, os.path.dirname(__file__))
-os.environ.setdefault("SUBSCRIBE_DIR", "/home/u752-vbbrjbv7cqkj/email-list")
+BASE_DIR = os.path.dirname(__file__)
+if BASE_DIR not in sys.path:
+    sys.path.insert(0, BASE_DIR)
+
 from app import app as application 
