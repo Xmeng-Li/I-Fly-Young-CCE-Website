@@ -1,7 +1,11 @@
 PassengerEnabled on
 PassengerAppEnv production
+PassengerFriendlyErrorPages on
+PassengerPython /usr/bin/python3
+PassengerStartupFile passenger_wsgi.py
+PassengerAppType wsgi
 
 PassengerEnvVar HCAPTCHA_SECRET ES_876ac83e282e432f91279b046f3b72f7
-PassengerEnvVar SUBSCRIBE_DIR /home/USER/private/email-list
+PassengerEnvVar SUBSCRIBE_DIR /home/<USERNAME>/private/email-list
 
-Options -Indexes
+Options -Indexes -MultiViews
