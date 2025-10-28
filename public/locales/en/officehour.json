@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "147",
+      "date": "10/27/2025",
+      "title": "Communicate effectively with your boss",
+      "question": "Q1. Because my work structure is relatively flexible (with flexible working hours), communication with my boss primarily relies on text messages. This is a very passive approach, requiring me to wait for a response before moving forward. I don't have regular one-on-one conversations or meetings. Do you have any suggestions for improving communication patterns and efficiency?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20251027_有效的與老闆溝通MP3.mp3"
+    },
+    {
       "id" : "146",
       "date": "10/20/2025",
       "title": "Dealing with colleagues of different values or beliefs",
