@@ -124,6 +124,22 @@
 
   "recordings": [
     {
+      "id" : "147",
+      "date": "10/27/2025",
+      "title": "Communicate effectively with your boss",
+      "question": "Q1. Because my work structure is relatively flexible (with flexible working hours), communication with my boss primarily relies on text messages. This is a very passive approach, requiring me to wait for a response before moving forward. I don't have regular one-on-one conversations or meetings. Do you have any suggestions for improving communication patterns and efficiency?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20251027_有效的與老闆溝通MP3.mp3"
+    },
+    {
+      "id" : "146",
+      "date": "10/20/2025",
+      "title": "Dealing with colleagues of different values or beliefs",
+      "question": "Q1. How to befriend non-believers at work? I feel that I don’t have much common language with them. Q2. How to deal with colleagues who have different values？",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20251020_與未信主同事打交道MP3.mp3"
+    },
+    {
       "id" : "145",
       "date": "10/13/2025",
       "title": "A job that I truly believe in and am willing to actively invest my time and energy in",
