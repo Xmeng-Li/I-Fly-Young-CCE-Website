@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "148",
+      "date": "11/03/2025",
+      "title": "Restart and Balance: The Journey of Stay-at-Home Moms Returning to Work",
+      "question": "Q1. When children start kindergarten, many stay-at-home moms rethink their roles. What are the main challenges at this stage? Q2. How can moms prepare to return smoothly and confidently?How can moms balance family care and returning to work? What practical tips or mindset shifts help?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20251103_全职妈妈再出发.mp3"
+    },
+    {
       "id" : "147",
       "date": "10/27/2025",
       "title": "Communicate effectively with your boss",
