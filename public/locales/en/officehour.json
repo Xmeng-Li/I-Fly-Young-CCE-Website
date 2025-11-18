@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "150",
+      "date": "11/17/2025",
+      "title": "How to improve work performance/effectiveness?",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20251117_提升工作績效MP3.mp3"
+    },
+    {
       "id" : "149",
       "date": "11/10/2025",
       "title": "How to work with God in the workplace. How to make my work have God's purpose and not just be a bill-paying job",
