@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "151",
+      "date": "11/24/2025",
+      "title": "Do I have anyone I want to thank? How can I express my gratitude?",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20251124_表達感謝MP3.mp3"
+    },
+    {
       "id" : "150",
       "date": "11/17/2025",
       "title": "How to improve work performance/effectiveness?",

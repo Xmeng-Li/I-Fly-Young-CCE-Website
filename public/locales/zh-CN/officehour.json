@@ -123,6 +123,14 @@
 
   "recordings": [
     {
+      "id" : "151",
+      "date": "11/24/2025",
+      "title": "我有想感谢的人吗? 如何表达感谢?",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20251124_表達感謝MP3.mp3"
+    },
+    {
       "id" : "150",
       "date": "11/17/2025",
       "title": "如何提升工作绩效/做事的果效?",
