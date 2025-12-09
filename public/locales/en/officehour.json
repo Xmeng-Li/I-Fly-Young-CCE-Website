@@ -124,6 +124,14 @@
 
   "recordings": [
     {
+      "id" : "152",
+      "date": "12/08/2025",
+      "title": "Become a competent and happy manager",
+      "question": "Q1. As (middle) management, how to manage relaying directives from upper level and the resistance/ emotional response from front line staff? Q2.How to advocate for your team, ex. put credit to where it belongs, avoid other team leaders dumping responsibility to my team? Q3. Setting proper expectations for employees",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20251208_快樂的主管MP3.mp3"
+    },
+    {
       "id" : "151",
       "date": "11/24/2025",
       "title": "Do I have anyone I want to thank? How can I express my gratitude?",
