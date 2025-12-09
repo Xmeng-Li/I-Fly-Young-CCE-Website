@@ -5,9 +5,7 @@ import { Link, useNavigate, NavigateFunction } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/officehour.css";
-import cloud from "../officeHours/Cloud.png";
-import blueAirplane from "../officeHours/blueAirplane.png";
-import orangeAirplane from "../officeHours/orangeAirplane.png";
+import QAImg from "../officeHours/QA-banner.png";
 
 
 type Recording = {
@@ -25,10 +23,7 @@ type Panelist = {
   image: string;
 };
 
-// Bottom Part
-type OfficeDetail = {
-  title: string;
- };
+// Mid Part
 type Meeting = {
   id: string;
   passcode: string;
@@ -136,12 +131,11 @@ class OfficeHours extends Component<OfficeHoursProps> {
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
-    const newRecording = recordings.slice(0, 1);
     
     // Main 6 Sections
     const viewAll: string = t("viewAll", { ns: "officehour" });
     const viewMoreText: string = t("viewMore", { ns: "officehour" });
-    const mostRecent = recordings.slice(1, 4);
+    const mostRecent = recordings.slice(0, 3);
     const workAndColleagues = recordings.filter((r) => r.category === "Colleague").slice(0, 3);
     const faithAndWork = recordings.filter((r) => r.category === "Faith").slice(0, 3);
     const workAndBoss = recordings.filter((r) => r.category === "Boss").slice(0, 3);
@@ -151,8 +145,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
     // Bottom Section 
     const panelists: Panelist[] = t("speaker", { ns: "officehour", returnObjects: true });
 
-    const office: OfficeDetail[] = t("detail", { ns: "officehour", returnObjects: true }); 
-    
     const meeting: Meeting[] = t("zoomMeeting", {ns: "officehour",returnObjects: true,})
 
     const timeDetail: TimeDetail[] = t("meetingTime", {ns: "officehour",returnObjects: true,})
@@ -174,30 +166,85 @@ class OfficeHours extends Component<OfficeHoursProps> {
         {/* Top Section */}
         <div className="top-container">
           <div className="banner">
-            <img className="cloud" src={cloud} alt="cloud" />
-            <label className="cloud-title">{t("banner", { ns: "officehour" })}</label>
+            <img className="qa-img" src={QAImg} alt="q&a img" />
+            <div className="banner-text">
+              <div className="qa-title">{t("banner", { ns: "officehour" })}</div>
+              <div className="qa-sub">{t("qaSub", { ns: "officehour" })}</div>
+            </div>
           </div>
-          
-          <div className="new-recording">
-            {newRecording.map((recording, index) => (
-              <div key={index}>
-                <h3 className="new-audio-title">{recording.title}</h3>
-                <p className="new-audio-date">{recording.date}</p>
-                <p className="new-audio-question">{recording.question}</p>
-                <button className="oh-play-now-btn"
-                  onClick={() => this.props.navigate(`/recording?play=${recording.id}`)}
-                  >
-                  {t("playNow", { ns: "officehour" })}
-                  <div className="oh-play-icon">
-                    <this.OhPlayIcon recordingId={recording.id} />
-                  </div>
-                </button>
+        </div>
+
+        {/* Office Hours */}
+        <div className="hour-container">
+          {/* Meeting Section */}
+          <div className="meeting-section">
+            <h5 className="oh-section-label">
+              {t("MeetingTitle", { ns: "officehour" })}
+            </h5>
+            <div className="two-parts">
+              {/* Left part */}
+              <div className="time-container">
+                <div className="time-title">{t("leftTitle", { ns: "officehour" })}
+                </div>
+                <div className="time-box">
+                  {timeDetail.map((meetingTime: TimeDetail, index: number) => (
+                    <div key={index} className="time-text">
+                      <div className="time-type">{meetingTime.type}</div>
+                      <div className="icon-and-date">
+                        <span className="date-icon"><DateIcon /></span>
+                        <p className="time-dates">{meetingTime.dates}</p>
+                      </div>
+
+                      <div className="time-list">
+                        {meetingTime.times.map((time: any, timeIndex: number) => (
+                          <div key={timeIndex} className="time-item">
+                            <span className="region">{time.region}</span>{" "}
+                            <span className="day">{time.day}</span>
+                            <span className="time">{time.time}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
-            ))}
+
+              {/* Right part */}
+              <div className="zoom-container">
+                <div className="mid-title">
+                  {t("midTitle", { ns: "officehour" })}
+                </div>
+                <div className="mid-detail">
+                  {meeting.map((zoomMeeting, index) => (
+                    <div className="oh-zoom-part" key={index}>
+                      <div className="oh-mid-text">
+                        {Object.entries(zoomMeeting).map(([key, value]) => (
+                          <div key={key}>{key}: {value}</div>
+                        ))}
+                      </div>
+                      <button className="join-btn">
+                      <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
+                        {t("joinUs", { ns: "officehour" })}
+                      </Link>
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Main Section */}
+        <div className="rec-searchBar">
+          <h5 className="oh-section-label">
+            {t("recTitle", { ns: "officehour" })}
+          </h5>
+          <div>
+
+          </div>
+        </div>
+        
         <div className="main-container">
           {/* Left: Most Recent */}
           <div className="most-recent">
@@ -401,7 +448,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
         <div className="panelists-section">
           <div className="title-and-airplane">
             <h5 className="panelists-title">{t("panelistsTitle", { ns: "officehour" })}</h5>
-            <img className="blue-airplane" src={blueAirplane} alt="airplane" />
           </div>
           <div className="speaker-container">
             {panelists.map((panelist, index) => (
@@ -414,78 +460,6 @@ class OfficeHours extends Component<OfficeHoursProps> {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-
-        {/* Office Hours */}
-        <div className="officehour-container">
-          {/* Office Hour Section */}
-          <div className="office-section">
-            <div className="office-airplane">
-              <h5 className="office-title">{t("OfficeTitle", { ns: "officehour" })}</h5>
-              <img className="orange-airplane" src={orangeAirplane} alt="airplane" />
-            </div>
-            
-            <div className="three-parts">
-              {/* Left part */}
-              <div className="left">
-                <p className="left-title">{t("leftTitle", { ns: "officehour" })}</p>
-                <div className="left-detail">
-                  <p className="section-text">{t("text", { ns: "officehour" })}</p>
-                    {office.map((item: any, index: number) => (
-                      <div key={index} className="office-text">
-                        <span>{item.title}</span>
-                      </div>
-                    ))}
-                </div>
-              </div>
-              {/* Middle part */}
-              <div className="mid">
-                <p className="mid-title">{t("midTitle", { ns: "officehour" })}</p>
-                <div className="mid-detail">
-                  {meeting.map((zoomMeeting, index) => (
-                    <div className="oh-mid-part" key={index}>
-                      <div className="oh-mid-text">
-                        {Object.entries(zoomMeeting).map(([key, value]) => (
-                          <p key={key}>{key}: {value}</p>
-                        ))}
-                      </div>
-                      <button className="join-btn">
-                      <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
-                        {t("joinUs", { ns: "officehour" })}
-                      </Link>
-                      </button>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              {/* Right part */}
-              <div className="right">
-                <p className="right-title">{t("rightTitle", { ns: "officehour" })}</p>
-                <div className="right-detail">
-                  <div className="time-box">
-                    {timeDetail.map((meetingTime: TimeDetail, index: number) => (
-                      <div key={index} className="time-text">
-                        <p className="time-type">{meetingTime.type}</p>
-                        <div className="icon-and-date">
-                          <span className="date-icon"><DateIcon /></span>
-                          <p className="time-dates">{meetingTime.dates}</p>
-                        </div>
-
-                        <div className="time-list">
-                          {meetingTime.times.map((time: any, timeIndex: number) => (
-                            <div key={timeIndex} className="time-item">
-                              <span className="region">{time.region}</span>{" "}
-                              <span className="time">{time.time}</span>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <Footer />
