@@ -49,7 +49,7 @@
   align-items: flex-start;
   gap: 30px;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .oh-section-label {
   font-family: "Inter";
@@ -76,7 +76,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px;
+  padding: 40px;
   gap: 20px;
 }
 .time-title,
@@ -151,6 +151,7 @@
   text-align: center;
 }
 .zoom-container {
+  width: 377px;
   height: 258px;
   display: flex;
   flex-direction: column;
@@ -159,7 +160,7 @@
   text-align: center;
   background-color: var(--bg-light-blue, #F0F8FF);
   border-radius: 8px;
-  padding: 53px;
+  padding: 20px;
   gap: 20px;
   
 }
@@ -195,7 +196,24 @@
 
 /* Main recording  */
 .rec-searchBar {
-  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.oh-search-bar {
+  width: 286px;
+  height: 47px;
+  border: 2px solid #0E426C ;
+  border-radius: 40px;
+  padding: 10px 16px;
+  font-size: 18px;  
+}
+.oh-search-bar::placeholder {
+  font-family: "Noto Sans";
+  font-style: normal; 
+  font-size: 16px;   
+  color: #0E426C; 
+  opacity: 1;   
 }
 
 .main-container {
@@ -206,7 +224,6 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: 30px;
-  margin: 40px 0;
 }
 .most-recent, 
 .colleagues, 
@@ -222,11 +239,6 @@
   padding: 25px 20px;
   gap: 12px;
 }
-/* .main-boss,
-.main-selfDev,
-.main-focusGrp{
-  gap: 12px;
-} */
 .cate-container{
   display: flex;
   justify-content: space-between;
@@ -344,7 +356,7 @@
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  margin: 60px 0;
+  margin: 100px 0 60px 0;
 }
 .panelists-title {
   font-family: "Inter";

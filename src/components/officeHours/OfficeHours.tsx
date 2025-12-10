@@ -45,6 +45,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
     console.log("Playing audio:", audioUrl);
   };
 
+  state = {
+    searchQuery: "",
+  };
 
   // Handle Date
   // formatDate = (date: string) => {
@@ -127,7 +130,20 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
   };
 
-  
+  // Handle search bar
+  handleSearchChange = (value: string) => {
+    this.setState({ searchQuery: value });
+  };
+
+  handleSearchSubmit = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      this.props.navigate(
+        `/recording?search=${encodeURIComponent(this.state.searchQuery)}`
+      );
+    }
+  };
+
+
   render() {
     const { t } = this.props;
     const recordings: Recording[] = t("recordings", {ns: "officehour",returnObjects: true,}) as Recording[];
@@ -275,10 +291,14 @@ class OfficeHours extends Component<OfficeHoursProps> {
           <div className="oh-section-label">
             {t("recTitle", { ns: "officehour" })}
           </div>
-          
-          <div>
-
-          </div>
+          <input
+            className="oh-search-bar" 
+            type="text"
+            placeholder={t("searchRec", { ns: "officehour" }) ?? ""}
+            value={this.state.searchQuery}
+            onChange={(e) => this.handleSearchChange(e.target.value)}
+            onKeyDown={this.handleSearchSubmit} 
+          />
         </div>
         
         <div className="main-container">

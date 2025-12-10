@@ -93,6 +93,7 @@
   ],
 
   "recTitle": "Recordings",
+  "officeHours": "Office Hours",
   "allRecordings": "All Recordings",
   "filter": "Filter",
   "sort": "Sort",
@@ -114,6 +115,7 @@
   },
   "viewMore": "View More",
   "search": "Search",
+  "searchRec": "Search Recordings...",
 
 
   "recordings": [
