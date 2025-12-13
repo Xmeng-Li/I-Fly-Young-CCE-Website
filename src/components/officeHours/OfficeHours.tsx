@@ -6,6 +6,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/officehour.css";
 import QAImg from "../officeHours/QA-banner.png";
+import QaMobile from "../officeHours/Q&A-mobile.png";
 
 
 type Recording = {
@@ -140,6 +141,8 @@ class OfficeHours extends Component<OfficeHoursProps> {
       this.props.navigate(
         `/recording?search=${encodeURIComponent(this.state.searchQuery)}`
       );
+      // scroll to the top
+    window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -176,10 +179,9 @@ class OfficeHours extends Component<OfficeHoursProps> {
     );
 
     // Icons
-    const SandglassIcon = () => (
-      <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M8.4 4.80005H6V6.00005C6 6.31831 6.12643 6.62353 6.35147 6.84858C6.57652 7.07362 6.88174 7.20005 7.2 7.20005C7.51826 7.20005 7.82348 7.07362 8.04853 6.84858C8.27357 6.62353 8.4 6.31831 8.4 6.00005V4.80005Z" fill="#0E426C"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V2.4H1.2V6C1.2 7.5913 1.83214 9.11742 2.95736 10.2426C4.08258 11.3679 5.6087 12 7.2 12C5.6087 12 4.08258 12.6321 2.95736 13.7574C1.83214 14.8826 1.2 16.4087 1.2 18V21.6H0V24H14.4V21.6H13.2V18C13.2 16.4087 12.5679 14.8826 11.4426 13.7574C10.3174 12.6321 8.7913 12 7.2 12C7.98793 12 8.76815 11.8448 9.4961 11.5433C10.2241 11.2417 10.8855 10.7998 11.4426 10.2426C11.9998 9.68549 12.4417 9.02405 12.7433 8.2961C13.0448 7.56815 13.2 6.78793 13.2 6V2.4H14.4V0H0ZM3.6 2.4H10.8V6C10.8 6.95478 10.4207 7.87045 9.74558 8.54559C9.07045 9.22072 8.15478 9.6 7.2 9.6C6.24522 9.6 5.32955 9.22072 4.65441 8.54559C3.97928 7.87045 3.6 6.95478 3.6 6V2.4ZM3.6 18V21.6H10.8V18C10.8 17.0452 10.4207 16.1295 9.74558 15.4544C9.07045 14.7793 8.15478 14.4 7.2 14.4C6.24522 14.4 5.32955 14.7793 4.65441 15.4544C3.97928 16.1295 3.6 17.0452 3.6 18Z" fill="#0E426C"/>
+    const RecentIcon = () => (
+      <svg width="27" height="23" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.788 0.0748291C18.8766 0.0748659 21.8392 1.29481 24.0233 3.46545C26.2073 5.63611 27.4344 8.58018 27.4344 11.65C27.4344 14.7199 26.2073 17.6639 24.0233 19.8346C21.9756 21.8696 19.2436 23.0687 16.3651 23.2106L15.788 23.2252C14.258 23.2309 12.7421 22.9332 11.329 22.3502C9.91591 21.7673 8.63368 20.9106 7.5575 19.8297L7.50476 19.776L7.5575 19.7233L9.38367 17.9088L9.4364 17.8561L9.48914 17.9088C11.0956 19.5181 13.3272 20.5192 15.788 20.5192C18.155 20.5191 20.4248 19.5847 22.0985 17.9215C23.7722 16.2581 24.7128 14.0022 24.7128 11.65C24.7128 9.29786 23.7722 7.04191 22.0985 5.37854C20.4248 3.71531 18.155 2.78092 15.788 2.78088C13.4208 2.78088 11.1502 3.71515 9.47644 5.37854C7.82066 7.02417 6.88492 9.24989 6.86511 11.5748H10.827L10.6981 11.7028L5.50378 16.8531L5.45007 16.9059L5.39734 16.8522L0.305542 11.7028L0.179565 11.5748H4.14343C4.16329 8.53206 5.38641 5.6184 7.55261 3.46545C9.73678 1.29478 12.6993 0.0748291 15.788 0.0748291ZM16.5057 6.4635V11.9264L20.9686 14.5621L21.0341 14.6012L20.995 14.6656L20.0692 16.2115L20.0311 16.276L19.9667 16.2379L14.4637 12.9928L14.4266 12.9703V6.4635H16.5057Z" fill="#0E426C" stroke="#0E426C" stroke-width="0.15"/>
       </svg>
     );
     const CoWorker = () => (
@@ -216,71 +218,67 @@ class OfficeHours extends Component<OfficeHoursProps> {
         <Header />
         {/* Top Section */}
         <div className="top-container">
-          <div className="banner">
-            <img className="qa-img" src={QAImg} alt="q&a img" />
-            <div className="banner-text">
-              <div className="qa-title">{t("banner", { ns: "officehour" })}</div>
-              <div className="qa-sub">{t("qaSub", { ns: "officehour" })}</div>
-            </div>
+          <img className="qa-img" src={QAImg} alt="q&a img" />
+          <img className="qa-mobile" src={QaMobile} alt="q&a img" />
+          <div className="banner-text">
+            <div className="qa-title">{t("banner", { ns: "officehour" })}</div>
+            <div className="qa-sub">{t("qaSub", { ns: "officehour" })}</div>
           </div>
         </div>
 
         {/* Office Hours */}
         <div className="hour-container">
-          {/* Meeting Section */}
-          <div className="meeting-section">
-            <h5 className="oh-section-label">
-              {t("MeetingTitle", { ns: "officehour" })}
-            </h5>
-            <div className="two-parts">
-              {/* Left part */}
-              <div className="time-container">
-                <div className="time-title">{t("leftTitle", { ns: "officehour" })}
-                </div>
-                <div className="time-box">
-                  {timeDetail.map((meetingTime: TimeDetail, index: number) => (
-                    <div key={index} className="time-text">
-                      <div className="time-type">{meetingTime.type}</div>
-                      <div className="icon-and-date">
-                        <span className="date-icon"><DateIcon /></span>
-                        <p className="time-dates">{meetingTime.dates}</p>
-                      </div>
-
-                      <div className="time-list">
-                        {meetingTime.times.map((time: any, timeIndex: number) => (
-                          <div key={timeIndex} className="time-item">
-                            <span className="region">{time.region}</span>{" "}
-                            <span className="day">{time.day}</span>
-                            <span className="time">{time.time}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+          <h5 className="oh-section-label">
+            {t("MeetingTitle", { ns: "officehour" })}
+          </h5>
+          <div className="two-parts">
+            {/* Left part */}
+            <div className="time-container">
+              <div className="time-title">{t("leftTitle", { ns: "officehour" })}
               </div>
-
-              {/* Right part */}
-              <div className="zoom-container">
-                <div className="mid-title">
-                  {t("midTitle", { ns: "officehour" })}
-                </div>
-                <div className="mid-detail">
-                  {meeting.map((zoomMeeting, index) => (
-                    <div className="oh-zoom-part" key={index}>
-                      <div className="oh-mid-text">
-                        {Object.entries(zoomMeeting).map(([key, value]) => (
-                          <div key={key}>{key}: {value}</div>
-                        ))}
-                      </div>
-                      <button className="join-btn">
-                      <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
-                        {t("joinUs", { ns: "officehour" })}
-                      </Link>
-                      </button>
+              <div className="time-box">
+                {timeDetail.map((meetingTime: TimeDetail, index: number) => (
+                  <div key={index} className="time-text">
+                    <div className="time-type">{meetingTime.type}</div>
+                    <div className="icon-and-date">
+                      <span className="date-icon"><DateIcon /></span>
+                      <p className="time-dates">{meetingTime.dates}</p>
                     </div>
-                  ))}
-                </div>
+
+                    <div className="time-list">
+                      {meetingTime.times.map((time: any, timeIndex: number) => (
+                        <div key={timeIndex} className="time-item">
+                          <span className="region">{time.region}</span>{" "}
+                          <span className="day">{time.day}</span>
+                          <span className="time">{time.time}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right part */}
+            <div className="zoom-container">
+              <div className="time-title">
+                {t("midTitle", { ns: "officehour" })}
+              </div>
+              <div className="mid-detail">
+                {meeting.map((zoomMeeting, index) => (
+                  <div className="oh-zoom-part" key={index}>
+                    <div className="oh-mid-text">
+                      {Object.entries(zoomMeeting).map(([key, value]) => (
+                        <div key={key}>{key}: {value}</div>
+                      ))}
+                    </div>
+                    <button className="join-btn">
+                    <Link to="https://us02web.zoom.us/j/84100682160?pwd=b0Y5YklTSms3S1hXN0NvRDF5Z2hNUT09#success">
+                      {t("joinUs", { ns: "officehour" })}
+                    </Link>
+                    </button>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -306,7 +304,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
           <div className="most-recent">
             <div className="cate-container">
               <div className="cate-icon-title">
-                <SandglassIcon />
+                <RecentIcon />
                 <label className="category-title">
                   {t("ohRecent", { ns: "officehour" })}
                 </label>
@@ -504,7 +502,7 @@ class OfficeHours extends Component<OfficeHoursProps> {
 
         {/* Panelists */}
         <div className="panelists-section">
-          <div className="panelists-title">
+          <div className="oh-section-label">
             {t("panelistsTitle", { ns: "officehour" })}
           </div>
           <div className="speaker-container">
