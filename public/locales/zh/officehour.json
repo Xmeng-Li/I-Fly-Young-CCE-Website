@@ -1,8 +1,10 @@
 {
-  "banner" :"溝通與職涯探索\n職場問答時間",
-  "playNow": "播放錄音",
-  "viewAll": "查看所有",
+  "banner" :"溝通與職涯探索\n問答時間",
+  "qaSub": "30分鐘等候神 + 30分鐘職場問答\n得益於職場導師的智慧",
 
+
+
+  "viewAll": "查看所有",
   "ohRecent": "最近",
   "ohColleague": "工作與同事",
   "ohFaith": "信仰與工作",
@@ -10,6 +12,49 @@
   "ohDev": "個人發展",
   "ohFocus": "焦點小組",
 
+  
+  "MeetingTitle": "問答時間 & 形式",
+  "leftTitle": "問答時間",
+  "meetingTime" : [
+    {
+      "type": "夏令時間",
+      "dates": "3/9/2025 ~ 11/2/2025",
+      "times": [
+        {
+          "region": "美西時間週一晚上",
+          "time": "8:30PM - 9:30PM"
+        },
+        {
+          "region": "北京/台灣時間週二中午",
+          "time": "11:30AM - 12:30PM"
+        }
+      ]
+    },
+    {
+      "type": "冬令時間",
+      "dates": "11/2/2025 ~ 3/8/2026",
+      "times": [
+        {
+          "region": "美西時間週一晚上",
+          "time": "8:00PM - 9:00PM"
+        },
+        {
+          "region": "北京/台灣時間週二中午",
+          "time": "12:00PM - 1:00PM"
+        }
+      ]
+    }
+  ],
+  "midTitle": "Zoom 會議",
+  "zoomMeeting": [
+    {
+      "會議 ID": "841 0068 2160",
+      "密碼": "042263"
+    }
+  ],
+  "joinUs": "加入會議",
+
+  
   "panelistsTitle": "問答時間講員",
   "speaker": [
     {
@@ -43,57 +88,9 @@
       "image": "/images/mentors/TaChangFu.png"
     }
   ],
-  "OfficeTitle": "CCE 職場問答時間",
-  "leftTitle": "會議流程",
-  "text": "得益於職場導師的智慧",
-  "detail": [
-    {
-      "title": "(30分鐘) 等候神"
-    },
-    {
-      "title": "(30分鐘) 職場問答"
-    }
-  ],
-  "midTitle": "Zoom 會議",
-  "zoomMeeting": [
-    {
-      "會議 ID": "841 0068 2160",
-      "密碼": "042263"
-    }
-  ],
-  "joinUs": "加入會議",
 
-  "rightTitle": "Zoom 會議",
-  "meetingTime" : [
-    {
-      "type": "夏令時間",
-      "dates": "3/9/2025 ~ 11/2/2025",
-      "times": [
-        {
-          "region": "美西時間週一晚上",
-          "time": "8:30PM - 9:30PM"
-        },
-        {
-          "region": "北京/台灣時間週二中午",
-          "time": "11:30AM - 12:30PM"
-        }
-      ]
-    },
-    {
-      "type": "冬令時間",
-      "dates": "11/4/2024 ~ 3/8/2025",
-      "times": [
-        {
-          "region": "美西時間週一晚上",
-          "time": "8:00PM - 9:00PM"
-        },
-        {
-          "region": "北京/台灣時間週二中午",
-          "time": "12:00PM - 1:00PM"
-        }
-      ]
-    }
-  ],
+
+  "recTitle": "錄音",
   "officeHours": "問答時間",
   "allRecordings": "所有錄音",
   "filter": "篩選",
@@ -116,6 +113,7 @@
   },
   "viewMore": "查看更多",
   "search": "搜尋",
+  "searchRec": "搜尋錄音...",
 
 
   "recordings": [

@@ -70,6 +70,12 @@ class recording extends Component<RecordingProp, RecordingState> {
       });
     }
 
+    // Search
+    const search = params.get("search");
+    if (search) {
+      this.setState({ searchQuery: search, currentPage: 0 });
+    }
+
     // Link player to office hour round play icon
     const play = params.get("play");
     if (play) {
@@ -211,22 +217,19 @@ class recording extends Component<RecordingProp, RecordingState> {
   };
 
   // Handle search bar
-  private normalize = (s: string) => (s || "").toLowerCase().trim();
+  // private normalize = (s: string) => (s || "").toLowerCase().trim();
 
-  private matchSearch  = (r: Recording, query: string) => {
-    if (!query) return true;
-    const nQuery = this.normalize(query);
-    return this.normalize(r.title).includes(nQuery) ||
-            this.normalize(r.question).includes(nQuery);
-  };
+  // private matchSearch  = (r: Recording, query: string) => {
+  //   if (!query) return true;
+  //   const nQuery = this.normalize(query);
+  //   return this.normalize(r.title).includes(nQuery) ||
+  //           this.normalize(r.question).includes(nQuery);
+  // };
 
   private searchTimer: number | undefined;
 
   private handleSearchChange = (value: string) => {
-    if (this.searchTimer) window.clearTimeout(this.searchTimer);
-    this.searchTimer = window.setTimeout(() => {
-      this.setState({ searchQuery: value, currentPage: 0 });
-    }, 200);
+    this.setState({ searchQuery: value, currentPage: 0 });
   };
 
   render() {
@@ -510,7 +513,7 @@ class recording extends Component<RecordingProp, RecordingState> {
             <input
               className="audio-search"
               type="text"
-              defaultValue={this.state.searchQuery}
+              value={this.state.searchQuery}
               onChange={(e) => this.handleSearchChange(e.target.value)}  
             />
           </div>

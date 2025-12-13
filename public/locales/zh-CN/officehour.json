@@ -1,7 +1,10 @@
 {
-  "banner" : "沟通与职涯探索\n职场问答时间",
-  "playNow": "播放录音",
-  "viewAll": "查看所有",
+  "banner" : "沟通与职涯探索\n问答时间",
+  "qaSub": "30分钟等候神 + 30分钟职场问答\n聆听职场导师的智慧",
+
+
+
+  "viewAll": "查看全部",
 
   "ohRecent": "最近",
   "ohColleague": "工作与同事",
@@ -10,6 +13,49 @@
   "ohDev": "个人发展",
   "ohFocus": "焦点小组",
   
+  
+  "MeetingTitle": "问答时间 & 形式",
+  "leftTitle": "问答时间",
+  "meetingTime" : [
+    {
+      "type": "夏令时间",
+      "dates": "3/9/2025 ~ 11/2/2025",
+      "times": [
+        {
+          "region": "美西时间周一晚上",
+          "time": "8:30PM - 9:30PM"
+        },
+        {
+          "region": "北京/台湾时间周二中午",
+          "time": "11:30AM - 12:30PM"
+        }
+      ]
+    },
+    {
+      "type": "冬令时间",
+      "dates": "11/2/2025 ~ 3/8/2026",
+      "times": [
+        {
+          "region": "美西时间周一晚上",
+          "time": "8:00PM - 9:00PM"
+        },
+        {
+          "region": "北京/台湾时间周二中午",
+          "time": "12:00PM - 1:00PM"
+        }
+      ]
+    }
+  ],
+  "midTitle": "Zoom 会议",
+  "zoomMeeting": [
+    {
+      "会议 ID": "841 0068 2160",
+      "密码": "042263"
+    }
+  ],
+  "joinUs": "加入会议",
+
+
   "panelistsTitle": "问答时间讲员",
   "speaker": [
     {
@@ -43,61 +89,9 @@
       "image": "/images/mentors/TaChangFu.png"
     }
   ],
-  
-  "OfficeTitle": "CCE 职场问答时间",
-  "leftTitle": "会议流程",
-  "text": "聆听职场导师的智慧",
-  "detail": [
-    {
-      "title": "（30分钟）等候神"
-    },
-    {
-      "title": "（30分钟）职场问答"
-    }
-  ],
-
-  "midTitle": "Zoom 会议",
-  "zoomMeeting": [
-    {
-      "会议 ID": "841 0068 2160",
-      "密码": "042263"
-    }
-  ],
-  "joinUs": "加入会议",
 
 
-  "rightTitle": "Zoom 会议",
-  "meetingTime" : [
-    {
-      "type": "夏令时间",
-      "dates": "3/9/2025 ~ 11/2/2025",
-      "times": [
-        {
-          "region": "美西时间周一晚上",
-          "time": "8:30PM - 9:30PM"
-        },
-        {
-          "region": "北京/台湾时间周二中午",
-          "time": "11:30AM - 12:30PM"
-        }
-      ]
-    },
-    {
-      "type": "冬令时间",
-      "dates": "11/4/2024 ~ 3/8/2025",
-      "times": [
-        {
-          "region": "美西时间周一晚上",
-          "time": "8:00PM - 9:00PM"
-        },
-        {
-          "region": "北京/台湾时间周二中午",
-          "time": "12:00PM - 1:00PM"
-        }
-      ]
-    }
-  ],
-
+  "recTitle": "录音",
   "officeHours": "问答时间",
   "allRecordings": "所有录音",
   "filter": "筛选",
@@ -120,16 +114,9 @@
   },
   "viewMore": "查看更多",
   "search": "搜索",
+  "searchRec": "搜索录音...",
 
   "recordings": [
-    {
-      "id" : "152",
-      "date": "12/08/2025",
-      "title": "成为一个胜任且快乐的主管/领导",
-      "question": "Q1. 身为(中阶)主管，如何有效传达上级指令，以及应对第一线员工的抵触情绪和负面反应？Q2.如何为你的团队争取权益，例如，让功劳归于应得之人，避免其他团队领导将责任推卸给我的团队？Q3. 为员工设定合理的期望",
-      "category": "Colleague",
-      "audioUrl": "/audio/CCE20251208_快樂的主管MP3.mp3"
-    },
     {
       "id" : "151",
       "date": "11/24/2025",
