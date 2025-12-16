@@ -118,6 +118,14 @@
 
   "recordings": [
     {
+      "id" : "153",
+      "date": "12/15/2025",
+      "title": "About CCE Digital Service",
+      "question": "Q1. What is CCE Digital Service? Why? Q2.What services does CCE Digital Service provide? who does it serve? Q3. What is the long term plan for CCE Digital Service? What are the possible services in the future? Q4. How do I participate at CCE Digital Service?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20251215_數位服務MP3.m4a"
+    },
+    {
       "id" : "152",
       "date": "12/08/2025",
       "title": "Become a competent and happy manager",
