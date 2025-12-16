@@ -166,6 +166,7 @@ select:focus {
   justify-content: center;
   text-align: left;
   flex: 1;
+  min-width: 0;
 }
 .title {
   overflow: hidden;
@@ -803,7 +804,7 @@ select:focus {
     line-height: 16px;
   }
   .each-recording {
-    padding: 18px 2px;
+    padding: 18px 5px;
     gap: 10px;
   }
   .title {
@@ -812,7 +813,7 @@ select:focus {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
-    overflow: hidden;
+    overflow: hidden; 
     text-overflow: ellipsis;
   }
   .title.full {
