@@ -15,6 +15,10 @@ import caseImg from "./case-img.png";
 import msImg1 from "./mission1.png";
 import msImg2 from "./mission2.png";
 
+// CMMC Case
+import caseImg2 from "./case-img2.png";
+
+
 
 type ServiceContent = {
   svc: string;
@@ -36,6 +40,9 @@ type PastCase = {
   pastCaseTag2: string;
   pastCaseTag3: string;
   pastCaseTag4: string;
+  pastCaseCo2: string;
+  pastCaseTitle2: string;
+  pastCaseTag5: string;
 };
 
 const DigSvc = () => {
@@ -108,7 +115,6 @@ const DigSvc = () => {
   );
 
   // 6 icons
-  
   const CAP_ICONS = [
     (
       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
@@ -166,51 +172,27 @@ const DigSvc = () => {
     "aria-label": undefined as string | undefined, 
   });
 
-  const scrollToIndex = useCallback((idx: number) => {
-    const status = statusRef.current;
-    if (!status) return;
-
-    const child = status.children[idx] as HTMLElement | undefined;
-    if (!child) return;
-
-    status.scrollTo({ left: child.offsetLeft, behavior: "smooth" });
-    setCurrent(idx);
-  }, []);
-
-  const getNearestIndex = () => {
+  const getItemWidth = () => {
     const el = statusRef.current;
-    if (!el) return 0;
-    let bestIdx = 0;
-    let bestDist = Infinity;
-    for (let i = 0; i < el.children.length; i++) {
-      const child = el.children[i] as HTMLElement;
-      const dist = Math.abs(child.offsetLeft - el.scrollLeft);
-      if (dist < bestDist) { bestDist = dist; bestIdx = i; }
-    }
-    return bestIdx;
+    if (!el || !el.children.length) return 0;
+    return (el.children[0] as HTMLElement).offsetWidth;
   };
 
   const goNext = useCallback(() => {
     const el = statusRef.current;
     if (!el) return;
-    const total = el.children.length;
-    if (!total) return;
 
-    const cur = getNearestIndex();
-    const target = Math.min(cur + 1, total - 1); 
-    if (target !== cur) scrollToIndex(target);
-  }, [scrollToIndex]);
+    const width = getItemWidth();
+    el.scrollBy({ left: width, behavior: "smooth" });
+  }, []);
 
   const goPrev = useCallback(() => {
     const el = statusRef.current;
     if (!el) return;
-    const total = el.children.length;
-    if (!total) return;
 
-    const cur = getNearestIndex();
-    const target = Math.max(cur - 1, 0);
-    if (target !== cur) scrollToIndex(target);
-  }, [scrollToIndex]);
+    const width = getItemWidth();
+    el.scrollBy({ left: -width, behavior: "smooth" });
+  }, []);
 
   const updateEdges = useCallback(() => {
     const element = statusRef.current;
@@ -380,27 +362,71 @@ const DigSvc = () => {
               </span>
             </span>
           </div>
+
           <div className="svc-case-wrap" ref={statusRef}>
-          {(caseContent ?? []).map((c, i) => (
-            <div className="svc-each-case" key={i}>
-              <Link to="/cce-case-study" onClick={() => window.scrollTo(0, 0)}>
-                <img className="svc-case-img" src={caseImg} alt="caseImg" />
-              </Link>
-              <div className="svc-case-co">{c.pastCaseCo}</div>
-              <div className="svc-case-title">
+            {/* CCE Case */}
+            {caseContent?.[0] && (
+              <div className="svc-each-case" key="cce">
                 <Link to="/cce-case-study" onClick={() => window.scrollTo(0, 0)}>
-                  {c.pastCaseTitle}
+                  <img className="svc-case-img" src={caseImg} alt="caseImg" />
                 </Link>
+                <div className="svc-case-co">{caseContent[0].pastCaseCo}</div>
+                <div className="svc-case-title">
+                  <Link to="/cce-case-study" onClick={() => window.scrollTo(0, 0)}>
+                    {caseContent[0].pastCaseTitle}
+                  </Link>
+                </div>
+                <div className="case-tags">
+                  <span>{caseContent[0].pastCaseTag1}</span>
+                  <span>{caseContent[0].pastCaseTag2}</span>
+                  <span>{caseContent[0].pastCaseTag3}</span>
+                  <span>{caseContent[0].pastCaseTag4}</span>
+                </div>
               </div>
-              <div className="case-tags">
-                <span>{c.pastCaseTag1}</span>
-                <span>{c.pastCaseTag2}</span>
-                <span>{c.pastCaseTag3}</span>
-                <span>{c.pastCaseTag4}</span>
+            )}
+
+            {/* CMMC Case */}
+            {caseContent?.[0] && (
+              <div className="svc-each-case" key="cmmc">
+                <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
+                  <img className="svc-case-img" src={caseImg2} alt="caseImg2" />
+                </Link>
+                <div className="svc-case-co">{caseContent[0].pastCaseCo2}</div>
+                <div className="svc-case-title">
+                  <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
+                    {caseContent[0].pastCaseTitle2}
+                  </Link>
+                </div>
+                <div className="case-tags">
+                  <span>{caseContent[0].pastCaseTag5}</span>
+                  <span>{caseContent[0].pastCaseTag2}</span>
+                  <span>{caseContent[0].pastCaseTag3}</span>
+                  <span>{caseContent[0].pastCaseTag4}</span>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            )}
+
+            {/* New Case */}
+            {/* {caseContent?.[0] && (
+              <div className="svc-each-case" key="new">
+                <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
+                  <img className="svc-case-img" src={caseImg2} alt="caseImg2" />
+                </Link>
+                <div className="svc-case-co">{caseContent[0].pastCaseCo2}</div>
+                <div className="svc-case-title">
+                  <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
+                    Test
+                  </Link>
+                </div>
+                <div className="case-tags">
+                  <span>{caseContent[0].pastCaseTag5}</span>
+                  <span>{caseContent[0].pastCaseTag2}</span>
+                  <span>{caseContent[0].pastCaseTag3}</span>
+                  <span>{caseContent[0].pastCaseTag4}</span>
+                </div>
+              </div>
+            )}             */}
+          </div>
         </div>
       </div>
 

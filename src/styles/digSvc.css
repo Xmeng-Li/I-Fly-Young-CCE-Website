@@ -368,11 +368,9 @@
   pointer-events: none;
 }
 .svc-case-wrap {
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   gap: 40px;
   overflow-x: auto;
-  overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -381,7 +379,7 @@
   scroll-snap-stop: always;
 }
 .svc-each-case {
-  max-width: 440px;
+  width: 440px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -393,8 +391,7 @@
   scroll-snap-align: start;  
 }
 .svc-case-img {
-  width: 100%;
-  max-width: 400px;
+  width: 400px;
   height: 249px;
   border-radius: 4px;
   border: 1px solid var(--stroke-blue, #E1F0FD);
@@ -836,8 +833,12 @@
   .svc-case-bk {
     padding: 40px;
   }
+  .svc-case-wrap {
+    display: flex;
+    gap: 30px;
+  }
   .svc-each-case {
-    max-width: 350px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -914,7 +915,7 @@
   }
   .svc-top-btn {
     display: flex;
-    padding: 7px 12px;
+    padding: 7px 15px;
     justify-content: center;
     align-items: center;
   }
@@ -1037,8 +1038,12 @@
   .svc-case-bk {
     padding: 40px;
   }
+  .svc-case-wrap {
+    display: flex;
+    gap: 30px;
+  }
   .svc-each-case {
-    max-width: 320px;
+    width: 320px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -1095,7 +1100,7 @@
     line-height: 28px;
   }
   .svc-btm-btn {
-    padding: 7px 12px;
+    padding: 7px 15px;
   }
   .svc-btm-btn a {
     font-size: 16px;
@@ -1127,7 +1132,7 @@
   }
   .svc-top-btn {
     display: flex;
-    padding: 7px 12px;
+    padding: 7px 15px;
     justify-content: center;
     align-items: center;
   }
@@ -1250,8 +1255,12 @@
   .svc-case-bk {
     padding: 40px;
   }
+  .svc-case-wrap {
+    display: flex;
+    gap: 30px;
+  }
   .svc-each-case {
-    max-width: 320px;
+    width: 320px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -1308,7 +1317,7 @@
     line-height: 28px;
   }
   .svc-btm-btn {
-    padding: 7px 12px;
+    padding: 7px 15px;
   }
   .svc-btm-btn a {
     font-size: 16px;
@@ -1343,7 +1352,7 @@
   }
   .svc-top-btn {
     display: flex;
-    padding: 7px 12px;
+    padding: 7px 15px;
     justify-content: center;
     align-items: center;
   }
@@ -1487,8 +1496,12 @@
     align-items: center;
     gap: 10px;
   }
+  .svc-case-wrap {
+    display: flex;
+    gap: 30px;
+  }
   .svc-each-case {
-    max-width: 280px;
+    width: 280px;
     height: 330px;
     display: flex;
     flex-direction: column;
@@ -1552,7 +1565,7 @@
     line-height: 26px;
   }
   .svc-btm-btn {
-    padding: 7px 12px;
+    padding: 7px 15px;
   }
   .svc-btm-btn a {
     font-size: 16px;
@@ -1587,7 +1600,7 @@
   }
   .svc-top-btn {
     display: flex;
-    padding: 7px 12px;
+    padding: 7px 15px;
     justify-content: center;
     align-items: center;
   }
@@ -1736,9 +1749,13 @@
     align-items: center;
     gap: 10px;
   }
+  .svc-case-wrap {
+    display: flex;
+    gap: 20px;
+  }
   .svc-each-case {
-    max-width: 275px;
-    height: 300px;
+    width: 280px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1746,7 +1763,6 @@
     gap: 15px;
   }
   .svc-case-img {
-    width: 100%;
     max-width: 250px;
     height: auto;
     border-radius: 4px;
@@ -1785,7 +1801,7 @@
     text-align: center;
   }
   .svc-btm-wrap {
-    padding: 40px;
+    padding: 20px;
   }
   .blue-circle svg {
     width: 200px;
@@ -1802,7 +1818,7 @@
     line-height: 26px;
   }
   .svc-btm-btn {
-    padding: 7px 12px;
+    padding: 7px 15px;
   }
   .svc-btm-btn a {
     font-size: 16px;
