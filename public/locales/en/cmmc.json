@@ -1,0 +1,110 @@
+{
+  "backToSol" : "Digital Service",
+  "caseSub": "Cast Study",
+  "caseTitle": "Website Redesign",
+  "contents": [
+    {
+      "works": "Our Work",
+      "workSub": "The new website significantly improves professional credibility, user clarity, and conversion readiness compared to the legacy site.",
+      "leftText": "Clearer value proposition for target audiences",
+      "midText": "Stronger visual hierarchy and brand trust signals",
+      "rightText": "More intentional user paths and calls to action"
+    },
+    {
+      "oldSite": "Old Website",
+      "newSite": "New Website",
+      "issue": "Issues:",
+      "impr": "Improvements:",
+
+      "secTitle1": "1. Visual Hierarchy & Layout",
+      "issue1": [
+        "Content is mostly linear text blocks and hinders readability.",
+        "Weak hierarchy: headings, body text, and supporting details visually blend together.",
+        "Little use of spacing to separate ideas → high cognitive load.", 
+        "Pages feel “document-like” rather than “experience-like.”",
+        "Lacking modern design causes low perceived trust for a cybersecurity/compliance business."
+      ],
+      "impr1": [
+        "Clear sectioning with visible breaks between ideas.",
+        "Stronger hierarchy: Hero headline → subheadline → supporting copy → CTA.",
+        "Better use of whitespace to reduce cognitive load.",
+        "Sections feel scannable rather than dense.",
+        "Visual elements (icons, same style logos) reinforce professionalism"
+      ],
+
+      "secTitle2": "2. Typography",
+      "issue2": [
+        "Single or limited font usage with minimal hierarchy.",
+        "Font sizes are similar across headings and paragraphs.",
+        "Long paragraphs reduce readability."
+      ],
+      "impr2": [
+        "Clear typographic hierarchy: Large hero headline; Medium section headers; Smaller supporting text.",
+        "Text is more readable at a glance.",
+        "Better line spacing improves scanning."
+      ],
+
+      "secTitle3": "3. Color & Branding",
+      "issue3": [
+        "No strong brand identity or emotional signal.",
+        "Feels more like a technical reference than a trusted service brand."
+      ],
+      "impr3": [
+        "Stronger brand tone: Blue/neutral palette reinforces trust and security.",
+        "Icons and visual markers support comprehension.",
+        "Overall look aligns better with B2B cybersecurity expectations."
+      ],
+
+      "secTitle4": "4. Navigation & Information Architecture",
+      "issue4": [
+        "Navigation labels have a flat structure with little guidance. Users must read content to understand relevance.",
+        "No obvious prioritization of user goals.",
+        "No clear user pathways"
+      ],
+      "impr4": [
+        "Clearer top navigation.",
+        "Content organized by user type and intent.",
+        "“Schedule a Call” surfaced as a global action to enhance conversion."
+      ],
+
+      "secTitle5": "5. Content Flow & Storytelling",
+      "issue5": [
+        "Assumes high prior knowledge.",
+        "Benefits and guarantees are buried in paragraphs. Difficult to skim.",
+        "Users may abandon before key points. And they are unsure “Is this for me?”"
+      ],
+      "impr5": [
+        "Uses audience segmentation early and explicit audience targeting (DoD contractors, SMBs).",
+        "Brings benefits closer to the top of the page.",
+        "Persuasive page flow (target audience → benefits → price → CTA) leads to faster comprehension and better alignment with decision-maker mental models.",
+        "More visuals to make the page seem inviting."
+      ],
+
+      "secTitle6": "6. Calls to Action (CTAs)",
+      "issue6": [
+        "CTAs are passive (“Contact us”). It waits for users to initiate the conversation.",
+        "Contact info only appears at the bottom of each page."
+      ],
+      "impr6": [
+        "Primary CTA (“Schedule a Call”) is prominent on the global header.",
+        "“Contact Us” is on the top navigation bar for more user attention.",
+        "“Contact Us” form invites users to send their feedback or requests proactively at any time."
+      ],
+      "secTitle7": "7. Trust Signals & Credibility",
+      "issue7": [
+        "Trust signals exist but are buried.",
+        "Credentials feel informational, not persuasive."
+      ],
+      "impr7": [
+        "Trust signals (standards, compliance logos) are more visible on the homepage.",
+        "Trust signals combined with “Why we’re different” are more persuasive.",
+        "Clearer information displayed with short description of “Why we’re different”."
+      ]
+    }
+  ],
+
+  "svcBtmTitle": "Let’s Connect!",
+  "svcBtmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
+  "caseBtmBtn": "Let's Work Together!",
+  "svcContact": "Contact us"
+}

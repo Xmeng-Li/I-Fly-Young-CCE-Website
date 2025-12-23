@@ -17,6 +17,8 @@ import Chronicle from "./components/chronicles/Chronicles";
 import Class from "./components/programs/Class";
 import DigSvc from "./components/digitalSvc/DigSvc";
 import CceCase from "./components/digitalSvc/CceCaseStudy";
+import CmmcCase from "./components/digitalSvc/CmmcCaseStudy";
+
 
 
 // Chronicle Contents
@@ -60,6 +62,7 @@ function App() {
 
           <Route path="/digital-service" element={<DigSvc />} />
           <Route path="/cce-case-study" element={<CceCase />} />
+          <Route path="/cmmc-case-study" element={<CmmcCase />} />
 
           <Route path="/everyone-is-different" element={<EveryoneIsDifferent />}/>
           <Route path="/go-ahead-and-ask" element={<GoAheadAndAsk />}/>
