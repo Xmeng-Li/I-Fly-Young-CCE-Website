@@ -118,6 +118,14 @@
 
   "recordings": [
     {
+      "id" : "154",
+      "date": "12/22/2025",
+      "title": "1. About CCE Sponsored Apprenticeship. 2. As a hiring manager, how can you use online interviews to find suitable remote employees for international teams?",
+      "question": "Q1. CCE Sponsored Apprenticeship? Why? Q2.What services does CCE Sponsored Apprenticeship provide? who does it serve? Q3. How is CCE Sponsored Apprenticeship different from CCE Digital Service? Q4. What questions should I ask and what should I observe during an online interview?Q5. What are the special considerations for employees working remotely across international borders?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20251222_1贊助學徒2面談跨國員工MP3.m4a"
+    },
+    {
       "id" : "153",
       "date": "12/15/2025",
       "title": "About CCE Digital Service",
