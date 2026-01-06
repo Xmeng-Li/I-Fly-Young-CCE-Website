@@ -118,6 +118,14 @@
 
   "recordings": [
     {
+      "id" : "155",
+      "date": "01/05/2026",
+      "title": "I Fly Young CCE Fall 2025 Focus Group (Theme 1) Interview 1",
+      "question": "What is CCE Focus Goup? What's the biggest impact on me? Who should attend?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260105_25秋季焦點小組訪談.mp3"
+    },
+    {
       "id" : "154",
       "date": "12/22/2025",
       "title": "1. About CCE Sponsored Apprenticeship. 2. As a hiring manager, how can you use online interviews to find suitable remote employees for international teams?",

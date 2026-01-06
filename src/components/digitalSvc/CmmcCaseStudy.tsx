@@ -18,7 +18,7 @@ import newSite4 from "./New4.png";
 import oldSite5 from "./Old5.png";
 import newSite5 from "./New5.png";
 import oldSite6 from "./Old6.png";
-import newSite6 from "./New6.png";
+import newSite6 from "./New6.jpg";
 import oldSite7 from "./Old7.png";
 import newSite7 from "./New7.png";
 
