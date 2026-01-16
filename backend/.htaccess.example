@@ -5,7 +5,7 @@ PassengerPython /usr/bin/python3
 PassengerStartupFile passenger_wsgi.py
 PassengerAppType wsgi
 
-PassengerEnvVar HCAPTCHA_SECRET ES_876ac83e282e432f91279b046f3b72f7
+SetEnv HCAPTCHA_SECRET ${HCAPTCHA_SECRET}
 PassengerEnvVar SUBSCRIBE_DIR /home/<USERNAME>/private/email-list
 
 Options -Indexes -MultiViews
