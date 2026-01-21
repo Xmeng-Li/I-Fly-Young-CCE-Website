@@ -109,7 +109,7 @@ const FocusGroup = () => {
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUNFo5MEkzMkNOQjZHWEwxWkRQWldSNVNRMi4u" target="_blank" rel="noopener noreferrer">
+            <a href="https://zfrmz.com/rDcIyt8SzL31lYa4xfX1" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
@@ -233,7 +233,7 @@ const FocusGroup = () => {
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUNFo5MEkzMkNOQjZHWEwxWkRQWldSNVNRMi4u" target="_blank" rel="noopener noreferrer">
+            <a href="https://zfrmz.com/rDcIyt8SzL31lYa4xfX1" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>

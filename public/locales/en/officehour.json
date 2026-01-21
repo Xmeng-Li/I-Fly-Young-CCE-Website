@@ -16,7 +16,7 @@
   "meetingTime" : [
     {
       "type": "Daylight Saving Time",
-      "dates": "3/9/2025 ~ 11/2/2025",
+      "dates": "3/8/2026 ~ 11/1/2026",
       "times": [
         {
           "region": "U.S. Pacific Time",
@@ -118,6 +118,14 @@
 
 
   "recordings": [
+    {
+      "id" : "157",
+      "date": "01/19/2026",
+      "title": "Is Burnout the Price of High Performance? Rethinking Productivity in Competitive and Demanding Workplaces",
+      "question": "Q1. In high-pressure, competitive environments, how do you distinguish between healthy stretch and early signs of burnout ? Q2. Can you share 1-2 strategies that actually helped individual/team stay productive without burning out?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260119_團隊高績效MP3.mp3"
+    },
     {
       "id" : "156",
       "date": "01/12/2026",
