@@ -109,7 +109,7 @@ const FocusGroup = () => {
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn">
-            <a href="https://zfrmz.com/rDcIyt8SzL31lYa4xfX1" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2025CCEFocusGroupRegistrationForm2025Fall/formperma/s_8XcLETTbFxZ_TAS4r_W6W5UBl8o5oxEnIX35IBKg4" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
@@ -233,7 +233,7 @@ const FocusGroup = () => {
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">
-            <a href="https://zfrmz.com/rDcIyt8SzL31lYa4xfX1" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2025CCEFocusGroupRegistrationForm2025Fall/formperma/s_8XcLETTbFxZ_TAS4r_W6W5UBl8o5oxEnIX35IBKg4" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
