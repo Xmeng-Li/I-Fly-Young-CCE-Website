@@ -119,6 +119,14 @@
 
   "recordings": [
     {
+      "id" : "159",
+      "date": "02/02/2026",
+      "title": "I Fly Young CCE Fall 2025 Focus Group (Theme 4) Interview 1",
+      "question": "What is CCE Focus Goup? What's the biggest impact on me? Who should attend?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260202_2025秋季焦点小组主题4访谈1.mp3"
+    },
+    {
       "id" : "158",
       "date": "01/26/2026",
       "title": "I Fly Young CCE Fall 2025 Focus Group (Theme 1) Interview 3",
