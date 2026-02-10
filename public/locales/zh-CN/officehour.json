@@ -113,8 +113,17 @@
   "viewMore": "查看更多",
   "search": "搜索",
   "searchRec": "搜索录音...",
+  "PlySpeed": "播放速度",
 
   "recordings": [
+    {
+      "id" : "160",
+      "date": "02/09/2026",
+      "title": "爱飞扬 沟通与探索 2025 秋季 焦点小组（主题二）访谈1",
+      "question": "CCE 焦点小组是什么？对我最大的影响是什么？适合谁参加？",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260209_2025秋季焦点小组主题2访谈1.mp3"
+    },
     {
       "id" : "159",
       "date": "02/02/2026",

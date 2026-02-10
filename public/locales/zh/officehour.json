@@ -113,9 +113,18 @@
   "viewMore": "查看更多",
   "search": "搜尋",
   "searchRec": "搜尋錄音...",
+  "PlySpeed": "播放速度",
 
 
   "recordings": [
+    {
+      "id" : "160",
+      "date": "02/09/2026",
+      "title": "愛飛揚 溝通與探索 2025 秋季 焦點小組（主題二）訪談1",
+      "question": "CCE 焦點小組是什麽？對我最大的影響是什麽？適合誰參加？",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260209_2025秋季焦点小组主题2访谈1.mp3"
+    },
     {
       "id" : "159",
       "date": "02/02/2026",

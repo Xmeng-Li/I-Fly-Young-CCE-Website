@@ -228,6 +228,7 @@ select:focus {
   display: flex;
   margin-top: 32px;
   align-items: center;
+  gap: 15px;
 }
 .player {
   height: 54px;
@@ -245,7 +246,6 @@ select:focus {
   height: 32px;
   background-color: transparent;
   border: none;
-  margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -317,6 +317,52 @@ select:focus {
   width: 24px; 
   height: 24px;
 }
+
+.speed-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.speed-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+.speed-btn svg {
+  width:22px;
+  height: 22px;
+}
+.speed-menu {
+  position: absolute;
+  bottom: 32px;
+  left: 20%;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  padding: 8px;
+  z-index: 10;
+  text-align: center;
+}
+.speed-tooltip {
+  font-size: 16px;
+  font-weight: 600;
+  color: #525252;
+}
+.speed-item {
+  font-size: 16px;
+  padding: 8px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.speed-item:hover {
+  background: #f2f2f2;
+}
+.speed-item.active {
+  color: var(--Blue-500, #37ACF4);
+  font-weight: 800;
+}
+
 
 /* Pagination */
 .pagination {
@@ -477,6 +523,7 @@ select:focus {
     display: flex;
     margin-top: 12px;
     align-items: center;
+    gap: 15px;
   }
   .player {
     height: 45px;
@@ -487,7 +534,6 @@ select:focus {
   .close-player-btn {
     width: 28px;
     height: 28px;
-    margin-left: 8px;
   }
   .rhap_time {
     font-size: 14px;
@@ -522,6 +568,23 @@ select:focus {
   .rhap_volume-button svg {
     width: 16px; 
     height: 16px;
+  }
+  .speed-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .speed-tooltip {
+    font-size: 14px;
+  }
+  .speed-menu {
+    position: absolute;
+    bottom: 25px;
+    left: 20%;
+    padding: 6px;
+  }
+  .speed-item {
+    font-size: 14px;
+    padding: 6px 20px;
   }
 
   /* Pagination */
@@ -637,6 +700,7 @@ select:focus {
     display: flex;
     margin-top: 12px;
     align-items: center;
+    gap: 12px;
   }
   .player {
     height: 45px;
@@ -647,7 +711,6 @@ select:focus {
   .close-player-btn {
     width: 28px;
     height: 28px;
-    margin-left: 8px;
   }
   .rhap_time {
     font-size: 14px;
@@ -682,6 +745,23 @@ select:focus {
   .rhap_volume-button svg {
     width: 16px; 
     height: 16px;
+  }
+  .speed-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .speed-tooltip {
+    font-size: 14px;
+  }
+  .speed-menu {
+    position: absolute;
+    bottom: 25px;
+    left: 20%;
+    padding: 6px;
+  }
+  .speed-item {
+    font-size: 14px;
+    padding: 6px 20px;
   }
 
   /* Pagination */
@@ -841,6 +921,7 @@ select:focus {
     display: flex;
     margin-top: 12px;
     align-items: center;
+    gap: 2px;
   }
   .player {
     height: 30px;
@@ -851,7 +932,6 @@ select:focus {
   .close-player-btn {
     width: 24px;
     height: 24px;
-    margin-left: 10px;
   }
   .close-player-btn svg {
     width: 12px;
@@ -893,6 +973,23 @@ select:focus {
   .rhap_volume-button svg {
     width: 12px; 
     height: 12px;
+  }
+  .speed-btn svg {
+    width: 12px;
+    height: 13px;
+  }
+  .speed-tooltip {
+    font-size: 14px;
+  }
+  .speed-menu {
+    position: absolute;
+    bottom: 25px;
+    left: 20%;
+    padding: 6px;
+  }
+  .speed-item {
+    font-size: 14px;
+    padding: 6px 18px;
   }
 
   /* Pagination */
