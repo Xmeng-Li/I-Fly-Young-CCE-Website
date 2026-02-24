@@ -115,10 +115,18 @@
   "viewMore": "View More",
   "search": "Search",
   "searchRec": "Search Recordings...",
-  "PlySpeed": "Playback Speed",
+  "PlySpeed": "Speed",
 
 
   "recordings": [
+    {
+      "id" : "161",
+      "date": "02/23/2026",
+      "title": "I Fly Young CCE Fall 2025 Focus Group (Theme 1) Interview 4",
+      "question": "What is CCE Focus Goup? What's the biggest impact on me? Who should attend?",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260223_2025秋季焦点小组主题1访谈4.mp3"
+    },
     {
       "id" : "160",
       "date": "02/09/2026",
