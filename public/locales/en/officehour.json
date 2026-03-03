@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "162",
+      "date": "03/02/2026",
+      "title": "Leading a Team in the Workplace",
+      "question": "Q1.What are the most important core competencies when leading a team? Q2. What are the key challenges of effective team leadership?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260302_職場帶領團隊.mp3"
+    },
+    {
       "id" : "161",
       "date": "02/23/2026",
       "title": "I Fly Young CCE Fall 2025 Focus Group (Theme 1) Interview 4",
