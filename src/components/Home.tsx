@@ -25,7 +25,71 @@ const Home = () => {
   const visibleCount = expanded ? 9 : 6;
   const toggleView = () => setExpanded((prev) => !prev);
 
+  const [email, setEmail] = useState("");
+  const [subscribeStatus, setSubscribeStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [subscribeMsg, setSubscribeMsg] = useState("");
+
   const [selectedRole, setSelectedRole] = useState<string | null>(null);
+
+  const jsonp = (url: string): Promise<any> => {
+    return new Promise((resolve, reject) => {
+      const callbackName = `__mc_cb_${Date.now()}`;
+      const script = document.createElement("script");
+      (window as any)[callbackName] = (data: any) => {
+        resolve(data);
+        delete (window as any)[callbackName];
+        document.body.removeChild(script);
+      };
+      script.src = `${url}&c=${callbackName}`;
+      script.onerror = () => {
+        reject(new Error("JSONP request failed"));
+        delete (window as any)[callbackName];
+        document.body.removeChild(script);
+      };
+      document.body.appendChild(script);
+    });
+  };
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setSubscribeStatus("error");
+      setSubscribeMsg(t("emailInvalid") as string);
+      return;
+    }
+
+    setSubscribeStatus("loading");
+    setSubscribeMsg("");
+
+    const params = new URLSearchParams({
+      u: "44420b65792ec0a997e100295",
+      id: "93f9afb48f",
+      f_id: "00f66de0f0",
+      EMAIL: email,
+      "b_44420b65792ec0a997e100295_93f9afb48f": "",
+    });
+
+    try {
+      const data = await jsonp(
+        `https://iflyyoung.us8.list-manage.com/subscribe/post-json?${params.toString()}`
+      );
+
+      if (data.result === "success") {
+        setSubscribeStatus("success");
+        setSubscribeMsg(t("subscribeSuccess") as string);
+        setEmail("");
+      } else {
+        setSubscribeStatus("error");
+        const cleanMsg = data.msg?.replace(/<[^>]*>/g, "") || (t("subscribeError") as string);
+        setSubscribeMsg(cleanMsg);
+      }
+    } catch {
+      setSubscribeStatus("error");
+      setSubscribeMsg(t("subscribeError") as string);
+    }
+  };
 
   const XIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
@@ -94,13 +158,44 @@ const Home = () => {
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle1")}</div>
                 <div className="home-two-text">{t("joinDes1")}</div>
-                <div className="home-email-containter">
-                  <button className="home-join-btn">
-                    <a href="mailto:ccepro+subscribe@iflyyoung.com" target="_blank" rel="noopener noreferrer">
-                      {t("joinBtn1")}
-                    </a>
-                  </button>
-                </div>
+                <form className="home-email-containter" onSubmit={handleSubscribe}>
+                  <div className="home-input-btn">
+                    <input
+                      type="email"
+                      className="home-email-input"
+                      placeholder={t("emailPlaceholder") as string}
+                      value={email}
+                      onChange={(e) => {
+                        setEmail(e.target.value);
+                        if (subscribeStatus !== "idle" && subscribeStatus !== "loading") {
+                          setSubscribeStatus("idle");
+                          setSubscribeMsg("");
+                        }
+                      }}
+                      required
+                    />
+                    <input
+                      type="text"
+                      name="b_44420b65792ec0a997e100295_93f9afb48f"
+                      tabIndex={-1}
+                      style={{ position: "absolute", left: "-5000px" }}
+                      aria-hidden="true"
+                      defaultValue=""
+                    />
+                    <button
+                      type="submit"
+                      className="home-submit-btn"
+                      disabled={subscribeStatus === "loading"}
+                    >
+                      {subscribeStatus === "loading" ? t("submitting") : t("submitBtn")}
+                    </button>
+                  </div>
+                  {subscribeMsg && (
+                    <div className={`home-subscribe-msg ${subscribeStatus === "success" ? "success" : "error"}`}>
+                      {subscribeMsg}
+                    </div>
+                  )}
+                </form>
               </div>
               <div className="home-two-info">
                 <div className="home-two-titles">{t("joinTitle2")}</div>
