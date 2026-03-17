@@ -120,10 +120,18 @@
 
   "recordings": [
     {
+      "id" : "164",
+      "date": "03/16/2026",
+      "title": "About (workplace) service / (marketplace) ministry",
+      "question": "Q1. What is service? Q2.What are the principles of service? How can these principles be applied? Q3.How does service relate to God's destiny/my calling? Q4.What are the characteristics of workplace service / marketplace ministry?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20260316_談職場服事MP3.mp3"
+    },
+    {
       "id" : "163",
       "date": "03/09/2026",
       "title": "I’ve experienced some unfair treatment at work that makes me uncomfortable. I’d like to find a constructive way to win people over, but I have concerns about how to proceed. What would you recommend?",
-      "question": "Q1.What is fairness? Is fairness even possible? Besides fairness, what other factors can we consider? Q2. How can I try to win people over? What are my concerns? What should I consider?",
+      "question": "Q1. What is fairness? Is fairness even possible? Besides fairness, what other factors can we consider? Q2. How can I try to win people over? What are my concerns? What should I consider?",
       "category": "Colleague",
       "audioUrl": "/audio/CCE20260309_遇到不公平的對待.mp3"
     },
