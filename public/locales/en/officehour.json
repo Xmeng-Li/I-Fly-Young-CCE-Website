@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "165",
+      "date": "03/23/2026",
+      "title": "For college students who have recently graduated—or are about to graduate—and lack the advantage of prior work experience, how should they prepare for their job search?",
+      "question": "Q1. How can you highlight your strengths in your resume to ensure it stands out amidst a multitude of applications and secures more interview opportunities? What key points should be considered when optimizing your resume? Are there any specific tips or strategies for submitting applications—such as applying across multiple platforms? Q2.When you receive an interview opportunity, how should you prepare yourself in advance? (What preliminary groundwork can you do to get ready for the interview?) Q3.When facing an interviewer during a job interview, what specific details should one pay attention to? Are there any particular tips to keep in mind?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260323_ 找工作.mp3"
+    },
+    {
       "id" : "164",
       "date": "03/16/2026",
       "title": "About (workplace) service / (marketplace) ministry",
