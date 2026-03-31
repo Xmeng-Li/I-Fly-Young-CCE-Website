@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "166",
+      "date": "03/30/2026",
+      "title": "What can parents do to help their children enter the workforce?",
+      "question": "Q1.My child is about to graduate from college but hasn't heard anything about finding a job. What can I do? Q2.My child is almost a junior in college but hasn't found an internship. What can I do? Q3.My child is still in high school and isn't sure what kind of job he wants to pursue. In this era of rapid industrial change, what can I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260330_ 孩子進職場MP3.mp3"
+    },
+    {
       "id" : "165",
       "date": "03/23/2026",
       "title": "For college students who have recently graduated—or are about to graduate—and lack the advantage of prior work experience, how should they prepare for their job search?",
