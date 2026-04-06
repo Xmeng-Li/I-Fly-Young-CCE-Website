@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withTranslation, WithTranslation } from "react-i18next";
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 import ReactPaginate from "react-paginate";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -26,6 +26,7 @@ type ChronState = {
 
 
 class Chronicles extends Component<ChronProp, ChronState> {
+  static contextType = require('react-router-dom').__RouterContext || require('react-router').__RouterContext;
   selectRef = React.createRef<HTMLSelectElement>();
 
   // Handle Filter by year
@@ -40,6 +41,7 @@ class Chronicles extends Component<ChronProp, ChronState> {
 
   constructor(props: ChronProp) {
     super(props);
+    // Default to page 0, will update in componentDidMount if state exists
     this.state = {
       currentPage: 0,
       itemsPerPage: this.getItemsPerPage(),
@@ -59,8 +61,21 @@ class Chronicles extends Component<ChronProp, ChronState> {
     this.setState({ itemsPerPage: this.getItemsPerPage(), currentPage: 0 });
   };
 
+
   componentDidMount() {
     window.addEventListener("resize", this.updateArticleNum);
+    // Try to restore page from navigation state
+    let pageFromState = 0;
+    try {
+      // For react-router v6, use window.history.state
+      const navState = window.history.state && window.history.state.usr;
+      if (navState && typeof navState.page === 'number') {
+        pageFromState = navState.page;
+      }
+    } catch (e) {}
+    if (pageFromState > 0) {
+      this.setState({ currentPage: pageFromState });
+    }
   }
 
   componentWillUnmount() {

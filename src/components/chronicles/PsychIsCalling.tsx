@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
 import "../../styles/articles.css";
@@ -42,11 +42,13 @@ const PsychIsCalling = () => {
 
 
  
+  const location = useLocation();
+  const fromPage = location.state?.fromPage || 1;
   return (
     <div>
       <Header />
       <div className="article-backTo">
-        <Link to="/chronicle" className="left-arrow">
+        <Link to="/chronicle" state={{ page: fromPage }} className="left-arrow">
           <LeftArrow />
         </Link>
         <label className="article-backTo-text">{t("backTo")}</label>
@@ -89,7 +91,7 @@ const PsychIsCalling = () => {
         ))}
         <div className="backTo-btn-box">
           <button className="art-btm-btn">
-            <Link to="/chronicle" onClick={() => window.scrollTo(0, 0)}>
+            <Link to="/chronicle" state={{ page: fromPage }} onClick={() => window.scrollTo(0, 0)}>
               {t("backToAll")}
             </Link>
           </button>
