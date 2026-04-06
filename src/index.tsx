@@ -7,7 +7,9 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpApi from 'i18next-http-backend';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
+import { setDefaultLanguageByRegion } from './utils/setDefaultLanguageByRegion';
 
 i18n
   .use(initReactI18next) 
@@ -33,14 +35,17 @@ const loadingMarkup = (
   </div>
 );
 
+
 const rootElement = document.getElementById('root');
 if (rootElement) {
-  const root = createRoot(rootElement); // Use createRoot instead of render
-  root.render(
-    <Suspense fallback={loadingMarkup}>
-      <React.StrictMode>
-        <App />
-      </React.StrictMode>
-    </Suspense>
-  );
+  setDefaultLanguageByRegion().finally(() => {
+    const root = createRoot(rootElement);
+    root.render(
+      <Suspense fallback={loadingMarkup}>
+        <React.StrictMode>
+          <App />
+        </React.StrictMode>
+      </Suspense>
+    );
+  });
 }
