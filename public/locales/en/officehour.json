@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "167",
+      "date": "04/06/2026",
+      "title": "What new opportunities and challenges will frontline workers (including individual contributor) face in the age of artificial intelligence? And how can they put their faith into practice in their work?",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260406_AI時代_一綫工作者.mp3"
+    },
+    {
       "id" : "166",
       "date": "03/30/2026",
       "title": "What can parents do to help their children enter the workforce?",
