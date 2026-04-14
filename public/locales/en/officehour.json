@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "168",
+      "date": "04/13/2026",
+      "title": "What new opportunities and challenges will managers face in the age of artificial intelligence? And how can they put their beliefs into practice at work?",
+      "question": "",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260413_ AI時代_管理者.mp3"
+    },
+    {
       "id" : "167",
       "date": "04/06/2026",
       "title": "What new opportunities and challenges will frontline workers (including individual contributor) face in the age of artificial intelligence? And how can they put their faith into practice in their work?",
