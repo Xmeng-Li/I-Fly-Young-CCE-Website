@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "169",
+      "date": "04/20/2026",
+      "title": "Key Challenges in Cross-Functional Collaboration",
+      "question": "Q1. What are the common challenges and opportunities in cross-team or cross-functional collaboration? Q2. How can we drive high performance while fostering good working relationships?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260420跨团队合作.mp3"
+    },
+    {
       "id" : "168",
       "date": "04/13/2026",
       "title": "What new opportunities and challenges will managers face in the age of artificial intelligence? And how can they put their beliefs into practice at work?",
