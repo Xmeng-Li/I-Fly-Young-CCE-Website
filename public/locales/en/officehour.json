@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "170",
+      "date": "04/27/2026",
+      "title": "My boss is actively pursuing a side hustle, and it's really bothering me. What should I do?",
+      "question": "Q1. My supervisor has invited and encouraged team members to participate in her side business, and frequently circulates messages related to this venture during working hours—a clear violation of company policy (which explicitly prohibits conducting side business operations or related activities during work hours). How should I respond to this situation? Q2. It seems that the colleagues who collaborate closely with her on side projects tend to receive more attention or resources in their primary roles. I am concerned that if I do not participate—or choose to keep my distance—it could negatively impact my opportunities for advancement in my main job. What should I do?",
+      "category": "Boss",
+      "audioUrl": "/audio/CCE20260427_上司發展副業.mp3"
+    },
+    {
       "id" : "169",
       "date": "04/20/2026",
       "title": "Key Challenges in Cross-Functional Collaboration",
