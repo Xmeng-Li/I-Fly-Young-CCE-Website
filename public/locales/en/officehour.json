@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "171",
+      "date": "05/04/2026",
+      "title": "What new opportunities and challenges will entrepreneurs face in the age of artificial intelligence? And how can they put their beliefs into practice in their work?",
+      "question": "Q1. Is entrepreneurship for me? Q2.Opportunities and challenges for entrepreneurs in the age of artificial intelligence? Q3.How to practice faith?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260504_AI時代_創業者.mp3"
+    },
+    {
       "id" : "170",
       "date": "04/27/2026",
       "title": "My boss is actively pursuing a side hustle, and it's really bothering me. What should I do?",
