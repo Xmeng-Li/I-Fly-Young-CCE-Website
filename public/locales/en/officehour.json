@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "172",
+      "date": "05/11/2026",
+      "title": "The courage to accept responsibility and the determination to pay the price.",
+      "question": "Q1. What does it truly mean to be courageous in taking responsibility? Q2.What are the factors that will shake our resolve to pay the price?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260511_承擔責任.mp3"
+    },
+    {
       "id" : "171",
       "date": "05/04/2026",
       "title": "What new opportunities and challenges will entrepreneurs face in the age of artificial intelligence? And how can they put their beliefs into practice in their work?",
