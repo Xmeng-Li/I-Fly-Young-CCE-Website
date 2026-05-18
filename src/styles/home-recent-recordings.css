@@ -1,0 +1,95 @@
+/* Line separator between first and second recording item */
+.home-recent-recordings-right .home-recent-recording-item:nth-child(3)::before {
+  content: "";
+  display: block;
+  height: 1.5px;
+  background: #e0e7ef;
+  margin: 0 -16px 12px -16px;
+  border-radius: 1px;
+}
+.home-recent-recordings {
+  margin: 40px auto;
+  max-width: 900px;
+  background: #f7fafd;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px #e0e7ef;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: stretch;
+}
+.home-recent-recordings-left {
+  flex: 1 1 220px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-recent-recordings-left img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 1px 6px #e0e7ef;
+}
+.home-recent-recordings-right {
+  flex: 2 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.home-recent-recording-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px #e0e7ef;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Add bottom border to the first two items */
+.home-recent-recordings-right .home-recent-recording-item:nth-child(2),
+.home-recent-recordings-right .home-recent-recording-item:nth-child(3) {
+  border-bottom: 1.5px solid #e0e7ef;
+  margin-bottom: 12px;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Add space below the view more button */
+.home-recent-recording-link {
+  margin-bottom: 8px;
+}
+.home-recent-recording-title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.home-recent-recording-date {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.home-recent-recording-question {
+  font-size: 13px;
+  margin-bottom: 8px;
+  min-height: 24px;
+}
+.home-recent-recording-link {
+  display: inline-block;
+  background: #0e426c;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+.home-recent-recording-link:hover {
+  background: #1761a0;
+}
