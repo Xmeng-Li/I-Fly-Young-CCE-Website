@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "173",
+      "date": "05/18/2026",
+      "title": "Is there anyone who can see my talent and help me live a fulfilling career?",
+      "question": "Q1.Are you longing for a mentor and a close knit community to help you discover your talents and purpose in your career? We are inviting you to hear from our Focus group members and their learnings on how they discovered their talents and capabilities and live out the Great Commission in their professional field.",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260518_溝通與職涯探索.mp3"
+    },
+    {
       "id" : "172",
       "date": "05/11/2026",
       "title": "The courage to accept responsibility and the determination to pay the price.",
