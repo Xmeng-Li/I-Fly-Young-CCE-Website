@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "174",
+      "date": "05/25/2026",
+      "title": "How can we maintain sustainability in high burnout-risk environments?",
+      "question": "Q1.In your experience, what signals indicate a high burnout-risk work environment? Q2. In high burnout-risk environments, what strategies can help us stay sustainable? ",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260525_高透支风险工作环境.mp3"
+    },
+    {
       "id" : "173",
       "date": "05/18/2026",
       "title": "Is there anyone who can see my talent and help me live a fulfilling career?",
