@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "178",
+      "date": "06/22/2026",
+      "title": "Enjoying Work",
+      "question": "Q1.Do I enjoy my work? Is enjoying work a goal I should pursue? Q2.How can I enjoy my work? What factors prevent us from enjoying the work at hand?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260622_享受工作.mp3"
+    },
+    {
       "id" : "177",
       "date": "06/15/2026",
       "title": "Are you longing to make an impact at your workplace but thought you don’t have enough to contribute? Actually, you just need to see from another perspective!",
