@@ -104,7 +104,7 @@ const Project = () => {
   );
 
   const extractLink = (text: string) => {
-    const regex = /(2025 CCE Focus Group|2025 CCE 焦點小組|2025 CCE 焦点小组)/g;
+    const regex = /(2026 CCE Focus Group|2026 CCE 焦點小組|2026 CCE 焦点小组)/g;
     return text.split(regex).map((part, index) =>
       regex.test(part) ? (
         <Link to="/focus-group" onClick={() => window.scrollTo(0, 0)} key={index}>
@@ -125,9 +125,10 @@ const Project = () => {
           <span className="projTitle">{t("projTitle")}</span>
           <span className="projSub">{t("projSubTitle")}</span>
           <button className="proj-apply-btn"> {/* form need to be updated */}
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a>
+            </a> */}
+            <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a>
           </button>
         </div>
         <img className="proj-top-img" src={projTopImg} alt="topImg" />
@@ -216,10 +217,11 @@ const Project = () => {
         <div className="proj-right-content">
           <span className="proj-btm-text">{t("projBtmText")}</span>
           <span className="proj-btm-title">{t("projBtmTitle")}</span>
-          <button className="proj-apply-btn">{/* form need to be updated */}
-            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
+          <button className="proj-apply-btn">
+            {/* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a>
+            </a> */}
+            <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a>
           </button>
         </div>
       </div>

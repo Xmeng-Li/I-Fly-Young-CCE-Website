@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "179",
+      "date": "06/29/2026",
+      "title": "How to Prepare Yourself to Return to the Workforce",
+      "question": "Q1.Learn from cases of successfully returning to or entering the workforce. Q2.Advice for those still facing challenges in returning to or entering the workforce. Q3.After being out of the workforce for a few years due to illness, I’m finding it very difficult to return. I can’t seem to land a job; plus, being introverted and quiet—combined with a lack of specific skills—really limits my options. I feel incredibly anxious at home, not knowing what to do...?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260629_重返職場.mp3"
+    },
+    {
       "id" : "178",
       "date": "06/22/2026",
       "title": "Enjoying Work",
