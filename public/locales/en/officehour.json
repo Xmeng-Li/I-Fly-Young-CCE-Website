@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "180",
+      "date": "07/06/2026",
+      "title": "I have observed improper management practices within the company that are causing waste and affecting morale; what should I do?",
+      "question": "Q1.Management in other departments has failed to take effective measures, resulting in a waste of company resources; what should I do? Q2.Management in other departments has handled promotions in a way that failed to win over the team, leading to dissatisfaction; I am worried that a similar unfair situation might happen to me. What should I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260706_不當的管理MP3.mp3"
+    },
+    {
       "id" : "179",
       "date": "06/29/2026",
       "title": "How to Prepare Yourself to Return to the Workforce",

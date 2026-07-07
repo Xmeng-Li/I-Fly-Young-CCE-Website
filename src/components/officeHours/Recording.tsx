@@ -55,10 +55,16 @@ class recording extends Component<RecordingProp, RecordingState> {
   const isLocalhost =
     typeof window !== "undefined" && window.location.hostname === "localhost";
 
+  const region =
+    typeof window !== "undefined" && (window as typeof window & { __userRegion?: string }).__userRegion
+      ? (window as typeof window & { __userRegion?: string }).__userRegion
+      : "unknown";
+
   if ((window as any).gtag) {
     (window as any).gtag("event", "recording_play", {
-      recording_id: file, 
+      recording_id: file,
       audio_url: decodeURIComponent(src),
+      region,
       dev_mode: isLocalhost
     });
   }
