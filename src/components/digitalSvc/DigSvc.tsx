@@ -18,7 +18,8 @@ import msImg2 from "./mission2.png";
 // CMMC Case
 import caseImg2 from "./case-img2.png";
 
-
+// DCA Case
+import caseImg3 from "./dca_case.jpg";
 
 type ServiceContent = {
   svc: string;
@@ -43,6 +44,9 @@ type PastCase = {
   pastCaseCo2: string;
   pastCaseTitle2: string;
   pastCaseTag5: string;
+  pastCaseCo3: string;
+  pastCaseTitle3: string;
+  pastCaseTag6: string;
 };
 
 const DigSvc = () => {
@@ -406,26 +410,25 @@ const DigSvc = () => {
               </div>
             )}
 
-            {/* New Case */}
-            {/* {caseContent?.[0] && (
+            {/* DCA Case */}
+            {caseContent?.[0] && (
               <div className="svc-each-case" key="new">
-                <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
-                  <img className="svc-case-img" src={caseImg2} alt="caseImg2" />
+                <Link to="/dca-case-study" onClick={() => window.scrollTo(0, 0)}>
+                  <img className="svc-case-img" src={caseImg3} alt="caseImg3" />
                 </Link>
-                <div className="svc-case-co">{caseContent[0].pastCaseCo2}</div>
+                <div className="svc-case-co">{caseContent[0].pastCaseCo3}</div>
                 <div className="svc-case-title">
-                  <Link to="/cmmc-case-study" onClick={() => window.scrollTo(0, 0)}>
-                    Test
+                  <Link to="/dca-case-study" onClick={() => window.scrollTo(0, 0)}>
+                    {caseContent[0].pastCaseTitle3}
                   </Link>
                 </div>
                 <div className="case-tags">
-                  <span>{caseContent[0].pastCaseTag5}</span>
                   <span>{caseContent[0].pastCaseTag2}</span>
                   <span>{caseContent[0].pastCaseTag3}</span>
                   <span>{caseContent[0].pastCaseTag4}</span>
                 </div>
               </div>
-            )}             */}
+            )}            
           </div>
         </div>
       </div>

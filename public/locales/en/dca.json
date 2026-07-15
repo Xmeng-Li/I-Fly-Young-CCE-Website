@@ -1,0 +1,37 @@
+{
+  "backToSol" : "Digital Service",
+  "caseSub": "Cast Study",
+  "caseTitle": "Website Redesign",
+  "contents": [
+    {
+      "works": "Our Work",
+      "workSub": "The redesigned website provides a clear information architecture and intuitive navigation, improving the user experience for prospective families while helping the client achieve its communication and enrollment goals.",
+      "leftText": "Reimagined and launched a fully redesigned website in just <strong> 3 weeks</strong>.",
+      "midText": "Improved site structure, usability, and mobile responsiveness.",
+      "rightText": "Began receiving enthusiastic tour requests shortly after the website launch."
+    },
+    {
+      "home": "Home",
+      "about": "About Us",
+      "prog": "Programs",
+      "enrol": "Enrollment",
+      "event": "Events",
+      "career": "Join Our Team",
+      "contact": "Contact Us",
+      "mobile": "Responsive Mobile Experience",
+
+      "secTitle1": "Outcomes",
+      "impr1": [
+        "Successfully replaced the unavailable website with a warm, user-friendly, responsive site, restoring the preschool's online presence with minimal disruption.",
+        "Made it easier for prospective families to find key information and schedule campus tours through clear navigation and intuitive content organization.",
+        "Created a scalable website that enables staff to easily update content as the school grows.", 
+        "Improved search visibility with an SEO-friendly site structure, helping more prospective families discover the preschool online."
+      ]
+    }
+  ],
+
+  "svcBtmTitle": "Let’s Connect!",
+  "svcBtmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
+  "caseBtmBtn": "Let's Work Together!",
+  "svcContact": "Contact us"
+}

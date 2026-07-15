@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "181",
+      "date": "07/13/2026",
+      "title": "The Challenge of Fulfilling Both Work and Ministry",
+      "question": "Q1.I often feel breathless under the crushing demands of my work; although I want to participate in ministry, I lack the capacity to do so. What should I do? Q2.My job leaves me completely exhausted; after work, I just want to unwind and am unable to properly prepare for the ministry entrusted to me. What should I do? Q3.Is this an intractable problem, then, and is serving after retirement the only way out?",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20260713_兼顧工作與服事.mp3"
+    },
+    {
       "id" : "180",
       "date": "07/06/2026",
       "title": "I have observed improper management practices within the company that are causing waste and affecting morale; what should I do?",
