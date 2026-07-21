@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "182",
+      "date": "07/20/2026",
+      "title": "How should one respond to changes resulting from corporate restructuring and mergers?",
+      "question": "Q1.The company is being reorganized, and the new boss is nitpicking everything I do—what should I do? Q2.My company was acquired and I was laid off—what should I do?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260720_公司改組與整并.mp3"
+    },
+    {
       "id" : "181",
       "date": "07/13/2026",
       "title": "The Challenge of Fulfilling Both Work and Ministry",
