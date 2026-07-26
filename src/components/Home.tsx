@@ -34,7 +34,7 @@ const Home = () => {
   }>;
   // Sort by date descending (most recent first)
   const sortedRecordings = [...recordings].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  const mostRecentRecordings = sortedRecordings.slice(0, 3);
+  const mostRecentRecordings = sortedRecordings.slice(0, 2);
 
   const [expanded, setExpanded] = useState(false);
   const visibleCount = expanded ? 9 : 6;
@@ -70,8 +70,38 @@ const Home = () => {
         </div>
       </div>
 
-      {/* What's New Section - recordings*/}
+      {/* What's New Section - Registration + Recordings */}
       <div className="home-recording-container">
+        <img className="home-news-img" src={news} alt="Updates" />
+        <div className="home-recording-right">
+          <div>
+            <div className="home-recording-title">{t("homeSignupNews")}</div>
+            <Link
+                to={`/beautiful-land-initiative`}
+                className="home-recent-audio"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                {t("viewMore", { ns: "officehour" })}
+              </Link>
+          </div>
+          {mostRecentRecordings.map((rec) => (
+            <div key={rec.id} className="home-recording-item">
+              <div className="home-recording-title">{rec.title}</div>
+              <Link
+                to={`/recording?play=${rec.id}`}
+                className="home-recent-audio"
+                onClick={() => window.scrollTo(0, 0)}
+              >
+                {t("viewMore", { ns: "officehour" })}
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      
+      {/* What's New Section - recordings*/}
+      {/* <div className="home-recording-container">
         <img className="home-news-img" src={news} alt="Updates" />
         <div className="home-recording-right">
           {mostRecentRecordings.map((rec) => (
@@ -87,7 +117,7 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="home-main">
         {/* Main Category */}

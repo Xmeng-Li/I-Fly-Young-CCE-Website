@@ -125,10 +125,10 @@ const Project = () => {
           <span className="projTitle">{t("projTitle")}</span>
           <span className="projSub">{t("projSubTitle")}</span>
           <button className="proj-apply-btn"> {/* form need to be updated */}
-            {/* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE20262027CCEBeautifulLandInitiativeRegistrationF/formperma/cqpBN_uw1UQGFzW4r_TTJ7qNxKTITgt6fIGqoVVT4OU" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a> */}
-            <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a>
+            </a>
+            {/* <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a> */}
           </button>
         </div>
         <img className="proj-top-img" src={projTopImg} alt="topImg" />
@@ -218,10 +218,10 @@ const Project = () => {
           <span className="proj-btm-text">{t("projBtmText")}</span>
           <span className="proj-btm-title">{t("projBtmTitle")}</span>
           <button className="proj-apply-btn">
-            {/* <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5qkf4FUQTVTMU1FVjhFVFVVU0RLTjVGV1FWS05aQS4u" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE20262027CCEBeautifulLandInitiativeRegistrationF/formperma/cqpBN_uw1UQGFzW4r_TTJ7qNxKTITgt6fIGqoVVT4OU" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
-            </a> */}
-            <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a>
+            </a>
+            {/* <a style={{ color: "white", textDecoration: "none" }}>Coming soon</a> */}
           </button>
         </div>
       </div>
