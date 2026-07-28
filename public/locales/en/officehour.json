@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "183",
+      "date": "07/27/2026",
+      "title": "Do workplace interpersonal relationships leave you feeling confused, drained, or unsure of where you belong?",
+      "question": "Join us to hear how Focus Group members found clarity in the workplace relationships and rediscovered joy",
+      "category": "Focus",
+      "audioUrl": "/audio/CCE20260727_職場的人際關係覺得困惑.mp3"
+    },
+    {
       "id" : "182",
       "date": "07/20/2026",
       "title": "How should one respond to changes resulting from corporate restructuring and mergers?",
