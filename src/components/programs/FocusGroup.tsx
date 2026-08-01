@@ -29,6 +29,8 @@ type FocusContents = {
   theme3Des: string;
   theme4: string;
   theme4Des: string;
+  theme5: string;
+  theme5Des: string;
 
   moreInfo: string;
   testimonial: string;
@@ -109,7 +111,7 @@ const FocusGroup = () => {
           <span className="focusTitle">{t("focusTitle")}</span>
           <span className="focusSub">{t("focusSubTitle")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2025CCEFocusGroupRegistrationForm2025Fall/formperma/s_8XcLETTbFxZ_TAS4r_W6W5UBl8o5oxEnIX35IBKg4" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2026CCEFocusGroupRegistrationForm2026Fall/formperma/UVT-C9aFcCgxTUzEtWnH045057jfTZz7pKnKKvkvgFU" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>
@@ -158,6 +160,10 @@ const FocusGroup = () => {
               <div className="focus-each-topic">
                 <div className="focus-topic-titles">{focusContent[1].theme4}</div>
                 <div className="focus-topic-des">{focusContent[1].theme4Des}</div>
+              </div>
+              <div className="focus-each-topic">
+                <div className="focus-topic-titles">{focusContent[1].theme5}</div>
+                <div className="focus-topic-des">{focusContent[1].theme5Des}</div>
               </div>
             </div>
           </div>
@@ -233,7 +239,7 @@ const FocusGroup = () => {
           <span className="focus-btm-title">{t("focusBtmTitle")}</span>
           <span className="focus-btm-text">{t("focusBtmText")}</span>
           <button className="focus-apply-btn">
-            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2025CCEFocusGroupRegistrationForm2025Fall/formperma/s_8XcLETTbFxZ_TAS4r_W6W5UBl8o5oxEnIX35IBKg4" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.zohopublic.com/cceinfoifly1/form/CCE2026CCEFocusGroupRegistrationForm2026Fall/formperma/UVT-C9aFcCgxTUzEtWnH045057jfTZz7pKnKKvkvgFU" target="_blank" rel="noopener noreferrer">
               {t("applyNow")}
             </a>
           </button>

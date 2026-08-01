@@ -81,14 +81,14 @@
 
 
   "focusTitle": "Focus Group",
-  "focusSubTitle": "Don't miss out! Registration for Focus Group 2026 Spring season opens 1/23/2026 ~ 2/22/2026.",
+  "focusSubTitle": "Don't miss out! Registration for Focus Group 2026 Fall season opens 8/1/2026 ~ 8/21/2026.",
   "focusContents": [
     {
       "focusLeft": "Overview",
       "focusLeftText": "Join a mentor-led discussion group where you’ll learn how to ask the right questions, discover your talents, handle workplace stress and relationships, and become a blessing to your company, boss, and colleagues.\nFree of charge, sponsored by I FLY YOUNG CCE. ",
 
       "focusMid": "Duration",
-      "focusMidText": "Starting from 3/9, gathering once every two weeks, 5 times in total.\nSee sign up form for exact meeting date/time",
+      "focusMidText": "Starting from 8/31, gathering once every two weeks, 5 times in total.\nSee sign up form for exact meeting date/time",
 
       "focusRight": "Format",
       "focusRightText": "Biweekly 60 min online meeting\n+\n2 hour homework"
@@ -100,9 +100,11 @@
       "theme2":"Theme 2",
       "theme2Des":"• Good work habits\n • Work Stress\n • Opportunities\n • Shine in the workplace",
       "theme3":"Theme 3",
-      "theme3Des":"• Be blessings\n • Dissatisfactory Boss\n • Earning the trust of the boss\n • My boss doesn't valule my opinion",
+      "theme3Des":"• Be blessings\n • Dissatisfactory Boss\n • Earning the trust of the boss\n • My boss doesn't value my opinion",
       "theme4":"Theme 4",
       "theme4Des":"• The boss’s trust\n • Colleagues, boss, and boundaries\n • Asking questions at work\n • Christian colleagues\n • Faith and the workplace",
+      "theme5":"Theme 5",
+      "theme5Des":"• The meaning of work\n • Application of talents\n • Self-needs and upward management\n • Preparations for job hunting and interviews",
 
       "moreInfo":"More Information",
       "testimonial":"Testimonials",
@@ -112,7 +114,7 @@
     }
   ],
   "focusBtmTitle": "Join Focus Group",
-  "focusBtmText": "Don't miss out! Registration for Focus Group 2026 Spring season opens 1/23/2026 ~ 2/22/2026.",
+  "focusBtmText": "Don't miss out! Registration for Focus Group 2026 Fall season opens 8/1/2026 ~ 8/21/2026.",
 
 
 
