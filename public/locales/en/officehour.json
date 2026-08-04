@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "184",
+      "date": "08/03/2026",
+      "title": "(Living Out Love) Managing Underperforming Subordinates",
+      "question": "Q1.What should I do about a new employee who frequently makes careless mistakes? Should I list all the errors and report them to higher management, or simply issue a direct directive (such as limiting mistakes to a maximum of five per week)? Q2.A long-serving employee frequently works overtime due to a slow work pace; I have tried various methods to help him, but with little success. What should I do? Q3.My daily work schedule is very tight, leaving me with insufficient time to mentor and develop the few subordinates on my team who are underperforming. My supervisor is aware of this situation, and no major issues have arisen so far; do I still need to take any further action?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260803_管理績效不好的下屬.mp3"
+    },
+    {
       "id" : "183",
       "date": "07/27/2026",
       "title": "Do workplace interpersonal relationships leave you feeling confused, drained, or unsure of where you belong?",
