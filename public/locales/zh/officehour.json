@@ -118,6 +118,14 @@
 
   "recordings": [
     {
+      "id" : "185",
+      "date": "08/10/2026",
+      "title": "佳美之地2025-2026 同工培訓訪談",
+      "question": "",
+      "category": "Faith",
+      "audioUrl": "/audio/CCE20260810佳美之地.mp3"
+    },
+    {
       "id" : "184",
       "date": "08/03/2026",
       "title": "(活出愛來)管理績效不好的下屬",
