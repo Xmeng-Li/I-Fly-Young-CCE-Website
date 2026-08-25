@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "187",
+      "date": "08/24/2026",
+      "title": "My job is making me miserable; what should I do?",
+      "question": "Q1.My boss doesn't appreciate my hard work and directs negative emotions toward me, making me want to quit. What should I do? Q2.My colleague frequently subjects me to verbal abuse and makes things difficult for me at every turn. I want to fight back, but I can't out-argue him. This situation is causing me great distress — what should I do?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260824_想辭職MP3.mp3"
+    },
+    {
       "id" : "186",
       "date": "08/17/2026",
       "title": "What should I do if I have frequent job changes and irrelevant work experience?",
