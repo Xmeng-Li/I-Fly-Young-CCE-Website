@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "188",
+      "date": "08/31/2026",
+      "title": "Building your resume and finding your path in a changing job market",
+      "question": "With AI reshaping job opportunities and industries evolving faster than ever, building a meaningful career can feel more challenging than ever—especially for young professionals and those who are making career change.So how do you build your resume with the right experience, create real value, and find a path that’s right for you? In this episode, Emily shares her personal journey of learning, growth, and career development.",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260831_AI的興起與產業的轉型.mp3"
+    },
+    {
       "id" : "187",
       "date": "08/24/2026",
       "title": "My job is making me miserable; what should I do?",

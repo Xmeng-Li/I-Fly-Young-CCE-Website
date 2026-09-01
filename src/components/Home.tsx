@@ -35,7 +35,7 @@ const Home = () => {
   // Sort by date descending (most recent first)
   const sortedRecordings = [...recordings].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   // Get the most recent recordings
-  const mostRecentRecordings = sortedRecordings.slice(0, 1); 
+  const mostRecentRecordings = sortedRecordings.slice(0, 3); 
 
   const [expanded, setExpanded] = useState(false);
   const visibleCount = expanded ? 9 : 6;
@@ -75,7 +75,8 @@ const Home = () => {
       <div className="home-recording-container">
         <img className="home-news-img" src={news} alt="Updates" />
         <div className="home-recording-right">
-          <div className="home-recording-item">
+          {/* Focus Groups */}
+          {/* <div className="home-recording-item">
             <div className="home-recording-title">{t("homeSignupNews2")}</div>
             <Link
               to={`/focus-group`}
@@ -84,8 +85,10 @@ const Home = () => {
             >
               {t("viewMore", { ns: "officehour" })}
             </Link>
-          </div>
-          <div className="home-recording-item">
+          </div> */}
+          
+          {/* Beautiful Land Initiative */}
+          {/* <div className="home-recording-item">
             <div className="home-recording-title">{t("homeSignupNews")}</div>
             <Link
               to={`/beautiful-land-initiative`}
@@ -94,7 +97,7 @@ const Home = () => {
             >
               {t("viewMore", { ns: "officehour" })}
             </Link>
-          </div>
+          </div> */}
           {mostRecentRecordings.map((rec) => (
             <div key={rec.id} className="home-recording-item">
               <div className="home-recording-title">{rec.title}</div>
