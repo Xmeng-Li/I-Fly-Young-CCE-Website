@@ -19,6 +19,7 @@ import DigSvc from "./components/digitalSvc/DigSvc";
 import CceCase from "./components/digitalSvc/CceCaseStudy";
 import CmmcCase from "./components/digitalSvc/CmmcCaseStudy";
 import DcaCase from "./components/digitalSvc/DcaCaseStudy";
+import SesCase from "./components/digitalSvc/SesCaseStudy";
 
 
 
@@ -65,6 +66,7 @@ function App() {
           <Route path="/cce-case-study" element={<CceCase />} />
           <Route path="/cmmc-case-study" element={<CmmcCase />} />
           <Route path="/dca-case-study" element={<DcaCase />} />
+          <Route path="/ses-case-study" element={<SesCase />} />
 
           <Route path="/everyone-is-different" element={<EveryoneIsDifferent />}/>
           <Route path="/go-ahead-and-ask" element={<GoAheadAndAsk />}/>

@@ -21,6 +21,9 @@ import caseImg2 from "./case-img2.png";
 // DCA Case
 import caseImg3 from "./dca_case.jpg";
 
+// SES Case
+import caseImg4 from "./SES-cover.jpg";
+
 type ServiceContent = {
   svc: string;
   svcLTitle: string;
@@ -47,6 +50,9 @@ type PastCase = {
   pastCaseCo3: string;
   pastCaseTitle3: string;
   pastCaseTag6: string;
+  pastCaseCo4: string;
+  pastCaseTitle4: string;
+  pastCaseTag7: string;
 };
 
 const DigSvc = () => {
@@ -428,7 +434,28 @@ const DigSvc = () => {
                   <span>{caseContent[0].pastCaseTag4}</span>
                 </div>
               </div>
-            )}            
+            )}  
+
+            {/* SES Case */}
+            {caseContent?.[0] && (
+              <div className="svc-each-case" key="new">
+                <Link to="/ses-case-study" onClick={() => window.scrollTo(0, 0)}>
+                  <img className="svc-case-img" src={caseImg4} alt="caseImg4" />
+                </Link>
+                <div className="svc-case-co">{caseContent[0].pastCaseCo4}</div>
+                <div className="svc-case-title">
+                  <Link to="/ses-case-study" onClick={() => window.scrollTo(0, 0)}>
+                    {caseContent[0].pastCaseTitle4}
+                  </Link>
+                </div>
+                <div className="case-tags">
+                  <span>{caseContent[0].pastCaseTag7}</span>
+                  <span>{caseContent[0].pastCaseTag2}</span>
+                  <span>{caseContent[0].pastCaseTag3}</span>
+                  <span>{caseContent[0].pastCaseTag4}</span>
+                </div>
+              </div>
+            )}          
           </div>
         </div>
       </div>

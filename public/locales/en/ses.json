@@ -1,0 +1,39 @@
+{
+  "backToSol" : "Digital Service",
+  "caseSub": "Cast Study",
+  "caseTitle": "Website Design",
+  "contents": [
+    {
+      "works": "Our Work",
+      "workSub": "Designed and developed a responsive e-commerce website to showcase digital services and create a clear, user-friendly purchasing experience. Customized the product pages and order flow to help customers select services, and complete their purchase efficiently.",
+      "leftText": "Created and launched a user-friendly e-commerce website for digital services and educational products.",
+      "midText": "Created a seamless shopping experience for both English and Chinese customers.",
+      "rightText": "Enabled customers to submit project requirements and make purchases through the platform."
+    },
+    {
+      "home": "Home",
+      "curated": "Curated Legacy Books",
+      "print": "Print Procurement Consultation",
+      "bookstore": "Bookstore",
+      "curatedSample": "Curated Legacy Book Example",
+      "bestseller": "Bestsellers Book Page",
+      "contact": "Contact Us",
+      "order": "Order",
+
+      "secTitle1": "Outcomes",
+      "impr1": [
+        "Created a clear and user-friendly online experience for browsing and purchasing digital services.",
+        "Improved the product selection and order process by organizing service information and customer requirements in one place.",
+        "Designed a responsive website that provides a consistent experience across desktop and mobile devices.", 
+        "Customized the WooCommerce purchasing flow to better support the business's digital service offerings."
+      ]
+    }
+  ],
+
+  "viewSite"  : "View Live Site ",
+
+  "svcBtmTitle": "Let’s Connect!",
+  "svcBtmTexts": "Have something in mind?\n Let’s build something meaningful together by filling out a quick survey sheet via the button below. \n One of our team members will respond back to you shortly! \n\n Or you can reach us via email at: ccetech@iflyyoung.com",
+  "caseBtmBtn": "Let's Work Together!",
+  "svcContact": "Contact us"
+}
