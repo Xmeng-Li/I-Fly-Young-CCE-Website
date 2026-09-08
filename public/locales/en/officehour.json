@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "189",
+      "date": "09/07/2026",
+      "title": "Fresh out of unemployment anxiety, but miserable in my current role: what's my best move?",
+      "question": "Q1.Given the poor economic climate, should I prioritize stability and remain in a low-paying job at a centrally-administered state-owned enterprise—which is currently in an industry upswing—even though the role offers no room for career advancement and I dislike the work itself? Q2.Is it reliable to conclude that a job is very stable simply because the industry is on the rise and the employer is a centrally administered state-owned enterprise? Q3.If I dislike the job, cannot leverage my strengths, derive no sense of accomplishment from it, and see no room for growth, then is such stability really meaningful? Q4.If I choose to look for a new job while continuing to work just to make ends meet, how should I deal with a supervisor who offers no support and only makes demands, so that I don't feel quite so lonely and aggrieved? Q5.What other questions do I need to ask to make a wise choice that I won't regret?",
+      "category": "Development",
+      "audioUrl": "/audio/CCE20260907_待業焦慮與現職痛苦.mp3"
+    },
+    {
       "id" : "188",
       "date": "08/31/2026",
       "title": "Building your resume and finding your path in a changing job market",
