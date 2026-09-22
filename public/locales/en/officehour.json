@@ -120,6 +120,14 @@
 
   "recordings": [
     {
+      "id" : "191",
+      "date": "09/21/2026",
+      "title": "Working with Difficult Coworkers",
+      "question": "Q1.What types of difficult coworkers have you encountered? Q2.How can we respond in a way that blesses them?",
+      "category": "Colleague",
+      "audioUrl": "/audio/CCE20260921_難相處的同事.mp3"
+    },
+    {
       "id" : "190",
       "date": "09/14/2026",
       "title": "Enjoying Work: Establishing and Maintaining Healthy Workplace Boundaries",
